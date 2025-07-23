@@ -1,0 +1,126 @@
+<?php
+/*
+Template Name: DevOps Cloud Page  
+*/
+?>
+
+<div class="outer-box-devops-cloud w-full ox-h">
+        <?php get_header(); ?>
+
+        <div class="ed-banner full-vh p-rel">
+            <div class="ed-inner-box p-rel z-2">
+            <div class="z-1 chair-n-bag cb-left">
+                <div class="img-circle br-50 light-circle"><img src="<?php echo get_template_directory_uri()?>/images/dc-middle-left-icon.svg" alt=""></div>
+            </div>
+            <div class="z-1 chair-n-bag cb-right">
+                <div class="img-circle br-50 light-circle"><img src="<?php echo get_template_directory_uri()?>/images/dc-middle-right-icon.svg" alt=""></div>
+            </div>
+            <div class="logo-n-label z-1 management infra">
+                <div class="img-circle br-50 light-circle">
+                    <div class="img-circle br-50 dark-circle"><img src="<?php echo get_template_directory_uri()?>/images/dc-top-left-icon.svg" alt=""></div>
+                </div>
+                <span class="label">Infrastructure</span>
+            </div>
+            <div class="logo-n-label z-1 efficiency cloud">
+                <div class="img-circle br-50 light-circle">
+                    <div class="img-circle br-50 dark-circle"><img src="<?php echo get_template_directory_uri()?>//images/dc-bottom-left-icon.svg" alt=""></div>
+                </div>
+                <span class="label">Cloud Migration</span>
+            </div>
+            <div class="logo-n-label z-1 shopping consult">
+                <div class="img-circle br-50 light-circle">
+                    <div class="img-circle br-50 dark-circle"><img src="<?php echo get_template_directory_uri()?>/images/dc-top-right-icon.svg" alt=""></div>
+                </div>
+                <span class="label">DevOps Consulting</span>
+            </div>
+            <div class="logo-n-label z-1 market monitor">
+                <div class="img-circle br-50 light-circle">
+                    <div class="img-circle br-50 dark-circle"><img src="<?php echo get_template_directory_uri()?>/images/dc-bottom-right-icon.svg" alt=""></div>
+                </div>
+                <span class="label">Monitoring & Security</span>
+            </div>
+            </div>
+            <img class="z-2 banner-image" src="<?php echo get_template_directory_uri()?>/images/dc-banner-img.svg" alt="">
+            <div class="z-1 banner-blur-circle-1"></div>
+            <div class="z-0 banner-circle-border br-50"></div>
+            <div class="ed-banner-details banner-details z-2">
+                <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('dc_banner_mainheading')?></h1>
+                <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('dc_banner_content')?></button>
+            </div>
+        </div>
+
+        <div class="cs-digital-transform-wrapper">
+            <div class="digital-transformation m-auto p-rel">
+                <div class="right-part">
+                    <img src="<?php echo get_template_directory_uri()?>/images/dd-s-img.svg" alt="">
+                </div>
+                <div class="left-part p-rel">
+                    <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_1_subheading')?></p>
+                    <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_1_mainheadnig')?></p>
+                    <p class="section-content mt-0 mb-40 z-1"><?php the_field('dc_section_1_content')?></p>
+                    <button class="banner-button primary-button">LET'S WORK TOGETHER</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cs-digital-transform-wrapper">
+            <div class="digital-transformation reverse m-auto p-rel">
+                <div class="right-part">
+                    <img src="<?php echo get_template_directory_uri()?>/images/dc-old-img.svg" alt="">
+                </div>
+                <div class="left-part border-zero p-rel">
+                    <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_2_subheading')?></p>
+                    <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_2_mainheading')?></p>
+                    <p class="section-content mt-0 mb-0 z-1"><?php the_field('dc_section_2_content')?></p>
+                    <ul>
+                        <li class="section-content p-rel">Achieve continuous delivery with automated pipelines.</li>
+                        <li class="section-content p-rel">Scale effortlessly to meet changing demands.</li>
+                        <li class="section-content p-rel">Enhance collaboration between development and operations teams.</li>
+                        <li class="section-content p-rel">Reduce downtime and improve system reliability.</li>
+                        <li class="section-content p-rel">Optimize costs with efficient cloud resource management.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="cs-digital-transform-wrapper">
+            <div class="overley"></div>
+            <div class="digital-transformation m-auto p-rel">
+                <div class="right-part">
+                    <img src="<?php echo get_template_directory_uri()?>/images/image 144.svg" alt="">
+                </div>
+                <div class="left-part p-rel">
+                    <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_3_subheading')?></p>
+                    <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_3_mainheading')?></p>
+                    <p class="section-content mt-0 mb-40 z-1"><?php the_field('dc_section_3_content')?></p> 
+                    <button class="banner-button primary-button">REQUEST A FREE DEMO</button>
+                </div>
+                <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
+                <div class="circle4 z-0"></div>
+            </div>
+        </div>
+
+        <div class="cs-digital-transform-wrapper last-s">
+            <div class="digital-transformation m-auto p-rel">
+                <div class="right-part">
+                    <img src="<?php echo get_template_directory_uri()?>/images/dc-discussion-img.svg" alt="">
+                </div>
+                <div class="left-part p-rel">
+                    <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_4_subheading')?></p>
+                    <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_4_mainheading')?></p>
+                    <p class="section-content mt-0 mb-0 z-1"><?php the_field('dc_section_4_content')?></p>
+                    <ul>
+                        <li class="section-content p-rel">A team of certified DevOps and Cloud experts.</li>
+                        <li class="section-content p-rel">Proven track record with global clients across industries.</li>
+                        <li class="section-content p-rel">Customizable solutions tailored to your business goals.</li>
+                        <li class="section-content p-rel">Cutting-edge tools and methodologies for unmatched performance.</li>
+                        <li class="section-content p-rel">Dedicated support to guide you every step of the way.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <?php get_footer();
+        ?>
+    </div>

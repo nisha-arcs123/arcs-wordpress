@@ -1,0 +1,519 @@
+@use "sass:math";
+@import './mixins.scss';
+
+/******************* colors *******************/
+
+$primary-color: #136dfb;
+$secondry-color: #ffffff;
+
+$primary-text-color: #202323;
+$secondry-text-color: #707070;
+$tertiary-text-color: #262626;
+$navbar-text-color: #000000;
+
+$primary-bg-color: #f9f9f9;
+$secondry-bg-color: #f3f4f6;
+$header-bg-color: rgba(255, 255, 255, 0.7);
+
+$banner-left-circle-bg-color: #c0bedd;
+$banner-right-circle-bg-color: #e5eaf9;
+
+$header-border-color: #dedede;
+$footer-border-color: #999a9c;
+$footer-btn-border-color: #999a9c;
+
+$services-heading-text-color: #efefef;
+$services-logo-bg-color: #f4f4f4;
+
+$user-box-border-color: #136dfb0d;
+$user-box-box-shadow: 0px 30px 60px 0px #00000033;
+$user-box-background: linear-gradient(
+  178.83deg,
+  rgba(255, 255, 255, 0.6) 2.73%,
+  rgba(249, 249, 249, 0.6) 97.04%
+);
+
+$line-design-logo-box-bg-color: linear-gradient(
+  178.83deg,
+  rgba(255, 255, 255, 0.6) 2.73%,
+  rgba(249, 249, 249, 0.6) 97.04%
+);
+
+$tech-text-color-1: #C3002F;
+$tech-text-color-2: #FF2D20;
+$tech-text-color-3: #0E8AC8;
+$tech-text-color-4: #FF6F00;
+$tech-text-color-5: #EE4C2C;
+$tech-text-color-6: #404137;
+$tech-text-color-7: #66C0FF;
+$tech-text-color-8: #00569E;
+$tech-text-color-9: #3775AA;
+$tech-text-color-10: #F24E1E;
+$tech-text-color-11: #FF61F6;
+$tech-text-color-12: #0D2C40;
+
+$tech-border-color-1: #AF052E;
+$tech-border-color-2: #F12B1E;
+$tech-border-color-3: #0E8AC8;
+$tech-border-color-4: #FF6F00;
+$tech-border-color-5: #EE4C2C;
+$tech-border-color-6: #83CD29;
+$tech-border-color-7: #66C0FF;
+$tech-border-color-8: #00569E;
+$tech-border-color-9: #3775AA;
+$tech-border-color-10: #F24E1E;
+$tech-border-color-11: #FF61F6;
+$tech-border-color-12: #0D2C40;
+
+$ai-ml-page-remarkable-benefits-logo-1-bg-color: #136DFB;
+$ai-ml-page-remarkable-benefits-logo-2-bg-color: #EB7500;
+$ai-ml-page-remarkable-benefits-logo-3-bg-color: #BB64FF;
+$ai-ml-page-remarkable-benefits-logo-4-bg-color: #F2416B;
+$ai-ml-page-remarkable-benefits-logo-5-bg-color: #BB64FF;
+$ai-ml-page-remarkable-benefits-logo-6-bg-color: #F2416B;
+$ai-ml-page-remarkable-benefits-logo-7-bg-color: #136DFB;
+$ai-ml-page-remarkable-benefits-logo-8-bg-color: #EB7500;
+
+$ec-erp-logo-1: #E7F0FF;
+$ec-erp-logo-2: #FFE7EC;
+$ec-erp-logo-3: #FFF1E2;
+
+$light-text: #EDEEED;
+
+$circle-background-color: #E8F1FF;
+
+$learn-more-hover-color: #0a51c9;
+$primary-hover-color: #0041ae;
+$footer-btn-instagram-bg-color: #ef583b;
+
+$primary-box-shadow: 0px 15px 60px 0px #0a51c999;
+$hover-box-shadow: 0px 30px 60px 0px #00000033;
+$gradient-border-logo-img-box-shadow: 0px 8px 25px 0px #136dfb66;
+$our-expertise-tech-logo: 0px 8px 10px 0px #00000026;
+$services-box-shadow: 0px 20px 150px 0px #0000004d;
+
+$featured-aspects-one-hover-bg-gradient: linear-gradient(to right ,#136DFB,#9AC1FF,#1A71FB);
+$featured-aspects-two-hover-bg-gradient: linear-gradient(to right,  #BB64FF ,#DCAFFF, #BB64FF);
+$featured-aspects-three-hover-bg-gradient: linear-gradient(to right,  #F2416B ,#FF83A0,#F2416B);
+$featured-aspects-four-hover-bg-gradient: linear-gradient(to right,  #EB7500 , #FFC183,#EB7500);
+ 
+$ai-ml-page-remarkable-benefits-logo-1-box-shadow: 0px 10px 60px 0px #136DFB66;
+$ai-ml-page-remarkable-benefits-logo-2-box-shadow: 0px 10px 60px 0px #EB750066;
+$ai-ml-page-remarkable-benefits-logo-3-box-shadow: 0px 10px 60px 0px #BB64FF66;
+$ai-ml-page-remarkable-benefits-logo-4-box-shadow: 0px 10px 60px 0px #F2416B66;
+$ai-ml-page-remarkable-benefits-logo-5-box-shadow: 0px 10px 60px 0px #BB64FF66;
+$ai-ml-page-remarkable-benefits-logo-6-box-shadow: 0px 10px 60px 0px #F2416B66;
+$ai-ml-page-remarkable-benefits-logo-7-box-shadow: 0px 10px 60px 0px #136DFB66;
+$ai-ml-page-remarkable-benefits-logo-8-box-shadow: 0px 10px 60px 0px #EB750066;
+
+$banner-left-circle-radial-gradient: radial-gradient(
+  circle,
+  #c0bedd 60%,
+  rgba(192, 190, 221, 0) 100%
+);
+$our-strategy-circle-radial-gradient: radial-gradient(
+  circle,
+  #c0bedd 100%,
+  #c0bedd 100%
+);
+
+$title-text-gradient: linear-gradient(270.13deg, #ff623f 19.37%, #bc1ae4 91.6%);
+$banner-heading-gradient: linear-gradient(
+  90.25deg,
+  #0096ff 0.14%,
+  #bb64ff 28.32%,
+  #f2416b 71.8%,
+  #eb7500 95.68%
+);
+$border-our-strategy-cards-gradient: linear-gradient(
+  109.92deg,
+  #0096ff 12.78%,
+  #bb64ff 37.63%,
+  #f2416b 62.12%,
+  #eb7500 87.3%
+);
+$gradient-border-before-color: linear-gradient(
+  109.92deg,
+  #0096ff 12.78%,
+  #bb64ff 37.63%,
+  #f2416b 62.12%,
+  #eb7500 87.3%
+);
+$our-expertise-tech-name-hover-after-gradient: linear-gradient(
+  90.06deg,
+  #136dfb 0.04%,
+  #bc1ae4 29.45%,
+  #f2416b 70.52%,
+  #eb7500 101.45%
+);
+$border-hover-color-ui-section-ui-design-services:linear-gradient(131.86deg,
+  rgba(0, 150, 255, 0.3) 1.26%,
+  rgba(187, 100, 255, 0.3) 34.29%,
+  rgba(242, 65, 107, 0.3) 77.51%,
+  rgba(235, 117, 0, 0.3) 98.39%
+);
+$hover-gradient: linear-gradient(
+  136.29deg,
+  #0096ff -4.39%,
+  #bb64ff 32.56%,
+  #f2416b 83.66%,
+  #eb7500 106.92%
+);
+$ui-section-design-services-without-hover-logo-bg-color: linear-gradient(
+  135.63deg,
+  #0096ff 6.52%,
+  #bb64ff 84.54%,
+  #f2416b 198.83%,
+  #eb7500 235.04%
+);
+$ui-section-design-services-hover-logo-bg-color: linear-gradient(141.71deg,
+  #0096FF -24.18%, 
+  #BB64FF -15.58%, 
+  #F2416B 55.67%, 
+  #EB7500 96.47%
+);
+$ui-section-expert-hover-logo-bg-color: linear-gradient(136.29deg,
+  #0096FF -4.39%,
+  #BB64FF 32.56%,
+  #F2416B 83.66%,
+  #EB7500 106.92%
+);
+
+$ec-number-speak-section-logo-bg-color: linear-gradient(137.66deg,
+ #0096FF -2.79%, 
+ #BB64FF 31.11%, 
+ #F2416B 79.95%,
+ #EB7500 112.12%
+);
+
+$dot-color: #D9D9D9;
+$border-section-4-ai-ml-page:#E8E8E8;
+$border-section-iv-top-ai-ml-page:#E8E8E8;
+$border-section-iv-right-ai-ml-page:linear-gradient(90deg, #EBEBEB 0%, #FFFFFF 100%);
+$border-section-iv-left-ai-ml-page:linear-gradient(90deg, #FFFFFF 0%, #EBEBEB 100%);
+
+
+$tech-box-hover-bg-color: #f0f0ff;
+$tech-inner-box-hover-bg-color: rgba(255, 255, 255, 0.3);
+
+/******************** font-sizes *******************/
+
+.fs-0 {
+  font-size: 0px;
+}
+
+.fs-1 {
+  font-size: 1px;
+}
+
+.fs-4 {
+  font-size: 4px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+@for $i from 12 through 30 {
+  @if $i!=23 and $i!=26 {
+    .fs-#{$i} {
+      font-size: #{$i}px;
+    }
+  }
+}
+
+$i: 32;
+
+@while $i <= 42 {
+  @if $i == 42 or $i == 50 {
+    .fs-#{$i} {
+      font-size: #{$i}px;
+    }
+    $i: $i + 8;
+  } @else {
+    .fs-#{$i} {
+      font-size: #{$i}px;
+    }
+    $i: $i + 2;
+  }
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-62 {
+  font-size: 62px;
+}
+
+/************************** spacing-classes ******************************/
+
+.my-auto{
+  margin: 0 auto;
+}
+
+$property: margin, padding, mr, mb, ml, mt;
+
+@each $activeproperty in $property {
+  @for $i from 0 through 10 {
+    @if $i==0 {
+      @if $activeproperty == margin or $activeproperty == padding {
+        .#{$activeproperty}-1 {
+          #{$activeproperty}: 1px;
+        }
+        .#{$activeproperty}-60 {
+          #{$activeproperty}: 60px;
+        }
+      } @else if $activeproperty == mr {
+        .#{$activeproperty}-1 {
+          margin-right: 1px;
+        }
+        .#{$activeproperty}-60 {
+          margin-right: 60px;
+        }
+      } @else if $activeproperty == mb {
+        .#{$activeproperty}-1 {
+          margin-bottom: 1px;
+        }
+        .#{$activeproperty}-60 {
+          margin-bottom: 60px;
+        }
+      } @else if $activeproperty == ml {
+        .#{$activeproperty}-1 {
+          margin-bottom: 1px;
+        }
+        .#{$activeproperty}-60 {
+          margin-bottom: 60px;
+        }
+      } @else if $activeproperty == mt {
+        .#{$activeproperty}-1 {
+          margin-top: 1px;
+        }
+        .#{$activeproperty}-60 {
+          margin-top: 60px;
+        }
+        .#{$activeproperty}-68 {
+          margin-top: 68px;
+        }
+        .#{$activeproperty}-75 {
+          margin-top: 75px;
+        }
+        .#{$activeproperty}-90 {
+          margin-top: 90px;
+        }
+      }
+    }
+
+    @if $i * 4!=36 and $activeproperty==margin or $activeproperty==padding {
+      .#{$activeproperty}-#{$i*4} {
+        #{$activeproperty}: #{$i * 4}px;
+      }
+    } @else if $i * 4!=36 and $activeproperty==mr {
+      .#{$activeproperty}-#{$i*4} {
+        margin-right: #{$i * 4}px;
+      }
+    } @else if $i * 4!=36 and $activeproperty==mb {
+      .#{$activeproperty}-#{$i*4} {
+        margin-bottom: #{$i * 4}px;
+      }
+    } @else if $i * 4!=36 and $activeproperty==ml {
+      .#{$activeproperty}-#{$i*4} {
+        margin-left: #{$i * 4}px;
+      }
+    } @else if $i * 4!=36 and $activeproperty==mt {
+      .#{$activeproperty}-#{$i*4} {
+        margin-top: #{$i * 4}px;
+      }
+    }
+  }
+}
+
+.mt-120{
+  margin-top: 120px;
+}
+
+.mb-120{
+  margin-bottom: 120px;
+}
+
+.m-auto{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*********************** position-classes *********************/
+
+.p-rel {
+  position: relative;
+}
+
+.p-abs {
+  position: absolute;
+}
+
+.p-st {
+  position: static;
+}
+
+.p-fx {
+  position: fixed;
+}
+
+.p-sty {
+  position: sticky;
+}
+
+/*********************** z-index-classes ***********************/
+
+@for $z-index from 0 through 9 {
+  .z-#{$z-index} {
+    z-index: #{$z-index};
+  }
+}
+
+/************************ transitions ***********************/
+
+@for $transition-time from 1 through 9 {
+  .t-#{$transition-time} {
+    transition: all #{(0.1) * $transition-time}s ease;
+  }
+}
+
+/************************ overflows ****************************/
+
+$overflow-dimensions: overflow,overflow-x,overflow-y;
+$overflow-dimensions-shortcuts: o, ox, oy;
+$overflow-property: auto,hidden,scroll,visible;
+$overflow-property-shortcuts: a, h ,s, v;
+
+@each $dimension,$dimension-shortcut in zip($overflow-dimensions,$overflow-dimensions-shortcuts){
+  @each $property,$property-shortcut in zip($overflow-property,$overflow-property-shortcuts){
+    .#{$dimension-shortcut}-#{$property-shortcut}{
+      #{$dimension}:#{$property};
+    }
+  }
+}
+
+/************************** displays ***************************/
+
+.d-n{
+  display: none;
+}
+
+.d-i{
+  display: inline;
+}
+
+.d-b{
+  display: block;
+}
+
+.d-ib{
+  display: inline-block;
+}
+
+/************************* border-radius *************************/
+
+.br-100{
+  border-radius: 100%;
+}
+
+.br-50{
+  border-radius: 50%;
+}
+
+.tx-center{
+  text-align: center;
+}
+
+.tx-end{
+  text-align: end;
+}
+
+.tx-left{
+  text-align: left;
+}
+
+.tx-start{
+  text-align: start;
+}
+
+.full-vh{
+  height: 100vh;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.bx-border-box{
+  box-sizing: border-box;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-fc{
+  width: fit-content;
+}
+
+.cp{
+  cursor: pointer;
+}
+
+.tx-dec-none{
+  text-decoration: none;
+}
+
+/************************** breakpoints **************************/
+
+$breakpoints: 1720px, 1440px, 1200px, 992px, 768px , 576px;
+
+.wds{
+  @include min-width(1721){
+    width: 1650px;
+  }
+  @include screen-size(1440,1720){
+    width: 1350px;
+  }
+  @include screen-size(1200,1440){
+    width: 1050px;
+  }
+  @include screen-size(992,1200){
+    width: 940px;
+  }
+  @include screen-size(700,992){
+    width: 700px;
+  }
+  @include max-width(768){
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}
+
+
+/************************** triangles **************************/
+
+.tgl-wds{
+  @include max-width(1720){
+    width: 1730px;
+    border-right-width: 865px;
+    border-left-width: 865px;
+  }
+  @include max-width(1440){
+    width: 1450px;
+    border-right-width: 725px;
+    border-left-width: 725px;
+  }
+  @include max-width(1200){
+    width: 1210px;
+    border-right-width: 605px;
+    border-left-width: 605px;
+  }  
+}
