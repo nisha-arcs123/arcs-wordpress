@@ -1,8 +1,7 @@
-<a?php
-/**
-* Template Name: Home Page
+<?php
+/*
+Template Name: Home Page  
 */
- 
 ?>
 <div class="outer-box-home-page p-rel o-h">
   <img class="the-lines" src="<?php echo get_template_directory_uri() ?>/images/the-lines.svg" alt="" />

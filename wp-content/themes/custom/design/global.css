@@ -1136,11 +1136,18 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  color: #ffffff;
+  color: #ffffff !important;
   transition: all 0.3s ease;
   width: -moz-fit-content;
   width: fit-content;
   box-shadow: 0px 15px 60px 0px rgba(10, 81, 201, 0.6);
+}
+.primary-button a.btn-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffffff !important;
+  text-decoration: none;
 }
 @media screen and (max-width: 1200px) {
   .primary-button {
@@ -1467,7 +1474,8 @@ body {
     display: none;
   }
 }
-.header-wrapper .header .navbar .nav-items {
+.header-wrapper .header .navbar .nav-items a {
+  text-decoration: none;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -1475,11 +1483,14 @@ body {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-  .header-wrapper .header .navbar .nav-items {
+  .header-wrapper .header .navbar .nav-items a {
     font-size: 14px;
   }
 }
-.header-wrapper .header .navbar .nav-items:hover, .header-wrapper .header .navbar .nav-items.active {
+.header-wrapper .header .navbar .nav-items .primary-button .btn-text {
+  color: #ffffff;
+}
+.header-wrapper .header .navbar .nav-items:hover a, .header-wrapper .header .navbar .nav-items.active a {
   color: #136dfb;
 }
 
@@ -2846,10 +2857,10 @@ body {
   }
 }
 .kf-wrapper .key-features .kf-boxes-wrapper .kf-box {
-  width: 313px;
-  height: 170px;
   border-radius: 16px;
   background-color: #ffffff;
+  width: 313px;
+  height: 170px;
 }
 @media screen and (max-width: 1720px) {
   .kf-wrapper .key-features .kf-boxes-wrapper .kf-box {

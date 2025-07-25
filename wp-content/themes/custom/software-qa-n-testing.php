@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Software and Testing Page
+Template Name: Software QA and Testing Page
 */
 ?>
 

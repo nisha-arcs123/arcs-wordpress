@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Dedicated team Page 
+Template Name: Dedicated Development Team Page 
 */
 ?>
 <div class="outer-box-dedicated-team w-full ox-h">

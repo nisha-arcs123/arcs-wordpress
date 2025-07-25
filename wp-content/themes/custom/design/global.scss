@@ -302,9 +302,14 @@ body {
 
 .primary-button {
   @include btn(48, 20, 24, $primary-color);
-  @include typography(16, 24, 500, $secondry-color);
+  @include typography(16, 24, 500, $secondry-color !important);
   transition: all 0.3s ease;
   width: fit-content;
+
+  a.btn-text{
+    @include typography(16, 24, 500, $secondry-color !important);
+    text-decoration: none;
+  }
 
   @include max-width(1200) {
     height: 42px;
@@ -522,6 +527,7 @@ body {
 
     .burger-btn {
       display: none;
+
       @include max-width(992) {
         display: block !important;
         @include dimensions(24, na);
@@ -554,15 +560,28 @@ body {
       }
 
       .nav-items {
-        @include nav-items(16, 24, 400, $navbar-text-color);
+        a {
+          text-decoration: none;
+          @include nav-items(16, 24, 400, $navbar-text-color);
 
-        @include max-width(1200) {
-          font-size: 14px;
+
+
+          @include max-width(1200) {
+            font-size: 14px;
+          }
+        }
+
+        .primary-button {
+          .btn-text{
+            color: #ffffff;;
+          }
         }
 
         &:hover,
         &.active {
-          color: $primary-color;
+          a {
+            color: $primary-color;
+          }
         }
       }
     }
@@ -1702,6 +1721,8 @@ body {
       }
 
       .kf-box {
+        border-radius: 16px;
+        background-color: $secondry-color;
         @include dimensions(170, 313);
 
         @include max-width(1720) {
@@ -1725,8 +1746,6 @@ body {
           @include dimensions(auto, calc(50% - 7px));
         }
 
-        border-radius: 16px;
-        background-color: $secondry-color;
 
         .box-heading {
           @include typography(18, 22, 600, $primary-color);

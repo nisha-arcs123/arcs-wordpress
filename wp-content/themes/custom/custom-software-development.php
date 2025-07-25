@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Custom solutions Page 
+Template Name: Custom Software Development Page 
 */
 ?>
 <div class="outer-box-custom-sol p-rel o-h">

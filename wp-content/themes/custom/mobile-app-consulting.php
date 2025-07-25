@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Mobile Page  
+Template Name: Mobile App Consulting Page  
 */
 ?>
 

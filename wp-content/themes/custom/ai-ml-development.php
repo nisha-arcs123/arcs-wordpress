@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Ai Ml Page 
+Template Name: AI ML Development Page 
 */
 ?>
 <div class="outer-box-ai-ml-page p-rel o-h">

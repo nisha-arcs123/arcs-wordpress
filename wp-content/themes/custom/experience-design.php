@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Ui Page 
+Template Name: Experience design page
 */
 ?>
 <div class="outer-box-ui-page p-rel o-h">
