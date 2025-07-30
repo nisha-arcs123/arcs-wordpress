@@ -71,7 +71,7 @@ Template Name: DevOps Cloud Page
                 <div class="left-part border-zero p-rel">
                     <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_2_subheading')?></p>
                     <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_2_mainheading')?></p>
-                    <p class="section-content mt-0 mb-0 z-1"><?php the_field('dc_section_2_content')?></p>
+                    <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_2_content')?></p>
                     <ul>
                         <li class="section-content p-rel">Achieve continuous delivery with automated pipelines.</li>
                         <li class="section-content p-rel">Scale effortlessly to meet changing demands.</li>
@@ -109,7 +109,7 @@ Template Name: DevOps Cloud Page
                 <div class="left-part p-rel">
                     <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_4_subheading')?></p>
                     <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_4_mainheading')?></p>
-                    <p class="section-content mt-0 mb-0 z-1"><?php the_field('dc_section_4_content')?></p>
+                    <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_4_content')?></p>
                     <ul>
                         <li class="section-content p-rel">A team of certified DevOps and Cloud experts.</li>
                         <li class="section-content p-rel">Proven track record with global clients across industries.</li>

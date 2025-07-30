@@ -59,7 +59,7 @@ Template Name: Experience design page
                             </div>
                             <span>User Experience Strategy</span>
                         </div>
-                        <p class="content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
+                        <p class="card-content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
                             with your business's ultimate vision of the user experience. Consider this path your roadmap to improve customer engagement,
                             customer service, and revenue from where they are today to where you want them to be tomorrow and beyond.
                         </p>
@@ -79,7 +79,7 @@ Template Name: Experience design page
                             </div>
                             <span>User Experience Strategy</span>
                         </div>
-                        <p class="content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
+                        <p class="card-content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
                             with your business's ultimate vision of the user experience. Consider this path your roadmap to improve customer engagement,
                             customer service, and revenue from where they are today to where you want them to be tomorrow and beyond.
                         </p>
@@ -99,7 +99,7 @@ Template Name: Experience design page
                             </div>
                             <span>User Experience Strategy</span>
                         </div>
-                        <p class="content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
+                        <p class="card-content mb-24 p-rel z-2">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
                             with your business's ultimate vision of the user experience. Consider this path your roadmap to improve customer engagement,
                             customer service, and revenue from where they are today to where you want them to be tomorrow and beyond.
                         </p>
@@ -119,7 +119,7 @@ Template Name: Experience design page
                             </div>
                             <span>User Experience Strategy</span>
                         </div>
-                        <p class="content p-rel z-2 mb-24">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
+                        <p class="card-content p-rel z-2 mb-24">A game changing UX strategy focuses on aligning every touchpoint along the customer journey 
                             with your business's ultimate vision of the user experience. Consider this path your roadmap to improve customer engagement,
                             customer service, and revenue from where they are today to where you want them to be tomorrow and beyond.
                         </p>
@@ -168,7 +168,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-star.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Skilled Workforce</p>
-                    <p class="box-content p-rel z-3">Our vetted team of software professionals offers flexibility and availability,
+                    <p class="card-content p-rel z-3">Our vetted team of software professionals offers flexibility and availability,
                          ensuring your project is delivered by experienced experts.</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -179,7 +179,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-handed.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Quality Standards</p>
-                    <p class="box-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
+                    <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
                          ensuring that your applications are built with precision and quality.</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -190,7 +190,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-users.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Effective Communication</p>
-                    <p class="box-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
+                    <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
                          ensuring that your applications are built with precision and quality.</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -201,7 +201,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-handshake.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Trusted Compliance</p>
-                    <p class="box-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ, 
+                    <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ, 
                         ensuring that your applications are built with precision and quality.</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -212,7 +212,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-globe.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Global Expertise</p>
-                    <p class="box-content p-rel z-3">With clients from the US, Canada, Europe, and Australia, 
+                    <p class="card-content p-rel z-3">With clients from the US, Canada, Europe, and Australia, 
                         our global reach ensures that your business benefits from world-class talent and insights.</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -223,7 +223,7 @@ Template Name: Experience design page
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-puzzle.svg" alt="">
                     </div>
                     <p class="box-heading p-rel z-3 mb-20">Comprehensive Solutions</p>
-                    <p class="box-content p-rel z-3">From design and UX to full-scale development and ongoing support,
+                    <p class="card-content p-rel z-3">From design and UX to full-scale development and ongoing support,
                          we provide end-to-end solutions for every phase of your digital journey.</p>
                 </div>
             </div>
@@ -252,8 +252,8 @@ Template Name: Experience design page
                     <div class="box t-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-img-1.svg" alt="">
                         <div class="content padding-16 bx-border-box">
-                            <span class="heading">UX/UI Designers</span>
-                            <p class="inner-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                            <span class="card-title ">UX/UI Designers</span>
+                            <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
                                  engaging experiences  that drive satisfaction and loyalty. Their designs turn
                                   visitors into users and maximize conversions across your platform.</p>
                         </div>
@@ -261,8 +261,8 @@ Template Name: Experience design page
                     <div class="box t-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-img-2.svg" alt="">
                         <div class="content padding-16 bx-border-box">
-                            <span class="heading">UX/UI Designers</span>
-                            <p class="inner-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                            <span class="card-title ">UX/UI Designers</span>
+                            <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
                                  engaging experiences  that drive satisfaction and loyalty. Their designs turn
                                   visitors into users and maximize conversions across your platform.</p>
                         </div>
@@ -270,8 +270,8 @@ Template Name: Experience design page
                     <div class="box t-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-3.svg" alt="">
                         <div class="content padding-16 bx-border-box">
-                            <span class="heading">UX/UI Designers</span>
-                            <p class="inner-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                            <span class="card-title ">UX/UI Designers</span>
+                            <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
                                  engaging experiences  that drive satisfaction and loyalty. Their designs turn
                                   visitors into users and maximize conversions across your platform.</p>
                         </div>
@@ -279,8 +279,8 @@ Template Name: Experience design page
                     <div class="box t-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-4.svg" alt="">
                         <div class="content padding-16 bx-border-box">
-                            <span class="heading">UX/UI Designers</span>
-                            <p class="inner-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                            <span class="card-title ">UX/UI Designers</span>
+                            <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
                                  engaging experiences  that drive satisfaction and loyalty. Their designs turn
                                   visitors into users and maximize conversions across your platform.</p>
                         </div>
@@ -306,23 +306,23 @@ Template Name: Experience design page
             <div class="boxes">
                 <div class="box padding-20 bx-border-box">
                     <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img1.svg" alt="">
-                    <p class="box-heading mt-0 mb-8">Responsive Designs</p>
-                    <p class="box-text mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
                     <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img2.svg" alt="">
-                    <p class="box-heading mt-0 mb-8">Responsive Designs</p>
-                    <p class="box-text mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
                     <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img3.svg" alt="">
-                    <p class="box-heading mt-0 mb-8">Responsive Designs</p>
-                    <p class="box-text mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
                     <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img4.svg" alt="">
-                    <p class="box-heading mt-0 mb-8">Responsive Designs</p>
-                    <p class="box-text mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
                 </div>
             </div>
         </div>

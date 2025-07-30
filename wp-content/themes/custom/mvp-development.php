@@ -52,7 +52,7 @@ Template Name: Mvp Development Page
             <div class="left-part">
                 <p class="section-title mt-0 mb-12"><?php echo the_field('mvp_section1_heading1'); ?></p>
                 <p class="section-heading mt-0 mb-20"><?php echo the_field('mvp_section1_heading_2'); ?></p>
-                <p class="section-content mt-0 mb-32"><?php echo the_field('mvp_section1_description'); ?></p>
+                <p class="card-content mt-0 mb-32"><?php echo the_field('mvp_section1_description'); ?></p>
                 <button class="primary-button">LET'S WORK TOGETGHER</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
@@ -87,32 +87,32 @@ Template Name: Mvp Development Page
                 <div class="logo logo-1">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
-                <p class="box-heading mt-40 mb-12">Vision and Mission</p>
-                <p class="box-content">Define the organization’s purpose and long-term aspirations.
+                <p class="card-title  mt-40 mb-12">Vision and Mission</p>
+                <p class="card-content">Define the organization’s purpose and long-term aspirations.
                 </p>
             </div>
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-2">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
-                <p class="box-heading mt-40 mb-12">SWOT Analysis</p>
-                <p class="box-content">Identify strengths, weaknesses, opportunities, and threats to inform decisions.
+                <p class="card-title  mt-40 mb-12">SWOT Analysis</p>
+                <p class="card-content">Identify strengths, weaknesses, opportunities, and threats to inform decisions.
                 </p>
             </div>
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-3">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
-                <p class="box-heading mt-40 mb-12">Objectives and Goals</p>
-                <p class="box-content">Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.
+                <p class="card-title  mt-40 mb-12">Objectives and Goals</p>
+                <p class="card-content">Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.
                 </p>
             </div>
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-4">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
-                <p class="box-heading mt-40 mb-12">Actionable Strategies:</p>
-                <p class="box-content">Develop a plan to allocate resources and execute initiatives effectively.
+                <p class="card-title  mt-40 mb-12">Actionable Strategies:</p>
+                <p class="card-content">Develop a plan to allocate resources and execute initiatives effectively.
                 </p>
             </div>
         </div>
@@ -126,23 +126,23 @@ Template Name: Mvp Development Page
             <div class="kf-boxes-wrapper">
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>01</span>User-Centric Improvements</p>
-                    <p class="section-content mb-0 mt-12">Evolve the product based on customer feedback and behavior.</p>
+                    <p class="card-content mb-0 mt-12">Evolve the product based on customer feedback and behavior.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>02</span>Market Relevance</p>
-                    <p class="section-content mb-0 mt-12">Adapt to changing market demands and industry trends to maintain competitiveness.</p>
+                    <p class="card-content mb-0 mt-12">Adapt to changing market demands and industry trends to maintain competitiveness.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>03</span>Iterative Development</p>
-                    <p class="section-content mb-0 mt-12">Continuously refine and update the product to meet evolving user expectations.</p>
+                    <p class="card-content mb-0 mt-12">Continuously refine and update the product to meet evolving user expectations.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>04</span>Sustainability</p>
-                    <p class="section-content mb-0 mt-12">Focus on long-term growth by optimizing the product for current and future needs.</p>
+                    <p class="card-content mb-0 mt-12">Focus on long-term growth by optimizing the product for current and future needs.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>05</span>Increased Value</p>
-                    <p class="section-content mb-0 mt-12">Deliver enhanced solutions that strengthen customer satisfaction and retention.</p>
+                    <p class="card-content mb-0 mt-12">Deliver enhanced solutions that strengthen customer satisfaction and retention.</p>
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@ Template Name: Mvp Development Page
             <div class="left-part">
                 <p class="section-title mt-0 mb-12"><?php echo the_field('mvp_section6_heading1'); ?></p>
                 <p class="section-heading mt-0 mb-20"><?php echo the_field('mvp_section6_heading2'); ?></p>
-                <p class="section-content mt-0 mb-32"><?php echo the_field('mvp_section6_description'); ?> </p>
+                <p class="card-content mt-0 mb-32"><?php echo the_field('mvp_section6_description'); ?> </p>
                 <button class="primary-button">LET'S WORK TOGETGHER</button>
             </div>
             <div class="right-part padding-20 bx-border-box">

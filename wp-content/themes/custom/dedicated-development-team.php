@@ -50,7 +50,7 @@ Template Name: Dedicated Development Team Page
         <div class="technos-wrapper w-full">
             <div class="technos m-auto">
                 <p class="section-title mb-10 m-auto w-fc tx-center"><?php echo the_field('dedicated_section1_heading1');?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('dedicated_section1_heading_2');?></p>
+                <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('dedicated_section1_heading_2');?></p>
                 <p class="section-content mb-40 tx-center"><?php echo the_field('dedicated_section1_description');?> </p>
                 <div class="boxes-wrapper">
                     <div class="box padding-16 bx-border-box p-rel">
@@ -58,9 +58,9 @@ Template Name: Dedicated Development Team Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading">Focused Expertise</p>
+                        <p class="card-title ">Focused Expertise</p>
                    
-                        <p class="box-content">A dedicated team brings specialized skills tailored to your project's requirements, ensuring top-notch quality.</p>
+                        <p class="card-content">A dedicated team brings specialized skills tailored to your project's requirements, ensuring top-notch quality.</p>
                        
                        
                     </div>
@@ -69,9 +69,9 @@ Template Name: Dedicated Development Team Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading">Cost Efficiency</p>
+                        <p class="card-title ">Cost Efficiency</p>
                   
-                        <p class="box-content">By hiring a dedicated team, you can reduce overhead costs associated with recruitment, training, and infrastructure.</p>
+                        <p class="card-content">By hiring a dedicated team, you can reduce overhead costs associated with recruitment, training, and infrastructure.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -79,9 +79,9 @@ Template Name: Dedicated Development Team Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading">Scalability</p>
+                        <p class="card-title ">Scalability</p>
                       
-                        <p class="box-content">Easily scale your team up or down based on project demands without the challenges of traditional hiring</p>
+                        <p class="card-content">Easily scale your team up or down based on project demands without the challenges of traditional hiring</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -89,8 +89,8 @@ Template Name: Dedicated Development Team Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading">Enhanced Collaboration</p>
-                        <p class="box-content">With a team committed to your project, communication is streamlined, leading to better alignment with your business goals.</p>
+                        <p class="card-title ">Enhanced Collaboration</p>
+                        <p class="card-content">With a team committed to your project, communication is streamlined, leading to better alignment with your business goals.</p>
                        
                     </div>
                 </div>

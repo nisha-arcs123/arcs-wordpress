@@ -58,7 +58,7 @@ Template Name: Mobile App Development Page
                 <div class="left-part">
                     <p class="section-title mt-0 mb-12"><?php the_field('md_section_1_subheading')?></p>
                     <p class="section-heading mt-0 mb-20"><?php the_field('md_section_1_mainheading')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('md_section_1_content')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_1_content')?></p>
                     <button class="primary-button">LET'S WORK TOGETGHER</button>
                 </div>
                 <div class="right-part padding-20 bx-border-box">
@@ -210,7 +210,7 @@ Template Name: Mobile App Development Page
                         <img src="<?php echo get_template_directory_uri()?>/images/mad-ic-baseline-apple.svg" alt="">
                         <span class="heading">IOS</span>
                     </div>
-                    <p class="box-content inner-content">We can help you deploy effective and user-friendly apps designed for Apple products like iPhones and iPads.
+                    <p class="card-content inner-content">We can help you deploy effective and user-friendly apps designed for Apple products like iPhones and iPads.
                         We even create features for the Apple Watch! By providing polished experiences for Apple users, your business can build loyalty
                         among an expansive user base.</p>
                 </div>
@@ -219,7 +219,7 @@ Template Name: Mobile App Development Page
                         <img src="<?php echo get_template_directory_uri()?>/images/mad-iphone-sm-box.svg" alt="">
                         <span class="heading">Cross-platform</span>
                     </div>
-                    <p class="box-content inner-content">Have you ever noticed that some popular apps are only available on Android or iOS, not both? That's often
+                    <p class="card-content inner-content">Have you ever noticed that some popular apps are only available on Android or iOS, not both? That's often
                         because they chose one or the other rather than opting for cross-platform app development. This type of app creation allows 
                         your app to work on multiple operating systems.</p>
                 </div>
@@ -228,7 +228,7 @@ Template Name: Mobile App Development Page
                         <img src="<?php echo get_template_directory_uri()?>/images/mad-jam-android.svg" alt="">
                         <span class="heading">Android</span>
                     </div>
-                    <p class="box-content inner-content">Our Android team understands the complexities of developing for a marketplace accessed by a vast range of devices
+                    <p class="card-content inner-content">Our Android team understands the complexities of developing for a marketplace accessed by a vast range of devices
                         from varying manufacturers. As a result, they build user-friendly, intuitive, and polished applications that look and feel great on
                         any Android device.</p>
                 </div>
@@ -239,10 +239,10 @@ Template Name: Mobile App Development Page
             <div class="transform-future wds m-auto">
                 <div class="left-part">
                     <p class="section-heading mt-0 mb-20"><?php the_field('md_section_7_mainheading')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('md_section_7_content_1')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('md_section_7_content_2')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('md_section_7_content_3')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('md_section_7_content_4')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_7_content_1')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_7_content_2')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_7_content_3')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_7_content_4')?></p>
                     <button class="primary-button">LET'S WORK TOGETGHER</button>
                 </div>
                 <div class="right-part padding-20 bx-border-box">

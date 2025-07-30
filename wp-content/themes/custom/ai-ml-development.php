@@ -72,7 +72,7 @@ Template Name: AI ML Development Page
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-box-logo-1.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Machine Learning</p>
-                    <p class="box-content p-rel z-3">Being one of the leading AI development companies, our team applies
+                    <p class="card-content p-rel z-3">Being one of the leading AI development companies, our team applies
                         its extensive knowledge in supervised, unsupervised, and reinforcement machine learning
                         to develop intelligent systems that require minimal human intervention yet make optimal decisions.</p>
                 </div>
@@ -84,7 +84,7 @@ Template Name: AI ML Development Page
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-box-2.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Robotic Process Automation</p>
-                    <p class="box-content p-rel z-3">Our AI software development services are capable of offering Robotic Process Automation
+                    <p class="card-content p-rel z-3">Our AI software development services are capable of offering Robotic Process Automation
                         solutions that can help you increase your overall business efficiency, reduce errors, increase agility,
                         and improve employee productivity.</p>
                 </div>
@@ -96,7 +96,7 @@ Template Name: AI ML Development Page
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-box-logo-3.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Natural Language Processing</p>
-                    <p class="box-content p-rel z-3">We are artificial intelligence development company that can help transform your
+                    <p class="card-content p-rel z-3">We are artificial intelligence development company that can help transform your
                         user experience by driving NLP-related custom AI solutions with capabilities like real-time speech recognition and</p>
                 </div>
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -107,7 +107,7 @@ Template Name: AI ML Development Page
                         <img src="<?php echo get_template_directory_uri() ?>/images/ui-handed.svg" alt="">
                     </div>
                     <p class="box-heading mb-20 p-rel z-3">Computer Vision and OCR</p>
-                    <p class="box-content p-rel z-3">We are an AI development company that specializes in developing AI solutions that
+                    <p class="card-content p-rel z-3">We are an AI development company that specializes in developing AI solutions that
                         accurately recognize and interpret visual information. As a top-tiered AI solution provider, our expertise revolves
                         around biometric authentication, video monitoring, and analysis that guarantees reliable and efficient security solutions.</p>
                 </div>
@@ -120,7 +120,7 @@ Template Name: AI ML Development Page
             <div class="left-part">
                 <p class="section-title mt-0 mb-12"><?php the_field('section2-header1ai') ?></p>
                 <p class="section-heading mt-0 mb-20"><?php the_field('section2-header2ai') ?></p>
-                <p class="section-content mt-0 mb-32"><?php the_field('section2-descriptionai') ?> </p>
+                <p class="card-content mt-0 mb-32"><?php the_field('section2-descriptionai') ?> </p>
                 <button class="primary-button">LET'S WORK TOGETGHER</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
@@ -140,7 +140,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in
+                <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in
                     industries like finance, healthcare, and logistics.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -150,7 +150,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Improved Healthcare</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Enables early disease detection, personalized treatment plans, and efficient
+                <p class="card-content mt-0 mb-0">Enables early disease detection, personalized treatment plans, and efficient
                     patient care through AI-powered tools.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -160,7 +160,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Transformative Education</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Supports adaptive learning platforms tailored to individual student needs for
+                <p class="card-content mt-0 mb-0">Supports adaptive learning platforms tailored to individual student needs for
                     better educational outcomes.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -170,7 +170,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Daily Life Enhancements</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven
+                <p class="card-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven
                     content curation.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -180,7 +180,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
+                <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
                     like finance, healthcare, and logistics.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -190,7 +190,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Innovation</p>
                 </div>
-                <p class="section-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
+                <p class="card-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
                     from healthcare to transportation.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -200,7 +200,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Cost Reduction</p>
                 </div>
-                <p class="section-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time
+                <p class="card-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time
                     and resources, cutting costs.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -210,7 +210,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Data-Driven Insights</p>
                 </div>
-                <p class="section-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
+                <p class="card-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
                     better decision-making.</p>
             </div>
         </div>
@@ -225,23 +225,23 @@ Template Name: AI ML Development Page
             <div class="kf-boxes-wrapper">
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>01</span>Real-Time Insights</p>
-                    <p class="section-content mb-0 mt-12">Generate insights from your own data using AI-powered visualization and analytics tools.</p>
+                    <p class="card-content mb-0 mt-12">Generate insights from your own data using AI-powered visualization and analytics tools.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>02</span>Customizable Experiences</p>
-                    <p class="section-content mb-0 mt-12">Experiment with AI models by adjusting parameters to see how outcomes change.</p>
+                    <p class="card-content mb-0 mt-12">Experiment with AI models by adjusting parameters to see how outcomes change.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>03</span>Chatbot Simulator</p>
-                    <p class="section-content mb-0 mt-12">Interact with a conversational AI to understand natural language processing.</p>
+                    <p class="card-content mb-0 mt-12">Interact with a conversational AI to understand natural language processing.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>04</span>AI Art Generator</p>
-                    <p class="section-content mb-0 mt-12">AI-driven content recommendations, virtual reality experiences, and creative content generation.</p>
+                    <p class="card-content mb-0 mt-12">AI-driven content recommendations, virtual reality experiences, and creative content generation.</p>
                 </div>
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>05</span>Text-to-Speech Generator</p>
-                    <p class="section-content mb-0 mt-12">Convert written text into natural-sounding speech in multiple languages.</p>
+                    <p class="card-content mb-0 mt-12">Convert written text into natural-sounding speech in multiple languages.</p>
                 </div>
             </div>
         </div>
@@ -260,7 +260,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Predictive Analytics</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Leverage data to forecast trends, behaviors, and outcomes for informed decision-making.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Leverage data to forecast trends, behaviors, and outcomes for informed decision-making.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -271,7 +271,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Entertainment</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">AI-driven content recommendations, virtual reality experiences, and creative content generation.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">AI-driven content recommendations, virtual reality experiences, and creative content generation.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -282,7 +282,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">AI Solutions</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Automation Streamline operations by automating repetitive tasks and workflows.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Automation Streamline operations by automating repetitive tasks and workflows.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -293,7 +293,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Healthcare</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Early disease detection, personalized medicine, and robotic surgeries.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Early disease detection, personalized medicine, and robotic surgeries.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -304,7 +304,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Retail</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Personalized product recommendations, inventory management, and automated customer support.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Personalized product recommendations, inventory management, and automated customer support.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -315,7 +315,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Finance</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Fraud detection, credit risk analysis, and algorithmic trading.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Fraud detection, credit risk analysis, and algorithmic trading.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -326,7 +326,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Computer Vision</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Use AI to interpret visual data for facial recognition, medical imaging, and object detection.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Use AI to interpret visual data for facial recognition, medical imaging, and object detection.</p>
             </div>
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -337,7 +337,7 @@ Template Name: AI ML Development Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Education</p>
                 </div>
-                <p class="section-content inner-section-content mt-0 mb-0">Adaptive learning platforms, virtual tutors, and performance analytics.</p>
+                <p class="card-content inner-section-content mt-0 mb-0">Adaptive learning platforms, virtual tutors, and performance analytics.</p>
             </div>
         </div>
     </div>

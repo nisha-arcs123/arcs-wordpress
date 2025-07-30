@@ -90,9 +90,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Informed Decision-Making</p>
+                        <p class="card-title mt-28">Informed Decision-Making</p>
                    
-                        <p class="box-content">Use data insights to make strategic and evidence-based business decisions.</p>
+                        <p class="card-content">Use data insights to make strategic and evidence-based business decisions.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -100,9 +100,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Process Optimization</p>
+                        <p class="card-title mt-28">Process Optimization</p>
                   
-                        <p class="box-content">Identify inefficiencies and improve workflows using data analysis.</p>
+                        <p class="card-content">Identify inefficiencies and improve workflows using data analysis.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -110,9 +110,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Customer-Centric Innovation</p>
+                        <p class="card-title mt-28">Customer-Centric Innovation</p>
                       
-                        <p class="box-content">Understand customer preferences and behaviors to enhance products and services.</p>
+                        <p class="card-content">Understand customer preferences and behaviors to enhance products and services.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -120,9 +120,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Predictive Insights</p>
+                        <p class="card-title mt-28">Predictive Insights</p>
                         
-                        <p class="box-content">Leverage predictive analytics to anticipate trends and proactively adapt to changes.</p>
+                        <p class="card-content">Leverage predictive analytics to anticipate trends and proactively adapt to changes.</p>
                        
                     </div>
                 </div>
@@ -134,7 +134,7 @@ Template Name: Digital Transformation Page
                 <div class="left-part">
                     <p class="section-title mt-0 mb-12"><?php the_field('dt_section_4_subheading')?></p>
                     <p class="section-heading mt-0 mb-20"><?php the_field('dt_section_4_mainheading')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('dt_section_4_content')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('dt_section_4_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
                 <div class="right-part padding-20 bx-border-box">
@@ -154,9 +154,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Enhanced Efficiency</p>
+                        <p class="card-title mt-28">Enhanced Efficiency</p>
                    
-                        <p class="box-content">Replace slow, outdated systems with faster, more agile technologies.</p>
+                        <p class="card-content">Replace slow, outdated systems with faster, more agile technologies.</p>
                        
                        
                     </div>
@@ -165,9 +165,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Improved Security</p>
+                        <p class="card-title mt-28">Improved Security</p>
                   
-                        <p class="box-content">Address vulnerabilities in legacy systems with modern cybersecurity measures.</p>
+                        <p class="card-content">Address vulnerabilities in legacy systems with modern cybersecurity measures.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -175,9 +175,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Cost Savings</p>
+                        <p class="card-title mt-28">Cost Savings</p>
                       
-                        <p class="box-content">Reduce maintenance costs by adopting scalable, cost-effective solutions like cloud platforms.</p>
+                        <p class="card-content">Reduce maintenance costs by adopting scalable, cost-effective solutions like cloud platforms.</p>
                        
                     </div>
                     <div class="box padding-16 bx-border-box p-rel">
@@ -185,9 +185,9 @@ Template Name: Digital Transformation Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/tvtv.svg" alt="">
                         </div>
-                        <p class="box-heading mt-28">Seamless Integration</p>
+                        <p class="card-title mt-28">Seamless Integration</p>
                         
-                        <p class="box-content">Enable legacy systems to work harmoniously with modern software and technologies.</p>
+                        <p class="card-content">Enable legacy systems to work harmoniously with modern software and technologies.</p>
                        
                     </div>
                 </div>
@@ -199,7 +199,7 @@ Template Name: Digital Transformation Page
                 <div class="left-part">
                     <p class="section-title mt-0 mb-12"><?php the_field('dt_section_6_subheading')?></p>
                     <p class="section-heading mt-0 mb-20"><?php the_field('dt_section_6_mainheading')?></p>
-                    <p class="section-content mt-0 mb-32"><?php the_field('dt_section_6_content')?></p>
+                    <p class="card-content mt-0 mb-32"><?php the_field('dt_section_6_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
                 <div class="colorful-background right-part padding-20 bx-border-box">

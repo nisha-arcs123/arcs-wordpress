@@ -55,7 +55,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in 
+                <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in 
                     industries like finance, healthcare, and logistics.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -65,7 +65,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Improved Healthcare</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Enables early disease detection, personalized treatment plans, and efficient 
+                <p class="card-content mt-0 mb-0">Enables early disease detection, personalized treatment plans, and efficient 
                     patient care through AI-powered tools.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -75,7 +75,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Transformative Education</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Supports adaptive learning platforms tailored to individual student needs for
+                <p class="card-content mt-0 mb-0">Supports adaptive learning platforms tailored to individual student needs for
                     better educational outcomes.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -85,7 +85,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Daily Life Enhancements</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven 
+                <p class="card-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven 
                     content curation.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -95,7 +95,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
                 </div>
-                <p class="section-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
+                <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
                      like finance, healthcare, and logistics.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -105,7 +105,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Innovation</p>
                 </div> 
-                <p class="section-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
+                <p class="card-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
                      from healthcare to transportation.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -115,7 +115,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Cost Reduction</p>
                 </div>
-                <p class="section-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time 
+                <p class="card-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time 
                     and resources, cutting costs.</p>
             </div>
             <div class="box padding-20 bx-border-box">
@@ -125,7 +125,7 @@ Template Name: Application Modernization Page
                     </div>
                     <p class="box-heading mt-0 mb-0">Data-Driven Insights</p>
                 </div>
-                <p class="section-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
+                <p class="card-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
                      better decision-making.</p>
             </div>
         </div>       
@@ -156,32 +156,32 @@ Template Name: Application Modernization Page
                   <div class="logo logo-1">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
-                  <p class="box-heading mt-40 mb-12">Vision and Mission</p>
-                  <p class="box-content">Define the organization’s purpose and long-term aspirations.
+                  <p class="card-title  mt-40 mb-12">Vision and Mission</p>
+                  <p class="card-content">Define the organization’s purpose and long-term aspirations.
                   </p>
               </div>
               <div class="box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-2">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
-                  <p class="box-heading mt-40 mb-12">SWOT Analysis</p>
-                  <p class="box-content">Identify strengths, weaknesses, opportunities, and threats to inform decisions.
+                  <p class="card-title  mt-40 mb-12">SWOT Analysis</p>
+                  <p class="card-content">Identify strengths, weaknesses, opportunities, and threats to inform decisions.
                   </p>
               </div>
               <div class="box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-3">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
-                  <p class="box-heading mt-40 mb-12">Objectives and Goals</p>
-                  <p class="box-content">Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.
+                  <p class="card-title  mt-40 mb-12">Objectives and Goals</p>
+                  <p class="card-content">Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.
                   </p>
               </div>
               <div class="box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-4">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
-                  <p class="box-heading mt-40 mb-12">Actionable Strategies:</p>
-                  <p class="box-content">Develop a plan to allocate resources and execute initiatives effectively.
+                  <p class="card-title  mt-40 mb-12">Actionable Strategies:</p>
+                  <p class="card-content">Develop a plan to allocate resources and execute initiatives effectively.
                   </p>
               </div>
           </div>
@@ -207,23 +207,23 @@ Template Name: Application Modernization Page
               <div class="kf-boxes-wrapper">
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>01</span>User-Centric Improvements</p>
-                      <p class="section-content mb-0 mt-12">Evolve the product based on customer feedback and behavior.</p>
+                      <p class="card-content mb-0 mt-12">Evolve the product based on customer feedback and behavior.</p>
                   </div>
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>02</span>Market Relevance</p>
-                      <p class="section-content mb-0 mt-12">Adapt to changing market demands and industry trends to maintain competitiveness.</p>
+                      <p class="card-content mb-0 mt-12">Adapt to changing market demands and industry trends to maintain competitiveness.</p>
                   </div>
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>03</span>Iterative Development</p>
-                      <p class="section-content mb-0 mt-12">Continuously refine and update the product to meet evolving user expectations.</p>
+                      <p class="card-content mb-0 mt-12">Continuously refine and update the product to meet evolving user expectations.</p>
                   </div>
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>04</span>Sustainability</p>
-                      <p class="section-content mb-0 mt-12">Focus on long-term growth by optimizing the product for current and future needs.</p>
+                      <p class="card-content mb-0 mt-12">Focus on long-term growth by optimizing the product for current and future needs.</p>
                   </div>
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>05</span>Increased Value</p>
-                      <p class="section-content mb-0 mt-12">Deliver enhanced solutions that strengthen customer satisfaction and retention.</p>
+                      <p class="card-content mb-0 mt-12">Deliver enhanced solutions that strengthen customer satisfaction and retention.</p>
                   </div>
               </div>
           </div>

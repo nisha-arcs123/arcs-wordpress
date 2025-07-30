@@ -37,7 +37,7 @@ Template Name: Home Page
             <?php echo the_field('home-section1-heading') ?>
         </span>
  
-        <h1 class="section-heading mb-20 mt-0 wwd-heading">
+        <h1 class="section-heading mb-12 mt-0 wwd-heading">
           <?php echo the_field('home-section1-mainheading') ?>
         </h1>
 
@@ -45,69 +45,69 @@ Template Name: Home Page
           <?php echo the_field('home-section1-content'); ?>
         </p>
  
-        <div class="boxes-wrapper">
+        <div class="boxes-wrapper mt-40">
           <div class="inner-box bx-border-box t-3 cp">
-            <p class="inner-box-heading mt-0">Advanced Data, AI, and ML</p>
+            <p class="card-title inner-box-heading mt-0">Advanced Data, AI, and ML</p>
             <p class="section-content">
               Cutting-edge AI solutions for business optimization and growth.
             </p>
             <img class="mt-20 mb-12 mr-0 ml-0 main-img" src="<?php echo get_template_directory_uri(); ?>/images/wwdimg-1.svg" alt="" />
-            <a class="section-content learn-more tx-dec-none t-3 p-rel" href="">
+            <div class="learn-more tx-dec-none t-3 p-rel">
               <img
                 class="learn-more-arrow"
                 src="<?php echo get_template_directory_uri(); ?>/images/arrow - right.svg"
                 alt=""
               />
-              Learn More</a
+              <span class="section-content">Learn More</span></div
             >
           </div>
  
           <div class="inner-box bx-border-box t-3 cp">
-            <p class="inner-box-heading mt-0">Web Development</p>
+            <p class="card-title inner-box-heading mt-0">Web Development</p>
             <p class="section-content">
               Dynamic and interactive web applications for a seamless user
               experience.
             </p>
             <img class="mt-20 mb-12 mr-0 ml-0 main-img" src="<?php echo get_template_directory_uri(); ?>/images/wwdimg-2.svg" alt="" />
-            <a class="section-content learn-more tx-dec-none t-3 p-rel" href="">
+            <div class="learn-more tx-dec-none t-3 p-rel">
               <img
                 class="learn-more-arrow margin-0"
                 src="<?php echo get_template_directory_uri(); ?>/images/arrow - right.svg"
                 alt=""
               />
-              Learn More</a
+              <span class="section-content">Learn More</span></div
             >
           </div>
  
           <div class="inner-box bx-border-box t-3 cp">
-            <p class="inner-box-heading mt-0">Mobile APP Development</p>
+            <p class="card-title inner-box-heading mt-0">Mobile APP Development</p>
             <p class="section-content">
               Reach a wider audience with hybrid mobile app development.
             </p>
             <img class="mt-20 mb-12 mr-0 ml-0 main-img" src="<?php echo get_template_directory_uri(); ?>/images/wwdimg-3.svg" alt="" />
-            <a class="section-content learn-more tx-dec-none t-3 p-rel" href="">
+            <div class="learn-more tx-dec-none t-3 p-rel">
               <img
                 class="learn-more-arrow margin-0"
                 src="<?php echo get_template_directory_uri(); ?>/images/arrow - right.svg"
                 alt=""
               />
-              Learn More</a
+              <span class="section-content">Learn More</span></div
             >
           </div>
  
           <div class="inner-box bx-border-box t-3 cp">
-            <p class="inner-box-heading mt-0">UI/UX Design</p>
+            <p class="card-title inner-box-heading mt-0">UI/UX Design</p>
             <p class="section-content">
               Stunning and brand-centric designs to captivate your audience.
             </p>
             <img class="mt-20 mb-12 mr-0 ml-0 main-img" src="<?php echo get_template_directory_uri(); ?>/images/wwdimg-4.svg" alt="" />
-            <a class="section-content learn-more tx-dec-none t-3 p-rel" href="">
+            <div class="learn-more tx-dec-none t-3 p-rel">
               <img
                 class="learn-more-arrow margin-0"
                 src="<?php echo get_template_directory_uri(); ?>/images/arrow - right.svg"
                 alt=""
               />
-              Learn More </a
+             <span class="section-content">Learn More</span> </div
             >
           </div>
         </div>
@@ -288,7 +288,7 @@ Template Name: Home Page
             <h1>04</h1>
             <h2>Flexible</h2>
             <h2 class="h2">Flexible</h2>
-            <img src="<?php echo get_template_directory_uri() ?>images/small-circle2.svg" alt="" class="small-circle2" />
+            <img src="<?php echo get_template_directory_uri() ?>/images/small-circle2.svg" alt="" class="small-circle2" />
             <ul class="list">
               <li>
                 100% of our projects are delivered strictly on deadlines and

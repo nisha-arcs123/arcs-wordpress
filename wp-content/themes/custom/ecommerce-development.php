@@ -65,7 +65,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">ECommerce Consulting</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Improve your operational efficiency and user experience with our expert’s advice on business,
+                    <p class="card-content mt-0 mb-0">Improve your operational efficiency and user experience with our expert’s advice on business,
                          technology and operational aspects.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -75,7 +75,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">ECommerce Implementation</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Get cloud platforms, payment gateways, POS systems, and CRMs implemented to your eCommerce 
+                    <p class="card-content mt-0 mb-0">Get cloud platforms, payment gateways, POS systems, and CRMs implemented to your eCommerce 
                         web stores and mobile applications.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -85,7 +85,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">ECommerce Marketing</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Stay ahead of the competition with our eCommerce marketing team, which consists of SEO, PPC,
+                    <p class="card-content mt-0 mb-0">Stay ahead of the competition with our eCommerce marketing team, which consists of SEO, PPC,
                          and social media experts.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -95,7 +95,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">eCommerce Web Design</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Our eCommerce web designers enable you sell online using responsive designs that look great
+                    <p class="card-content mt-0 mb-0">Our eCommerce web designers enable you sell online using responsive designs that look great
                          on desktop and mobile devices.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -105,7 +105,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">ECommerce Migration</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Our team ensures your eCommerce platforms are continuously performing and secure, with proactive
+                    <p class="card-content mt-0 mb-0">Our team ensures your eCommerce platforms are continuously performing and secure, with proactive
                          support and strategic updates to meet business evolution.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -115,7 +115,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">Maintenance & Management</p>
                     </div> 
-                    <p class="section-content mt-0 mb-0">Our team ensures your eCommerce platforms are continuously performing and secure, with proactive
+                    <p class="card-content mt-0 mb-0">Our team ensures your eCommerce platforms are continuously performing and secure, with proactive
                          support and strategic updates to meet business evolution.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -125,7 +125,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">Dedicated Development Team</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">Hire PixelCrayons’ dedicated team for diverse expertise in languages, frameworks, and technologies,
+                    <p class="card-content mt-0 mb-0">Hire PixelCrayons’ dedicated team for diverse expertise in languages, frameworks, and technologies,
                          crafting websites that embody your brand essence.</p>
                 </div>
                 <div class="box padding-20 bx-border-box">
@@ -135,7 +135,7 @@ Template Name: Ecommerce Development Page
                         </div>
                         <p class="box-heading mt-0 mb-0">Marketplace Integration</p>
                     </div>
-                    <p class="section-content mt-0 mb-0">We specialize in developing  B2B and B2C 
+                    <p class="card-content mt-0 mb-0">We specialize in developing  B2B and B2C 
                         portals that enhance user experience and operational efficiency, strengthening client and consumer relationships.</p>
                 </div>
             </div>
@@ -151,7 +151,7 @@ Template Name: Ecommerce Development Page
                 <div class="left-part p-rel">
                     <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading1_cd'); ?></p>
                     <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_heading2_cd'); ?></p>
-                    <p class="section-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_cd'); ?></p> 
+                    <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_cd'); ?></p> 
                     <button class="primary-button">LET'S WORK TOGETGHER</button>
                 </div>
                 <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
@@ -164,7 +164,7 @@ Template Name: Ecommerce Development Page
                 <div class="content">
                     <p class="section-title mt-0 mb-12 mt-0"><?php echo the_field('section3_heading1_cd'); ?></p>
                     <p class="section-heading mt-0 mb-20"><?php echo the_field('section3_heading2_cd'); ?></p>
-                    <p class="section-content mt-0 mb-32"><?php echo the_field('section3_description_cd'); ?></p>
+                    <p class="card-content mt-0 mb-32"><?php echo the_field('section3_description_cd'); ?></p>
                     <button class="primary-button">START BUILDING TODAY</button>
                 </div>
                 <div class="boxes">
@@ -202,11 +202,21 @@ Template Name: Ecommerce Development Page
             <div class="section-box m-auto wds">
                 <div class="section-header p-rel w-full">
                     <ul class="navbar w-full margin-0 padding-0">
-                        <li class="navs active">ECommerce ERP</li>
-                        <li class="navs">ECommerce CRM</li>
-                        <li class="navs">POS Solutions</li>
-                        <li class="navs">Marketplaces</li>
-                        <li class="navs">Inventory Management</li>
+                        <li class="navs active">
+                            <span class="ellipsis-text">ECommerce ERP</span>
+                        </li>
+                        <li class="navs">
+                            <span class="ellipsis-text">ECommerce CRM</span>
+                        </li>
+                        <li class="navs">
+                            <span class="ellipsis-text">POS Solutions</span>
+                        </li>
+                        <li class="navs">
+                            <span class="ellipsis-text">Marketplaces</span>
+                        </li>
+                        <li class="navs">
+                            <span class="ellipsis-text">Inventory Management</span>
+                        </li>
                     </ul>
                 </div>
                 <div class="ecommerce-erp mt-60">
@@ -326,7 +336,7 @@ Template Name: Ecommerce Development Page
             <div class="text-section o-h p-rel">
                 <div class="section">
                     <h2 class="section-heading mb-20 mt-0 z-1 p-rel"><?php echo the_field('section6_heading_cd'); ?></h2>
-                    <p class="inner-content mb-32 z-1 p-rel"><?php echo the_field('section6_description_cd'); ?></p>
+                    <p class="card-content  mb-32 z-1 p-rel"><?php echo the_field('section6_description_cd'); ?></p>
                     <button class="primary-button z-1 p-rel">LETS'S WORK TOGETHER</button>
                 </div>
             </div>

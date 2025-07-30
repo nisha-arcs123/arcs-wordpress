@@ -62,26 +62,26 @@ Template Name: Database Development Page
         <div class="kf-boxes-wrapper">
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>01</span>Custom Solutions</p>
-                <p class="section-content mb-0 mt-12">Tailored database systems to meet your specific business
+                <p class="card-content mb-0 mt-12">Tailored database systems to meet your specific business
                     requirements.</p>
             </div>
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>02</span>Scalability</p>
-                <p class="section-content mb-0 mt-12">Databases designed to grow with your business.</p>
+                <p class="card-content mb-0 mt-12">Databases designed to grow with your business.</p>
             </div>
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>03</span>Data Security</p>
-                <p class="section-content mb-0 mt-12">Implementing best-in-class security protocols to protect your
+                <p class="card-content mb-0 mt-12">Implementing best-in-class security protocols to protect your
                     data.</p>
             </div>
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>04</span>Expert Team</p>
-                <p class="section-content mb-0 mt-12">Experienced professionals proficient in modern database
+                <p class="card-content mb-0 mt-12">Experienced professionals proficient in modern database
                     technologies.</p>
             </div>
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>05</span>Seamless Integration</p>
-                <p class="section-content mb-0 mt-12">Smooth integration with your existing tools and platforms. </p>
+                <p class="card-content mb-0 mt-12">Smooth integration with your existing tools and platforms. </p>
             </div>
         </div>
     </div>
@@ -159,7 +159,7 @@ Template Name: Database Development Page
         <div class="left-part p-rel">
             <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section5_heading1db'); ?></p>
             <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section5_heading2db'); ?></p>
-            <p class="section-content mt-0 mb-0 z-1"><?php echo the_field('section5_descriptiondb'); ?></p>
+            <p class="card-content mt-0 mb-0 z-1"><?php echo the_field('section5_descriptiondb'); ?></p>
             <ul>
                 <li class="section-content p-rel">SQL-based solutions (MySQL, PostgreSQL, SQL Server)</li>
                 <li class="section-content p-rel">NoSQL databases (MongoDB, Cassandra)</li>
