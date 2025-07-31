@@ -418,7 +418,7 @@ Template Name: Home Page
           </p>
  
         <div class="slider">
-          <div class="owl-carousel owl-theme">
+          <div class="section-content mt-8 p-rel z-2 wcu-content owl-theme">
             <div class="item">
                   <div class="content-wrapper p-rel bx-border-box tx-left">
                     <img
@@ -799,7 +799,7 @@ Template Name: Home Page
  
   <script>
     $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
+      $('.section-content mt-8 p-rel z-2 wcu-content').owlCarousel({
         items : 4,
         margin : 30,
         dots : true,

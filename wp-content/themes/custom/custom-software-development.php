@@ -213,16 +213,16 @@ Template Name: Custom Software Development Page
         
         <div class="technos-wrapper w-full">
             <div class="technos wds m-auto">
-                <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section4_heading1'); ?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('custom_section4_heading2'); ?></p>
-                <p class="section-content mb-40 tx-center"><?php echo the_field('custom_section4_description'); ?></p>
+                <p class="section-title m-auto w-fc tx-center">Technologies We Use</p>
+                <p class="section-heading mb-20 mt-12 tx-center">Leveraging the Best Tools for Superior Results</p>
+                <p class="section-content mb-40 tx-center">At ARCS Infotech we stay ahead of the curve by using cutting-edge technologies and frameworks. Our expertise across diverse tech stacks enables us to deliver innovative, scalable, and efficient solutions tailored to your needs.</p>
                 <div class="boxes-wrapper">
                     <div class="box padding-16 bx-border-box">
                         <div class="upper-part mb-16">
                             <div class="logo">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                             </div>
-                            <p class="box-heading">Frontend Development</p>
+                            <p class="card-title">Frontend Development</p>
                         </div>
                         <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                         <div class="tech">
@@ -247,7 +247,7 @@ Template Name: Custom Software Development Page
                             <div class="logo">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                             </div>
-                            <p class="box-heading">Frontend Development</p>
+                            <p class="card-title">Frontend Development</p>
                         </div>
                         <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                         <div class="tech">
@@ -272,7 +272,7 @@ Template Name: Custom Software Development Page
                             <div class="logo">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                             </div>
-                            <p class="box-heading">Frontend Development</p>
+                            <p class="card-title">Frontend Development</p>
                         </div>
                         <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                         <div class="tech">
@@ -297,7 +297,7 @@ Template Name: Custom Software Development Page
                             <div class="logo">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
                             </div>
-                            <p class="box-heading">Frontend Development</p>
+                            <p class="card-title">Frontend Development</p>
                         </div>
                         <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                         <div class="tech">
@@ -331,7 +331,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-1">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Tailored to Your Needs</p>
+                        <p class="card-title mt-0 mb-0">Tailored to Your Needs</p>
                     </div>
                     <p class="card-content mt-0 mb-0">Unlike off-the-shelf software, custom solutions are designed specifically for your business processes,
                          ensuring a perfect fit for your unique requirements.</p>
@@ -341,7 +341,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-2">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Scalability and Flexibility</p>
+                        <p class="card-title mt-0 mb-0">Scalability and Flexibility</p>
                     </div>
                     <p class="card-content mt-0 mb-0">Custom software grows with your business, enabling you to add 
                         features and scale effortlessly as your operations expand or change.</p>
@@ -351,7 +351,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-3">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Enhanced Efficiency</p>
+                        <p class="card-title mt-0 mb-0">Enhanced Efficiency</p>
                     </div>
                     <p class="card-content mt-0 mb-0">By automating repetitive tasks and streamlining operations, custom software 
                         increases productivity and reduces operational costs.</p>
@@ -361,7 +361,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-4">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Improved Security</p>
+                        <p class="card-title mt-0 mb-0">Improved Security</p>
                     </div>
                     <p class="card-content mt-0 mb-0">Custom software includes tailored security measures designed to address your 
                         specific vulnerabilities, reducing the risk of breaches and ensuring data protection.
@@ -372,7 +372,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-5">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Competitive Advantage</p>
+                        <p class="card-title mt-0 mb-0">Competitive Advantage</p>
                     </div>
                     <p class="card-content mt-0 mb-0">By leveraging custom tools and features, your business gains a competitive edge, 
                         offering unique services or capabilities that set you apart from competitors.</p>
@@ -382,7 +382,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-6">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Long-Term Cost Savings</p>
+                        <p class="card-title mt-0 mb-0">Long-Term Cost Savings</p>
                     </div> 
                     <p class="card-content mt-0 mb-0">Although the upfront cost may be higher than off-the-shelf options, custom software eliminates 
                         recurring licensing fees and costly upgrades, saving money in the long run.</p>
@@ -392,7 +392,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-7">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Seamless Integration</p>
+                        <p class="card-title mt-0 mb-0">Seamless Integration</p>
                     </div>
                     <p class="card-content mt-0 mb-0">Custom software is designed to integrate seamlessly with your existing systems and tools, 
                         ensuring smooth data flow and enhanced functionality.</p>
@@ -402,7 +402,7 @@ Template Name: Custom Software Development Page
                         <div class="logo logo-8">
                             <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
                         </div>
-                        <p class="box-heading mt-0 mb-0">Better User Experience</p>
+                        <p class="card-title mt-0 mb-0">Better User Experience</p>
                     </div>
                     <p class="card-content mt-0 mb-0">With intuitive design and features tailored to your team or customers,
                         custom software enhances usability and satisfaction.</p>
