@@ -173,10 +173,10 @@ Template Name: Ecommerce Development Page
                         <div class="content">
                             <p class="as-box-heading mb-12 mt-0">Small & Mid-scale Businesses</p>
                             <ul>
-                                <li class="inner-content mb-8">Affordable eCommerce services</li>
-                                <li class="inner-content mb-8">Advanced features integration</li>
-                                <li class="inner-content mb-8">Add features as per need</li>
-                                <li class="inner-content mb-8">Highly secure & scalable solutions</li>
+                                <li class="card-content mb-8">Affordable eCommerce services</li>
+                                <li class="card-content mb-8">Advanced features integration</li>
+                                <li class="card-content mb-8">Add features as per need</li>
+                                <li class="card-content mb-8">Highly secure & scalable solutions</li>
                             </ul>
                         </div>
                     </div>
@@ -185,10 +185,10 @@ Template Name: Ecommerce Development Page
                         <div class="content">
                             <p class="as-box-heading mb-12 mt-0">Enterprise-Grade</p>
                             <ul class="margin-0">
-                                <li class="inner-content mb-8">High-performing, secure solutions</li>
-                                <li class="inner-content mb-8">Enterprise-grade extensions & tools</li>
-                                <li class="inner-content mb-8">AR/VR, IoT & AI Integration</li>
-                                <li class="inner-content mb-8">Addition of powerful functionalities</li>
+                                <li class="card-content mb-8">High-performing, secure solutions</li>
+                                <li class="card-content mb-8">Enterprise-grade extensions & tools</li>
+                                <li class="card-content mb-8">AR/VR, IoT & AI Integration</li>
+                                <li class="card-content mb-8">Addition of powerful functionalities</li>
                             </ul>
                         </div>
                     </div>
@@ -222,7 +222,7 @@ Template Name: Ecommerce Development Page
                 <div class="ecommerce-erp mt-60">
                     <div class="content">
                         <p class="heading mb-12 mt-0">ECommerce ERP</p>
-                        <p class="inner-content mb-24 mt-0">Our ecommerce ERP solutions are designed to unify various aspects of your business for more cohesive
+                        <p class="card-content mb-24 mt-0">Our ecommerce ERP solutions are designed to unify various aspects of your business for more cohesive
                              operations. We emphasize consolidated data handling and enhanced control over processes, leading to more streamlined business
                             management.</p>
                         <ul class="logos-n-text mt-0 mb-0 padding-0">
@@ -230,19 +230,19 @@ Template Name: Ecommerce Development Page
                                 <div class="logo first">
                                     <img src="<?php echo get_template_directory_uri()?>/images/ec-sol-1.svg" alt="">
                                 </div>
-                                <span class="inner-content">Consolidated data</span>
+                                <span class="card-content">Consolidated data</span>
                             </li>
                             <li class="mb-16">
                                 <div class="logo second">
                                     <img src="<?php echo get_template_directory_uri()?>/images/ec-sol-2.svg" alt="">
                                 </div>
-                                <span class="inner-content">Enhanced control over processes</span>
+                                <span class="card-content">Enhanced control over processes</span>
                             </li>
                             <li class="mb-16">
                                 <div class="logo third">
                                     <img src="<?php echo get_template_directory_uri()?>/images/ec-sol-3.svg" alt="">
                                 </div>
-                                <span class="inner-content">Optimized efficiency</span>
+                                <span class="card-content">Optimized efficiency</span>
                             </li>
                         </ul>
                     </div>
@@ -269,9 +269,9 @@ Template Name: Ecommerce Development Page
                     </div>
                     <p class="heading mt-0 mb-12">Why our client satisfaction score is high?</p>
                     <ul class="margin-0 padding-0">
-                        <li class="inner-content p-rel">Seamless project management</li>
-                        <li class="inner-content p-rel">Efficient ROI tracking</li>
-                        <li class="inner-content p-rel">Diverse expertise</li>
+                        <li class="card-content p-rel">Seamless project management</li>
+                        <li class="card-content p-rel">Efficient ROI tracking</li>
+                        <li class="card-content p-rel">Diverse expertise</li>
                     </ul>
                 </div>
                 <div class="box bx-border-box padding-20">
@@ -286,9 +286,9 @@ Template Name: Ecommerce Development Page
                     </div>
                     <p class="heading mt-0 mb-12">Why Our Retention Rate Is High?</p>
                     <ul class="margin-0 padding-0">
-                        <li class="inner-content p-rel">Scalable solutions</li>
-                        <li class="inner-content p-rel">Top industry experts</li>
-                        <li class="inner-content p-rel">Proven results</li>
+                        <li class="card-content p-rel">Scalable solutions</li>
+                        <li class="card-content p-rel">Top industry experts</li>
+                        <li class="card-content p-rel">Proven results</li>
                     </ul>
                 </div>
                 <div class="box bx-border-box padding-20">
@@ -303,9 +303,9 @@ Template Name: Ecommerce Development Page
                     </div>
                     <p class="heading mt-0 mb-12">Why our client satisfaction score is high?</p>
                     <ul class="margin-0 padding-0">
-                        <li class="inner-content p-rel">Seamless project management</li>
-                        <li class="inner-content p-rel">Efficient ROI tracking</li>
-                        <li class="inner-content p-rel">Diverse expertise</li>
+                        <li class="card-content p-rel">Seamless project management</li>
+                        <li class="card-content p-rel">Efficient ROI tracking</li>
+                        <li class="card-content p-rel">Diverse expertise</li>
                     </ul>
                 </div>
                 <div class="box bx-border-box padding-20">
@@ -320,9 +320,9 @@ Template Name: Ecommerce Development Page
                     </div>
                     <p class="heading mt-0 mb-12">Why Our On-Time Delivery Rate Is High?</p>
                     <ul class="margin-0 padding-0">
-                        <li class="inner-content p-rel">Advanced Project Planning</li>
-                        <li class="inner-content p-rel">Real-Time Tracking</li>
-                        <li class="inner-content p-rel">Dedicated Project Management Team</li>
+                        <li class="card-content p-rel">Advanced Project Planning</li>
+                        <li class="card-content p-rel">Real-Time Tracking</li>
+                        <li class="card-content p-rel">Dedicated Project Management Team</li>
                     </ul>
                 </div>
             </div>

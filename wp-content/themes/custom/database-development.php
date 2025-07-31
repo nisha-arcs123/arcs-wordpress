@@ -113,8 +113,8 @@ Template Name: Database Development Page
         <div class="boxes-wrapper padding-40 bx-border-box">
             <div class="inner-box padding-20">
                 <div class="text">
-                    <p class="heading">Database Design and Architecture</p>
-                    <p class="inner-content">Create a strong foundation for your data with a well-planned database
+                    <p class="card-title">Database Design and Architecture</p>
+                    <p class="card-content">Create a strong foundation for your data with a well-planned database
                         design. Our team
                         ensures optimal performance and future scalability from the very beginning.</p>
                 </div>
@@ -122,8 +122,8 @@ Template Name: Database Development Page
             </div>
             <div class="inner-box padding-20">
                 <div class="text">
-                    <p class="heading">Database Migration and Optimization</p>
-                    <p class="inner-content"> Transition your data to new systems seamlessly while enhancing performance
+                    <p class="card-title">Database Migration and Optimization</p>
+                    <p class="card-content"> Transition your data to new systems seamlessly while enhancing performance
                         and
                         minimizing downtime. We specialize in efficient database migrations and optimizations.</p>
                 </div>
@@ -131,8 +131,8 @@ Template Name: Database Development Page
             </div>
             <div class="inner-box padding-20">
                 <div class="text">
-                    <p class="heading">Maintenance and Support</p>
-                    <p class="inner-content">Ensure your database operates smoothly at all times. Our ongoing
+                    <p class="card-title">Maintenance and Support</p>
+                    <p class="card-content">Ensure your database operates smoothly at all times. Our ongoing
                         maintenance and
                         support services keep your system reliable and secure.</p>
                 </div>

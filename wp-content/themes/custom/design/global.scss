@@ -91,9 +91,9 @@
     @include absolute(135, na, na, 50%);
     transform: translateX(-50%);
 
-    @include max-width(576) {
-      @include absolute(230, na, na, 50%);
-      width: 255px;
+    @include max-width(580) {
+      @include absolute(161, na, na, 50%);
+      width: 298px;
     }
   }
 
@@ -108,8 +108,13 @@
     span {
       @include typography(16, 24, 600, $primary-text-color);
 
+      @include max-width(768) {
+        @include typography(14, 24, 600, $primary-text-color);
+
+      }
+
       @include max-width(576) {
-        @include typography(10, 24, 600, $primary-text-color);
+        @include typography(12, 24, 600, $primary-text-color);
       }
     }
 
@@ -130,10 +135,17 @@
     span {
       @include typography(16, 24, 600, $primary-text-color);
 
+      @include max-width(768) {
+        @include typography(14, 24, 600, $primary-text-color);
+
+      }
+
       @include max-width(576) {
-        @include typography(10, 24, 600, $primary-text-color);
+        @include typography(12, 24, 600, $primary-text-color);
       }
     }
+
+
   }
 
   .user-box-left {
@@ -147,8 +159,13 @@
       @include absolute(330, na, na, 240);
     }
 
+    @include max-width(1200) {
+      @include absolute(330, na, na, 168);
+
+    }
+
     @include max-width(992) {
-      @include absolute(210, na, na, 44);
+      @include absolute(173, na, na, 24);
     }
 
     @include max-width(576) {
@@ -168,8 +185,12 @@
       @include absolute(155, 290, na, na);
     }
 
+    @include max-width(1200) {
+      @include absolute(155, 180, na, na);
+    }
+
     @include max-width(992) {
-      @include absolute(210, 33, na, na);
+      @include absolute(183, 8, na, na);
     }
 
     @include max-width(576) {
@@ -183,13 +204,13 @@
     background-color: $primary-color;
     border-radius: 8px;
 
-    @include max-width(576) {
+    @include max-width(768) {
       @include dimensions(28, 28);
       border-radius: 4px;
     }
 
     img {
-      @include max-width(576) {
+      @include max-width(768) {
         width: 18px;
       }
     }
@@ -200,6 +221,11 @@
 
     span {
       @include typography(16, 24, 600, #d9d9d9);
+
+      @include max-width(1200) {
+        @include typography(12, 18, 600, #d9d9d9);
+
+      }
 
       @include max-width(576) {
         @include typography(10, 11, 600, #d9d9d9);
@@ -227,6 +253,11 @@
     backdrop-filter: blur(10px);
     background: $line-design-logo-box-bg-color;
 
+    @include max-width(1200) {
+      @include dimensions(41, 41);
+
+    }
+
     @include max-width(576) {
       @include dimensions(28, 28);
       border-radius: 4px;
@@ -251,8 +282,9 @@
     }
 
     @include max-width(576) {
-      @include absolute(-45, -230, na, na);
+      @include absolute(-4, -195, na, na);
     }
+
 
     .right-inner-line {
       top: 85px;
@@ -281,7 +313,7 @@
     }
 
     @include max-width(576) {
-      @include absolute(0, na, na, -190);
+      @include absolute(-90, na, na, -115);
     }
 
     .left-inner-line {
@@ -1858,7 +1890,7 @@
       }
 
       .box {
-        @include dimensions(300, calc(25% - 13px));
+        @include dimensions(auto, calc(25% - 13px));
         border: 1px solid #E8E8E8;
         box-shadow: 0px 20px 80px 0px #0000000D;
         background-color: $secondry-color;
@@ -2164,14 +2196,27 @@
   .ed-banner {
     .ed-banner-heading {
       width: 1200px;
+
+      @include max-width(1200) {
+        width: auto;
+      }
     }
 
     .ed-banner-content {
       width: 1020px;
+
+      @include max-width(1200) {
+        width: auto;
+      }
     }
 
     .banner-image {
       @include absolute(90, na, na, 50%);
+
+      @include max-width(992) {
+        width: 328px;
+        @include absolute(160, na, na, 50%);
+      }
     }
 
     .banner-blur-circle-1 {
@@ -2183,6 +2228,18 @@
       @include absolute(100, na, na, 50%);
       transform: translateX(-50%);
       border: 1px solid $border-section-4-ai-ml-page;
+
+      @include max-width(992) {
+        @include dimensions(550, 550);
+      }
+
+      @include max-width(768) {
+        @include dimensions(368, 368);
+      }
+
+      @include max-width(580) {
+        display: none;
+      }
     }
 
     .ed-inner-box {
@@ -2191,9 +2248,26 @@
       left: 50%;
       transform: translate(-50%, -50%);
 
+      @include max-width(992) {
+        width: 1440px;
+      }
+
+      @include max-width(768) {
+        width: 1104px;
+      }
+
       .img-circle {
         @include dimensions(61, 61);
         @include flex-box(na, center, center, na, na);
+
+        @include max-width(768) {
+          @include dimensions(40, 40);
+
+          img {
+            @include dimensions(30, 30);
+
+          }
+        }
       }
 
       .light-circle {
@@ -2204,6 +2278,15 @@
       .dark-circle {
         @include dimensions(47, 47);
         background-color: $primary-text-color;
+
+        @include max-width(768) {
+          @include dimensions(40, 40);
+
+          img {
+            @include dimensions(30, 30);
+
+          }
+        }
       }
 
       .chair-n-bag {
@@ -2211,11 +2294,22 @@
         padding: 0 6px;
         border-radius: 36px;
 
+        @include max-width(992) {
+          width: 291px;
+          height: auto;
+          padding: 4px;
+        }
+
+
         &.cb-top {
           background: $border-section-iv-top-ai-ml-page;
           @include flex-box(row, space-between, center, na, na);
           @include absolute(100, na, na, 50%);
           transform: translateX(-50%);
+
+          @include max-width(580) {
+            display: none !important;
+          }
         }
 
         &.cb-left {
@@ -2223,6 +2317,10 @@
           @include flex-box(row, end, center, na, na);
           @include absolute(277, na, na, 22%);
           transform: translateX(-50%);
+
+          @include max-width(580) {
+            @include absolute(100, na, na, 29%);
+          }
         }
 
         &.cb-right {
@@ -2230,34 +2328,85 @@
           @include flex-box(row, start, center, na, na);
           @include absolute(277, na, na, 78%);
           transform: translateX(-50%);
+
+          @include max-width(580) {
+            @include absolute(100, na, na, 72%);
+
+          }
         }
       }
 
       .logo-n-label {
         width: fit-content;
 
+        .label {
+          @include max-width(768) {
+            font-size: 12px
+          }
+        }
+
         &.management {
           @include flex-box(row-reverse, space-between, center, na, 10);
           @include absolute(183, na, na, 31%);
           transform: translateX(-50%);
+
+          @include max-width(992) {
+            @include absolute(183, na, na, 27%);
+          }
+
+          @include max-width(580) {
+            display: none
+          }
         }
 
         &.efficiency {
           @include flex-box(row-reverse, space-between, center, na, 10);
           @include absolute(387, na, na, 27%);
           transform: translateX(-50%);
+
+          @include max-width(992) {
+            @include absolute(387, na, na, 25%);
+          }
+
+          @include max-width(768) {
+            @include absolute(387, na, na, 32%);
+          }
+
+          @include max-width(580) {
+            display: none
+          }
         }
 
         &.shopping {
           @include flex-box(row, space-between, center, na, 10);
           @include absolute(183, na, na, 68%);
           transform: translateX(-50%);
+
+          @include max-width(992) {
+            @include absolute(183, na, na, 70%);
+          }
+
+          @include max-width(580) {
+            display: none
+          }
         }
 
         &.market {
           @include flex-box(row, space-between, center, na, 10);
           @include absolute(387, na, na, 72%);
           transform: translateX(-50%);
+
+          @include max-width(992) {
+            @include absolute(387, na, na, 73%);
+          }
+
+          @include max-width(768) {
+            @include absolute(387, na, na, 69%);
+          }
+
+          @include max-width(580) {
+            display: none
+          }
         }
       }
     }
@@ -2342,12 +2491,12 @@
       }
 
       @include max-width(1200) {
-        grid-template-columns: repeat(3, auto);
-      }
-
-      @include max-width(992) {
         grid-template-columns: repeat(2, auto);
       }
+
+      // @include max-width(992) {
+      //   grid-template-columns: repeat(2, auto);
+      // }
 
       @include max-width(576) {
         grid-template-columns: repeat(1, auto);
@@ -2366,16 +2515,16 @@
         }
 
         @include max-width(1200) {
-          @include dimensions(auto, 275);
-        }
-
-        @include max-width(992) {
-          @include dimensions(auto, 307);
-        }
-
-        @include max-width(768) {
           @include dimensions(auto, 100%);
         }
+
+        // @include max-width(992) {
+        //   @include dimensions(auto, 307);
+        // }
+
+        // @include max-width(768) {
+        //   @include dimensions(auto, 100%);
+        // }
 
         background-color: $primary-bg-color;
         border-radius: 15px;
@@ -2859,6 +3008,7 @@
         @include max-width(1720) {
           height: 72px;
         }
+
         @include max-width(1440) {
           // @include typography(16, na, na, na);
           height: auto;
@@ -2881,6 +3031,14 @@
       .section-content {
         @include max-width(1720) {
           height: 75px;
+        }
+
+        @include max-width(1440) {
+          height: 55px;
+        }
+
+        @include max-width(1200) {
+          height: 40px;
         }
 
         @include max-width(768) {
@@ -3073,11 +3231,11 @@
               @include absolute(190, na, na, 139);
             }
 
-            @include max-width(343) {
+            @include max-width(340) {
               @include absolute(190, na, na, 177);
             }
 
-            @include max-width(343) {
+            @include max-width(320) {
               @include absolute(240, na, na, 12);
             }
           }
@@ -4396,7 +4554,7 @@
           width: 1188px;
 
           @include max-width(1200) {
-            width: 700px;
+            width: auto;
           }
 
           @include max-width(768) {
@@ -4408,6 +4566,10 @@
 
         .banner-content {
           width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
 
           @include max-width(768) {
             width: 100%;
@@ -4815,41 +4977,144 @@
         @include absolute(135, na, na, 50%);
         transform: translateX(-50%);
 
+        @include max-width(768) {
+          width: 33%;
+          top: 200px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        @include max-width(480) {
+          top: 230px;
+          width: 170px;
+        }
+
         .banner-gif {
           width: 300px;
           @include absolute(-86, na, na, -50);
+
+          @include max-width(768) {
+            width: 200px;
+            @include absolute(-49, na, na, -20);
+
+          }
+
+          @include max-width(580) {
+            @include absolute(-49, na, na, -40);
+
+          }
+
+          @include max-width(480) {
+            @include absolute(-49, na, na, -40);
+
+          }
         }
       }
 
       .user-box {
         &.ios-app-left {
           @include absolute(385, na, na, 340);
+
+          @include max-width(1440) {
+            @include absolute(385, na, na, 100);
+          }
+
+          @include max-width(992) {
+            @include absolute(385, na, na, 10);
+          }
+
+          @include max-width(580) {
+            @include absolute(150, na, na, 10);
+
+          }
         }
 
         &.ios-app-right {
           @include absolute(385, 330, na, na);
+
+          @include max-width(1440) {
+            @include absolute(385, 100, na, na);
+          }
+
+
+          @include max-width(992) {
+            @include absolute(385, 10, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(200, 10, na, na);
+
+          }
         }
 
         &.ios-app-bottom {
           @include absolute(180, na, na, 390);
+
+
+          @include max-width(1440) {
+            @include absolute(180, na, na, 200);
+          }
+
+          @include max-width(992) {
+            @include absolute(180, na, na, 60);
+          }
+
+          @include max-width(580) {
+            @include absolute(68, na, na, 10);
+          }
         }
 
         &.ai-bot {
           @include absolute(205, 410, na, na);
+
+          @include max-width(1440) {
+            @include absolute(205, 200, na, na);
+          }
+
+          @include max-width(992) {
+            @include absolute(205, 60, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(102, 10, na, na);
+          }
         }
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
       }
 
       .ui-banner-details {
         .banner-heading {
           width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
         }
 
         .banner-content {
           width: 960px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
         }
       }
     }
@@ -4974,10 +5239,18 @@
       .ui-banner-details {
         .banner-heading {
           width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
         }
 
         .banner-content {
           width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
         }
       }
     }
@@ -5015,7 +5288,26 @@
         // transform: translateX(-50%);
         .banner-gif {
           width: 499px;
-          @include absolute(na, 0, na, 0);
+          @include absolute(na, na, na, 0);
+
+          @include max-width(1366) {
+            @include absolute(na, na, na, -72);
+          }
+
+          @include max-width(1200) {
+            width: 414px;
+            @include absolute(31, na, na, -72);
+          }
+
+          @include max-width(992) {
+            width: 360px;
+            @include absolute(98, na, na, -72);
+          }
+
+          @include max-width(768) {
+            width: 300px;
+            @include absolute(140, na, na, -72);
+          }
         }
       }
 
@@ -5031,18 +5323,78 @@
 
         &.ios-app-left {
           @include absolute(385, na, na, 340);
+
+          @include max-width(1720) {
+            @include absolute(385, na, na, 256);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, na, na, 60);
+          }
+
+          @include max-width(992) {
+            @include absolute(175, na, na, 100);
+          }
+
+          @include max-width(768) {
+            @include absolute(175, na, na, 10);
+          }
         }
 
         &.ios-app-right {
           @include absolute(385, 270, na, na);
+
+          @include max-width(1720) {
+            @include absolute(385, 140, na, na);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, 0, na, na);
+
+          }
+
+          @include max-width(992) {
+            @include absolute(175, 60, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(175, 10, na, na);
+          }
         }
 
         &.ios-app-bottom {
           @include absolute(180, na, na, 390);
+
+          @include max-width(1720) {
+            @include absolute(180, na, na, 140);
+          }
+
+          @include max-width(1520) {
+            @include absolute(180, na, na, 20);
+          }
+
+          @include max-width(992) {
+            @include absolute(100, na, na, 20);
+          }
+
         }
 
         &.ai-bot {
           @include absolute(205, 348, na, na);
+
+          @include max-width(1720) {
+            @include absolute(205, 78, na, na);
+          }
+
+          @include max-width(1520) {
+            @include absolute(205, 20, na, na);
+          }
+
+          @include max-width(992) {
+            @include absolute(100, 20, na, na);
+          }
         }
 
         .icon {
@@ -5050,10 +5402,42 @@
           @include flex-box(na, center, center, na, na);
           background-color: $primary-color;
           border-radius: 8px;
+
+          @include max-width(992) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+
+            }
+
+          }
+
+          @include max-width(480) {
+            @include dimensions(30, 30);
+
+            img {
+              @include dimensions(20, 20);
+
+            }
+          }
         }
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(992) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
       }
 
@@ -5486,7 +5870,7 @@
 
         .boxes-wrapper {
           margin: auto;
-          @include flex-box(row, na, na, wrap, 20);
+          @include flex-box(row, center, na, wrap, 20);
           width: 92%;
           margin-top: 67px;
 
@@ -5570,21 +5954,175 @@
 
   .outer-box-custom-sol {
     .ui-banner {
-      .user-box-right {
-        @include absolute(120, 330, na, na);
-      }
-
-      .user-box-left {
-        @include absolute(325, na, na, 320);
-      }
-
       .ui-banner-details {
         .banner-heading {
           width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
         }
 
         .banner-content {
           width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+      }
+
+      .left-line-box {
+        @include max-width(992) {
+          top: -63px;
+          left: -180px;
+
+        }
+
+        @include max-width(385) {
+          top: -21px;
+        }
+      }
+
+      .right-line-box {
+        @include max-width(992) {
+          top: -59px;
+        }
+
+        @include max-width(580) {
+          top: -88px;
+        }
+      }
+
+      .banner-image {
+        @include max-width(1200) {
+          top: 178px;
+          width: 50%;
+        }
+
+        @include max-width(992) {
+          top: 216px;
+          width: 64%;
+        }
+
+        @include max-width(676) {
+          top: 252px;
+        }
+
+        @include max-width(580) {
+          width: 81%;
+          left: 50%;
+        }
+      }
+
+      .user-box-left {
+        @include absolute(325, na, na, 292);
+
+        @include max-width(1720) {
+          @include absolute(200, na, na, 192);
+        }
+
+        @include max-width(1620) {
+          @include absolute(200, na, na, 74);
+        }
+
+        @include max-width(1440) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(992) {
+          @include absolute(164, na, na, 22);
+        }
+
+        @include max-width(580) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(385) {
+          @include absolute(190, na, na, 6);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .user-box-right {
+        @include absolute(102, 240, na, na);
+
+        @include max-width(1720) {
+          @include absolute(127, 207, na, na);
+        }
+
+        @include max-width(1620) {
+          @include absolute(120, 74, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(120, 6, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(173, 52, na, na);
+        }
+
+        @include max-width(580) {
+          @include absolute(120, 6, na, na);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
       }
     }
@@ -5911,25 +6449,69 @@
 
       .mvp-user-box-right {
         @include absolute(285, 430, na, na);
+
+        @include max-width(1720) {
+          @include absolute(285, 355, na, na);
+        }
+
+        @include max-width(1620) {
+          @include absolute(328, 113, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(328, 33, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(208, 33, na, na);
+        }
       }
 
       .mvp-user-box-left {
         @include absolute(330, na, na, 265);
+
+        @include max-width(1620) {
+          @include absolute(213, na, na, 46);
+        }
+
+        @include max-width(1440) {
+          @include absolute(213, na, na, 0);
+        }
+
+        @include max-width(580) {
+          @include absolute(118, na, na, 19);
+
+        }
       }
 
       .mvp-banner-image {
         @include absolute(240, na, na, 50%);
         transform: translateX(-50%);
+
+        @include max-width(580) {
+          @include absolute(350, na, na, 60%);
+
+        }
       }
 
       .mvp-banner-image-1 {
         @include absolute(145, na, na, 51%);
         transform: translateX(-50%);
+
+        @include max-width(580) {
+          @include absolute(260, na, na, 50%);
+
+        }
       }
 
       .mvp-banner-image-2 {
         @include absolute(72, na, na, 39%);
         transform: translateX(-50%);
+
+        @include max-width(580) {
+          @include absolute(140, na, na, 39%);
+
+        }
       }
 
       .mvp-banner-details {
@@ -6109,6 +6691,19 @@
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
       }
 
@@ -6152,7 +6747,20 @@
         }
 
         span {
-          @include typography(16, 24, 600, #d9d9d9);
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
 
         .logo-box {
@@ -7037,14 +7645,37 @@
     .ed-banner {
       .ed-banner-heading {
         width: 900px;
+
+        @include max-width(1200) {
+          width: auto;
+        }
       }
 
       .ed-banner-content {
         width: 1020px;
+
+        @include max-width(1200) {
+          width: auto;
+        }
       }
 
       .banner-image {
         @include absolute(225, na, na, 50%);
+
+        @include max-width(992) {
+          width: 272px;
+          @include absolute(na, na, na, 50%);
+        }
+
+        @include max-width(580) {
+          top: 262px;
+          width: 500px
+        }
+
+        @include max-width(480) {
+          top: 296px;
+          width: 400px;
+        }
       }
 
       .banner-blur-circle-1 {
@@ -7056,6 +7687,18 @@
         @include absolute(100, na, na, 50%);
         transform: translateX(-50%);
         border: 1px solid $border-section-4-ai-ml-page;
+
+        @include max-width(992) {
+          @include dimensions(550, 550);
+        }
+
+        @include max-width(768) {
+          @include dimensions(368, 368);
+        }
+
+        @include max-width(580) {
+          display: none;
+        }
       }
 
       .ed-inner-box {
@@ -7064,9 +7707,26 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
+        @include max-width(992) {
+          width: 1440px;
+        }
+
+        @include max-width(768) {
+          width: 1104px;
+        }
+
         .img-circle {
           @include dimensions(61, 61);
           @include flex-box(na, center, center, na, na);
+
+          @include max-width(768) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+
+            }
+          }
         }
 
         .light-circle {
@@ -7077,6 +7737,15 @@
         .dark-circle {
           @include dimensions(47, 47);
           background-color: $primary-text-color;
+
+          @include max-width(768) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+
+            }
+          }
         }
 
         .chair-n-bag {
@@ -7084,11 +7753,26 @@
           padding: 0 6px;
           border-radius: 36px;
 
+          @include max-width(992) {
+            width: 291px;
+            height: auto;
+            padding: 4px;
+          }
+
+          @include max-width(580) {
+            display: none
+          }
+
           &.cb-top {
             background: $border-section-iv-top-ai-ml-page;
             @include flex-box(row, space-between, center, na, na);
             @include absolute(100, na, na, 50%);
             transform: translateX(-50%);
+
+            @include max-width(580) {
+              display: none !important;
+            }
+
           }
 
           &.cb-left {
@@ -7096,6 +7780,10 @@
             @include flex-box(row, end, center, na, na);
             @include absolute(277, na, na, 22%);
             transform: translateX(-50%);
+
+            @include max-width(580) {
+              @include absolute(100, na, na, 29%);
+            }
           }
 
           &.cb-right {
@@ -7103,34 +7791,85 @@
             @include flex-box(row, start, center, na, na);
             @include absolute(277, na, na, 78%);
             transform: translateX(-50%);
+
+            @include max-width(580) {
+              @include absolute(100, na, na, 72%);
+
+            }
           }
         }
 
         .logo-n-label {
           width: fit-content;
 
+          .label {
+            @include max-width(768) {
+              font-size: 12px
+            }
+          }
+
           &.management {
             @include flex-box(row-reverse, space-between, center, na, 10);
             @include absolute(183, na, na, 31%);
             transform: translateX(-50%);
+
+            @include max-width(992) {
+              @include absolute(183, na, na, 27%);
+            }
+
+            @include max-width(580) {
+              display: none
+            }
           }
 
           &.efficiency {
             @include flex-box(row-reverse, space-between, center, na, 10);
             @include absolute(387, na, na, 27%);
             transform: translateX(-50%);
+
+            @include max-width(992) {
+              @include absolute(387, na, na, 25%);
+            }
+
+            @include max-width(768) {
+              @include absolute(387, na, na, 32%);
+            }
+
+            @include max-width(580) {
+              display: none
+            }
           }
 
           &.shopping {
             @include flex-box(row, space-between, center, na, 10);
             @include absolute(183, na, na, 68%);
             transform: translateX(-50%);
+
+            @include max-width(992) {
+              @include absolute(183, na, na, 70%);
+            }
+
+            @include max-width(580) {
+              display: none
+            }
           }
 
           &.market {
             @include flex-box(row, space-between, center, na, 10);
             @include absolute(387, na, na, 72%);
             transform: translateX(-50%);
+
+            @include max-width(992) {
+              @include absolute(387, na, na, 73%);
+            }
+
+            @include max-width(768) {
+              @include absolute(387, na, na, 69%);
+            }
+
+            @include max-width(580) {
+              display: none
+            }
           }
         }
       }
@@ -7220,8 +7959,17 @@
         border: 1px solid $border-section-iv-top-ai-ml-page;
         padding: 30px;
 
+        @include max-width(992) {
+          flex-direction: column;
+          gap: 30px;
+        }
+
         .box {
           width: 30%;
+
+          @include max-width(992) {
+            width: 100%;
+          }
 
           .logo-n-heading {
             @include flex-box(row, start, center, na, 10);
@@ -7237,6 +7985,15 @@
             transform: translate(-50%, -50%);
             @include dimensions(129, 1);
             background-color: $secondry-text-color;
+
+            @include max-width(1440) {
+              right: -22px;
+            }
+
+            @include max-width(992) {
+              display: none;
+
+            }
           }
         }
       }
@@ -7250,11 +8007,29 @@
     .ed-banner {
       .ed-banner-heading {
         width: 1365px;
+
+        @include max-width(1200) {
+          width: auto;
+        }
       }
 
       .banner-image {
         width: 400px;
         @include absolute(170, na, na, 50%);
+
+        @include max-width(992) {
+          width: 320px;
+          @include absolute(220, na, na, 50%);
+
+        }
+
+        @include max-width(768) {
+          width: 224px;
+        }
+
+        @include max-width(580) {
+          width: 311px;
+        }
       }
     }
 
@@ -7346,6 +8121,10 @@
           border: 1px solid $border-section-4-ai-ml-page;
           background-color: $secondry-color;
 
+          @include max-width(1440) {
+            flex-direction: column;
+          }
+
           .upper-circle {
             @include absolute(-362, 15%, na, na);
             background-color: $banner-left-circle-bg-color;
@@ -7370,6 +8149,19 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 26px;
 
+            @include max-width(1440) {
+              gap: 16px;
+            }
+
+            @include max-width(992) {
+              gap: 10px;
+            }
+
+            @include max-width(580) {
+            grid-template-columns: repeat(1, 1fr);
+              gap: 0px;
+            }
+
             li {
               @include typography(18, na, 500, $primary-text-color);
               display: inline-block;
@@ -7377,6 +8169,15 @@
               line-height: 27px;
               position: relative;
               @include flex-box(row, na, center, na, 10);
+
+              @include max-width(1440) {
+                @include typography(14, na, 500, $primary-text-color);
+              }
+
+              @include max-width(992) {
+                @include typography(12, na, 500, $primary-text-color);
+
+              }
 
               .light-circle {
                 @include dimensions(18, 18);
@@ -7416,11 +8217,29 @@
 
       .ed-banner-heading {
         width: 1365px;
+
+        @include max-width(1200) {
+          width: auto;
+        }
       }
 
       .banner-image {
         width: auto;
         @include absolute(150, na, na, 50%);
+
+        @include max-width(992) {
+          width: 400px;
+          top: 200px;
+        }
+
+        @include max-width(768) {
+          width: 300px;
+        }
+
+        @include max-width(580) {
+          width: 400px;
+          top: 235px;
+        }
       }
     }
 
@@ -7456,6 +8275,10 @@
       .digital-transformation {
         .left-part {
           padding: 0 84px 0 84px;
+
+          @include max-width(992) {
+            padding: 40px;
+          }
         }
       }
     }
@@ -7468,14 +8291,31 @@
           box-shadow: 0px 20px 80px 0px #0000000D;
           @include flex-box(column, na, na, na, 25);
 
+          @include max-width(992) {
+            padding: 20px
+          }
+
           .inner-box {
             @include flex-box(row, space-between, center, na, 20);
             background-color: $primary-bg-color;
             border-radius: 15px;
 
-            .heading {
-              @include typography(24, 36, 600, $primary-text-color);
-              margin: 0 0 10px 0;
+            @include max-width(992) {
+              flex-direction: column;
+              padding: 20px;
+            }
+
+            // .heading {
+            //   @include typography(24, 36, 600, $primary-text-color);
+            //   margin: 0 0 10px 0;
+            // }
+
+            img {
+              width: 70%;
+
+              @include max-width(992) {
+                width: 100%;
+              }
             }
           }
         }
@@ -7505,11 +8345,23 @@
 
       .ed-banner-heading {
         width: 1365px;
+
+        @include max-width(1366) {
+          width: auto;
+        }
       }
 
       .banner-image {
         width: auto;
         @include absolute(180, na, na, 50%);
+
+        @include max-width(768) {
+          width: 300px;
+        }
+
+        @include max-width(580) {
+          top: 255px;
+        }
       }
     }
 
@@ -7591,6 +8443,22 @@
       .img-inside-img {
         width: auto;
         @include absolute(250, na, na, 46%);
+
+        @include max-width(1200) {
+          left: 45%;
+        }
+
+        @include max-width(992) {
+          left: 43%;
+        }
+
+        @include max-width(768) {
+          left: 41%;
+        }
+
+        @include max-width(580) {
+          left: 39%;
+        }
       }
 
       .user-box {
@@ -7607,11 +8475,19 @@
           @include absolute(180, na, na, 580);
 
           @include max-width(1720) {
-            @include absolute(310, na, na, 370);
+            @include absolute(155, na, na, 370);
           }
 
           @include max-width(1440) {
-            @include absolute(330, na, na, 240);
+            @include absolute(155, na, na, 240);
+          }
+
+          @include max-width(1094) {
+            @include absolute(155, na, na, 101);
+          }
+
+          @include max-width(768) {
+            @include absolute(155, na, na, 10);
           }
         }
 
@@ -7619,11 +8495,19 @@
           @include absolute(400, na, na, 580);
 
           @include max-width(1720) {
-            @include absolute(310, na, na, 370);
+            @include absolute(400, na, na, 370);
           }
 
           @include max-width(1440) {
-            @include absolute(330, na, na, 240);
+            @include absolute(400, na, na, 240);
+          }
+
+          @include max-width(1094) {
+            @include absolute(400, na, na, 101);
+          }
+
+          @include max-width(768) {
+            @include absolute(400, na, na, 10);
           }
         }
 
@@ -7637,29 +8521,71 @@
           @include max-width(1440) {
             @include absolute(155, 290, na, na);
           }
+
+          @include max-width(1094) {
+            @include absolute(155, 153, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(155, 10, na, na);
+          }
+
+          @include max-width(480) {
+            @include absolute(80, 10, na, na);
+          }
         }
 
         &.user-exp2 {
           @include absolute(400, 630, na, na);
 
           @include max-width(1720) {
-            @include absolute(155, 410, na, na);
+            @include absolute(400, 410, na, na);
           }
 
           @include max-width(1440) {
-            @include absolute(155, 290, na, na);
+            @include absolute(400, 290, na, na);
+          }
+
+          @include max-width(1094) {
+            @include absolute(400, 153, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(400, 10, na, na);
+          }
+
+          @include max-width(480) {
+            @include absolute(331, 10, na, na);
           }
         }
+
 
         .icon {
           @include dimensions(47, 47);
           @include flex-box(na, center, center, na, na);
           background-color: $primary-color;
           border-radius: 23px;
+
+          @include max-width(768) {
+            @include dimensions(40, 40);
+          }
         }
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
         }
       }
 
@@ -7704,6 +8630,15 @@
 
         span {
           @include typography(16, 24, 600, #d9d9d9);
+
+          @include max-width(768) {
+            @include typography(12, 24, 600, #d9d9d9);
+
+          }
+
+          @include max-width(576) {
+            @include typography(9, 24, 600, #d9d9d9);
+          }
         }
 
         .logo-box {
@@ -7824,7 +8759,7 @@
 
         .boxes-wrapper {
           margin: auto;
-          @include flex-box(row, na, na, wrap, 20);
+          @include flex-box(row, center, na, wrap, 20);
           width: 92%;
           margin-top: 67px;
 
@@ -7852,6 +8787,10 @@
             background-color: $secondry-color;
             border-radius: 16px;
             margin-top: 30px;
+
+            @include max-width(1440) {
+              width: 45%;
+            }
 
             @include max-width(900) {
               @include dimensions(auto, 600);
@@ -8704,12 +9643,504 @@
 
   .outer-box-appmod-page {
     .ui-banner {
+      .ui-banner-details {
+        .banner-heading {
+          width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+
+        .banner-content {
+          width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+      }
+
+      .left-line-box {
+        @include max-width(992) {
+          top: -63px;
+          left: -84px;
+
+        }
+
+        @include max-width(385) {
+          top: -21px;
+        }
+      }
+
+      .right-line-box {
+        @include max-width(992) {
+          top: -59px;
+        }
+
+        @include max-width(580) {
+          top: -88px;
+          right: -204px;
+        }
+      }
+
+      .banner-image {
+        @include max-width(1200) {
+          top: 178px;
+          width: 50%;
+        }
+
+        @include max-width(992) {
+          top: 216px;
+          width: 64%;
+        }
+
+        @include max-width(676) {
+          top: 252px;
+        }
+
+        @include max-width(580) {
+          width: 81%;
+          left: 50%;
+        }
+      }
+
       .user-box-left {
-        @include absolute(360, na, na, 260);
+        @include absolute(371, na, na, 224);
+
+        // @include max-width(1720) {
+        //   @include absolute(200, na, na, 192);
+        // }
+
+        @include max-width(1620) {
+          @include absolute(200, na, na, 74);
+        }
+
+        @include max-width(1440) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(992) {
+          @include absolute(164, na, na, 22);
+        }
+
+        @include max-width(580) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(385) {
+          @include absolute(190, na, na, 6);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
       }
 
       .user-box-right {
-        @include absolute(270, 425, na, na);
+        @include absolute(290, 369, na, na);
+
+        // @include max-width(1720) {
+        //   @include absolute(127, 207, na, na);
+        // }
+
+        @include max-width(1620) {
+          @include absolute(120, 74, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(120, 6, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(173, 52, na, na);
+        }
+
+        @include max-width(580) {
+          @include absolute(120, 6, na, na);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+    }
+  }
+
+  /*********************[][][][][][]*********************DIGITAL TRANSFORMATION *******************[][][][][][]********************/
+
+
+  .outer-box-digital-transformation {
+    .ui-banner {
+      .ui-banner-details {
+        .banner-heading {
+          width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+
+        .banner-content {
+          width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+      }
+
+      .left-line-box {
+        @include max-width(992) {
+          top: -63px;
+          left: -84px;
+
+        }
+
+        @include max-width(385) {
+          top: -21px;
+        }
+      }
+
+      .right-line-box {
+        @include max-width(992) {
+          top: -59px;
+        }
+
+        @include max-width(580) {
+          top: -88px;
+          right: -204px;
+        }
+      }
+
+      .banner-image {
+        @include max-width(1200) {
+          top: 178px;
+          width: 50%;
+        }
+
+        @include max-width(992) {
+          top: 216px;
+          width: 64%;
+        }
+
+        @include max-width(676) {
+          top: 252px;
+        }
+
+        @include max-width(580) {
+          width: 81%;
+          left: 50%;
+        }
+      }
+
+      .user-box-left {
+        @include absolute(371, na, na, 224);
+
+        // @include max-width(1720) {
+        //   @include absolute(200, na, na, 192);
+        // }
+
+        @include max-width(1620) {
+          @include absolute(200, na, na, 74);
+        }
+
+        @include max-width(1440) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(992) {
+          @include absolute(164, na, na, 22);
+        }
+
+        @include max-width(580) {
+          @include absolute(144, na, na, 6);
+        }
+
+        @include max-width(385) {
+          @include absolute(190, na, na, 6);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .user-box-right {
+        @include absolute(290, 369, na, na);
+
+        // @include max-width(1720) {
+        //   @include absolute(127, 207, na, na);
+        // }
+
+        @include max-width(1620) {
+          @include absolute(120, 74, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(120, 6, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(173, 52, na, na);
+        }
+
+        @include max-width(580) {
+          @include absolute(120, 6, na, na);
+        }
+
+        .banner-icon {
+          @include max-width(992) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(992) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+    }
+  }
+
+
+  /*********************[][][][][][]*********************MOBILE APP CONSULTING *******************[][][][][][]********************/
+
+  .outer-box-mobile-page {
+    .ui-banner {
+      .ui-banner-details {
+        .banner-heading {
+          width: 1188px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+
+        .banner-content {
+          width: 649px;
+
+          @include max-width(1200) {
+            width: auto;
+          }
+        }
+      }
+
+      .left-line-box {
+        @include max-width(580) {
+          top: -63px;
+          left: -205px;
+
+        }
+      }
+
+      .right-line-box {
+        @include max-width(992) {
+          top: -59px;
+        }
+
+        @include max-width(580) {
+          top: -88px;
+
+        }
+      }
+
+      .banner-image {
+        @include max-width(992) {
+          transform: translateX(-38%);
+        }
+
+        @include max-width(768) {
+          transform: translateX(-31%);
+        }
+
+        @include max-width(580) {
+          top: 191px;
+        }
+      }
+
+      .user-box-left {
+
+        @include max-width(1200) {
+          @include absolute(330, na, na, 173);
+        }
+
+        @include max-width(992) {
+          @include absolute(236, na, na, 63);
+        }
+
+        @include max-width(580) {
+          @include absolute(144, na, na, 6);
+        }
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .user-box-right {
+        @include max-width(1200) {
+          @include absolute(127, 207, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(194, 9, na, na);
+        }
+
+        @include max-width(580) {
+          @include absolute(120, 9, na, na);
+        }
+
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
       }
     }
   }

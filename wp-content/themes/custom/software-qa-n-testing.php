@@ -78,16 +78,16 @@ Template Name: Software QA and Testing Page
 
         <div class="quality-assurance mt-120 wds m-auto">
             <p class="section-heading m-auto mt-0 mb-16 tx-center"><?php the_field('st_section_3_mainheading')?></p>
-            <p class="inner-content m-auto mt-0 mb-40 tx-center"><?php the_field('st_section_3_content')?></p>
+            <p class="card-content m-auto mt-0 mb-40 tx-center"><?php the_field('st_section_3_content')?></p>
             <div class="boxes">
                 <div class="box">
                     <div class="logo-n-heading mb-16">
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/st-b1.svg" alt="">
                         </div>
-                        <p class="heading">Managed QA Testing Services</p>
+                        <p class="card-title">Managed QA Testing Services</p>
                     </div>
-                    <p class="inner-content">Effective QA testing is both an art and science that demands a continually upskilled team to produce the best
+                    <p class="card-content">Effective QA testing is both an art and science that demands a continually upskilled team to produce the best
                          possible outcomes. Integrate our experienced quality assurance testing pros into your software development lifecycle for embedded,
                           state-of-the-art testing using either our proprietary testing processes, your internal approach, or both.</p>
                 </div>
@@ -96,9 +96,9 @@ Template Name: Software QA and Testing Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/st-b2.svg" alt="">
                         </div>
-                        <p class="heading">Quality Audit</p>
+                        <p class="card-title">Quality Audit</p>
                     </div>
-                    <p class="inner-content">Smart QA practices include proactive identification of vulnerabilities and other points of friction in the user
+                    <p class="card-content">Smart QA practices include proactive identification of vulnerabilities and other points of friction in the user
                          journey. As a leading Software Testing Company, we conduct comprehensive, one-time quality audits for businesses worldwide, 
                          customizing the process to fit your requirements in assessing a specific project or environment.</p>
                 </div>
@@ -107,9 +107,9 @@ Template Name: Software QA and Testing Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/st-b3.svg" alt="">
                         </div>
-                        <p class="heading">Customized QA Consulting</p>
+                        <p class="card-title">Customized QA Consulting</p>
                     </div>
-                    <p class="inner-content">For enterprises with the need for expert, independent QA testing services, we are happy to create custom software
+                    <p class="card-content">For enterprises with the need for expert, independent QA testing services, we are happy to create custom software
                          testing services. Our seasoned software QA consultants have expertise in immersive research and analysis. With that in-depth
                           understanding of user behavior, they can devise a bespoke implementation process to support your company in releasing quality
                            products.</p>
@@ -120,9 +120,9 @@ Template Name: Software QA and Testing Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/st-b4.svg" alt="">
                         </div>
-                        <p class="heading">Test Cases Production</p>
+                        <p class="card-title">Test Cases Production</p>
                     </div>
-                    <p class="inner-content">Even if you have an in-house development team, quality assurance testing is a specialized area that requires 
+                    <p class="card-content">Even if you have an in-house development team, quality assurance testing is a specialized area that requires 
                         up-to-date knowledge of the most recent innovations and approaches. When you work with our QA testing services company, you empower
                          your internal quality processes with high-quality test cases written by our professional software QA consultants.</p>
                 </div>
@@ -131,9 +131,9 @@ Template Name: Software QA and Testing Page
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri()?>/images/st-b5.svg" alt="">
                         </div>
-                        <p class="heading">Project-specific Software Testing Services</p>
+                        <p class="card-title">Project-specific Software Testing Services</p>
                     </div>
-                    <p class="inner-content">Whether you’re launching a new digital product or putting an existing one through the paces, our software testing
+                    <p class="card-content">Whether you’re launching a new digital product or putting an existing one through the paces, our software testing
                          company provides a broad spectrum of independent, project-specific quality assurance testing options. We’ll help you ensure top
                           performance and compatibility, identify security weaknesses, and validate functionality for the best results.</p>
                 </div>
@@ -145,7 +145,7 @@ Template Name: Software QA and Testing Page
             <div class="box-before"></div>
             <div class="testing-services p-rel wds m-auto">
                 <p class="section-heading m-auto mt-0 mb-16 tx-center"><?php the_field('st_section_4_mainheading')?></p>
-                <p class="inner-content m-auto mt-0 mb-40 tx-center"><?php the_field('st_section_4_content')?></p>
+                <p class="card-content m-auto mt-0 mb-40 tx-center"><?php the_field('st_section_4_content')?></p>
                 <div class="listing-n-img o-h p-rel">
                     <div class="br-50 upper-circle"></div>
                     <div class="br-50 lower-circle"></div>

@@ -67,7 +67,7 @@ Template Name: Mobile App Consulting Page
             <img src="<?php echo get_template_directory_uri()?>/images/Ellipse 60 (1).svg" alt="" class="left-side">
             <div class="ios-app-circle1 z-0"></div>
             <h3 class="large-text mb-10 margin-0 z-1"><?php the_field('mobile_section_2_mainheading')?></h3>
-            <p class="normal-text inner-content tx-center mb-32 z-1"><?php the_field('mobile_section_2_content')?></p>
+            <p class="normal-text card-content tx-center mb-32 z-1"><?php the_field('mobile_section_2_content')?></p>
             <button class="primary-button z-1">CONTACT US</button>
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 12 (2).svg" alt="" class="z-img2 z-1">
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (9).svg" alt="" class="z-img3 z-1">
