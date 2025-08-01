@@ -87,7 +87,7 @@ Template Name: Database Development Page
     </div>
 </div>
 
-<div class="cs-digital-transform-wrapper">
+<div class="cs-digital-transform-wrapper wds m-auto">
     <div class="overley"></div>
     <div class="digital-transformation m-auto p-rel">
         <div class="right-part">
@@ -151,7 +151,7 @@ Template Name: Database Development Page
     <button class="primary-button p-rel z-1 m-auto">CONTACT US</button>
 </div>
 
-<div class="cs-digital-transform-wrapper">
+<div class="cs-digital-transform-wrapper wds m-auto">
     <div class="digital-transformation m-auto p-rel">
         <div class="right-part">
             <img src="<?php echo get_template_directory_uri() ?>/images/dd-s-img.svg" alt="">

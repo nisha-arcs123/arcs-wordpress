@@ -12,8 +12,8 @@ Template Name: Contact Us
         <div class="z-1 banner-blur-circle-1"></div>
         <div class="z-0 banner-circle-border br-50"></div>
         <div class="ed-banner-details banner-details z-2">
-            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center">Get in Touch with Our Team</h1>
-            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center">We follow an agile approach to deliver compelling UI/UX designs that are research-backed and result in maximum user interaction.</p>
+            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_heading'); ?></h1>
+            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_content'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
@@ -21,7 +21,7 @@ Template Name: Contact Us
 
     <div class="form-container wds m-auto">
         <p class="header-text">Contact us</p>
-        <h1 class="main-title">Join Us Creating<br>Something Great</h1>
+        <h1 class="main-title"><?php echo the_field('contact_form_heading'); ?></h1>
         <div class="contact-section">
             <div class="form-container left-box">
                 <form id="contactForm">
@@ -104,7 +104,7 @@ Template Name: Contact Us
 
 
     <div class="map-section">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.71841584775!2d76.72728917638348!3d30.670056774614622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef724f4664b1%3A0x5cf04152a26499fa!2sArcs%20Infotech!5e0!3m2!1smr!2sin!4v1754026497274!5m2!1smr!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13726.873730825379!2d76.7195644!3d30.6700563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef724f4664b1%3A0x5cf04152a26499fa!2sArcs%20Infotech!5e0!3m2!1sen!2sin!4v1754034989150!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 

@@ -147,7 +147,7 @@ Template Name: Dedicated Development Team Page
     </div>
 
 
-    <div class="digital-transform-wrapper">
+    <div class="digital-transform-wrapper wds m-auto">
         <div class="overley"></div>
         <div class="digital-transformation m-auto p-rel">
             <div class="left-part p-rel">

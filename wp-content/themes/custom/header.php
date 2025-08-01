@@ -145,6 +145,17 @@
     });
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const burger = document.getElementById("burger");
+    const menu = document.getElementById("menu");
+
+    burger.addEventListener("click", () => {
+      burger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+  });
+</script>
 
 <body class="margin-0 padding-0">
     <div class="header-wrapper w-full p-fx">
@@ -152,7 +163,7 @@
             <div class="logo">
                 <img src="<?php echo get_template_directory_uri() ?>/images/arcs-logo-III.svg" alt="Site Logo" />
             </div>
-            <ul class="navbar padding-0">
+            <ul class="navbar padding-0" id="menu">
                 <li class="nav-items">
                     <a href="<?php echo home_url('/'); ?>">HOME</a>
                 </li>
@@ -163,7 +174,7 @@
                     <a href="#">TEHNOLOGY</a>
                 </li>
                 <li class="nav-items">
-                    <a href="<?php echo home_url('/expertise-page/'); ?>"> EXPERTISE</a>
+                    <a href="<?php echo home_url('/expertise-page/'); ?>"> CASE STUDY</a>
                 </li>
                 <li class="nav-items">
                     <a href="<?php echo home_url('/about-us/'); ?>">ABOUT US</a>
@@ -174,10 +185,11 @@
                     </button>
                 </li>
             </ul>
-            <img
-                class="burger-btn"
-                src="<?php echo get_template_directory_uri() ?>/images/burger-button.svg"
-                alt="" />
+            <div class="burger-btn" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
 
@@ -455,7 +467,7 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C6.55228 3 7 3.44772 7 4V16C7 16.5523 6.55228 17 6 17C5.44772 17 5 16.5523 5 16V4C5 3.44772 5.44772 3 6 3ZM18 5C18.5523 5 19 5.44772 19 6V16C19 16.5523 18.5523 17 18 17C17.4477 17 17 16.5523 17 16V6C17 5.44772 17.4477 5 18 5ZM14 11C14.5523 11 15 11.4477 15 12V16C15 16.5523 14.5523 17 14 17C13.4477 17 13 16.5523 13 16V12C13 11.4477 13.4477 11 14 11ZM11 8C11 7.44772 10.5523 7 10 7C9.44772 7 9 7.44772 9 8V16C9 16.5523 9.44772 17 10 17C10.5523 17 11 16.5523 11 16V8Z" fill="#12131A" />
                             </svg>
                         </div>
-                       
+
                         <a class="label-name" href="<?php echo home_url("software-qa-and-testing") ?>">Software qA & Testing</a>
                         <svg preserveAspectRatio="xMinYMin" class="arrow" width="33" height="15" viewBox="0 0 33 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path class="horizontal-part" d="M0 7.69189L30.5 7.6919" stroke="#EBEBEB" stroke-width="2" />
@@ -480,7 +492,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        
+
                         <a class="label-name" href="<?php echo home_url("devops-and-cloud") ?>">DevOps & cloud</a>
                         <svg preserveAspectRatio="xMinYMin" class="arrow" width="33" height="15" viewBox="0 0 33 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path class="horizontal-part" d="M0 7.69189L30.5 7.6919" stroke="#EBEBEB" stroke-width="2" />

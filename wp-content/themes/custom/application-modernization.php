@@ -35,7 +35,7 @@ Template Name: Application Modernization Page
             </div>
             <span>Add to Cart Button</span>
         </div>
-        <img class="z-1 banner-image" src="<?php echo get_template_directory_uri()?>/images/Spendings.svg" alt="">
+        <img class="z-1 banner-image" src="<?php echo get_template_directory_uri()?>/images/appmodern.svg" alt="">
         <div class="banner-blur-circle-1"></div>
         <div class="ui-banner-details banner-details z-2">
             <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('am_banner_mainheading')?></h1>
@@ -132,7 +132,7 @@ Template Name: Application Modernization Page
     </div>
 
 
-    <div class="mb-120 cs-digital-transform-wrapper">
+    <div class="mb-120 cs-digital-transform-wrapper wds m-auto">
       <div class="overley"></div>
       <div class="digital-transformation m-auto p-rel">
           <div class="right-part">

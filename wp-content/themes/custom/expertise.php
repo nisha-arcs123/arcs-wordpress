@@ -50,7 +50,7 @@ Template Name: Expertise page
             </div>
         </div>
 
-        <div class="cs-digital-transform-wrapper">
+        <div class="cs-digital-transform-wrapper wds m-auto">
             <div class="digital-transformation m-auto p-rel">
                 <div class="right-part">
                     <img src="<?php echo get_template_directory_uri()?>/images/st-banner-s3.svg" alt="">

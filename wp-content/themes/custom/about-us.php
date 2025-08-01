@@ -12,8 +12,8 @@ Template Name: About Us
         <div class="z-1 banner-blur-circle-1"></div>
         <div class="z-0 banner-circle-border br-50"></div>
         <div class="ed-banner-details banner-details z-2">
-            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center">The Right Products, Built Right.</h1>
-            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center">We help your business thrive with transformative software development.</p>
+            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_heading'); ?></h1>
+            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_content'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
@@ -21,7 +21,7 @@ Template Name: About Us
 
     <div class="services-we-offer wds m-auto mt-120">
         <p class="section-title m-auto w-fc tx-center">Why Choose us</p>
-        <p class="section-heading mb-20 mt-12 tx-center">What Sets Us Apart?</p>
+        <p class="section-heading mb-20 mt-0 tx-center">What Sets Us Apart?</p>
         <p class="section-content mb-40 tx-center">To amplify human potential and create the next opportunity for people, businesses and communities</p>
         <div class="boxes-wrapper wds m-auto">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
@@ -62,11 +62,11 @@ Template Name: About Us
 
 
     <div class="our-purpose">
-        <p class="section-title m-auto w-fc tx-center">Who We Are</p>
-        <p class="section-heading mb-20 mt-12 tx-center">Our Purpose</p>
-        <p class="section-content mb-40 tx-center">To amplify human potential and create the next opportunity for people, businesses and communities</p>
+        <p class="section-title m-auto w-fc tx-center"><?php echo the_field('purpose_subheading'); ?></p>
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('purpose_subheading'); ?></p>
+        <p class="section-content mb-40 tx-center"><?php echo the_field('purpose_content'); ?></p>
 
-            
+        
         <iframe width="100%" height="569" src="https://www.youtube.com/embed/ersvmVHi-ZU?si=GKMkU9O3v-LpSFhI" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
@@ -77,7 +77,7 @@ Template Name: About Us
             </div>
             <div class="text-section o-h p-rel">
                 <div class="section">
-                    <p class="section-title mt-0 mb-12">Who We Are</p>
+                    <p class="section-title mt-0 mb-12"><?php echo the_field('who_we_are'); ?></p>
                     <h2 class="section-heading mb-20 mt-0 z-1 p-rel">Overview</h2>
                     <p class="card-content mt-0 mb-4">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                     <p class="card-content mt-0 mb-16">When you work with us, you can count on:</p>
@@ -96,9 +96,9 @@ Template Name: About Us
 
 
     <div class="services-we-offer wds m-auto">
-        <p class="section-title m-auto w-fc tx-center">Why Opt for a Dedicated Development Team?</p>
-        <p class="section-heading mb-20 mt-12 tx-center">Core Values</p>
-        <p class="section-content mb-40 tx-center">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p class="section-title m-auto w-fc tx-center"><?php echo the_field('core_value_subheading'); ?></p>
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('core_value_heading'); ?></p>
+        <p class="section-content mb-40 tx-center"><?php echo the_field('core_value_content'); ?></p>
         <div class="boxes-wrapper wds m-auto">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
@@ -138,9 +138,9 @@ Template Name: About Us
 
 
     <div class="team-of-experts wds m-auto">
-        <p class="section-title m-auto w-fc tx-center">our team</p>
-        <p class="section-heading mb-20 mt-12 tx-center">Our Team of Experts</p>
-        <p class="section-content mb-40 tx-center">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p class="section-title m-auto w-fc tx-center"><?php echo the_field('our_team_subheading'); ?></p>
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('our_team_heading'); ?></p>
+        <p class="section-content mb-40 tx-center"><?php echo the_field('our_team_content'); ?></p>
 
         <div class="teams-container">
             <div class="team-member">

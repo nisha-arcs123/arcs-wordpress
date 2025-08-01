@@ -142,7 +142,7 @@ Template Name: Ecommerce Development Page
 
         </div>
 
-        <div class="mb-120 cs-digital-transform-wrapper">
+        <div class="mb-120 cs-digital-transform-wrapper wds m-auto">
             <div class="overley"></div>
             <div class="digital-transformation m-auto p-rel">
                 <div class="right-part">

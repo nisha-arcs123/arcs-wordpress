@@ -47,15 +47,16 @@ Template Name:Web App Development Page
     <img class="mouse-gif" src="<?php echo get_template_directory_uri(); ?>/images/mouse-gif.gif" alt="" />
 
     <span class="section-title mb-20">
-      Why Develop Web Applications?
+      <?php echo the_field('why_develop_web_app'); ?>
     </span>
 
     <h1 class="section-heading mb-12 mt-0 wwd-heading">
-      Web Application Development Harnessing Business Credibility
+      <?php echo the_field('web_app_harnessing'); ?>
+
     </h1>
 
     <p class="section-content mb-12">
-      Web app development services provide your users to explore and experience your expertise. From establishing itself as a brand, a business can relentlessly sustain itself in the market with its ideas and solutions, being the Paradigm for marketing and contributing to brand reputation. Acting on new technologies, Sparkout Tech curates Web app solutions to reform your business.
+      <?php echo the_field('web_app_content_harnessing'); ?>
     </p>
 
     <div class="boxes-wrapper mt-40">
@@ -123,9 +124,9 @@ Template Name:Web App Development Page
 
   <div class="kf-wrapper">
     <div class="key-features wds m-auto">
-      <p class="section-title mt-0 mb-12">Key Features </p>
-      <p class="section-heading mt-0 mb-20">Custom web applications by Arcs Infotech are</p>
-      <p class="section-content kf-main-content mt-0 mb-40">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p class="section-title mt-0 mb-12"><?php echo the_field('key_featured_sub_heading'); ?></p>
+      <p class="section-heading mt-0 mb-20"><?php echo the_field('key_feature_heading'); ?></p>
+      <p class="section-content kf-main-content mt-0 mb-40"><?php echo the_field('key_feature_content'); ?></p>
       <div class="kf-boxes-wrapper">
         <div class="kf-box padding-20 bx-border-box">
           <p class="box-heading mt-0 mb-0"><span>01</span>Stable</p>
@@ -173,9 +174,9 @@ Template Name:Web App Development Page
         <div class="rectangles rectangle-4"></div>
       </div>
       <div class="title-n-heading p-rel z-1">
-        <span class="section-title mb-12">web app development services to provide </span>
-        <h1 class="section-heading mt-8 mb-20">Web application development offerings</h1>
-        <p class="section-content">Being a custom web application development company, we offer web app development services to provide any business type or industry with unique web products. With customized software solutions, we help companies gain users’ trust and turn website visitors into paying customers.</p>
+        <span class="section-title mb-12"><?php echo the_field('service_provide_subheading'); ?></span>
+        <h1 class="section-heading mt-8 mb-20"><?php echo the_field('service_provide_heading'); ?></h1>
+        <p class="section-content"><?php echo the_field('service_provide_content'); ?></p>
       </div>
       <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
         <div class="overlay z-1"></div>
@@ -253,10 +254,9 @@ Template Name:Web App Development Page
         <img src="<?php echo get_template_directory_uri() ?>/images/web-devsec.svg" alt="">
       </div>
       <div class="left-part p-rel">
-        <p class="section-title mt-0 mb-12 z-1">Start Your Project Now</p>
-        <p class="section-heading mt-0 mb-20 z-1">Want to build a profitable web application?</p>
-        <p class="card-content mt-0 mb-32 z-1">Our expert team will put your ideas into action.</p>
-        <button class="primary-button">LET'S WORK TOGETGHER</button>
+        <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('start_your_project_subheading'); ?></p>
+        <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('start_your_project_heading'); ?></p>
+        <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('start_yuor_project_content'); ?></button>
       </div>
       <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
       <div class="circle4 z-0"></div>
@@ -264,7 +264,7 @@ Template Name:Web App Development Page
   </div>
 
   <div class="web-dev-apps-wrapper">
-    <p class="section-heading mt-0 mb-20 z-1 tx-center">How we develop web applications</p>
+    <p class="section-heading mt-0 mb-20 z-1 tx-center"><?php echo the_field('how_we_develop_heading'); ?></p>
 
     <div class="web-dev-apps-inner wds m-auto">
       <div class="section">
@@ -385,7 +385,7 @@ Template Name:Web App Development Page
   <div class="mb-120 cs-digital-transform-wrapper mt-120 wds m-auto">
     <div class="digital-transformation w-fc p-rel">
       <div class="custom-inner-content p-rel">
-        <p class="section-heading z-2 p-rel">Custom web applications by Arcs Infotech are</p>
+        <p class="section-heading z-2 p-rel"><?php echo the_field('custom_web_application'); ?></p>
         <p class="inner-content content-1 z-2 p-rel">Businesses of any size ranging from startups to big companies will derive multiple benefits
           from web application development services provided by Syndicode. Organizations will get a unique,
           high-performing software solution that will perfectly suit any specific business needs and requirements.</p>

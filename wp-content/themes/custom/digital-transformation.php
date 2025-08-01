@@ -63,7 +63,7 @@ Template Name: Digital Transformation Page
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 12 (5).svg" alt="" class="z-img2 z-0">
         </div>
 
-        <div class="cs-digital-transform-wrapper">
+        <div class="cs-digital-transform-wrapper wds m-auto">
           <div class="overley"></div>
           <div class="digital-transformation m-auto p-rel">
               <div class="right-part">

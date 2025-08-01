@@ -49,10 +49,10 @@ Template Name: DevOps Cloud Page
         </div>
     </div>
 
-    <div class="cs-digital-transform-wrapper">
+    <div class="cs-digital-transform-wrapper wds m-auto">
         <div class="digital-transformation m-auto p-rel">
             <div class="right-part">
-                <img src="<?php echo get_template_directory_uri() ?>/images/dd-s-img.svg" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/images/image.svg" alt="">
             </div>
             <div class="left-part p-rel">
                 <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_1_subheading') ?></p>
@@ -63,7 +63,7 @@ Template Name: DevOps Cloud Page
         </div>
     </div>
 
-    <div class="cs-digital-transform-wrapper">
+    <div class="cs-digital-transform-wrapper wds m-auto">
         <div class="digital-transformation reverse m-auto p-rel">
             <div class="right-part">
                 <img src="<?php echo get_template_directory_uri() ?>/images/dc-old-img.svg" alt="">
@@ -84,7 +84,7 @@ Template Name: DevOps Cloud Page
         </div>
     </div>
 
-    <div class="cs-digital-transform-wrapper">
+    <div class="cs-digital-transform-wrapper wds m-auto">
         <div class="overley"></div>
         <div class="digital-transformation m-auto p-rel">
             <div class="right-part">
@@ -154,7 +154,7 @@ Template Name: DevOps Cloud Page
     </div>
 
 
-    <div class="cs-digital-transform-wrapper last-s">
+    <div class="cs-digital-transform-wrapper last-s wds m-auto">
         <div class="digital-transformation m-auto p-rel">
             <div class="right-part">
                 <img src="<?php echo get_template_directory_uri() ?>/images/dc-discussion-img.svg" alt="">
@@ -176,4 +176,4 @@ Template Name: DevOps Cloud Page
 
     <?php get_footer();
     ?>
-</div>
+</div> 
