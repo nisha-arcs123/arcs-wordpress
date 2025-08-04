@@ -241,8 +241,8 @@ Template Name: Digital Experience Page
             </div>
         </div>
 
-        <div class="technos-wrapper w-full">
-            <div class="technos m-auto">
+        <div class="technos-wrapper wds m-auto">
+            <div class="technos m-auto wds">
                 <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('d_exp_section_5_subheading')?></p>
                 <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('d_exp_section_5_mainheading')?></p>
                 <p class="section-content mb-40 tx-center"><?php the_field('d_exp_section_5_content')?></p>

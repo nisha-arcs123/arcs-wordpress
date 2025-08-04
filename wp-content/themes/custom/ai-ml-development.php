@@ -129,7 +129,7 @@ Template Name: AI ML Development Page
         </div>
     </div>
 
-    <div class="cs-remarkable-benefits-wrapper w-full">
+    <div class="cs-remarkable-benefits-wrapper wds m-auto">
         <p class="section-heading mt-0 mb-12 tx-center"><?php the_field('section3-headingai') ?></p>
         <p class="section-content main-content mt-0 m-auto tx-center "><?php the_field('Section3-descriptionai') ?></p>
         <div class="boxes-wrapper wds m-auto padding-40 bx-border-box">

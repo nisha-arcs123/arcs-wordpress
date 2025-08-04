@@ -72,15 +72,15 @@ Template Name: Digital Transformation Page
               <div class="left-part p-rel">
                   <p class="section-title mt-0 mb-12 z-1"><?php the_field('dt_section_2_subheading')?></p>
                   <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dt_section_2_mainheading')?></p>
-                  <p class="section-content mt-0 mb-40 z-1"><?php the_field('dt_section_2_content')?></p> 
+                  <p class="section-content mt-0 z-1"><?php the_field('dt_section_2_content')?></p> 
               </div>
               <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
               <div class="circle4 z-0"></div>
           </div>
         </div>
        
-        <div class="technos-wrapper w-full">
-            <div class="technos m-auto">
+        <div class="technos-wrapper wds m-auto">
+            <div class="technos m-auto wds">
                 <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('dt_section_3_subheading')?></p>
                 <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('dt_section_3_mainheading')?></p>
                 <p class="section-content mb-40 tx-center"><?php the_field('dt_section_3_content')?></p>
@@ -144,7 +144,7 @@ Template Name: Digital Transformation Page
         </div>
 
         <div class="technos-wrapper w-full">
-            <div class="technos m-auto">
+            <div class="technos m-auto wds">
                 <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('dt_section_5_subheading')?></p>
                 <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('dt_section_5_mainheading')?></p>
                 <p class="section-content mb-40 tx-center"><?php the_field('dt_section_5_content')?></p>

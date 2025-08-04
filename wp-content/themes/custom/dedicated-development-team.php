@@ -48,7 +48,7 @@ Template Name: Dedicated Development Team Page
 
 
     <div class="technos-wrapper w-full">
-        <div class="technos m-auto">
+        <div class="technos m-auto wds">
             <p class="section-title mb-10 m-auto w-fc tx-center"><?php echo the_field('dedicated_section1_heading1'); ?></p>
             <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('dedicated_section1_heading_2'); ?></p>
             <p class="section-content mb-40 tx-center"><?php echo the_field('dedicated_section1_description'); ?> </p>
@@ -153,7 +153,7 @@ Template Name: Dedicated Development Team Page
             <div class="left-part p-rel">
                 <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('dedicated_section5_heading1'); ?></p>
                 <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('dedicated_section5_heading2'); ?></p>
-                <p class="section-content mt-0 mb-40 z-1"><?php echo the_field('dedicated_section5_description'); ?></p>
+                <p class="section-content mt-0 z-1"><?php echo the_field('dedicated_section5_description'); ?></p>
             </div>
             <div class="right-part">
                 <img src="<?php echo get_template_directory_uri() ?>/images/image (17).svg" alt="">

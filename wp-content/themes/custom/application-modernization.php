@@ -141,7 +141,7 @@ Template Name: Application Modernization Page
           <div class="left-part p-rel">
               <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading'); ?></p>
               <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_mainheading'); ?></p>
-              <p class="section-content mt-0 mb-40 z-1"><?php echo the_field('section2_content'); ?></p> 
+              <p class="section-content mt-0 z-1"><?php echo the_field('section2_content'); ?></p> 
           </div>
           <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
           <div class="circle4 z-0"></div>

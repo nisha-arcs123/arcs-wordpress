@@ -134,7 +134,7 @@ Template Name: Mobile App Consulting Page
         </div>
     </div>
 
-    <div class="full-spectrum-outer w-full">
+    <div class="full-spectrum-outer wds m-auto">
         <h2 class="fs-large-heading mb-20 mt-0"><?php the_field('mobile_section_6_mainheading') ?></h2>
         <p class="fs-normal-text card-content mb-40 mt-0"><?php the_field('mobile_section_6_content') ?></p>
         <div class="full-spectrum-cards">
