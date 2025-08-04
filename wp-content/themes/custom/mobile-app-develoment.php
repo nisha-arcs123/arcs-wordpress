@@ -159,10 +159,10 @@ Template Name: Mobile App Development Page
             </div>
         </div>
 
-        <div class="blue-transform-future-wrapper blue-background mt-120 w-full padding-40 bx-border-box p-rel">
+        <div class="blue-transform-future-wrapper blue-background w-full padding-40 bx-border-box p-rel">
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (10).svg" alt="" class="z-img1 z-0">
             <div class="circle1 z-0"></div>
-            <div class="transform-future m-auto">  
+            <div class="transform-future m-auto wds">  
                 <div class="left-part z-10">
                     <p class="section-heading-white mt-0 mb-20"><?php the_field('md_section_4_mainheading')?></p>
                     <p class="section-content-white mt-0 mb-32"><?php the_field('md_section_4_content_1')?></p>
@@ -178,7 +178,7 @@ Template Name: Mobile App Development Page
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 12 (5).svg" alt="" class="z-img2 z-0">
         </div>
 
-        <div class="image-text-section-wrapper mt-120 ec-img-text-wrapper w-full z-1 p-rel">
+        <div class="image-text-section-wrapper ec-img-text-wrapper w-full z-1 p-rel">
             <div class="image-text o-h wds m-auto">
             <div class="img-section">
                   <img class="" src="<?php echo get_template_directory_uri()?>/images/mad-points-img.svg" alt="">
@@ -201,7 +201,7 @@ Template Name: Mobile App Development Page
             </div>
         </div>
 
-        <div class="app-development mt-120">
+        <div class="app-development">
             <h2 class="section-heading mt-0 m-auto tx-center mb-20"><?php the_field('md_section_6_mainheading')?></h2>
             <p class="card-content mb-32 mt-0 tx-center m-auto main-content"><?php the_field('md_section_6_content')?></p>
             <div class="parts wds m-auto bx-border-box padding-30">
@@ -235,7 +235,7 @@ Template Name: Mobile App Development Page
             </div>
         </div>
 
-        <div class="transform-future-wrapper mt-120 w-full padding-40 bx-border-box">
+        <div class="transform-future-wrapper w-full padding-40 bx-border-box">
             <div class="transform-future wds m-auto">
                 <div class="left-part">
                     <p class="section-heading mt-0 mb-20"><?php the_field('md_section_7_mainheading')?></p>

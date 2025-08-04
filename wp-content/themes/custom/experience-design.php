@@ -301,30 +301,28 @@ Template Name: Experience design page
         </div>
     </div>
 
-    <div class="aspects-wrapper wds m-auto">
-        <div class="aspects w-full bx-border-box padding-40">
-            <p class="section-heading mt-0 mb-28"><?php the_field('section6-heading') ?></p>
-            <div class="boxes">
-                <div class="box padding-20 bx-border-box">
-                    <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img1.svg" alt="">
-                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
-                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
-                </div>
-                <div class="box padding-20 bx-border-box">
-                    <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img2.svg" alt="">
-                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
-                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
-                </div>
-                <div class="box padding-20 bx-border-box">
-                    <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img3.svg" alt="">
-                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
-                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
-                </div>
-                <div class="box padding-20 bx-border-box">
-                    <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img4.svg" alt="">
-                    <p class="card-title mt-0 mb-8">Responsive Designs</p>
-                    <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
-                </div>
+    <div class="aspects w-full bx-border-box padding-40 wds m-auto">
+        <p class="section-heading mt-0 mb-28"><?php the_field('section6-heading') ?></p>
+        <div class="boxes">
+            <div class="box padding-20 bx-border-box">
+                <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img1.svg" alt="">
+                <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+            </div>
+            <div class="box padding-20 bx-border-box">
+                <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img2.svg" alt="">
+                <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+            </div>
+            <div class="box padding-20 bx-border-box">
+                <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img3.svg" alt="">
+                <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
+            </div>
+            <div class="box padding-20 bx-border-box">
+                <img class="mb-20" src="<?php echo get_template_directory_uri(); ?>/images/last0img4.svg" alt="">
+                <p class="card-title mt-0 mb-8">Responsive Designs</p>
+                <p class="card-content mb-0">Buidling apps that are compatible with all devices and work on all screen sizes.</p>
             </div>
         </div>
     </div>

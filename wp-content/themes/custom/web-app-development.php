@@ -247,7 +247,7 @@ Template Name:Web App Development Page
     </div>
   </div>
 
-  <div class="mb-120 cs-digital-transform-wrapper wds m-auto">
+  <div class="cs-digital-transform-wrapper wds m-auto">
     <div class="overley"></div>
     <div class="digital-transformation m-auto p-rel mt-0">
       <div class="right-part">
@@ -382,7 +382,7 @@ Template Name:Web App Development Page
   </div>
 
 
-  <div class="mb-120 cs-digital-transform-wrapper mt-120 wds m-auto">
+  <div class="cs-digital-transform-wrapper wds m-auto">
     <div class="digital-transformation w-fc p-rel">
       <div class="custom-inner-content p-rel">
         <p class="section-heading z-2 p-rel"><?php echo the_field('custom_web_application'); ?></p>

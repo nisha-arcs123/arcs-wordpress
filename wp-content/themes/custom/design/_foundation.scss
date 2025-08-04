@@ -492,7 +492,7 @@ $breakpoints: 1720px, 1440px, 1200px, 992px, 768px , 576px;
   }
   @include max-width(768){
     width: 100%;
-    padding: 0 15px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
 }

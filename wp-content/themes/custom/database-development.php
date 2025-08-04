@@ -142,7 +142,7 @@ Template Name: Database Development Page
     </div>
 </div>
 
-<div class="cs-great-solution mt-120 o-h p-rel w-full tx-center">
+<div class="cs-great-solution o-h p-rel w-full tx-center">
     <div class="left-circle circle br-50"></div>
     <div class="right-circle circle br-50"></div>
     <img class="left-img" src="<?php echo get_template_directory_uri() ?>/images/ui-gs-left.svg" alt="">

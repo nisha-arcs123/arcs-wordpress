@@ -139,7 +139,7 @@ Template Name: Digital Experience Page
         
 
         <div class="benefits-wrapper w-full padding-40 bx-border-box">
-            <div class="transform-future m-auto">
+            <div class="transform-future m-auto wds">
                 
                 <div class="left-part">
                     <p class="section-title mt-0 mb-12"><?php the_field('d_exp_section_3_subheading')?></p>

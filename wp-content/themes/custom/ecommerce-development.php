@@ -54,7 +54,7 @@ Template Name: Ecommerce Development Page
             </div>
         </div>
 
-        <div class="mt-120 cs-remarkable-benefits-wrapper w-full">
+        <div class="cs-remarkable-benefits-wrapper w-full">
             <p class="section-heading mt-0 mb-12 tx-center"><?php echo the_field('section1_heading_cd'); ?></p>
             <p class="section-content main-content mt-0 m-auto tx-center "><?php echo the_field('section1_description_cd'); ?></p>
             <div class="boxes-wrapper wds m-auto padding-40 bx-border-box">
@@ -142,7 +142,7 @@ Template Name: Ecommerce Development Page
 
         </div>
 
-        <div class="mb-120 cs-digital-transform-wrapper wds m-auto">
+        <div class="cs-digital-transform-wrapper wds m-auto">
             <div class="overley"></div>
             <div class="digital-transformation m-auto p-rel">
                 <div class="right-part">

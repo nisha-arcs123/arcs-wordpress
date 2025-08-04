@@ -100,7 +100,7 @@ Template Name: Dedicated Development Team Page
     <div class="transform-future-wrapper blue-background w-full padding-40 bx-border-box p-rel">
         <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (10).svg" alt="" class="z-img1 z-0">
         <div class="circle1 z-0"></div>
-        <div class="transform-future m-auto">
+        <div class="transform-future m-auto wds">
             <div class="left-part z-10">
                 <p class="section-title-text mt-0 mb-12"><?php echo the_field('dedicated_section2_heading1'); ?></p>
                 <p class="section-heading-white mt-0 mb-20"><?php echo the_field('dedicated_section2_heading2'); ?> </p>
@@ -118,7 +118,7 @@ Template Name: Dedicated Development Team Page
 
 
     <div class="transform-future-wrapper gray-backgorund w-full padding-40 bx-border-box">
-        <div class="transform-future m-auto">
+        <div class="transform-future m-auto wds">
             <div class="left-part">
                 <p class="section-title mt-0 mb-12"><?php echo the_field('dedicated_section3_heading1'); ?></p>
                 <p class="section-heading mt-0 mb-20"><?php echo the_field('dedicated_section3_heading2'); ?></p>
@@ -132,7 +132,7 @@ Template Name: Dedicated Development Team Page
     </div>
 
     <div class="transform-future-wrapper gray-backgorund w-full padding-40 bx-border-box ">
-        <div class="transform-future m-auto">
+        <div class="transform-future m-auto wds">
             <div class="right-part padding-20 bx-border-box colorful-background">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image (18).svg" alt="">
             </div>

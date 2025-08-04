@@ -47,7 +47,7 @@ Template Name: Digital Transformation Page
         <div class="blue-transform-future-wrapper blue-background w-full padding-40 bx-border-box p-rel">
             <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (10).svg" alt="" class="z-img1 z-0">
             <div class="circle1 z-0"></div>
-            <div class="transform-future m-auto">  
+            <div class="transform-future m-auto wds">  
                 <div class="left-part z-10">
                     <p class="section-title-text mt-0 mb-12"><?php the_field('dt_section_1_subheading')?></p>
                     <p class="section-heading-white mt-0 mb-20"><?php the_field('dt_section_1_mainheading')?></p>
@@ -202,7 +202,7 @@ Template Name: Digital Transformation Page
                     <p class="card-content mt-0 mb-32"><?php the_field('dt_section_6_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
-                <div class="colorful-background right-part padding-20 bx-border-box">
+                <div class="colorful-background right-part bx-border-box">
                   <img class="w-full" src="<?php echo get_template_directory_uri()?>/images/image (15).svg" alt="">
               </div>
             </div>

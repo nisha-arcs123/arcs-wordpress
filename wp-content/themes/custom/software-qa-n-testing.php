@@ -64,7 +64,7 @@ Template Name: Software QA and Testing Page
             </div>
         </div>
 
-        <div class="start-your-project mt-120 p-rel">
+        <div class="start-your-project p-rel">
             <img src="<?php echo get_template_directory_uri()?>/images/Ellipse 61 (3).svg" alt="" class="right-side">
             <img src="<?php echo get_template_directory_uri()?>/images/Ellipse 60 (1).svg" alt="" class="left-side">
             <div class="ios-app-circle1 z-0 p-rel"></div>
@@ -76,7 +76,7 @@ Template Name: Software QA and Testing Page
             <div class="ios-app-circle2 z-0 p-rel"></div>
         </div>
 
-        <div class="quality-assurance mt-120 wds m-auto">
+        <div class="quality-assurance wds m-auto">
             <p class="section-heading m-auto mt-0 mb-16 tx-center"><?php the_field('st_section_3_mainheading')?></p>
             <p class="card-content m-auto mt-0 mb-40 tx-center"><?php the_field('st_section_3_content')?></p>
             <div class="boxes">
@@ -172,7 +172,7 @@ Template Name: Software QA and Testing Page
             </div>
         </div>
 
-        <div class="cs-great-solution mt-120 o-h p-rel w-full tx-center">
+        <div class="cs-great-solution o-h p-rel w-full tx-center">
             <div class="left-circle circle br-50"></div>
             <div class="right-circle circle br-50"></div>
             <img class="left-img" src="<?php echo get_template_directory_uri()?>/images/ui-gs-left.svg" alt="">
