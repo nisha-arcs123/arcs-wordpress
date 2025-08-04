@@ -37,7 +37,6 @@ Template Name: Product Development Page
             <img class="banner-gif" src="<?php echo get_template_directory_uri() ?>/images/Group 38008.svg" alt="">
         </div>
         <div class="the-circle ui-banner-blur-circle"></div>
-        <div class="the-circle ui-banner-blur-circle-II"></div>
         <img class="ai-ml-banner-line" src="<?php echo get_template_directory_uri() ?>/images/line-al-ml-banner.svg" alt="">
         <div class="ui-banner-details z-2">
             <h1 class="banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('product_banner_heading'); ?></h1>

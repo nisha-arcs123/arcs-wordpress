@@ -7,18 +7,44 @@ Template Name: About Us
 <div class="outer-box-about-us w-full ox-h">
     <?php get_header(); ?>
 
-    <div class="ed-banner full-vh p-rel">
-        <img class="z-2 banner-image" src="<?php echo get_template_directory_uri() ?>/images/Group 1597881388.svg" alt="">
-        <div class="z-1 banner-blur-circle-1"></div>
-        <div class="z-0 banner-circle-border br-50"></div>
-        <div class="ed-banner-details banner-details z-2">
-            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_heading'); ?></h1>
-            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_content'); ?></p>
+     <div class="ui-banner full-vh p-rel">
+        <div class="ios-app-right user-box z-1 padding-8">
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38088.svg" alt="">
+            </div>
+            <span>24 / 7</span>
+        </div>
+        <div class="ios-app-left z-1 user-box padding-8">
+            <span>your ideas with full attention</span>
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38048.svg" alt="">
+            </div>
+        </div>
+        <div class="ios-app-bottom z-1 user-box padding-8">
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Mask group (10).svg" alt="">
+            </div>
+            <span>FREE'expert consultation</span>
+
+        </div>
+        <div class="ai-bot z-1 user-box padding-8">
+            <span>Chat with AI bot</span>
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38072.svg" alt="">
+            </div>
+        </div>
+        <div class="z-1 banner-girl-image">
+            <img class="banner-gif" src="<?php echo get_template_directory_uri() ?>/images/Group 1597881388.svg" alt="">
+        </div>
+        <div class="the-circle ui-banner-blur-circle"></div>
+        <div class="the-circle ui-banner-blur-circle-II"></div>
+        <img class="ai-ml-banner-line" src="<?php echo get_template_directory_uri() ?>/images/line-al-ml-banner.svg" alt="">
+        <div class="ui-banner-details z-2">
+            <h1 class="banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_heading'); ?></h1>
+            <p class="banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_content'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
-
-
     <div class="services-we-offer wds m-auto mt-120">
         <p class="section-title m-auto w-fc tx-center">Why Choose us</p>
         <p class="section-heading mb-20 mt-0 tx-center">What Sets Us Apart?</p>

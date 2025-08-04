@@ -7,13 +7,42 @@ Template Name: Contact Us
 <div class="outer-box-contact-us w-full ox-h">
     <?php get_header(); ?>
 
-    <div class="ed-banner full-vh p-rel">
-        <img class="z-2 banner-image" src="<?php echo get_template_directory_uri() ?>/images/ui-girl-img.svg" alt="">
-        <div class="z-1 banner-blur-circle-1"></div>
-        <div class="z-0 banner-circle-border br-50"></div>
-        <div class="ed-banner-details banner-details z-2">
-            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_heading'); ?></h1>
-            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_content'); ?></p>
+
+     <div class="ui-banner full-vh p-rel">
+        <div class="ios-app-right user-box z-1 padding-8">
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38088.svg" alt="">
+            </div>
+            <span>24 / 7</span>
+        </div>
+        <div class="ios-app-left z-1 user-box padding-8">
+            <span>your ideas with full attention</span>
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38048.svg" alt="">
+            </div>
+        </div>
+        <div class="ios-app-bottom z-1 user-box padding-8">
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Mask group (10).svg" alt="">
+            </div>
+            <span>FREE'expert consultation</span>
+
+        </div>
+        <div class="ai-bot z-1 user-box padding-8">
+            <span>Chat with AI bot</span>
+            <div class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/images/Group 38072.svg" alt="">
+            </div>
+        </div>
+        <div class="z-1 banner-girl-image">
+            <img class="banner-gif" src="<?php echo get_template_directory_uri() ?>/images/contact.svg" alt="">
+        </div>
+        <div class="the-circle ui-banner-blur-circle"></div>
+        <div class="the-circle ui-banner-blur-circle-II"></div>
+        <img class="ai-ml-banner-line" src="<?php echo get_template_directory_uri() ?>/images/line-al-ml-banner.svg" alt="">
+        <div class="ui-banner-details z-2">
+            <h1 class="banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_heading'); ?></h1>
+            <p class="banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('contact_us_banner_content'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
@@ -87,13 +116,13 @@ Template Name: Contact Us
                 <div class="social-section">
                     <p class="social-title">Stay Connected</p>
                     <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Facebook">
+                        <a href="https://www.facebook.com/share/16sJ1iky8j/" class="social-link" aria-label="Facebook">
                             <img src="<?php echo get_template_directory_uri() ?>/images/Vector (3).svg" alt="">
                         </a>
-                        <a href="#" class="social-link" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/company/arcsinfotech/" class="social-link" aria-label="LinkedIn">
                             <img src="<?php echo get_template_directory_uri() ?>/images/Vector (4).svg" alt="">
                         </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
+                        <a href="https://www.instagram.com/arcs_infotech?igsh=N2xpamJqdTdhbjhs" class="social-link" aria-label="Instagram">
                             <img src="<?php echo get_template_directory_uri() ?>/images/Vector (5).svg" alt="">
                         </a>
                     </div>

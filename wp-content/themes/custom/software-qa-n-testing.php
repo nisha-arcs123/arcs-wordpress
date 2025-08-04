@@ -114,7 +114,6 @@ Template Name: Software QA and Testing Page
                           understanding of user behavior, they can devise a bespoke implementation process to support your company in releasing quality
                            products.</p>
                 </div>
-                <div class="row2">
                 <div class="box">
                     <div class="logo-n-heading mb-16">
                         <div class="logo">
@@ -136,7 +135,6 @@ Template Name: Software QA and Testing Page
                     <p class="card-content">Whether you’re launching a new digital product or putting an existing one through the paces, our software testing
                          company provides a broad spectrum of independent, project-specific quality assurance testing options. We’ll help you ensure top
                           performance and compatibility, identify security weaknesses, and validate functionality for the best results.</p>
-                </div>
                 </div>
             </div>
         </div>

@@ -168,10 +168,10 @@
                     <a href="<?php echo home_url('/'); ?>">HOME</a>
                 </li>
                 <li class="nav-items" id="services-btn">
-                    <a href="#">SERVICES</a>
+                    <a href="#">SERVICES</a><span class="arrow"></span>
                 </li>
                 <li class="nav-items" id="technology-btn">
-                    <a href="#">TEHNOLOGY</a>
+                    <a href="#">TEHNOLOGY</a><span class="arrow"></span>
                 </li>
                 <li class="nav-items">
                     <a href="<?php echo home_url('/expertise-page/'); ?>"> CASE STUDY</a>

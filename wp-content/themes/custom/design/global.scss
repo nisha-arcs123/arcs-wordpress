@@ -481,6 +481,11 @@
     @include max-width(768) {
       @include typography(12, 18, 400, $secondry-text-color);
     }
+
+    a {
+      text-decoration: none;
+      color: $primary-text-color;
+    }
   }
 
 
@@ -657,6 +662,7 @@
 
         @include max-width(768) {
           height: 18px;
+
           &.active {
             span {
               &:nth-child(1) {
@@ -721,21 +727,30 @@
         }
 
         .nav-items {
+          @include flex-box(na, center, center, na, 10);
+
           a {
             text-decoration: none;
             @include nav-items(16, 24, 400, $navbar-text-color);
-
-
 
             @include max-width(1200) {
               font-size: 14px;
             }
           }
 
+          .arrow {
+            display: inline-block;
+            @include dimensions(6, 6);
+            border-right: 2px solid $navbar-text-color;
+            border-bottom: 2px solid $navbar-text-color;
+            transform: rotate(45deg);
+            margin-bottom: 2px;
+          }
+
           .primary-button {
             .btn-text {
               color: #ffffff;
-              ;
+
             }
           }
 
@@ -743,6 +758,10 @@
           &.active {
             a {
               color: $primary-color;
+            }
+
+            .arrow {
+              border-color: $primary-color;
             }
           }
         }
@@ -842,14 +861,14 @@
       @include flex-box(row, space-between, center, na, na);
 
       @include max-width(1226) {
-        @include flex-box(column, na, baseline, na, 16);
+        @include flex-box(column, center, baseline, na, 16);
       }
 
       @include max-width(768) {
         padding: 45px 15px !important;
       }
 
-      .inner-content {
+      .card-content {
         @include max-width(1226) {
           width: 100%;
           text-align: center;
@@ -871,103 +890,114 @@
         @include max-width(400) {
           flex-direction: column
         }
-      }
 
-      .firm-logos {
-        @include flex-box(row, space-between, center, na, 5);
-        @include typography(14, 21, 500, $tertiary-text-color);
-        padding: 0 15px;
-        border: 0;
-        height: 38px;
-        border-radius: 19px;
-        background-color: transparent;
 
-        .outer-border {
-          @include absolute(0, 0, 0, 0);
-          @include dimensions(38, 100%);
+        .firm-logos {
+          @include flex-box(row, space-between, center, na, 5);
+          padding: 12px 15px;
+          border: 0;
           border-radius: 19px;
-          background-color: transparent;
-          border: 1px solid $footer-border-color;
-        }
-
-        &:hover {
-          border-top: 0;
-          border-right: 0;
-          border-left: 0;
-          border-radius: 0;
-          overflow: hidden;
+          text-decoration: none;
           background-color: transparent;
 
           .outer-border {
-            transform: translateX(+101%);
+            @include absolute(0, 0, 0, 0);
+            @include dimensions(38, 100%);
+            border-radius: 19px;
+            background-color: transparent;
+            border: 1px solid $footer-border-color;
           }
 
-          .f-with-hover {
-            display: block;
+          span {
+            @include typography(14, 14, 500, $tertiary-text-color);
           }
 
-          .f-no-hover {
-            display: none;
+          &:hover {
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            border-radius: 0;
+            overflow: hidden;
+            background-color: transparent;
+
+            .outer-border {
+              transform: translateX(+101%);
+            }
           }
         }
-      }
 
-      .facebook {
-        &:hover {
-          color: $learn-more-hover-color;
+        .facebook {
+          &:hover {
+
+            svg path {
+              fill: $learn-more-hover-color;
+            }
+
+            span {
+              color: $learn-more-hover-color;
+            }
+
+            &::after {
+              width: 100%;
+            }
+          }
 
           &::after {
-            width: 100%;
+            content: "";
+            @include absolute(na, na, 0, 0);
+            @include dimensions(1, 0);
+            background-color: $learn-more-hover-color;
+            transition: width 0.3s ease;
           }
         }
 
-        &::after {
-          content: "";
-          @include absolute(na, na, 0, 0);
-          @include dimensions(1, 0);
-          background-color: $learn-more-hover-color;
-          transition: width 0.3s ease;
-        }
-      }
+        .linkdin {
+          &:hover {
+            span {
+              color: $learn-more-hover-color;
+            }
 
-      .linkdin {
-        &:hover {
-          color: $learn-more-hover-color;
+            svg path {
+              fill: $learn-more-hover-color;
+            }
+
+            &::after {
+              width: 100%;
+            }
+          }
 
           &::after {
-            width: 100%;
+            content: "";
+            @include absolute(na, na, 0, 0);
+            @include dimensions(1, 0);
+            background-color: $learn-more-hover-color;
+            transition: width 0.3s ease;
           }
         }
 
-        &::after {
-          content: "";
-          @include absolute(na, na, 0, 0);
-          @include dimensions(1, 0);
-          background-color: $learn-more-hover-color;
-          transition: width 0.3s ease;
-        }
-      }
+        .instagram {
+          &:hover {
+            span {
+              color: $footer-btn-instagram-bg-color;
+            }
 
-      .intagram {
-        &:hover {
-          color: $footer-btn-instagram-bg-color;
+            svg path {
+              fill: $footer-btn-instagram-bg-color;
+            }
+
+            &::after {
+              width: 100%;
+            }
+          }
 
           &::after {
-            width: 100%;
+            content: "";
+            @include absolute(na, na, 0, 0);
+            @include dimensions(1, 0);
+            background-color: $footer-btn-instagram-bg-color;
+            transition: width 0.3s ease;
           }
         }
-
-        &::after {
-          content: "";
-          @include absolute(na, na, 0, 0);
-          @include dimensions(1, 0);
-          background-color: $footer-btn-instagram-bg-color;
-          transition: width 0.3s ease;
-        }
-      }
-
-      .rights-reserved {
-        @include typography(14, 21, 500, $primary-text-color);
       }
     }
 
@@ -1292,6 +1322,7 @@
 
     .left-part {
       width: 100%;
+
       img {
         width: 550px;
         border-top-left-radius: 30px;
@@ -8279,22 +8310,12 @@
 
     .quality-assurance {
       .boxes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto auto;
-        gap: 10px;
         width: 100%;
         margin: auto;
-        gap: 44px;
-        justify-items: center;
-
-
-        @include max-width(1200) {
-          grid-template-columns: repeat(2, 1fr);
-        }
+        @include flex-box(row, center, na, wrap, 24);
 
         .box {
-          width: 100%;
+          width: calc(33.33% - 16px);
           box-shadow: 0px 20px 80px 0px #0000000D;
           border: 1px solid $border-section-iv-top-ai-ml-page;
           border-radius: 16px;
@@ -8302,6 +8323,15 @@
           background-color: $secondry-color;
           padding: 20px;
           min-height: 265px;
+
+          @include max-width(1440) {
+            width: calc(50% - 12px);
+          }
+
+          @include max-width(768) {
+            width: 100%;
+            min-height: unset;
+          }
 
           .logo-n-heading {
             @include flex-box(row, na, center, na, 10);
@@ -8323,18 +8353,6 @@
 
           .inner-content {
             margin: 0;
-          }
-        }
-
-        .row2 {
-          display: flex;
-          justify-content: center;
-          grid-column: 1 / span 3;
-          gap: 44px;
-
-          .box {
-            width: 31.5%;
-            min-height: 265px;
           }
         }
       }
@@ -10726,9 +10744,267 @@
   /*********************[][][][][][]********************* CONTACT US *******************[][][][][][]********************/
 
   .outer-box-contact-us {
-    .ed-banner {
-      .banner-image {
-        top: 136px;
+    .ui-banner {
+      .the-circle {
+        filter: blur(195px);
+        @include dimensions(325, 325);
+        transform: translateX(-50%);
+      }
+
+      .ui-banner-blur-circle {
+        background-color: $primary-color;
+        @include absolute(225, na, na, 50%);
+      }
+
+
+      .ai-ml-banner-line {
+        @include absolute(140, na, na, -42);
+      }
+
+      .banner-girl-image {
+        @include absolute(150, na, na, 43%);
+
+        @include max-width(1366) {
+          left: 47%;
+        }
+
+        @include max-width(1200) {
+          left: 41%;
+        }
+
+        @include max-width(768) {
+          left: 36%;
+        }
+
+        @include max-width(580) {
+          left: 24%;
+        }
+
+        // transform: translateX(-50%);
+        .banner-gif {
+          // @include dimensions(269,353);
+          @include absolute(na, na, na, 0);
+
+          @include max-width(1366) {
+            @include absolute(na, na, na, -72);
+          }
+
+          @include max-width(1200) {
+            @include absolute(31, na, na, 4);
+          }
+
+          // @include max-width(992) {
+          //   // width: 360px;
+          //   @include absolute(98, na, na, 4);
+          // }
+
+          // @include max-width(768) {
+          //   // width: 300px;
+          //   @include absolute(140, na, na, -72);
+          // }
+        }
+      }
+
+      .user-box {
+        border-radius: 8px;
+        border: 1px solid #136dfb0d;
+        backdrop-filter: blur(150px);
+        box-shadow: 0px 30px 60px 0px #00000033;
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include flex-box(row, center, center, na, 10);
+
+        &.ios-app-left {
+          @include absolute(385, na, na, 259);
+
+          @include max-width(1720) {
+            @include absolute(385, na, na, 256);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, na, na, 150);
+          }
+
+          @include max-width(1200) {
+            @include absolute(385, na, na, 60);
+          }
+
+          // @include max-width(992) {
+          //   @include absolute(175, na, na, 60);
+          // }
+
+          @include max-width(768) {
+            @include absolute(90, na, na, 10);
+          }
+
+          @include max-width(580) {
+            @include absolute(53, na, na, 10);
+          }
+          @include max-width(480) {
+            @include absolute(63, na, na, 10);
+          }
+        }
+
+        &.ios-app-right {
+          @include absolute(385, 394, na, na);
+
+          @include max-width(1720) {
+            @include absolute(385, 239, na, na);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, 140, na, na);
+
+          }
+
+          @include max-width(1200) {
+            @include absolute(385, 60, na, na);
+
+          }
+
+          // @include max-width(992) {
+          //   @include absolute(175, 10, na, na);
+          // }
+
+          @include max-width(768) {
+            @include absolute(90, 10, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(53, 10, na, na);
+          }
+          @include max-width(480) {
+            @include absolute(63, 10, na, na);
+          }
+        }
+
+        &.ios-app-bottom {
+          @include absolute(180, na, na, 346);
+
+          @include max-width(1720) {
+            @include absolute(180, na, na, 140);
+          }
+
+          @include max-width(1520) {
+            @include absolute(180, na, na, 100);
+          }
+
+          @include max-width(1200) {
+            @include absolute(180, na, na, 20);
+          }
+
+          @include max-width(768) {
+            @include absolute(180, na, na, 20);
+          }
+
+          @include max-width(580) {
+            @include absolute(115, na, na, 20);
+          }
+        }
+
+        &.ai-bot {
+          @include absolute(205, 348, na, na);
+
+          @include max-width(1720) {
+            @include absolute(205, 78, na, na);
+          }
+
+          @include max-width(1520) {
+            @include absolute(205, 20, na, na);
+          }
+
+          @include max-width(1200) {
+            @include absolute(180, 20, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(180, 20, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(115, 20, na, na);
+          }
+        }
+
+        .icon {
+          @include dimensions(47, 47);
+          @include flex-box(na, center, center, na, na);
+          background-color: $primary-color;
+          border-radius: 8px;
+
+          @include max-width(992) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+
+            }
+
+          }
+
+          @include max-width(480) {
+            @include dimensions(30, 30);
+
+            img {
+              @include dimensions(20, 20);
+
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(992) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .ui-banner-details {
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include dimensions(calc(100vh - 504px), 100%);
+        @include flex-box(column, center, center, na, na);
+        @include absolute(na, 0, 0, 0);
+        backdrop-filter: blur(30px);
+
+        .banner-heading {
+          width: 900px;
+          margin-bottom: 16px;
+          text-transform: uppercase;
+          @include typography(58, 86.7, 700, $primary-text-color);
+
+          @include max-width(1200) {
+            @include typography(36, 48.7, 700, $primary-text-color);
+            width: 840px;
+          }
+           @include max-width(992){
+            width: auto;
+          }
+        }
+
+        .banner-content {
+          width: 960px;
+          margin-bottom: 28px;
+          @include typography(16, 24, 500, $secondry-text-color);
+          @include max-width(992){
+            width: auto;
+          }
+        }
       }
     }
 
@@ -10844,6 +11120,245 @@
 
 
   .outer-box-about-us {
+    .ui-banner {
+      .the-circle {
+        filter: blur(195px);
+        @include dimensions(325, 325);
+        transform: translateX(-50%);
+      }
+
+      .ui-banner-blur-circle {
+        background-color: $primary-color;
+        @include absolute(225, na, na, 50%);
+      }
+
+
+      .ai-ml-banner-line {
+        @include absolute(140, na, na, -42);
+      }
+
+      .banner-girl-image {
+        @include absolute(150, na, na, 43%);
+
+        @include max-width(1366) {
+          left: 47%;
+        }
+
+        @include max-width(1200) {
+          left: 41%;
+        }
+
+        @include max-width(768) {
+          left: 36%;
+        }
+
+        @include max-width(580) {
+          left: 24%;
+        }
+
+        .banner-gif {
+          @include absolute(na, na, na, 0);
+
+          @include max-width(1366) {
+            @include absolute(na, na, na, -72);
+          }
+
+          @include max-width(1200) {
+            @include absolute(31, na, na, 4);
+          }
+
+        }
+      }
+
+      .user-box {
+        border-radius: 8px;
+        border: 1px solid #136dfb0d;
+        backdrop-filter: blur(150px);
+        box-shadow: 0px 30px 60px 0px #00000033;
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include flex-box(row, center, center, na, 10);
+
+        &.ios-app-left {
+          @include absolute(385, na, na, 259);
+
+          @include max-width(1720) {
+            @include absolute(385, na, na, 256);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, na, na, 150);
+          }
+
+          @include max-width(1200) {
+            @include absolute(385, na, na, 60);
+          }
+
+          @include max-width(768) {
+            @include absolute(70, na, na, 10);
+          }
+
+          @include max-width(580) {
+            @include absolute(53, na, na, 10);
+          }
+          @include max-width(480) {
+            @include absolute(63, na, na, 10);
+          }
+        }
+
+        &.ios-app-right {
+          @include absolute(385, 394, na, na);
+
+          @include max-width(1720) {
+            @include absolute(385, 239, na, na);
+
+          }
+
+          @include max-width(1520) {
+            @include absolute(385, 140, na, na);
+
+          }
+
+          @include max-width(1200) {
+            @include absolute(385, 60, na, na);
+
+          }
+
+          @include max-width(768) {
+            @include absolute(70, 10, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(53, 10, na, na);
+          }
+           @include max-width(480) {
+            @include absolute(63, 10, na, na);
+          }
+        }
+
+        &.ios-app-bottom {
+          @include absolute(180, na, na, 346);
+
+          @include max-width(1720) {
+            @include absolute(180, na, na, 140);
+          }
+
+          @include max-width(1520) {
+            @include absolute(180, na, na, 100);
+          }
+
+          @include max-width(1200) {
+            @include absolute(180, na, na, 20);
+          }
+
+          @include max-width(768) {
+            @include absolute(180, na, na, 20);
+          }
+
+          @include max-width(580) {
+            @include absolute(115, na, na, 20);
+          }
+        }
+
+        &.ai-bot {
+          @include absolute(205, 348, na, na);
+
+          @include max-width(1720) {
+            @include absolute(205, 78, na, na);
+          }
+
+          @include max-width(1520) {
+            @include absolute(205, 20, na, na);
+          }
+
+          @include max-width(1200) {
+            @include absolute(180, 20, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(180, 20, na, na);
+          }
+
+          @include max-width(580) {
+            @include absolute(115, 20, na, na);
+          }
+        }
+
+        .icon {
+          @include dimensions(47, 47);
+          @include flex-box(na, center, center, na, na);
+          background-color: $primary-color;
+          border-radius: 8px;
+
+          @include max-width(992) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+
+            }
+
+          }
+
+          @include max-width(480) {
+            @include dimensions(30, 30);
+
+            img {
+              @include dimensions(20, 20);
+
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(992) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(480) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .ui-banner-details {
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include dimensions(calc(100vh - 504px), 100%);
+        @include flex-box(column, center, center, na, na);
+        @include absolute(na, 0, 0, 0);
+        backdrop-filter: blur(30px);
+
+        .banner-heading {
+          width: 900px;
+          margin-bottom: 16px;
+          text-transform: uppercase;
+          @include typography(58, 86.7, 700, $primary-text-color);
+
+          @include max-width(1200) {
+            @include typography(36, 48.7, 700, $primary-text-color);
+            width: 840px;
+          }
+        }
+
+        .banner-content {
+          width: 960px;
+          margin-bottom: 28px;
+          @include typography(16, 24, 500, $secondry-text-color);
+        }
+      }
+    }
+
     .team-of-experts {
       .teams-container {
         display: grid;
