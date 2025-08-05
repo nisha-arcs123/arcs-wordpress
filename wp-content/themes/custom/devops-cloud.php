@@ -105,8 +105,8 @@ Template Name: DevOps Cloud Page
     <div class="technos-wrapper w-full">
         <div class="technos wds m-auto">
             <p class="section-title m-auto w-fc tx-center">Our Services</p>
-            <p class="section-heading mb-20 mt-12 tx-center">Comprehensive DevOps & Cloud Solutions</p>
-            <p class="section-content mb-40 tx-center">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
+            <p class="section-heading wds m-auto mb-20 mt-12 tx-center">Comprehensive DevOps & Cloud Solutions</p>
+            <p class="section-content wds m-auto mb-40 tx-center">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
             <div class="boxes-wrapper wds m-auto bx-border-box">
                     <div class="box padding-20 bx-border-box">
                         <div class="upper-part">

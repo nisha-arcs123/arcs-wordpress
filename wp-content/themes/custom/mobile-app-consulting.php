@@ -89,7 +89,7 @@ Template Name: Mobile App Consulting Page
 
     <div class="aspects w-full bx-border-box padding-40 p-rel wds m-auto">
         <h2 class="section-heading mt-0 mb-28"><?php the_field('mobile_section_4_mainheading') ?></h2>
-        <h1 class="invisible mt-0 z-0">Featured Aspects</h1>
+        <h1 class="invisible mt-0 z-0 p-rel z-1">Featured Aspects</h1>
         <div class="boxes">
             <div class="box aspect-card1 padding-20 bx-border-box">
                 <img class="mb-20 img1" src="<?php echo get_template_directory_uri() ?>/images/Group 37920.svg" alt="" class="img1">

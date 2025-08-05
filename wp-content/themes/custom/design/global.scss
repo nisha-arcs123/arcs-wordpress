@@ -383,7 +383,8 @@
   }
 
   .inner-banner-heading {
-    @include typography(58, 86.7, 700, $primary-text-color);
+    font-family: 'Jost', sans-serif;
+    @include typography(58, 68, 700, $primary-text-color);
 
     @include max-width(1440) {
       @include typography(48, 60, 700, $primary-text-color);
@@ -417,14 +418,14 @@
     background: $title-text-gradient;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    @include typography(24, 36, 600, na);
+    @include typography(24, 28, 600, na);
 
     @include max-width(1440) {
       @include typography(20, na, 600, na);
     }
 
     @include max-width(1200) {
-      @include typography(16, na, 600, na);
+      @include typography(16, 22, 600, na);
     }
 
     @include max-width(480) {
@@ -433,7 +434,7 @@
   }
 
   .section-heading {
-    @include typography(48, 60, 600, $primary-text-color);
+    @include typography(48, 62, 600, $primary-text-color);
 
     @include max-width(1650) {
       @include typography(42, 50, 600, $primary-text-color);
@@ -445,7 +446,7 @@
     }
 
     @include max-width(1200) {
-      @include typography(30, 36, na, na);
+      @include typography(28, 36, na, na);
       margin-bottom: 8px;
 
     }
@@ -1580,18 +1581,24 @@
       @include typography(120, 180, 600, #FAFAFA);
       @include absolute(-35, 21, na, na);
 
-      @media screen and (max-width:1440px) {
-        @include typography(80, 130, 600, #FAFAFA);
+      @media screen and (max-width:1720px) {
+        @include typography(95, 130, 600, #FAFAFA);
+        @include absolute(0, 21, na, na);
       }
 
-      // @media screen and (max-width:1200px) {
-      //   @include typography(100, 130, 600, #FAFAFA);
-      // }
+      @media screen and (max-width:1440px) {
+        @include typography(70, 130, 600, #FAFAFA);
+        @include absolute(-20, 21, na, na);
+      }
 
       @media screen and (max-width:1200px) {
-        @include typography(40, 100, 600, #FAFAFA);
-        // z-index: -1;
-        // top: 10px;
+        @include typography(60, 100, 600, #FAFAFA);
+        @include absolute(-10, 21, na, na);
+      }
+
+      @media screen and (max-width:1200px) {
+        @include typography(45, 100, 600, #FAFAFA);
+        @include absolute(-15, 21, na, na);
       }
 
       @media screen and (max-width:576px) {
@@ -2287,6 +2294,7 @@
         @include max-width(1440) {
           flex-wrap: wrap;
         }
+
         @include max-width(992) {
           @include flex-box(row, start, center, wrap, 12);
         }
@@ -2306,7 +2314,7 @@
           }
 
           @include max-width(1200) {
-            @include dimensions(125, 297);
+            @include dimensions(156, 297);
           }
 
           @include max-width(992) {
@@ -3077,6 +3085,7 @@
       .right-part {
         background-color: $secondry-color;
         border-radius: 15px;
+        @include flex-box(na, center, center, na, na);
 
         @media screen and (max-width: 1440px) {
           width: 45%;
@@ -3446,7 +3455,7 @@
 
   .outer-box-home-page {
     background-color: $secondry-color;
-    top: -32px;
+    top: 0;
 
     .the-lines {
       @include absolute(2125, na, -40, na);
@@ -5533,14 +5542,14 @@
           }
 
           .colored-inner-box {
-            @include dimensions(382, 369);
+            @include dimensions(430, 369);
 
             @include max-width(1720) {
-              @include dimensions(410, 290);
+              @include dimensions(500, 290);
             }
 
             @include max-width(1440) {
-              @include dimensions(342, 230);
+              @include dimensions(446, 230);
               padding: 12px;
             }
 
@@ -6219,6 +6228,10 @@
           width: 92%;
           margin-top: 67px;
 
+
+
+          /***** BLUNDER ****/
+
           @include max-width(1804) {
             width: 80%;
           }
@@ -6235,6 +6248,8 @@
           @media screen and (max-width: 580px) {
             width: 100%;
           }
+
+          /***** BLUNDER ****/
 
           .box {
             @include dimensions(auto, 362);
@@ -6756,10 +6771,21 @@
           }
 
           &:hover {
-            border: 0;
+            box-shadow: 0px 20px 60px 0px #0000001A;
+            border: 1px solid #E8E8E8;
 
-            .logo {
-              background-color: $primary-color;
+            .upper-part {
+              .logo {
+                background-color: $primary-color;
+
+                svg {
+                  g {
+                    rect {
+                      fill: #ffffff;
+                    }
+                  }
+                }
+              }
             }
           }
 
@@ -8278,6 +8304,11 @@
       background-color: $secondry-color;
       padding: 0;
 
+      @include max-width(768) {
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+
       .image-text {
         border-radius: 30px;
         box-shadow: 0px 20px 80px 0px #0000000D;
@@ -8388,6 +8419,11 @@
         margin: 80px auto;
       }
 
+      @include max-width(768) {
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+
       @include max-width(580) {
         margin: 60px auto;
       }
@@ -8482,6 +8518,44 @@
     }
 
     .cs-digital-transform-wrapper {
+
+      .left-part {
+        padding: 0 24px;
+
+        @include max-width(992){
+          padding: 32px;
+        }
+
+        .section-heading {
+          @include max-width(1720) {
+            line-height: 54px;
+          }
+
+          @include max-width(1440){
+            line-height: 42px;
+          }
+          @include max-width(992){
+            line-height: 34px;
+          }
+        }
+
+        .section-content{
+          @include max-width(1440){
+            margin-bottom: 24px;
+          }
+        }
+      }
+
+      .right-part {
+        @include max-width(1720) {
+          width: 45%;
+        }
+
+        @include max-width(992){
+          width: 100%;
+        }
+      }
+
       .digital-transformation {
         box-shadow: 0px 20px 80px 0px #0000000D;
       }
@@ -8713,6 +8787,7 @@
       ul {
         padding-left: 20px;
         list-style-type: none;
+        margin-bottom: 12px;
 
         li {
           margin-bottom: 5px;
@@ -8823,6 +8898,14 @@
 
     .cs-digital-transform-wrapper {
       .digital-transformation {
+        .right-part{
+          @include max-width(1720){
+            width: 40%;
+          }
+          @include max-width(992){
+            width: 100%;
+          }
+        }
         &.reverse {
           flex-direction: row-reverse;
 
@@ -8872,6 +8955,10 @@
       .technos {
         width: 100%;
 
+        @include max-width(576){
+          padding: 0;
+        }
+
         .boxes-wrapper {
           border-radius: 30px;
           display: grid;
@@ -8888,35 +8975,39 @@
             grid-template-columns: repeat(2, auto);
           }
 
+          @include max-width(576){
+            padding: 0;
+          }
+
           @include max-width(580) {
             grid-template-columns: repeat(1, auto);
           }
 
           .box {
-            @include dimensions(240, 397);
+            @include dimensions(194, 397);
 
             @include max-width(1720) {
-              @include dimensions(240, 321);
+              @include dimensions(192, 321);
             }
 
             @include max-width(1440) {
-              @include dimensions(240, 247);
+              @include dimensions(210, 247);
               padding: 14px;
             }
 
             @include max-width(1200) {
-              @include dimensions(240, 299);
+              @include dimensions(192, 299);
             }
 
             @include max-width(992) {
-              @include dimensions(240, 339);
+              @include dimensions(180, 339);
             }
 
             @include max-width(768) {
               @include dimensions(auto, 100%);
             }
 
-            background-color: $secondry-color;
+            background-color: rgb(249, 249, 249);
             border-radius: 15px;
 
             .upper-part {
@@ -9344,25 +9435,9 @@
               }
             }
 
-            // .box-heading {
-            //   @include typography(24, 36, 600, $primary-text-color);
-            //   margin-top: 20px;
-            //   margin-bottom: 10px;
-
-            //   @media screen and (max-width: 1400px) {
-            //     @include typography(18, 26, 600, $primary-text-color);
-            //   }
-            // }
-
-            // .box-content {
-            //   @include typography(14, 22, 400, $secondry-text-color);
-
-            //   @media screen and (max-width: 480px) {
-            //     @include typography(12, 18, 400, $secondry-text-color);
-            //   }
-            // }
             .card-title {
               margin-top: 20px;
+              width: calc(100% - 70px);
             }
           }
         }
@@ -9409,22 +9484,6 @@
               margin-bottom: 5px;
             }
           }
-
-          // .section-title {
-          //   text-transform: uppercase;
-
-          //   @media screen and (max-width: 1400px) {
-          //     @include typography(18, 28, 600, $primary-color);
-          //   }
-
-          //   @media screen and (max-width: 1140px) {
-          //     @include typography(14, 18, 600, $primary-color);
-          //   }
-
-          //   @media screen and (max-width: 980px) {
-          //     margin-bottom: 10px;
-          //   }
-          // }
 
           .section-heading-white {
             @include typography(48, 60, 600, #ffffff);
@@ -9624,6 +9683,7 @@
           border-top-left-radius: 30px;
           border-bottom-left-radius: 30px;
           box-sizing: border-box;
+
           @media screen and (max-width: 992px) {
             border-top-left-radius: 0;
             order: 2;

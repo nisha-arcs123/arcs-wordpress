@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/design/owl.carousel.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/design/owl.theme.default.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/design/owl.theme.green.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+
     <script src="<?php echo get_template_directory_uri() ?>/js_files/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js_files/owl.carousel.min.js"></script>
     <title>Home Page1</title>
@@ -146,15 +150,15 @@
 </script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const burger = document.getElementById("burger");
-    const menu = document.getElementById("menu");
+    document.addEventListener("DOMContentLoaded", () => {
+        const burger = document.getElementById("burger");
+        const menu = document.getElementById("menu");
 
-    burger.addEventListener("click", () => {
-      burger.classList.toggle("active");
-      menu.classList.toggle("active");
+        burger.addEventListener("click", () => {
+            burger.classList.toggle("active");
+            menu.classList.toggle("active");
+        });
     });
-  });
 </script>
 
 <body class="margin-0 padding-0">

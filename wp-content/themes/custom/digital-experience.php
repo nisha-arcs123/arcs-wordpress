@@ -200,7 +200,7 @@ Template Name: Digital Experience Page
                 <p class="m-auto section-title-text tx-center"><?php the_field('d_exp_section_4_subheading')?></p>
                 <p class="m-auto section-heading tx-center"><?php the_field('d_exp_section_4_mainheading')?></p>
                 <p class="mb-40 tx-center main-content"><?php the_field('d_exp_section_4_content')?></p>
-                <div class="boxes-wrapper m-auto">
+                <div class="boxes-wrapper">
                     <div class="box mt-32 padding-16 bx-border-box p-rel">
                         <div class="logo logo-1">
                             <img src="<?php echo get_template_directory_uri()?>/images/bulb-logo.svg" alt="">
@@ -244,8 +244,8 @@ Template Name: Digital Experience Page
         <div class="technos-wrapper wds m-auto">
             <div class="technos m-auto wds">
                 <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('d_exp_section_5_subheading')?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('d_exp_section_5_mainheading')?></p>
-                <p class="section-content mb-40 tx-center"><?php the_field('d_exp_section_5_content')?></p>
+                <p class="section-heading wds m-auto mb-20 mt-12 tx-center"><?php the_field('d_exp_section_5_mainheading')?></p>
+                <p class="section-content wds m-auto mb-40 tx-center"><?php the_field('d_exp_section_5_content')?></p>
                 <div class="boxes-wrapper">
                     <div class="box padding-16 bx-border-box">
                         <div class="upper-part mb-16">

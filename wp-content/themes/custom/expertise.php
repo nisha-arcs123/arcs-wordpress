@@ -4,7 +4,7 @@ Template Name: Expertise page
 */
 ?>
 
-<div class="outer-box-software-n-testing w-full ox-h">
+<div class="outer-box-expertise-page w-full ox-h">
         <?php get_header(); ?>
 
         <div class="ed-banner full-vh p-rel">
