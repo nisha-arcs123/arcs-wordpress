@@ -48,8 +48,8 @@ Template Name: Product Development Page
     <div class="transform-future-wrapper w-full padding-40 bx-border-box">
         <div class="transform-future wds m-auto">
             <div class="left-part">
-                <p class="section-title mt-0 mb-12"><?php echo the_field('product_section1_heading1'); ?></p>
-                <p class="section-heading mt-0 mb-20"><?php echo the_field('product_section1_heading_2'); ?></p>
+                <p class="section-title"><?php echo the_field('product_section1_heading1'); ?></p>
+                <p class="section-heading"><?php echo the_field('product_section1_heading_2'); ?></p>
                 <p class="card-content mt-0 mb-32"><?php echo the_field('product_section1_description'); ?></p>
                 <button class="primary-button">Let's Work Together</button>
             </div>
@@ -224,8 +224,8 @@ Template Name: Product Development Page
     </div>
 
     <div class="remarkable-benefits-wrapper wds m-auto">
-        <p class="section-title mt-0 mb-0 tx-center"><?php echo the_field('product_section5_heading1'); ?></p>
-        <p class="section-heading mt-0 mb-0 tx-center"><?php echo the_field('product_section5_heading2'); ?></p>
+        <p class="section-title tx-center"><?php echo the_field('product_section5_heading1'); ?></p>
+        <p class="section-heading tx-center"><?php echo the_field('product_section5_heading2'); ?></p>
         <p class="section-content main-content mt-0 m-auto tx-center "><?php echo the_field('product_section5_description'); ?></p>
         <div class="boxes-wrapper wds m-auto bx-border-box">
             <div class="box mb-28 padding-20 bx-border-box">

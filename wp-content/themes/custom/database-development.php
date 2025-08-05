@@ -56,10 +56,10 @@ Template Name: Database Development Page
 
 <div class="kf-wrapper">
     <div class="key-features wds m-auto">
-        <p class="section-title mt-0 mb-12 w-fc"><?php echo the_field('section1_heading1_db'); ?></p>
-        <p class="section-heading mt-0 mb-20"><?php echo the_field('section1_heading2_db'); ?></p>
-        <p class="section-content kf-main-content mt-0 mb-40"><?php echo the_field('section1_description_db'); ?></p>
-        <div class="kf-boxes-wrapper">
+        <p class="section-title w-fc"><?php echo the_field('section1_heading1_db'); ?></p>
+        <p class="section-heading"><?php echo the_field('section1_heading2_db'); ?></p>
+        <p class="section-content kf-main-content"><?php echo the_field('section1_description_db'); ?></p>
+        <div class="kf-boxes-wrapper mt-40">
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>01</span>Custom Solutions</p>
                 <p class="card-content mb-0 mt-12">Tailored database systems to meet your specific business
@@ -94,10 +94,10 @@ Template Name: Database Development Page
             <img src="<?php echo get_template_directory_uri() ?>/images/dd-girl-img.svg" alt="">
         </div>
         <div class="left-part p-rel">
-            <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading1_db'); ?></p>
-            <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_heading2_db'); ?>
+            <p class="section-title z-1"><?php echo the_field('section2_heading1_db'); ?></p>
+            <p class="section-heading z-1"><?php echo the_field('section2_heading2_db'); ?>
             </p>
-            <p class="card-content mt-0 mb-40 z-1"><?php echo the_field('section2_description_db'); ?></p>
+            <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_db'); ?></p>
             <button class="banner-button primary-button p-rel z-1">SCHEDULE A FREE CONSULTATION</button>
         </div>
         <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
@@ -107,10 +107,10 @@ Template Name: Database Development Page
 
 <div class="dd-services-wrapper wds m-auto mt-120 w-full">
     <div class="dd-services m-auto">
-        <p class="section-title mb-10 m-auto w-fc tx-center"><?php echo the_field('section3_heading1db'); ?></p>
-        <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('section3_heading2db'); ?></p>
-        <p class="section-content mb-40 tx-center"><?php echo the_field('section3_descriptiondb'); ?></p>
-        <div class="boxes-wrapper padding-40 bx-border-box">
+        <p class="section-title m-auto w-fc tx-center"><?php echo the_field('section3_heading1db'); ?></p>
+        <p class="section-heading tx-center"><?php echo the_field('section3_heading2db'); ?></p>
+        <p class="section-content tx-center"><?php echo the_field('section3_descriptiondb'); ?></p>
+        <div class="boxes-wrapper padding-40 bx-border-box mt-40">
             <div class="inner-box padding-20">
                 <div class="text">
                     <p class="card-title">Database Design and Architecture</p>
@@ -157,9 +157,9 @@ Template Name: Database Development Page
             <img src="<?php echo get_template_directory_uri() ?>/images/dd-s-img.svg" alt="">
         </div>
         <div class="left-part p-rel">
-            <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section5_heading1db'); ?></p>
-            <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section5_heading2db'); ?></p>
-            <p class="card-content mt-0 mb-0 z-1"><?php echo the_field('section5_descriptiondb'); ?></p>
+            <p class="section-title z-1"><?php echo the_field('section5_heading1db'); ?></p>
+            <p class="section-heading z-1"><?php echo the_field('section5_heading2db'); ?></p>
+            <p class="card-content z-1"><?php echo the_field('section5_descriptiondb'); ?></p>
             <ul>
                 <li class="card-content mb-4 p-rel">SQL-based solutions (MySQL, PostgreSQL, SQL Server)</li>
                 <li class="card-content mb-4 p-rel">NoSQL databases (MongoDB, Cassandra)</li>

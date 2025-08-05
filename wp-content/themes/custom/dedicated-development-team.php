@@ -49,10 +49,10 @@ Template Name: Dedicated Development Team Page
 
     <div class="technos-wrapper w-full">
         <div class="technos m-auto wds">
-            <p class="section-title mb-10 m-auto w-fc tx-center"><?php echo the_field('dedicated_section1_heading1'); ?></p>
-            <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('dedicated_section1_heading_2'); ?></p>
-            <p class="section-content mb-40 tx-center"><?php echo the_field('dedicated_section1_description'); ?> </p>
-            <div class="boxes-wrapper">
+            <p class="section-title m-auto w-fc tx-center"><?php echo the_field('dedicated_section1_heading1'); ?></p>
+            <p class="section-heading mt-0 tx-center"><?php echo the_field('dedicated_section1_heading_2'); ?></p>
+            <p class="section-content tx-center"><?php echo the_field('dedicated_section1_description'); ?> </p>
+            <div class="boxes-wrapper mt-40">
                 <div class="box padding-16 bx-border-box p-rel">
 
                     <div class="logo">
@@ -120,9 +120,9 @@ Template Name: Dedicated Development Team Page
     <div class="transform-future-wrapper gray-backgorund w-full padding-40 bx-border-box">
         <div class="transform-future m-auto wds">
             <div class="left-part">
-                <p class="section-title mt-0 mb-12"><?php echo the_field('dedicated_section3_heading1'); ?></p>
-                <p class="section-heading mt-0 mb-20"><?php echo the_field('dedicated_section3_heading2'); ?></p>
-                <p class="section-content mt-0 mb-40"> <?php echo the_field('dedicated_section3_description'); ?></p>
+                <p class="section-title"><?php echo the_field('dedicated_section3_heading1'); ?></p>
+                <p class="section-heading"><?php echo the_field('dedicated_section3_heading2'); ?></p>
+                <p class="card-content mt-0 mb-32"> <?php echo the_field('dedicated_section3_description'); ?></p>
                 <button class="primary-button">Let's Work Together</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
@@ -137,9 +137,9 @@ Template Name: Dedicated Development Team Page
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image (18).svg" alt="">
             </div>
             <div class="left-part">
-                <p class="section-title mt-0 mb-12"><?php echo the_field('dedicated_section4_heading1'); ?></p>
-                <p class="section-heading mt-0 mb-20"><?php echo the_field('dedicated_section4_heading2'); ?></p>
-                <p class="section-content mt-0 mb-40"> We have partnered with numerous clients to bring their visions to life. For instance, we helped [Client Name] develop a robust e-commerce platform that increased their online sales by 50%. benefited from our expertise in mobile app development, resulting in a user-friendly app that enhanced customer engagement significantly.</p>
+                <p class="section-title"><?php echo the_field('dedicated_section4_heading1'); ?></p>
+                <p class="section-heading"><?php echo the_field('dedicated_section4_heading2'); ?></p>
+                <p class="card-content mt-0 mb-32"> We have partnered with numerous clients to bring their visions to life. For instance, we helped [Client Name] develop a robust e-commerce platform that increased their online sales by 50%. benefited from our expertise in mobile app development, resulting in a user-friendly app that enhanced customer engagement significantly.</p>
                 <button class="primary-button">Let's Work Together</button>
             </div>
 
@@ -151,9 +151,9 @@ Template Name: Dedicated Development Team Page
         <div class="overley"></div>
         <div class="digital-transformation m-auto p-rel">
             <div class="left-part p-rel">
-                <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('dedicated_section5_heading1'); ?></p>
-                <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('dedicated_section5_heading2'); ?></p>
-                <p class="section-content mt-0 z-1"><?php echo the_field('dedicated_section5_description'); ?></p>
+                <p class="section-title z-1"><?php echo the_field('dedicated_section5_heading1'); ?></p>
+                <p class="section-heading z-1"><?php echo the_field('dedicated_section5_heading2'); ?></p>
+                <p class="card-content z-1"><?php echo the_field('dedicated_section5_description'); ?></p>
             </div>
             <div class="right-part">
                 <img src="<?php echo get_template_directory_uri() ?>/images/image (17).svg" alt="">

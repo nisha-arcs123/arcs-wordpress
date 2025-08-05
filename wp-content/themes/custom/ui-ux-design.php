@@ -142,9 +142,9 @@ Template Name: UI UX Design Page
 
         <div class="services-we-offer wds m-auto">
             <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section3_heading1'); ?></p>
-            <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('custom_section3_heading2'); ?></p>
-            <p class="section-content mb-40 tx-center"><?php echo the_field('custom_section3_description'); ?></p>
-            <div class="boxes-wrapper wds m-auto">
+            <p class="section-heading tx-center"><?php echo the_field('custom_section3_heading2'); ?></p>
+            <p class="section-content tx-center"><?php echo the_field('custom_section3_description'); ?></p>
+            <div class="boxes-wrapper wds m-auto mt-40">
                 <div class="box mt-32 padding-16 bx-border-box p-rel">
                     <div class="logo logo-1">
                         <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
@@ -214,9 +214,9 @@ Template Name: UI UX Design Page
         <div class="technos-wrapper w-full">
             <div class="technos wds m-auto">
                 <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section4_heading1'); ?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('custom_section4_heading2'); ?></p>
-                <p class="section-content mb-40 tx-center"><?php echo the_field('custom_section4_description'); ?></p>
-                <div class="boxes-wrapper">
+                <p class="section-heading tx-center"><?php echo the_field('custom_section4_heading2'); ?></p>
+                <p class="section-content tx-center"><?php echo the_field('custom_section4_description'); ?></p>
+                <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box">
                         <div class="upper-part mb-16">
                             <div class="logo">
@@ -323,9 +323,9 @@ Template Name: UI UX Design Page
 
         <div class="invest-in-software wds m-auto">
             <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section5_heading1'); ?></p>
-            <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('custom_section5_heading2'); ?></p>
-            <p class="section-content mb-40 tx-center"><?php echo the_field('custom_section5_description'); ?></p>
-            <div class="boxes-wrapper wds m-auto bx-border-box">
+            <p class="section-heading tx-center"><?php echo the_field('custom_section5_heading2'); ?></p>
+            <p class="section-content tx-center"><?php echo the_field('custom_section5_description'); ?></p>
+            <div class="boxes-wrapper wds m-auto bx-border-box mt-40">
                 <div class="box t-3 padding-20 bx-border-box">
                     <div class="upper-part">
                         <div class="logo logo-1">

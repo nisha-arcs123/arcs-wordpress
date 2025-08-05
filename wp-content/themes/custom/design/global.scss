@@ -432,20 +432,21 @@
 
   .section-heading {
     @include typography(48, 62, 600, $primary-text-color);
-
+    margin-top: 8px;
+    margin-bottom: 22px;
     @include max-width(1720) {
       @include typography(42, 50, 600, $primary-text-color);
     }
 
     @include max-width(1440) {
       @include typography(34, 40, 600, $primary-text-color);
+      margin-top: 0;
       margin-bottom: 12px;
     }
 
     @include max-width(1200) {
       @include typography(28, 36, na, na);
       margin-bottom: 8px;
-
     }
 
     @include max-width(992) {
@@ -463,7 +464,6 @@
 
   .section-content {
     @include typography(16, 25, 500, $secondry-text-color);
-
     @include max-width(1200) {
       @include typography(14, 18, na, na);
     }
@@ -488,7 +488,7 @@
 
   .card-content {
     @include typography(14, 25, 400, $secondry-text-color);
-
+    margin-bottom: 32px;
     @include max-width(768) {
       @include typography(12, 18, 400, $secondry-text-color);
     }

@@ -58,10 +58,10 @@ Template Name: AI ML Development Page
             <div class="circle-2"></div>
             <div class="circle-3"></div>
             <div class="business-growth-content wds m-auto">
-                <p class="section-title mb-8 mt-0"><?php the_field('section1-heading1ai') ?>
+                <p class="section-title"><?php the_field('section1-heading1ai') ?>
                 </p>
-                <p class="section-heading mb-20 mt-0"><?php the_field('section1-heading2ai') ?></p>
-                <p class="section-content mt-0"><?php the_field('section1-paragraghai') ?></p>
+                <p class="section-heading"><?php the_field('section1-heading2ai') ?></p>
+                <p class="section-content"><?php the_field('section1-paragraghai') ?></p>
             </div>
             <div class="business-growth-boxes bx-border-box padding-40 wds m-auto">
                 <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -118,8 +118,8 @@ Template Name: AI ML Development Page
     <div class="transform-future-wrapper w-full padding-40 bx-border-box">
         <div class="transform-future wds m-auto">
             <div class="left-part">
-                <p class="section-title mt-0 mb-12"><?php the_field('section2-header1ai') ?></p>
-                <p class="section-heading mt-0 mb-20"><?php the_field('section2-header2ai') ?></p>
+                <p class="section-title"><?php the_field('section2-header1ai') ?></p>
+                <p class="section-heading"><?php the_field('section2-header2ai') ?></p>
                 <p class="card-content mt-0 mb-32"><?php the_field('section2-descriptionai') ?> </p>
                 <button class="primary-button">LET'S WORK TOGETGHER</button>
             </div>
@@ -219,10 +219,10 @@ Template Name: AI ML Development Page
 
     <div class="kf-wrapper">
         <div class="key-features wds m-auto">
-            <p class="section-title mt-0 mb-12"><?php the_field('section4-heading1ai') ?></p>
-            <p class="section-heading mt-0 mb-20"><?php the_field('section4-heading2ai') ?></p>
-            <p class="section-content kf-main-content mt-0 mb-40"><?php the_field('section4-descriptionai') ?></p>
-            <div class="kf-boxes-wrapper">
+            <p class="section-title"><?php the_field('section4-heading1ai') ?></p>
+            <p class="section-heading"><?php the_field('section4-heading2ai') ?></p>
+            <p class="section-content kf-main-content"><?php the_field('section4-descriptionai') ?></p>
+            <div class="kf-boxes-wrapper mt-40">
                 <div class="kf-box padding-20 bx-border-box">
                     <p class="box-heading mt-0 mb-0"><span>01</span>Real-Time Insights</p>
                     <p class="card-content mb-0 mt-12">Generate insights from your own data using AI-powered visualization and analytics tools.</p>

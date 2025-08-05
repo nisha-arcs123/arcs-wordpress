@@ -55,9 +55,9 @@ Template Name: DevOps Cloud Page
                 <img src="<?php echo get_template_directory_uri() ?>/images/image.svg" alt="">
             </div>
             <div class="left-part p-rel">
-                <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_1_subheading') ?></p>
-                <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_1_mainheadnig') ?></p>
-                <p class="card-content mt-0 mb-40 z-1"><?php the_field('dc_section_1_content') ?></p>
+                <p class="section-title z-1"><?php the_field('dc_section_1_subheading') ?></p>
+                <p class="section-heading z-1"><?php the_field('dc_section_1_mainheadnig') ?></p>
+                <p class="card-content mt-0 mb-32 z-1"><?php the_field('dc_section_1_content') ?></p>
                 <button class="banner-button primary-button">LET'S WORK TOGETHER</button>
             </div>
         </div>
@@ -69,8 +69,8 @@ Template Name: DevOps Cloud Page
                 <img src="<?php echo get_template_directory_uri() ?>/images/dc-old-img.svg" alt="">
             </div>
             <div class="left-part border-zero p-rel">
-                <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_2_subheading') ?></p>
-                <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_2_mainheading') ?></p>
+                <p class="section-title z-1"><?php the_field('dc_section_2_subheading') ?></p>
+                <p class="section-heading z-1"><?php the_field('dc_section_2_mainheading') ?></p>
                 <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_2_content') ?></p>
                 <ul>
                     <li class="card-content mb-4 p-rel">Achieve continuous delivery with automated pipelines.</li>
@@ -91,9 +91,9 @@ Template Name: DevOps Cloud Page
                 <img src="<?php echo get_template_directory_uri() ?>/images/image 144.svg" alt="">
             </div>
             <div class="left-part p-rel">
-                <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_3_subheading') ?></p>
-                <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_3_mainheading') ?></p>
-                <p class="card-content mt-0 mb-40 z-1"><?php the_field('dc_section_3_content') ?></p>
+                <p class="section-title z-1"><?php the_field('dc_section_3_subheading') ?></p>
+                <p class="section-heading z-1"><?php the_field('dc_section_3_mainheading') ?></p>
+                <p class="card-content mt-0 mb-32 z-1"><?php the_field('dc_section_3_content') ?></p>
                 <button class="banner-button primary-button">REQUEST A FREE DEMO</button>
             </div>
             <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
@@ -105,9 +105,9 @@ Template Name: DevOps Cloud Page
     <div class="technos-wrapper w-full">
         <div class="technos wds m-auto">
             <p class="section-title m-auto w-fc tx-center">Our Services</p>
-            <p class="section-heading wds m-auto mb-20 mt-12 tx-center">Comprehensive DevOps & Cloud Solutions</p>
-            <p class="section-content wds m-auto mb-40 tx-center">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
-            <div class="boxes-wrapper wds m-auto bx-border-box">
+            <p class="section-heading wds m-auto tx-center">Comprehensive DevOps & Cloud Solutions</p>
+            <p class="section-content wds m-auto tx-center">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
+            <div class="boxes-wrapper wds m-auto bx-border-box mt-40">
                     <div class="box padding-20 bx-border-box">
                         <div class="upper-part">
                             <div class="logo logo-1">
@@ -160,9 +160,9 @@ Template Name: DevOps Cloud Page
                 <img src="<?php echo get_template_directory_uri() ?>/images/dc-discussion-img.svg" alt="">
             </div>
             <div class="left-part p-rel">
-                <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_4_subheading') ?></p>
-                <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_4_mainheading') ?></p>
-                <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_4_content') ?></p>
+                <p class="section-title z-1"><?php the_field('dc_section_4_subheading') ?></p>
+                <p class="section-heading z-1"><?php the_field('dc_section_4_mainheading') ?></p>
+                <p class="card-content z-1"><?php the_field('dc_section_4_content') ?></p>
                 <ul>
                     <li class="card-content mb-4 p-rel">A team of certified DevOps and Cloud experts.</li>
                     <li class="card-content mb-4 p-rel">Proven track record with global clients across industries.</li>

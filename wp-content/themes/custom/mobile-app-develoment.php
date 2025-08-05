@@ -56,8 +56,8 @@ Template Name: Mobile App Development Page
         <div class="transform-future-wrapper w-full padding-40 bx-border-box">
             <div class="transform-future wds m-auto">
                 <div class="left-part">
-                    <p class="section-title mt-0 mb-12"><?php the_field('md_section_1_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20"><?php the_field('md_section_1_mainheading')?></p>
+                    <p class="section-title"><?php the_field('md_section_1_subheading')?></p>
+                    <p class="section-heading"><?php the_field('md_section_1_mainheading')?></p>
                     <p class="card-content mt-0 mb-32"><?php the_field('md_section_1_content')?></p>
                     <button class="primary-button">LET'S WORK TOGETGHER</button>
                 </div>
@@ -74,8 +74,8 @@ Template Name: Mobile App Development Page
             </div>
             <div class="text-section o-h p-rel">
                 <div class="section">
-                    <p class="section-title mt-0 mb-12"><?php the_field('md_section_2_subheading')?></p>
-                    <h2 class="section-heading mb-20 mt-0 z-1 p-rel"><?php the_field('md_section_2_mainheading')?></h2>
+                    <p class="section-title"><?php the_field('md_section_2_subheading')?></p>
+                    <h2 class="section-heading z-1 p-rel"><?php the_field('md_section_2_mainheading')?></h2>
                     <p class="card-content mt-0 mb-4"><?php the_field('md_section_2_content')?></p>
                     <p class="card-content mt-0 mb-16">What do you love about those apps that could work for your business?</p>
                     <ul class="points padding-0 mt-0 mb-0">
@@ -92,8 +92,8 @@ Template Name: Mobile App Development Page
         </div>
 
         <div class="full-service-development wds m-auto mt-120">
-            <p class="section-title m-auto tx-center mt-0 mb-8 w-fc"><?php the_field('md_section_3_subheading')?></p>
-            <h2 class="section-heading mt-0 m-auto tx-center mb-20"><?php the_field('md_section_3_mainheading')?></h2>
+            <p class="section-title m-auto tx-center w-fc"><?php the_field('md_section_3_subheading')?></p>
+            <h2 class="section-heading m-auto tx-center"><?php the_field('md_section_3_mainheading')?></h2>
             <p class="card-content mb-0 mt-0 tx-center m-auto main-content"><?php the_field('md_section_3_content')?></p>
             <div class="boxes-wrapper">
                 <div class="box bx-border-box mt-40">
@@ -185,8 +185,8 @@ Template Name: Mobile App Development Page
             </div>
             <div class="text-section o-h p-rel">
                 <div class="section">
-                    <p class="section-title mt-0 mb-12"><?php the_field('md_section_5_subheading')?></p>
-                    <h2 class="section-heading mb-20 mt-0 z-1 p-rel"><?php the_field('md_section_5_mainheading')?></h2>
+                    <p class="section-title"><?php the_field('md_section_5_subheading')?></p>
+                    <h2 class="section-heading z-1 p-rel"><?php the_field('md_section_5_mainheading')?></h2>
                     <p class="card-content mt-0 mb-4"><?php the_field('md_section_5_content')?></p>
                     <ul class="points padding-0 mt-0 mb-0">
                         <li class="card-content mb-4 p-rel">Automotive</li>

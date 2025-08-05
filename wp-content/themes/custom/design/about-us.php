@@ -47,9 +47,9 @@ Template Name: About Us
     </div>
     <div class="services-we-offer wds m-auto mt-120">
         <p class="section-title m-auto w-fc tx-center">Why Choose us</p>
-        <p class="section-heading tx-center">What Sets Us Apart?</p>
-        <p class="section-content tx-center">To amplify human potential and create the next opportunity for people, businesses and communities</p>
-        <div class="boxes-wrapper wds m-auto mt-40">
+        <p class="section-heading mb-20 mt-0 tx-center">What Sets Us Apart?</p>
+        <p class="section-content mb-40 tx-center">To amplify human potential and create the next opportunity for people, businesses and communities</p>
+        <div class="boxes-wrapper wds m-auto">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
@@ -89,7 +89,7 @@ Template Name: About Us
 
     <div class="our-purpose">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('purpose_subheading'); ?></p>
-        <p class="section-heading tx-center"><?php echo the_field('purpose_subheading'); ?></p>
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('purpose_subheading'); ?></p>
         <p class="section-content mb-40 tx-center"><?php echo the_field('purpose_content'); ?></p>
 
         
@@ -123,9 +123,9 @@ Template Name: About Us
 
     <div class="services-we-offer wds m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('core_value_subheading'); ?></p>
-        <p class="section-heading tx-center"><?php echo the_field('core_value_heading'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('core_value_content'); ?></p>
-        <div class="boxes-wrapper wds m-auto mt-40">
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('core_value_heading'); ?></p>
+        <p class="section-content mb-40 tx-center"><?php echo the_field('core_value_content'); ?></p>
+        <div class="boxes-wrapper wds m-auto">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
@@ -165,10 +165,10 @@ Template Name: About Us
 
     <div class="team-of-experts wds m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('our_team_subheading'); ?></p>
-        <p class="section-heading tx-center"><?php echo the_field('our_team_heading'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('our_team_content'); ?></p>
+        <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('our_team_heading'); ?></p>
+        <p class="section-content mb-40 tx-center"><?php echo the_field('our_team_content'); ?></p>
 
-        <div class="teams-container mt-40">
+        <div class="teams-container">
             <div class="team-member">
                 <div class="img-of-member">
                     <img class="" src="<?php echo get_template_directory_uri() ?>/images/team1.svg" alt="">

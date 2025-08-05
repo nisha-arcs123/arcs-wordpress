@@ -70,9 +70,9 @@ Template Name: Digital Transformation Page
                   <img src="<?php echo get_template_directory_uri()?>/images/image 144.svg" alt="">
               </div>
               <div class="left-part p-rel">
-                  <p class="section-title mt-0 mb-12 z-1"><?php the_field('dt_section_2_subheading')?></p>
-                  <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dt_section_2_mainheading')?></p>
-                  <p class="section-content mt-0 z-1"><?php the_field('dt_section_2_content')?></p> 
+                  <p class="section-title z-1"><?php the_field('dt_section_2_subheading')?></p>
+                  <p class="section-heading z-1"><?php the_field('dt_section_2_mainheading')?></p>
+                  <p class="card-content z-1"><?php the_field('dt_section_2_content')?></p> 
               </div>
               <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
               <div class="circle4 z-0"></div>
@@ -81,10 +81,10 @@ Template Name: Digital Transformation Page
        
         <div class="technos-wrapper wds m-auto">
             <div class="technos m-auto wds">
-                <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('dt_section_3_subheading')?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('dt_section_3_mainheading')?></p>
-                <p class="section-content mb-40 tx-center"><?php the_field('dt_section_3_content')?></p>
-                <div class="boxes-wrapper">
+                <p class="section-title m-auto w-fc tx-center"><?php the_field('dt_section_3_subheading')?></p>
+                <p class="section-heading  tx-center"><?php the_field('dt_section_3_mainheading')?></p>
+                <p class="section-content tx-center"><?php the_field('dt_section_3_content')?></p>
+                <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box p-rel">
                         
                         <div class="logo">
@@ -132,8 +132,8 @@ Template Name: Digital Transformation Page
         <div class="transform-future-wrapper w-full padding-40 bx-border-box">
             <div class="transform-future wds m-auto">
                 <div class="left-part">
-                    <p class="section-title mt-0 mb-12"><?php the_field('dt_section_4_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20"><?php the_field('dt_section_4_mainheading')?></p>
+                    <p class="section-title"><?php the_field('dt_section_4_subheading')?></p>
+                    <p class="section-heading"><?php the_field('dt_section_4_mainheading')?></p>
                     <p class="card-content mt-0 mb-32"><?php the_field('dt_section_4_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
@@ -145,10 +145,10 @@ Template Name: Digital Transformation Page
 
         <div class="technos-wrapper w-full">
             <div class="technos m-auto wds">
-                <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('dt_section_5_subheading')?></p>
-                <p class="section-heading mb-20 mt-12 tx-center"><?php the_field('dt_section_5_mainheading')?></p>
-                <p class="section-content mb-40 tx-center"><?php the_field('dt_section_5_content')?></p>
-                <div class="boxes-wrapper">
+                <p class="section-title m-auto w-fc tx-center"><?php the_field('dt_section_5_subheading')?></p>
+                <p class="section-heading tx-center"><?php the_field('dt_section_5_mainheading')?></p>
+                <p class="section-content  tx-center"><?php the_field('dt_section_5_content')?></p>
+                <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box p-rel">
                         
                         <div class="logo">
@@ -197,8 +197,8 @@ Template Name: Digital Transformation Page
         <div class="back-transparent transform-future-wrapper w-full padding-40 bx-border-box">
             <div class="transform-future wds m-auto">
                 <div class="left-part">
-                    <p class="section-title mt-0 mb-12"><?php the_field('dt_section_6_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20"><?php the_field('dt_section_6_mainheading')?></p>
+                    <p class="section-title"><?php the_field('dt_section_6_subheading')?></p>
+                    <p class="section-heading"><?php the_field('dt_section_6_mainheading')?></p>
                     <p class="card-content mt-0 mb-32"><?php the_field('dt_section_6_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>

@@ -1343,6 +1343,8 @@ body {
   line-height: 62px;
   font-weight: 600;
   color: #202323;
+  margin-top: 8px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1720px) {
   .section-heading {
@@ -1358,6 +1360,7 @@ body {
     line-height: 40px;
     font-weight: 600;
     color: #202323;
+    margin-top: 0;
     margin-bottom: 12px;
   }
 }
@@ -1434,6 +1437,7 @@ body {
   line-height: 25px;
   font-weight: 400;
   color: #707070;
+  margin-bottom: 32px;
 }
 @media screen and (max-width: 768px) {
   .card-content {

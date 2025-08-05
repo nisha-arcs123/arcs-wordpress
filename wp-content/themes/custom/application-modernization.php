@@ -139,9 +139,9 @@ Template Name: Application Modernization Page
               <img src="<?php echo get_template_directory_uri() ?>/images/two-g-dis.svg" alt="">
           </div>
           <div class="left-part p-rel">
-              <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading'); ?></p>
-              <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_mainheading'); ?></p>
-              <p class="section-content mt-0 z-1"><?php echo the_field('section2_content'); ?></p> 
+              <p class="section-title z-1"><?php echo the_field('section2_heading'); ?></p>
+              <p class="section-heading z-1"><?php echo the_field('section2_mainheading'); ?></p>
+              <p class="card-content mt-0 z-1"><?php echo the_field('section2_content'); ?></p> 
           </div>
           <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
           <div class="circle4 z-0"></div>
@@ -150,7 +150,7 @@ Template Name: Application Modernization Page
 
     <div class="services-we-offer wds m-auto">
           <p class="section-title m-auto w-fc tx-center"><?php echo the_field('section3_heading'); ?></p>
-          <p class="section-heading mb-20 mt-12 tx-center"><?php echo the_field('section3_mainheading'); ?></p>
+          <p class="section-heading tx-center"><?php echo the_field('section3_mainheading'); ?></p>
           <div class="boxes-wrapper wds m-auto">
               <div class="box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-1">
@@ -201,10 +201,10 @@ Template Name: Application Modernization Page
 
     <div class="kf-wrapper">
           <div class="key-features wds m-auto">
-              <p class="section-title mt-0 mb-12"><?php echo the_field('section5_heading'); ?></p>
-              <p class="section-heading mt-0 mb-20"><?php echo the_field('section5_mainheading'); ?></p>
-              <p class="section-content kf-main-content mt-0 mb-40"><?php echo the_field('section5_content'); ?></p>
-              <div class="kf-boxes-wrapper">
+              <p class="section-title"><?php echo the_field('section5_heading'); ?></p>
+              <p class="section-heading"><?php echo the_field('section5_mainheading'); ?></p>
+              <p class="section-content kf-main-content"><?php echo the_field('section5_content'); ?></p>
+              <div class="kf-boxes-wrapper  mt-40">
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>01</span>User-Centric Improvements</p>
                       <p class="card-content mb-0 mt-12">Evolve the product based on customer feedback and behavior.</p>

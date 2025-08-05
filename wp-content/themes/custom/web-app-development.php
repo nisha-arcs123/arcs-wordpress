@@ -46,16 +46,16 @@ Template Name:Web App Development Page
   <div class="what-we-do wds p-rel bx-border-box">
     <img class="mouse-gif" src="<?php echo get_template_directory_uri(); ?>/images/mouse-gif.gif" alt="" />
 
-    <span class="section-title mb-20">
+    <span class="section-title">
       <?php echo the_field('why_develop_web_app'); ?>
     </span>
 
-    <h1 class="section-heading mb-12 mt-0 wwd-heading">
+    <h1 class="section-heading wwd-heading">
       <?php echo the_field('web_app_harnessing'); ?>
 
     </h1>
 
-    <p class="section-content mb-12">
+    <p class="section-content">
       <?php echo the_field('web_app_content_harnessing'); ?>
     </p>
 
@@ -124,10 +124,10 @@ Template Name:Web App Development Page
 
   <div class="kf-wrapper">
     <div class="key-features wds m-auto">
-      <p class="section-title mt-0 mb-12"><?php echo the_field('key_featured_sub_heading'); ?></p>
-      <p class="section-heading mt-0 mb-20"><?php echo the_field('key_feature_heading'); ?></p>
-      <p class="section-content kf-main-content mt-0 mb-40"><?php echo the_field('key_feature_content'); ?></p>
-      <div class="kf-boxes-wrapper">
+      <p class="section-title"><?php echo the_field('key_featured_sub_heading'); ?></p>
+      <p class="section-heading"><?php echo the_field('key_feature_heading'); ?></p>
+      <p class="section-content kf-main-content"><?php echo the_field('key_feature_content'); ?></p>
+      <div class="kf-boxes-wrapper  mt-40">
         <div class="kf-box padding-20 bx-border-box">
           <p class="box-heading mt-0 mb-0"><span>01</span>Stable</p>
           <p class="card-content mb-0 mt-12">Generate insights from your own data using AI-powered visualization and analytics tools.</p>
@@ -254,9 +254,9 @@ Template Name:Web App Development Page
         <img src="<?php echo get_template_directory_uri() ?>/images/web-devsec.svg" alt="">
       </div>
       <div class="left-part p-rel">
-        <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('start_your_project_subheading'); ?></p>
-        <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('start_your_project_heading'); ?></p>
-        <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('start_yuor_project_content'); ?></button>
+        <p class="section-title z-1"><?php echo the_field('start_your_project_subheading'); ?></p>
+        <p class="section-heading z-1"><?php echo the_field('start_your_project_heading'); ?></p>
+        <p class="card-content z-1"><?php echo the_field('start_yuor_project_content'); ?></button>
       </div>
       <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
       <div class="circle4 z-0"></div>

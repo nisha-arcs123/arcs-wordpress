@@ -48,9 +48,9 @@ Template Name: Experience design page
 
     <div class="ux-design-services-wrapper w-full">
         <div class="ux-design-services wds m-auto">
-            <span class="section-title mt-0"><?php echo the_field('section1-header1'); ?></span>
-            <h1 class="section-heading mt-16 mb-40"><?php echo the_field('section1-header2'); ?></h1>
-            <div class="service-boxes">
+            <span class="section-title"><?php echo the_field('section1-header1'); ?></span>
+            <h1 class="section-heading"><?php echo the_field('section1-header2'); ?></h1>
+            <div class="service-boxes mt-40">
                 <div class="box p-rel z-1 t-3 bx-border-box padding-16">
                     <div class="overlay z-1"></div>
                     <div class="logo-n-heading mb-20 p-rel z-2">
@@ -156,8 +156,8 @@ Template Name: Experience design page
                 <div class="rectangles rectangle-4"></div>
             </div>
             <div class="title-n-heading p-rel z-1">
-                <span class="section-title mb-12"><?php echo the_field('section2-header1'); ?></span>
-                <h1 class="section-heading mt-8 mb-20"><?php echo the_field('section2-header2'); ?></h1>
+                <span class="section-title"><?php echo the_field('section2-header1'); ?></span>
+                <h1 class="section-heading"><?php echo the_field('section2-header2'); ?></h1>
                 <p class="section-content"><?php echo the_field('section2-paragragh'); ?></p>
             </div>
             <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
@@ -247,9 +247,9 @@ Template Name: Experience design page
         <div class="circle-1"></div>
         <div class="circle-2"></div>
         <div class="your-expert wds p-rel z-1 bx-border-box m-auto">
-            <span class="section-title mb-12"><?php echo the_field('section4-header1') ?></span>
-            <p class="section-heading mt-0 mb-40"><?php echo the_field('section4-header2') ?></p>
-            <div class="boxes">
+            <span class="section-title"><?php echo the_field('section4-header1') ?></span>
+            <p class="section-heading"><?php echo the_field('section4-header2') ?></p>
+            <div class="boxes mt-40">
                 <div class="box t-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-img-1.svg" alt="">
                     <div class="content padding-16 bx-border-box">

@@ -149,8 +149,8 @@ Template Name: Ecommerce Development Page
                     <img src="<?php echo get_template_directory_uri()?>/images/ec-dt.svg" alt="">
                 </div>
                 <div class="left-part p-rel">
-                    <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading1_cd'); ?></p>
-                    <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_heading2_cd'); ?></p>
+                    <p class="section-title z-1"><?php echo the_field('section2_heading1_cd'); ?></p>
+                    <p class="section-heading z-1"><?php echo the_field('section2_heading2_cd'); ?></p>
                     <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_cd'); ?></p> 
                     <button class="primary-button">LET'S WORK TOGETGHER</button>
                 </div>
@@ -162,8 +162,8 @@ Template Name: Ecommerce Development Page
         <div class="all-size-business-wrapper w-full">
             <div class="all-size-business wds m-auto">
                 <div class="content">
-                    <p class="section-title mt-0 mb-12 mt-0"><?php echo the_field('section3_heading1_cd'); ?></p>
-                    <p class="section-heading mt-0 mb-20"><?php echo the_field('section3_heading2_cd'); ?></p>
+                    <p class="section-title"><?php echo the_field('section3_heading1_cd'); ?></p>
+                    <p class="section-heading "><?php echo the_field('section3_heading2_cd'); ?></p>
                     <p class="card-content mt-0 mb-32"><?php echo the_field('section3_description_cd'); ?></p>
                     <button class="primary-button">START BUILDING TODAY</button>
                 </div>

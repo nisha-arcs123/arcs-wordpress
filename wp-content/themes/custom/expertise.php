@@ -56,9 +56,9 @@ Template Name: Expertise page
                     <img src="<?php echo get_template_directory_uri()?>/images/st-banner-s3.svg" alt="">
                 </div>
                 <div class="left-part p-rel">
-                    <p class="section-title mt-0 mb-12 z-1"><?php the_field('st_section_1_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20 z-1"><?php the_field('st_section_1_mainheading')?></p>
-                    <p class="card-content mt-0 mb-40 z-1"><?php the_field('st_section_1_content')?></p>
+                    <p class="section-title z-1"><?php the_field('st_section_1_subheading')?></p>
+                    <p class="section-heading z-1"><?php the_field('st_section_1_mainheading')?></p>
+                    <p class="card-content mt-0 mb-32 z-1"><?php the_field('st_section_1_content')?></p>
                     <button class="banner-button primary-button">LET'S WORK TOGETGHER</button>
                 </div>
             </div>

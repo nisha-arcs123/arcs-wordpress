@@ -125,8 +125,8 @@ Template Name: Digital Experience Page
         <div class="transform-future-wrapper w-full padding-40 bx-border-box">
             <div class="transform-future wds m-auto">
                 <div class="left-part">
-                    <p class="section-title mt-0 mb-12"><?php the_field('d_exp_section_2_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20"><?php the_field('d_exp_section_2_mainheading')?></p>
+                    <p class="section-title"><?php the_field('d_exp_section_2_subheading')?></p>
+                    <p class="section-heading"><?php the_field('d_exp_section_2_mainheading')?></p>
                     <p class="card-content mt-0 mb-32"><?php the_field('d_exp_section_2_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
@@ -142,8 +142,8 @@ Template Name: Digital Experience Page
             <div class="transform-future m-auto wds">
                 
                 <div class="left-part">
-                    <p class="section-title mt-0 mb-12"><?php the_field('d_exp_section_3_subheading')?></p>
-                    <p class="section-heading mt-0 mb-20"><?php the_field('d_exp_section_3_mainheading')?></p>
+                    <p class="section-title"><?php the_field('d_exp_section_3_subheading')?></p>
+                    <p class="section-heading"><?php the_field('d_exp_section_3_mainheading')?></p>
                     <p class="card-content mt-0 mb-32"><?php the_field('d_exp_section_3_content')?></p>
                     <button class="primary-button">Let's Work Together</button>
                 </div>
@@ -243,10 +243,10 @@ Template Name: Digital Experience Page
 
         <div class="technos-wrapper wds m-auto">
             <div class="technos m-auto wds">
-                <p class="section-title mb-10 m-auto w-fc tx-center"><?php the_field('d_exp_section_5_subheading')?></p>
-                <p class="section-heading wds m-auto mb-20 mt-12 tx-center"><?php the_field('d_exp_section_5_mainheading')?></p>
-                <p class="section-content wds m-auto mb-40 tx-center"><?php the_field('d_exp_section_5_content')?></p>
-                <div class="boxes-wrapper">
+                <p class="section-title  m-auto w-fc tx-center"><?php the_field('d_exp_section_5_subheading')?></p>
+                <p class="section-heading wds m-auto tx-center"><?php the_field('d_exp_section_5_mainheading')?></p>
+                <p class="section-content wds m-auto tx-center"><?php the_field('d_exp_section_5_content')?></p>
+                <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box">
                         <div class="upper-part mb-16">
                             <div class="logo">
