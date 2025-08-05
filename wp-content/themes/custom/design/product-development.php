@@ -223,7 +223,7 @@ Template Name: Product Development Page
         </div>
     </div>
 
-    <div class="remarkable-benefits-wrapper">
+    <div class="remarkable-benefits-wrapper wds m-auto">
         <p class="section-title mt-0 mb-0 tx-center"><?php echo the_field('product_section5_heading1'); ?></p>
         <p class="section-heading mt-0 mb-0 tx-center"><?php echo the_field('product_section5_heading2'); ?></p>
         <p class="section-content main-content mt-0 m-auto tx-center "><?php echo the_field('product_section5_description'); ?></p>

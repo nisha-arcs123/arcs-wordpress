@@ -57,7 +57,7 @@ Template Name: DevOps Cloud Page
             <div class="left-part p-rel">
                 <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_1_subheading') ?></p>
                 <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_1_mainheadnig') ?></p>
-                <p class="section-content mt-0 mb-40 z-1"><?php the_field('dc_section_1_content') ?></p>
+                <p class="card-content mt-0 mb-40 z-1"><?php the_field('dc_section_1_content') ?></p>
                 <button class="banner-button primary-button">LET'S WORK TOGETHER</button>
             </div>
         </div>
@@ -73,11 +73,11 @@ Template Name: DevOps Cloud Page
                 <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_2_mainheading') ?></p>
                 <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_2_content') ?></p>
                 <ul>
-                    <li class="section-content p-rel">Achieve continuous delivery with automated pipelines.</li>
-                    <li class="section-content p-rel">Scale effortlessly to meet changing demands.</li>
-                    <li class="section-content p-rel">Enhance collaboration between development and operations teams.</li>
-                    <li class="section-content p-rel">Reduce downtime and improve system reliability.</li>
-                    <li class="section-content p-rel">Optimize costs with efficient cloud resource management.</li>
+                    <li class="card-content mb-4 p-rel">Achieve continuous delivery with automated pipelines.</li>
+                    <li class="card-content mb-4 p-rel">Scale effortlessly to meet changing demands.</li>
+                    <li class="card-content mb-4 p-rel">Enhance collaboration between development and operations teams.</li>
+                    <li class="card-content mb-4 p-rel">Reduce downtime and improve system reliability.</li>
+                    <li class="card-content mb-4 p-rel">Optimize costs with efficient cloud resource management.</li>
                 </ul>
             </div>
 
@@ -93,7 +93,7 @@ Template Name: DevOps Cloud Page
             <div class="left-part p-rel">
                 <p class="section-title mt-0 mb-12 z-1"><?php the_field('dc_section_3_subheading') ?></p>
                 <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_3_mainheading') ?></p>
-                <p class="section-content mt-0 mb-40 z-1"><?php the_field('dc_section_3_content') ?></p>
+                <p class="card-content mt-0 mb-40 z-1"><?php the_field('dc_section_3_content') ?></p>
                 <button class="banner-button primary-button">REQUEST A FREE DEMO</button>
             </div>
             <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
@@ -164,11 +164,11 @@ Template Name: DevOps Cloud Page
                 <p class="section-heading mt-0 mb-20 z-1"><?php the_field('dc_section_4_mainheading') ?></p>
                 <p class="card-content mt-0 mb-0 z-1"><?php the_field('dc_section_4_content') ?></p>
                 <ul>
-                    <li class="section-content p-rel">A team of certified DevOps and Cloud experts.</li>
-                    <li class="section-content p-rel">Proven track record with global clients across industries.</li>
-                    <li class="section-content p-rel">Customizable solutions tailored to your business goals.</li>
-                    <li class="section-content p-rel">Cutting-edge tools and methodologies for unmatched performance.</li>
-                    <li class="section-content p-rel">Dedicated support to guide you every step of the way.</li>
+                    <li class="card-content mb-4 p-rel">A team of certified DevOps and Cloud experts.</li>
+                    <li class="card-content mb-4 p-rel">Proven track record with global clients across industries.</li>
+                    <li class="card-content mb-4 p-rel">Customizable solutions tailored to your business goals.</li>
+                    <li class="card-content mb-4 p-rel">Cutting-edge tools and methodologies for unmatched performance.</li>
+                    <li class="card-content mb-4 p-rel">Dedicated support to guide you every step of the way.</li>
                 </ul>
             </div>
         </div>

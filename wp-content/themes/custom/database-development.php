@@ -97,7 +97,7 @@ Template Name: Database Development Page
             <p class="section-title mt-0 mb-12 z-1"><?php echo the_field('section2_heading1_db'); ?></p>
             <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section2_heading2_db'); ?>
             </p>
-            <p class="section-content mt-0 mb-40 z-1"><?php echo the_field('section2_description_db'); ?></p>
+            <p class="card-content mt-0 mb-40 z-1"><?php echo the_field('section2_description_db'); ?></p>
             <button class="banner-button primary-button p-rel z-1">SCHEDULE A FREE CONSULTATION</button>
         </div>
         <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
@@ -161,11 +161,11 @@ Template Name: Database Development Page
             <p class="section-heading mt-0 mb-20 z-1"><?php echo the_field('section5_heading2db'); ?></p>
             <p class="card-content mt-0 mb-0 z-1"><?php echo the_field('section5_descriptiondb'); ?></p>
             <ul>
-                <li class="section-content p-rel">SQL-based solutions (MySQL, PostgreSQL, SQL Server)</li>
-                <li class="section-content p-rel">NoSQL databases (MongoDB, Cassandra)</li>
-                <li class="section-content p-rel">Cloud databases (AWS RDS, Google Cloud Firestore, Azure SQL)</li>
-                <li class="section-content p-rel">Data Warehousing solutions (Snowflake, BigQuery)</li>
-                <li class="section-content p-rel">Database management and monitoring tools</li>
+                <li class="card-content mb-4 p-rel">SQL-based solutions (MySQL, PostgreSQL, SQL Server)</li>
+                <li class="card-content mb-4 p-rel">NoSQL databases (MongoDB, Cassandra)</li>
+                <li class="card-content mb-4 p-rel">Cloud databases (AWS RDS, Google Cloud Firestore, Azure SQL)</li>
+                <li class="card-content mb-4 p-rel">Data Warehousing solutions (Snowflake, BigQuery)</li>
+                <li class="card-content mb-4 p-rel">Database management and monitoring tools</li>
             </ul>
             <button class="banner-button primary-button">LET'S WORK TOGETHER</button>
         </div>
