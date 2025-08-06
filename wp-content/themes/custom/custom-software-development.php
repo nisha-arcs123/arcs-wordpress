@@ -45,7 +45,7 @@ Template Name: Custom Software Development Page
 
     <div class="why-choose-us-wrapper w-full">
         <div class="why-choose-us">
-            <p class="m-auto section-title-text section-heading tx-center mb-20"><?php echo the_field('custom_section1_heading'); ?></p>
+            <p class="m-auto section-title-text section-heading tx-center mT-0"><?php echo the_field('custom_section1_heading'); ?></p>
             <p class="m-auto tx-center main-content section-content"><?php echo the_field('custom_section1_description'); ?></p>
             <div class="boxes-wrapper wds m-auto bx-border-box">
                 <div class="box padding-20 bx-border-box">
@@ -227,20 +227,20 @@ Template Name: Custom Software Development Page
                     </div>
                     <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/react.svg" alt="">
                         <span>React</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/angular-svgrepo-com 6.svg" alt="">
                         <span>Angular</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>Vue.Js</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/java.svg" alt="">
+                        <span>Java</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                        <span>HTML5, CSS3, and JavaScript</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/tensorflow.svg" alt="">
+                        <span>Tensorflow</span>
                     </div>
                 </div>
                 <div class="box padding-16 bx-border-box">
@@ -252,20 +252,20 @@ Template Name: Custom Software Development Page
                     </div>
                     <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>React</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/nodejs-logo-svgrepo-com 1.svg" alt="">
+                        <span>Node</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/flutter-svgrepo-com (1) 1.svg" alt="">
+                        <span>Flutter</span>
+                    </div>
+                    <div class="tech">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/angular-svgrepo-com 6.svg" alt="">
                         <span>Angular</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>Vue.Js</span>
-                    </div>
-                    <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                        <span>HTML5, CSS3, and JavaScript</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/python.svg" alt="">
+                        <span>Python</span>
                     </div>
                 </div>
                 <div class="box padding-16 bx-border-box">
@@ -276,21 +276,22 @@ Template Name: Custom Software Development Page
                         <p class="card-title">Frontend Development</p>
                     </div>
                     <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
+
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/devicon_figma.svg" alt="">
+                        <span>Figma</span>
+                    </div>
+                    <div class="tech">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logos_adobe-xd.svg" alt="">
+                        <span>Adobe xd</span>
+                    </div>
+                    <div class="tech">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Frame 2609182.svg" alt="">
+                        <span>Devops</span>
+                    </div>
+                    <div class="tech">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/react.svg" alt="">
                         <span>React</span>
-                    </div>
-                    <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                        <span>Angular</span>
-                    </div>
-                    <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>Vue.Js</span>
-                    </div>
-                    <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                        <span>HTML5, CSS3, and JavaScript</span>
                     </div>
                 </div>
                 <div class="box padding-16 bx-border-box">
@@ -301,21 +302,22 @@ Template Name: Custom Software Development Page
                         <p class="card-title">Frontend Development</p>
                     </div>
                     <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
+
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>React</span>
-                    </div>
-                    <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/angular-svgrepo-com 6.svg" alt="">
                         <span>Angular</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                        <span>Vue.Js</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/laravel.svg" alt="">
+                        <span>Laravel</span>
                     </div>
                     <div class="tech">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                        <span>HTML5, CSS3, and JavaScript</span>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/react.svg" alt="">
+                        <span>React</span>
+                    </div>
+                    <div class="tech">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/tensorflow.svg" alt="">
+                        <span>Tensorflow</span>
                     </div>
                 </div>
             </div>

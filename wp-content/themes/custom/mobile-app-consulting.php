@@ -94,14 +94,14 @@ Template Name: Mobile App Consulting Page
             <div class="box aspect-card1 padding-20 bx-border-box">
                 <img class="mb-20 img1" src="<?php echo get_template_directory_uri() ?>/images/Group 37920.svg" alt="" class="img1">
                 <img class="mb-20 img2" src="<?php echo get_template_directory_uri() ?>/images/Group 37931.svg" alt="" class="img2">
-                <h4 class="box-heading hover-effect mt-0 mb-8">iOS Product Development</h4>
+                <h4 class="box-heading hover-effect">iOS Product Development</h4>
                 <p class="card-content mb-0 hover-effect">Designing and developing powerful iOS apps that truly represent the value of your brand.</p>
             </div>
 
             <div class="box aspect-card2 padding-20 bx-border-box">
                 <img class="mb-20 img1" src="<?php echo get_template_directory_uri() ?>/images/Group 37925.svg" alt="" class="img1">
                 <img class="mb-20 img2" src="<?php echo get_template_directory_uri() ?>/images/Group 37929.svg" alt="" class="img2">
-                <h4 class="box-heading hover-effect mt-0 mb-8">iOS Development</h4>
+                <h4 class="box-heading hover-effect">iOS Development</h4>
                 <p class="card-content mb-0 hover-effect">Creating custom-made enterprise iOS apps that help your business grow.</p>
             </div>
 
@@ -136,11 +136,11 @@ Template Name: Mobile App Consulting Page
 
     <div class="full-spectrum-outer wds m-auto">
         <h2 class="fs-large-heading mb-20 mt-0"><?php the_field('mobile_section_6_mainheading') ?></h2>
-        <p class="fs-normal-text card-content mb-40 mt-0"><?php the_field('mobile_section_6_content') ?></p>
+        <p class="fs-normal-text section-content mb-40 mt-0"><?php the_field('mobile_section_6_content') ?></p>
         <div class="full-spectrum-cards">
 
             <div class="full-spectrum-inner card1">
-                <div class="spectrum mb-20">
+                <div class="spectrum">
                     <div class="img-div1 div">
                         <img src="<?php echo get_template_directory_uri() ?>/images/Mask group (9).svg" alt="">
                     </div>
@@ -151,7 +151,7 @@ Template Name: Mobile App Consulting Page
                     ensure that it’s cost-effective, efficient, and user-friendly.</p>
             </div>
             <div class="full-spectrum-inner card2">
-                <div class="spectrum mb-20">
+                <div class="spectrum">
                     <div class="img-div2 div">
                         <img src="<?php echo get_template_directory_uri() ?>/images/Group 37947.svg" alt="">
                     </div>
@@ -162,7 +162,7 @@ Template Name: Mobile App Consulting Page
                     we create and execute a custom plan to optimize your apps for better outcomes and ROI.</p>
             </div>
             <div class="full-spectrum-inner card3">
-                <div class="spectrum mb-20">
+                <div class="spectrum">
                     <div class="img-div3 div">
                         <img src="<?php echo get_template_directory_uri() ?>/images/Group 37948.svg" alt="">
                     </div>
@@ -173,7 +173,7 @@ Template Name: Mobile App Consulting Page
                     ensure that every angle .</p>
             </div>
             <div class="full-spectrum-inner card4">
-                <div class="spectrum mb-20">
+                <div class="spectrum">
                     <div class="img-div4 div">
                         <img src="<?php echo get_template_directory_uri() ?>/images/Group 37949.svg" alt="">
                     </div>

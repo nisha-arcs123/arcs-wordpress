@@ -143,18 +143,19 @@ Template Name: Database Development Page
 </div>
 
 <div class="cs-great-solution o-h p-rel w-full tx-center">
-    <div class="left-circle circle br-50"></div>
-    <div class="right-circle circle br-50"></div>
-    <img class="left-img" src="<?php echo get_template_directory_uri() ?>/images/ui-gs-left.svg" alt="">
-    <img class="right-img" src="<?php echo get_template_directory_uri() ?>/images/ui-gs-right.svg" alt="">
-    <p class="section-heading mt-0 p-rel z-1 mb-28"><?php echo the_field('section4_headingdb'); ?></p>
-    <button class="primary-button p-rel z-1 m-auto">CONTACT US</button>
-</div>
+        <div class="left-circle circle br-50"></div>
+        <div class="right-circle circle br-50"></div>
+        <img class="left-img" src="<?php echo get_template_directory_uri(); ?>/images/ui-gs-left.svg" alt="">
+        <img class="right-img" src="<?php echo get_template_directory_uri(); ?>/images/ui-gs-right.svg" alt="">
+        <p class="section-heading p-rel z-1">Let's</p>
+        <p class="section-heading p-rel z-1">Build Your Next Great Solution</p>
+        <button class="primary-button p-rel z-1 m-auto mt-28">CONTACT US</button>
+    </div>
 
 <div class="cs-digital-transform-wrapper wds m-auto">
     <div class="digital-transformation m-auto p-rel">
         <div class="right-part">
-            <img src="<?php echo get_template_directory_uri() ?>/images/dd-s-img.svg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/images/image.svg" alt="">
         </div>
         <div class="left-part p-rel">
             <p class="section-title z-1"><?php echo the_field('section5_heading1db'); ?></p>

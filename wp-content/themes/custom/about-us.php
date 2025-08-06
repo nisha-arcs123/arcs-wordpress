@@ -103,7 +103,7 @@ Template Name: About Us
             </div>
             <div class="text-section o-h p-rel">
                 <div class="section">
-                    <p class="section-title mt-0"><?php echo the_field('who_we_are'); ?></p>
+                    <p class="section-title"><?php echo the_field('who_we_are'); ?></p>
                     <h2 class="section-heading z-1 p-rel">Overview</h2>
                     <p class="card-content mt-0 mb-4">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                     <p class="card-content mt-0 mb-16">When you work with us, you can count on:</p>
@@ -126,7 +126,7 @@ Template Name: About Us
         <p class="section-heading tx-center"><?php echo the_field('core_value_heading'); ?></p>
         <p class="section-content tx-center"><?php echo the_field('core_value_content'); ?></p>
         <div class="boxes-wrapper wds m-auto mt-40">
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -135,7 +135,7 @@ Template Name: About Us
 
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-2">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -143,7 +143,7 @@ Template Name: About Us
                 <p class="card-content">We keep on pushing our boundaries and bringing innovative IT Solutions.
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-3">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -151,7 +151,7 @@ Template Name: About Us
                 <p class="card-content">With an end-to -end comprehensive process, we believe in practicing ethical and transparent business operations.
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-4">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>

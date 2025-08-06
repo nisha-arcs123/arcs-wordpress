@@ -236,9 +236,9 @@ Template Name: Experience design page
         <div class="right-circle circle br-50"></div>
         <img class="left-img" src="<?php echo get_template_directory_uri(); ?>/images/ui-gs-left.svg" alt="">
         <img class="right-img" src="<?php echo get_template_directory_uri(); ?>/images/ui-gs-right.svg" alt="">
-        <p class="section-heading mt-0 p-rel z-1 mb-0">Let's</p>
-        <p class="section-heading mt-0 p-rel z-1 mb-28">Build Your Next Great Solution</p>
-        <button class="primary-button p-rel z-1 m-auto">CONTACT US</button>
+        <p class="section-heading p-rel z-1">Let's</p>
+        <p class="section-heading p-rel z-1">Build Your Next Great Solution</p>
+        <button class="primary-button p-rel z-1 m-auto mt-28">CONTACT US</button>
     </div>
 
     <div class="gs-border w-full"></div>
@@ -254,7 +254,7 @@ Template Name: Experience design page
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-img-1.svg" alt="">
                     <div class="content padding-16 bx-border-box">
                         <span class="card-title ">UX/UI Designers</span>
-                        <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                        <p class="card-content">UX/UI designers focus on your customers, crafting intuitive,
                             engaging experiences that drive satisfaction and loyalty. Their designs turn
                             visitors into users and maximize conversions across your platform.</p>
                     </div>
@@ -263,7 +263,7 @@ Template Name: Experience design page
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-img-2.svg" alt="">
                     <div class="content padding-16 bx-border-box">
                         <span class="card-title ">UX/UI Designers</span>
-                        <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                        <p class="card-content">UX/UI designers focus on your customers, crafting intuitive,
                             engaging experiences that drive satisfaction and loyalty. Their designs turn
                             visitors into users and maximize conversions across your platform.</p>
                     </div>
@@ -272,7 +272,7 @@ Template Name: Experience design page
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-3.svg" alt="">
                     <div class="content padding-16 bx-border-box">
                         <span class="card-title ">UX/UI Designers</span>
-                        <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                        <p class="card-content">UX/UI designers focus on your customers, crafting intuitive,
                             engaging experiences that drive satisfaction and loyalty. Their designs turn
                             visitors into users and maximize conversions across your platform.</p>
                     </div>
@@ -281,7 +281,7 @@ Template Name: Experience design page
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-card-4.svg" alt="">
                     <div class="content padding-16 bx-border-box">
                         <span class="card-title ">UX/UI Designers</span>
-                        <p class="card-content mb-0 mt-8">UX/UI designers focus on your customers, crafting intuitive,
+                        <p class="card-content">UX/UI designers focus on your customers, crafting intuitive,
                             engaging experiences that drive satisfaction and loyalty. Their designs turn
                             visitors into users and maximize conversions across your platform.</p>
                     </div>

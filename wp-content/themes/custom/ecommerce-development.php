@@ -170,7 +170,7 @@ Template Name: Ecommerce Development Page
                 <div class="boxes">
                     <div class="inner-box">
                         <img src="<?php echo get_template_directory_uri()?>/images/ec-small-scale.svg" alt="">
-                        <div class="content">
+                        <div class="business-content">
                             <p class="as-box-heading mb-12 mt-0">Small & Mid-scale Businesses</p>
                             <ul>
                                 <li class="card-content mb-8">Affordable eCommerce services</li>
@@ -182,7 +182,7 @@ Template Name: Ecommerce Development Page
                     </div>
                     <div class="inner-box">
                         <img src="<?php echo get_template_directory_uri()?>/images/ec-large-scale.svg" alt="">
-                        <div class="content">
+                        <div class="business-content">
                             <p class="as-box-heading mb-12 mt-0">Enterprise-Grade</p>
                             <ul class="margin-0">
                                 <li class="card-content mb-8">High-performing, secure solutions</li>

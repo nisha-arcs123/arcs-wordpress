@@ -42,29 +42,64 @@
     <div class="service-info">
       <h2 class="footer-heading-text mb-16">Our Services</h2>
       <ul>
-        <li class="footer-para-text mb-16">Custom software Development</li>
-        <li class="footer-para-text mb-16">Mobile App consulting</li>
-        <li class="footer-para-text mb-16">Experience Design</li>
-        <li class="footer-para-text mb-16">MVP development</li>
-        <li class="footer-para-text mb-16">Digital Transformation</li>
-        <li class="footer-para-text mb-16">Product Development</li>
-        <li class="footer-para-text mb-16">Dedicated Development team</li>
-        <li class="footer-para-text mb-16">MVP development</li>
-        <li class="footer-para-text mb-16">AI/ML Consulting and Development</li>
-        <li class="footer-para-text mb-16">Application Modernization</li>
+        <a href="<?php echo home_url("custom-software-development"); ?>">
+          <li class="footer-para-text mb-16">Custom software Development</li>
+        </a>
+        <a href="<?php echo home_url("mobile-app-consulting") ?>">
+          <li class="footer-para-text mb-16">Mobile App consulting</li>
+        </a>
+        <a href="<?php echo home_url("experience-design") ?>">
+          <li class="footer-para-text mb-16">Experience Design</li>
+        </a>
+        <a href="<?php echo home_url("mvp-development") ?>">
+          <li class="footer-para-text mb-16">MVP development</li>
+        </a>
+        <a href="<?php echo home_url("digital-transformation") ?>">
+          <li class="footer-para-text mb-16">Digital Transformation</li>
+        </a>
+        <a href="<?php echo home_url("product-development") ?>">
+          <li class="footer-para-text mb-16">Product Development</li>
+        </a>
+        <a href="<?php echo home_url("dedicated-development-team") ?>">
+          <li class="footer-para-text mb-16">Dedicated Development team</li>
+        </a>
+        <a href="<?php echo home_url("mvp-development") ?>">
+          <li class="footer-para-text mb-16">MVP development</li>
+        </a>
+        <a href="<?php echo home_url("ai-ml-development") ?>">
+          <li class="footer-para-text mb-16">AI/ML Consulting and Development</li>
+        </a>
+        <a href="<?php echo home_url("application-modernization") ?>">
+          <li class="footer-para-text mb-16">Application Modernization</li>
+        </a>
       </ul>
     </div>
 
     <div class="service-info">
       <h2 class="footer-heading-text mb-16">Our technology</h2>
       <ul>
-        <li class="footer-para-text mb-16">Web app Development</li>
-        <li class="footer-para-text mb-16">Database Development</li>
-        <li class="footer-para-text mb-16">DevOps & cloud</li>
-        <li class="footer-para-text mb-16">Software qA & Testing</li>
-        <li class="footer-para-text mb-16">UI/UX Design </li>
-        <li class="footer-para-text mb-16">mobile app Development</li>
-        <li class="footer-para-text mb-16">ecommerce Development</li>
+        <a href="<?php echo home_url("web-app-development-page") ?>">
+          <li class="footer-para-text mb-16">Web app Development</li>
+        </a>
+
+        <a href="<?php echo home_url("database-development") ?>">
+          <li class="footer-para-text mb-16">Database Development</li>
+        </a>
+        <a href="<?php echo home_url("devops-and-cloud") ?>">
+          <li class="footer-para-text mb-16">DevOps & cloud</li>
+        </a>
+        <a href="<?php echo home_url("software-qa-and-testing") ?>">
+          <li class="footer-para-text mb-16">Software qA & Testing</li>
+        </a>
+        <a href="<?php echo home_url("ui-ux-design") ?>">
+          <li class="footer-para-text mb-16">UI/UX Design </li>
+        </a>
+        <a href="<?php echo home_url("mobile-app-develoment") ?>">
+          <li class="footer-para-text mb-16">mobile app Development</li>
+        </a>
+        <a href="<?php echo home_url("ecommerce-development") ?>">
+          <li class="footer-para-text mb-16">ecommerce Development</li>
+        </a>
       </ul>
     </div>
 

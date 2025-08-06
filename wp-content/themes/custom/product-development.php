@@ -233,7 +233,7 @@ Template Name: Product Development Page
                     <div class="logo logo-1">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-1.svg" alt="">
                     </div>
-                    <p class="card-title mt-28 mb-0">Discovery & Planning</p>
+                    <p class="card-title">Discovery & Planning</p>
                 </div>
                 <p class="card-content mt-0 mb-0">Understand your goals, audience, and requirements.
                     Conduct research and define a clear roadmap for development.</p>
@@ -243,7 +243,7 @@ Template Name: Product Development Page
                     <div class="logo logo-2">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-2.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Wireframing & Prototyping </p>
+                    <p class="card-title">Wireframing & Prototyping </p>
                 </div>
                 <p class="card-content mt-0 mb-0">Create blueprints and prototypes to visualize the website's structure and design.
                     Gather feedback to refine concepts early in the process.</p>
@@ -253,7 +253,7 @@ Template Name: Product Development Page
                     <div class="logo logo-3">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-3.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Design & (UI/UX)</p>
+                    <p class="card-title">Design & (UI/UX)</p>
                 </div>
                 <p class="card-content mt-0 mb-0">Focus on responsive layouts, accessibility, and seamless navigation.</p>
             </div>
@@ -262,7 +262,7 @@ Template Name: Product Development Page
                     <div class="logo logo-4">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-4.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Daily Life Enhancements</p>
+                    <p class="card-title">Daily Life Enhancements</p>
                 </div>
                 <p class="card-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven
                     content curation.</p>
@@ -272,7 +272,7 @@ Template Name: Product Development Page
                     <div class="logo logo-5">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-5.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Smarter Decision-Making</p>
+                    <p class="card-title">Smarter Decision-Making</p>
                 </div>
                 <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
                     like finance, healthcare, and logistics.</p>
@@ -282,7 +282,7 @@ Template Name: Product Development Page
                     <div class="logo logo-6">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-6.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Innovation</p>
+                    <p class="card-title">Innovation</p>
                 </div>
                 <p class="card-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
                     from healthcare to transportation.</p>
@@ -292,7 +292,7 @@ Template Name: Product Development Page
                     <div class="logo logo-7">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-7.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Cost Reduction</p>
+                    <p class="card-title">Cost Reduction</p>
                 </div>
                 <p class="card-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time
                     and resources, cutting costs.</p>
@@ -302,7 +302,7 @@ Template Name: Product Development Page
                     <div class="logo logo-8">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-8.svg" alt="">
                     </div>
-                    <p class="card-title mt-20 mb-0">Data-Driven Insights</p>
+                    <p class="card-title">Data-Driven Insights</p>
                 </div>
                 <p class="card-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
                     better decision-making.</p>

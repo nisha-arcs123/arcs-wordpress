@@ -59,7 +59,7 @@ Template Name: Software QA and Testing Page
                     <p class="section-title z-1"><?php the_field('st_section_1_subheading')?></p>
                     <p class="section-heading z-1"><?php the_field('st_section_1_mainheading')?></p>
                     <p class="card-content mt-0 mb-32 z-1"><?php the_field('st_section_1_content')?></p>
-                    <button class="banner-button primary-button">LET'S WORK TOGETGHER</button>
+                    <button class="banner-button primary-button mt-28">LET'S WORK TOGETGHER</button>
                 </div>
             </div>
         </div>
@@ -177,8 +177,8 @@ Template Name: Software QA and Testing Page
             <div class="right-circle circle br-50"></div>
             <img class="left-img" src="<?php echo get_template_directory_uri()?>/images/ui-gs-left.svg" alt="">
             <img class="right-img" src="<?php echo get_template_directory_uri()?>/images/ui-gs-right.svg" alt="">
-            <p class="section-heading mt-0 p-rel z-1 mb-28">Let’s <br> Build Your Next Great Solution</p>
-            <button class="primary-button p-rel z-1 m-auto">CONTACT US</button>
+            <p class="section-heading mt-0 p-rel z-1">Let’s <br> Build Your Next Great Solution</p>
+            <button class="primary-button p-rel z-1 m-auto mt-28">CONTACT US</button>
         </div>
 
 

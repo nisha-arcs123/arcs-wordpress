@@ -152,7 +152,7 @@ Template Name: Application Modernization Page
           <p class="section-title m-auto w-fc tx-center"><?php echo the_field('section3_heading'); ?></p>
           <p class="section-heading tx-center"><?php echo the_field('section3_mainheading'); ?></p>
           <div class="boxes-wrapper wds m-auto">
-              <div class="box mt-32 padding-16 bx-border-box p-rel">
+              <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-1">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
@@ -160,7 +160,7 @@ Template Name: Application Modernization Page
                   <p class="card-content">Define the organization’s purpose and long-term aspirations.
                   </p>
               </div>
-              <div class="box mt-32 padding-16 bx-border-box p-rel">
+              <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-2">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
@@ -168,7 +168,7 @@ Template Name: Application Modernization Page
                   <p class="card-content">Identify strengths, weaknesses, opportunities, and threats to inform decisions.
                   </p>
               </div>
-              <div class="box mt-32 padding-16 bx-border-box p-rel">
+              <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-3">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
@@ -176,7 +176,7 @@ Template Name: Application Modernization Page
                   <p class="card-content">Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.
                   </p>
               </div>
-              <div class="box mt-32 padding-16 bx-border-box p-rel">
+              <div class="box small-box mt-32 padding-16 bx-border-box p-rel">
                   <div class="logo logo-4">
                       <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                   </div>
