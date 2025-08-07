@@ -737,8 +737,12 @@
               width: 100%;
               @include flex-box(na, space-between, na, na, na);
 
-              @include screen-size(700, 992) {
+              @include max-width(992) {
                 width: 700px;
+              }
+
+              @include max-width(768) {
+                width: 100%;
               }
 
               .arrow {
@@ -4622,7 +4626,7 @@
                 box-shadow: none;
                 border: 1px solid #EAEAEA;
               }
-              
+
 
               .text {
                 transition: transform 3s linear, opacity 1s ease-in-out;
@@ -9732,6 +9736,8 @@
       }
 
       .content-wrapper {
+        position: relative;
+        z-index: 9;
         .dropdown-heading {
           @include typography(48, 58, 500, #136DFB);
 
@@ -9784,6 +9790,10 @@
       padding: 60px;
       box-sizing: border-box;
 
+      @include max-width(768) {
+        padding: 20px;
+      }
+
       ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -9794,6 +9804,9 @@
           gap: 20px;
         }
 
+        @include max-width(768) {
+          gap: 10px;
+        }
         .label-wrapper {
           @include flex-box(row, na, center, na, 16);
 
