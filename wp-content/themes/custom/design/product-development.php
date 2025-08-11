@@ -226,9 +226,9 @@ Template Name: Product Development Page
     <div class="remarkable-benefits-wrapper wds m-auto">
         <p class="section-title tx-center"><?php echo the_field('product_section5_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('product_section5_heading2'); ?></p>
-        <p class="section-content main-content mt-0 m-auto tx-center "><?php echo the_field('product_section5_description'); ?></p>
+        <p class="section-content main-content mt-0 m-auto tx-center mb-40"><?php echo the_field('product_section5_description'); ?></p>
         <div class="boxes-wrapper wds m-auto bx-border-box">
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-1">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-1.svg" alt="">
@@ -238,7 +238,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">Understand your goals, audience, and requirements.
                     Conduct research and define a clear roadmap for development.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-2">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-2.svg" alt="">
@@ -248,7 +248,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">Create blueprints and prototypes to visualize the website's structure and design.
                     Gather feedback to refine concepts early in the process.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-3">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-3.svg" alt="">
@@ -257,7 +257,7 @@ Template Name: Product Development Page
                 </div>
                 <p class="card-content mt-0 mb-0">Focus on responsive layouts, accessibility, and seamless navigation.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-4">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-4.svg" alt="">
@@ -267,7 +267,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven
                     content curation.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-5">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-5.svg" alt="">
@@ -277,7 +277,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
                     like finance, healthcare, and logistics.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-6">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-6.svg" alt="">
@@ -287,7 +287,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
                     from healthcare to transportation.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-7">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-7.svg" alt="">
@@ -297,7 +297,7 @@ Template Name: Product Development Page
                 <p class="card-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time
                     and resources, cutting costs.</p>
             </div>
-            <div class="box mb-28 padding-20 bx-border-box">
+            <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">
                     <div class="logo logo-8">
                         <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-8.svg" alt="">

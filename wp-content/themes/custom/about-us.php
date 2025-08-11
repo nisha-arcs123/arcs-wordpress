@@ -40,8 +40,8 @@ Template Name: About Us
         <div class="the-circle ui-banner-blur-circle-II"></div>
         <img class="ai-ml-banner-line" src="<?php echo get_template_directory_uri() ?>/images/line-al-ml-banner.svg" alt="">
         <div class="ui-banner-details z-2">
-            <h1 class="banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_heading'); ?></h1>
-            <p class="banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_content'); ?></p>
+            <h1 class="inner-banner-heading  mb-16 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_heading'); ?></h1>
+            <p class="inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('about_us_banner_content'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>

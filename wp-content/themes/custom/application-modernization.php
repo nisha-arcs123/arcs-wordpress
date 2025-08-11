@@ -38,15 +38,15 @@ Template Name: Application Modernization Page
         <img class="z-1 banner-image" src="<?php echo get_template_directory_uri()?>/images/appmodern.svg" alt="">
         <div class="banner-blur-circle-1"></div>
         <div class="ui-banner-details banner-details z-2">
-            <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('am_banner_mainheading')?></h1>
-            <p class="banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('am_banner_content')?></p>
+            <h1 class="inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('am_banner_mainheading')?></h1>
+            <p class="inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('am_banner_content')?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
 
     <div class="cs-remarkable-benefits-wrapper w-full">
         <p class="section-heading mt-0 mb-12 tx-center"><?php the_field('section1_mainheading') ?></p>
-        <p class="section-content main-content mt-0 m-auto tx-center "><?php the_field('section1_content') ?></p>
+        <p class="section-content main-content mt-0 m-auto tx-center  mb-40"><?php the_field('section1_content') ?></p>
         <div class="boxes-wrapper wds m-auto padding-40 bx-border-box">
             <div class="box padding-20 bx-border-box">
                 <div class="upper-part">

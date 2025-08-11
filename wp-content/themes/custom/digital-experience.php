@@ -37,8 +37,8 @@ Template Name: Digital Experience Page
             <img class="z-1 banner-girl-image" src="<?php echo get_template_directory_uri()?>/images/Group 38155.png" alt="">
             <div class="ui-banner-blur-circle"></div>
             <div class="ui-banner-details z-2">
-                <h1 class="banner-heading mb-16 m-auto tx-center"><?php the_field('d_exp_banner_mainheading')?></h1>
-                <p class="banner-content mb-28 m-auto tx-center"><?php the_field('d_exp_banner_content')?></p>
+                <h1 class="inner-banner-heading mb-16 m-auto tx-center"><?php the_field('d_exp_banner_mainheading')?></h1>
+                <p class="inner-banner-content mb-28 m-auto tx-center"><?php the_field('d_exp_banner_content')?></p>
                 <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
             </div>
         

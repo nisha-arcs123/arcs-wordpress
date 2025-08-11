@@ -45,7 +45,8 @@ Template Name: DevOps Cloud Page
         <div class="z-0 banner-circle-border br-50"></div>
         <div class="ed-banner-details banner-details z-2">
             <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('dc_banner_mainheading') ?></h1>
-            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('dc_banner_content') ?></button>
+            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('dc_banner_content') ?></p>
+            <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
 

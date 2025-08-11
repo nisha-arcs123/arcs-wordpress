@@ -46,8 +46,8 @@ Template Name: AI ML Development Page
         <div class="the-circle ui-banner-blur-circle-II"></div>
         <img class="ai-ml-banner-line" src="<?php echo get_template_directory_uri() ?>/images/line-al-ml-banner.svg" alt="">
         <div class="ui-banner-details banner-details z-2">
-            <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('banner-headingai') ?></h1>
-            <p class="banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('banner-paragraghai') ?></p>
+            <h1 class="inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php the_field('banner-headingai') ?></h1>
+            <p class="inner-banner-content mb-28 mt-0 m-auto tx-center"><?php the_field('banner-paragraghai') ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
@@ -131,7 +131,7 @@ Template Name: AI ML Development Page
 
     <div class="cs-remarkable-benefits-wrapper m-auto">
         <p class="section-heading mt-0 mb-12 tx-center"><?php the_field('section3-headingai') ?></p>
-        <p class="section-content main-content mt-0 m-auto tx-center "><?php the_field('Section3-descriptionai') ?></p>
+        <p class="section-content main-content mt-0 m-auto tx-center mb-40 "><?php the_field('Section3-descriptionai') ?></p>
         <div class="boxes-wrapper wds m-auto padding-40 bx-border-box">
             <div class="box padding-20 bx-border-box">
                 <div class="upper-part">

@@ -56,9 +56,9 @@ Template Name: Database Development Page
 
 <div class="kf-wrapper">
     <div class="key-features wds m-auto">
-        <p class="section-title m-auto w-fc tx-center"><?php echo the_field('section1_heading1_db'); ?></p>
-        <p class="section-heading m-auto w-fc tx-center"><?php echo the_field('section1_heading2_db'); ?></p>
-        <p class="section-content kf-main-content m-auto w-fc tx-center"><?php echo the_field('section1_description_db'); ?></p>
+        <p class=" tx-center"><?php echo the_field('section1_heading1_db'); ?></p>
+        <p class="section-heading tx-center"><?php echo the_field('section1_heading2_db'); ?></p>
+        <p class="section-content kf-main-content tx-center"><?php echo the_field('section1_description_db'); ?></p>
         <div class="kf-boxes-wrapper mt-40">
             <div class="kf-box padding-20 bx-border-box">
                 <p class="box-heading mt-0 mb-0"><span>01</span>Custom Solutions</p>

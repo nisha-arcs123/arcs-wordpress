@@ -40,8 +40,8 @@ Template Name: Dedicated Development Team Page
         <img src="<?php echo get_template_directory_uri() ?>/images/Group 38248.svg" alt="" class="p-rel img-inside-img">
         <div class="ui-banner-blur-circle"></div>
         <div class="ui-banner-details z-2">
-            <h1 class="banner-heading mb-16 m-auto tx-center"><?php echo the_field('dedicated_banner_heading'); ?></h1>
-            <p class="banner-content mb-28 m-auto tx-center"><?php echo the_field('dedicated_banner_description'); ?></p>
+            <h1 class="inner-banner-heading mb-16 m-auto tx-center"><?php echo the_field('dedicated_banner_heading'); ?></h1>
+            <p class="inner-banner-content mb-28 m-auto tx-center"><?php echo the_field('dedicated_banner_description'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>

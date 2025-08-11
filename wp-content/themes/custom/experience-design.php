@@ -40,8 +40,8 @@ Template Name: Experience design page
         <img class="z-1 banner-image" src="<?php echo get_template_directory_uri(); ?>/images/ui-girl-img.svg" alt="">
         <div class="banner-blur-circle-1"></div>
         <div class="ui-banner-details banner-details z-2">
-            <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('banner-heading'); ?></h1>
-            <p class="banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('banner-paragragh'); ?></p>
+            <h1 class="inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('banner-heading'); ?></h1>
+            <p class="inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('banner-paragragh'); ?></p>
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>

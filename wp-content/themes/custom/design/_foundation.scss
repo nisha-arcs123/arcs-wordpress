@@ -336,7 +336,6 @@ $property: margin, padding, mr, mb, ml, mt;
 .mb-120{
   margin-bottom: 120px;
 }
-
 .m-auto{
   margin-right: auto;
   margin-left: auto;
@@ -473,7 +472,7 @@ $overflow-property-shortcuts: a, h ,s, v;
 
 /************************** breakpoints **************************/
 
-$breakpoints: 1720px, 1440px, 1200px, 992px, 768px , 576px;
+$breakpoints: 1720px, 1440px, 1200px, 992px, 768px , 576px, 420px;
 
 .wds{
   @include min-width(1721){

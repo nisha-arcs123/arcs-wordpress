@@ -56,7 +56,7 @@ Template Name: Ecommerce Development Page
 
         <div class="mt-120 cs-remarkable-benefits-wrapper w-full">
             <p class="section-heading mt-0 mb-12 tx-center"><?php echo the_field('section1_heading_cd'); ?></p>
-            <p class="section-content main-content mt-0 m-auto tx-center "><?php echo the_field('section1_description_cd'); ?></p>
+            <p class="section-content main-content mt-0 m-auto tx-center mb-40"><?php echo the_field('section1_description_cd'); ?></p>
             <div class="boxes-wrapper wds m-auto padding-40 bx-border-box">
                 <div class="box padding-20 bx-border-box">
                     <div class="upper-part">
