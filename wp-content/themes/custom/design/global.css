@@ -1305,6 +1305,7 @@ body {
     font-weight: 500;
     color: #707070;
     margin-bottom: 20px;
+    width: 95%;
   }
 }
 
@@ -1762,7 +1763,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #000000;
+  color: #202323;
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
@@ -1770,16 +1771,14 @@ a {
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
-    color: #000000;
     cursor: pointer;
   }
 }
 @media screen and (max-width: 576px) {
   .header-wrapper .header .navbar .nav-items a {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
     font-weight: 400;
-    color: #000000;
     cursor: pointer;
   }
 }
@@ -12402,6 +12401,12 @@ a {
     padding-left: 50px;
   }
 }
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part {
+    padding: 20px;
+    padding-left: 35px;
+  }
+}
 .header-dropdown-wrapper .right-part .dropdown-list {
   width: 100%;
 }
@@ -12465,6 +12470,11 @@ a {
     right: 11px;
   }
 }
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper .arrow {
+    width: 20px;
+  }
+}
 .header-dropdown-wrapper .right-part ul .label-wrapper .arrow path {
   transition: all 0.3s ease;
 }
@@ -12482,11 +12492,26 @@ a {
     right: -34px;
   }
 }
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow {
+    right: -46px;
+  }
+}
 .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow .horizontal-part {
   transform: scaleX(2.5);
 }
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow .horizontal-part {
+    transform: scaleX(1.2);
+  }
+}
 .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow .move-on-hover {
   transform: translateX(45px);
+}
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow .move-on-hover {
+    transform: translateX(7px);
+  }
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper:hover .arrow path {
   stroke: #B0B0B0;
@@ -12501,6 +12526,11 @@ a {
 .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-1::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-2::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-3::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-4::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-5::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-6::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-7::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-8::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-9::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-10::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-11::before {
   visibility: visible;
   left: -90%;
+}
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-1::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-2::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-3::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-4::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-5::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-6::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-7::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-8::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-9::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-10::before, .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo.logo-11::before {
+    left: -50%;
+  }
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper:hover .logo svg path {
   stroke: #136DFB;
@@ -12519,8 +12549,7 @@ a {
   transition: all 0.3s ease;
   position: relative;
 }
-.header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-1::before {
-  content: "01";
+.header-dropdown-wrapper .right-part ul .label-wrapper .logo::before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12531,136 +12560,49 @@ a {
   font-weight: 900;
   color: #E8E8E8;
   z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper .logo::before {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header-dropdown-wrapper .right-part ul .label-wrapper .logo::before {
+    font-size: 18px;
+  }
+}
+.header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-1::before {
+  content: "01";
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-2::before {
   content: "02";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-3::before {
   content: "03";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-4::before {
   content: "04";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-5::before {
   content: "05";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-6::before {
   content: "06";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-7::before {
   content: "07";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
-  transform: translate(-50%, -50%);
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-8::before {
   content: "08";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-9::before {
   content: "09";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-10::before {
   content: "10";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .logo.logo-11::before {
   content: "11";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
-  visibility: hidden;
-  font-size: 30px;
-  font-weight: 900;
-  color: #E8E8E8;
-  z-index: -1;
 }
 .header-dropdown-wrapper .right-part ul .label-wrapper .label-name {
   text-decoration: none;

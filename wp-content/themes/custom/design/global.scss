@@ -408,6 +408,7 @@
     @include max-width(576) {
       @include typography(12, 16, 500, $secondry-text-color);
       margin-bottom: 20px;
+      width: 95%;
     }
   }
 
@@ -778,15 +779,14 @@
 
           a {
             text-decoration: none;
-            @include nav-items(16, 24, 400, $navbar-text-color);
+            @include nav-items(16, 24, 400, $primary-text-color);
 
             @include max-width(1200) {
-              @include nav-items(14, 16, 400, $navbar-text-color);
-
+              @include nav-items(14, 16, 400, na);
             }
 
             @include max-width(576) {
-              @include nav-items(12, 16, 400, $navbar-text-color);
+              @include nav-items(12, 14, 400, na);
             }
           }
 
@@ -9778,6 +9778,11 @@
         padding-left: 50px;
       }
 
+      @include max-width(420) {
+        padding: 20px;
+        padding-left: 35px;
+      }
+
       .dropdown-list {
         width: 100%;
       }
@@ -9829,6 +9834,10 @@
               right: 11px;
             }
 
+            @include max-width(420) {
+              width: 20px;
+            }
+
             path {
               transition: all 0.3s ease;
             }
@@ -9846,15 +9855,25 @@
               @include max-width(768) {
                 right: -34px;
               }
+              @include max-width(420) {
+                right: -46px;
+              }
+
 
               .horizontal-part {
                 transform: scaleX(2.5);
-                // transform-origin: left;
-                // width: 75px;
+
+                @include max-width(420) {
+                  transform: scaleX(1.2);
+                }
               }
 
               .move-on-hover {
                 transform: translateX(45px);
+
+                @include max-width(420) {
+                  transform: translateX(7px);
+                }
               }
 
               path {
@@ -9884,6 +9903,10 @@
                 &::before {
                   visibility: visible;
                   left: -90%;
+
+                  @include max-width(420){
+                    left: -50%;
+                  }
                 }
               }
 
@@ -9909,157 +9932,88 @@
             transition: all 0.3s ease;
             position: relative;
 
+            &::before {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              transition: all 0.3s ease;
+              visibility: hidden;
+              @include typography(30, na, 900, #E8E8E8);
+              z-index: -1;
+
+              @include max-width(768) {
+                font-size: 24px;
+              }
+
+              @include max-width(420) {
+                font-size: 18px;
+              }
+            }
+
             &.logo-1 {
               &::before {
                 content: "01";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-2 {
               &::before {
                 content: "02";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-3 {
               &::before {
                 content: "03";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-4 {
               &::before {
                 content: "04";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-5 {
               &::before {
                 content: "05";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-6 {
               &::before {
                 content: "06";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-7 {
               &::before {
                 content: "07";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
-                transform: translate(-50%, -50%);
               }
             }
 
             &.logo-8 {
               &::before {
                 content: "08";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-9 {
               &::before {
                 content: "09";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-10 {
               &::before {
                 content: "10";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
 
             &.logo-11 {
               &::before {
                 content: "11";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: all 0.3s ease;
-                visibility: hidden;
-                @include typography(30, na, 900, #E8E8E8);
-                z-index: -1;
               }
             }
           }
