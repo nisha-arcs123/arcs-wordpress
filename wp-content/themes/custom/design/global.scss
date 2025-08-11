@@ -79,21 +79,35 @@
 
   /************************** banner-upper-part **************************/
 
+
   .banner-blur-circle-1 {
     background-color: $primary-color;
     filter: blur(195px);
     @include dimensions(325, 325);
     @include absolute(225, na, na, 50%);
     transform: translateX(-50%);
+
+    @include max-width(768) {
+      @include dimensions(200, 200);
+    }
   }
 
   .banner-image {
     @include absolute(135, na, na, 50%);
     transform: translateX(-50%);
 
+    @include max-width(1720) {
+      width: 290px;
+    }
+
     @include max-width(576) {
-      @include absolute(161, na, na, 50%);
-      width: 298px;
+      @include absolute(190, na, na, 50%);
+      width: 234px;
+    }
+
+    @include max-width(420) {
+      @include absolute(224, na, na, 50%);
+      width: 215px;
     }
   }
 
@@ -259,7 +273,7 @@
     backdrop-filter: blur(10px);
     background: $line-design-logo-box-bg-color;
 
-    @include max-width(1200) {
+    @include max-width(768) {
       @include dimensions(41, 41);
 
     }
@@ -5016,7 +5030,6 @@
         @include absolute(74, na, na, 517);
       }
 
-      
       .banner-img4 {
         @include absolute(74, na, na, 1102);
       }
@@ -5427,36 +5440,54 @@
         @include absolute(135, na, na, 50%);
         transform: translateX(-50%);
 
+        img {
+          width: 100%;
+        }
+
+        @include max-width(1440) {
+          width: 250px;
+        }
+
+        @include max-width(992) {
+          width: 220px;
+        }
+
         @include max-width(768) {
-          width: 33%;
+          width: 166px;
           top: 200px;
-
-          img {
-            width: 100%;
-          }
         }
 
-        @include max-width(420) {
-          top: 230px;
-          width: 170px;
-        }
+        // @include max-width(420) {
+        //   top: 230px;
+        //   width: 170px;
+        // }
 
         .banner-gif {
           width: 300px;
           @include absolute(-86, na, na, -50);
 
+          @include max-width(1440) {
+            width: 262px;
+            @include absolute(-68, na, na, -40);
+
+          }
+
+          @include max-width(992) {
+            width: 227px;
+          }
+
           @include max-width(768) {
-            width: 200px;
-            @include absolute(-49, na, na, -20);
+            width: 160px;
+            @include absolute(-41, na, na, -21);
           }
 
-          @include max-width(576) {
-            @include absolute(-49, na, na, -40);
-          }
+          // @include max-width(576) {
+          //   @include absolute(-49, na, na, -40);
+          // }
 
-          @include max-width(420) {
-            @include absolute(-49, na, na, -40);
-          }
+          // @include max-width(420) {
+          //   @include absolute(-49, na, na, -40);
+          // }
         }
       }
 
@@ -5472,8 +5503,13 @@
             @include absolute(385, na, na, 10);
           }
 
+          @include max-width(768) {
+            @include absolute(322, na, na, 40);
+
+          }
+
           @include max-width(576) {
-            @include absolute(150, na, na, 10);
+            @include absolute(120, na, na, 10);
           }
         }
 
@@ -5489,8 +5525,13 @@
             @include absolute(385, 10, na, na);
           }
 
+          @include max-width(768) {
+            @include absolute(322, 40, na, na);
+
+          }
+
           @include max-width(576) {
-            @include absolute(200, 10, na, na);
+            @include absolute(154, 10, na, na);
           }
         }
 
@@ -5498,15 +5539,19 @@
           @include absolute(180, na, na, 390);
 
           @include max-width(1440) {
-            @include absolute(180, na, na, 200);
+            @include absolute(180, na, na, 160);
           }
 
           @include max-width(992) {
             @include absolute(180, na, na, 60);
           }
 
+          @include max-width(768) {
+            @include absolute(205, na, na, 60);
+          }
+
           @include max-width(576) {
-            @include absolute(68, na, na, 10);
+            @include absolute(68, na, na, 20);
           }
         }
 
@@ -5699,35 +5744,41 @@
 
   /*********************[][][][][][]********************* MOBILE Page *******************[][][][][][]********************/
 
-  .outer-box-mobile-page {
-    .ui-banner {
-      .ui-banner-details {
-        .inner-banner-heading {
-          width: 1188px;
+  // .outer-box-mobile-page {
+  //   .ui-banner {
+  //     // .user-box-right {
+  //     //   @include max-width(1720) {
+  //     //     @include absolute(na, 354, na, na);
+  //     //   }
+  //     // }
 
-          @include max-width(1200) {
-            width: 75%;
-          }
+  //     .ui-banner-details {
+  //       .inner-banner-heading {
+  //         width: 1188px;
 
-          @include max-width(768) {
-            width: 90%;
-          }
-        }
+  //         @include max-width(1200) {
+  //           width: 75%;
+  //         }
 
-        .inner-banner-content {
-          width: 649px;
+  //         @include max-width(768) {
+  //           width: 90%;
+  //         }
+  //       }
 
-          @include max-width(1200) {
-            width: 75%;
-          }
+  //       .inner-banner-content {
+  //         width: 649px;
 
-          @include max-width(768) {
-            width: 90%;
-          }
-        }
-      }
-    }
-  }
+  //         @include max-width(1200) {
+  //           width: 75%;
+  //         }
+
+  //         @include max-width(768) {
+  //           width: 90%;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   /*********************[][][][][][]********************* PRODUCT PAGE *******************[][][][][][]********************/
 
@@ -5767,8 +5818,8 @@
           }
 
           @include max-width(1200) {
-            width: 414px;
-            @include absolute(31, na, na, -72);
+            width: 381px;
+            @include absolute(60, na, na, -72);
           }
 
           @include max-width(992) {
@@ -5779,6 +5830,11 @@
           @include max-width(768) {
             width: 300px;
             @include absolute(140, na, na, -72);
+          }
+
+          @include max-width(420) {
+            @include absolute(161, na, na, -80);
+            width: 263px;
           }
         }
       }
@@ -5809,11 +5865,15 @@
           }
 
           @include max-width(992) {
-            @include absolute(175, na, na, 100);
+            @include absolute(95, na, na, 10);
           }
 
           @include max-width(768) {
-            @include absolute(175, na, na, 10);
+            @include absolute(100, na, na, 10);
+          }
+
+          @include max-width(576) {
+            @include absolute(135, na, na, 10);
           }
         }
 
@@ -5835,6 +5895,14 @@
           @include max-width(768) {
             @include absolute(175, 10, na, na);
           }
+
+          @include max-width(576) {
+            @include absolute(83, 10, na, na);
+          }
+
+          @include max-width(420) {
+            @include absolute(70, 10, na, na);
+          }
         }
 
         &.ios-app-bottom {
@@ -5849,9 +5917,16 @@
           }
 
           @include max-width(992) {
-            @include absolute(100, na, na, 20);
+            @include absolute(175, na, na, 10);
           }
 
+          @include max-width(576) {
+            @include absolute(200, na, na, 10);
+          }
+
+          @include max-width(420) {
+            @include absolute(186, na, na, 10);
+          }
         }
 
         &.ai-bot {
@@ -5866,7 +5941,11 @@
           }
 
           @include max-width(992) {
-            @include absolute(100, 20, na, na);
+            @include absolute(100, 10, na, na);
+          }
+
+          @include max-width(576) {
+            @include absolute(20, 10, na, na);
           }
         }
 
@@ -6360,6 +6439,9 @@
     }
   }
 
+
+
+
   /*********************[][][][][][]********************* CUSTOM SOFTWARE PAGE *******************[][][][][][]********************/
 
   .outer-box-custom-sol {
@@ -6399,7 +6481,7 @@
         }
 
         .left-inner-line {
-          @include absolute(-40, na, na, -210);
+          @include absolute(-64, na, na, -75);
         }
       }
 
@@ -6415,7 +6497,7 @@
         }
 
         .right-inner-line {
-          @include absolute(-60, -210, na, na);
+          @include absolute(-60, -42, na, na);
         }
 
         .right-inner-box {
@@ -6424,19 +6506,27 @@
       }
 
       .banner-image {
+        @include max-width(1440) {
+          width: 650px;
+        }
+
         @include max-width(1200) {
-          top: 178px;
-          width: 50%;
+          top: 217px;
+          width: 500px;
         }
 
         @include max-width(992) {
           top: 216px;
-          width: 64%;
         }
 
         @include max-width(576) {
-          width: 81%;
-          left: 50%;
+          top: 262px;
+          width: 400px;
+        }
+
+        @include max-width(420) {
+          top: 329px;
+          width: 281px;
         }
       }
 
@@ -6444,7 +6534,7 @@
         @include absolute(287, na, na, 280);
 
         @include max-width(1720) {
-          @include absolute(200, na, na, 192);
+          @include absolute(144, na, na, 19);
         }
 
         @include max-width(1440) {
@@ -6452,25 +6542,21 @@
         }
 
         @include max-width(992) {
-          @include absolute(164, na, na, 22);
+          @include absolute(135, na, na, 23);
         }
 
         @include max-width(576) {
-          @include absolute(144, na, na, 6);
-        }
-
-        @include max-width(420) {
-          @include absolute(190, na, na, 6);
+          @include absolute(na, na, na, 6);
         }
 
         .banner-icon {
-          @include max-width(992) {
+          @include max-width(768) {
             @include dimensions(28, 28);
 
           }
 
           img {
-            @include max-width(992) {
+            @include max-width(768) {
               @include dimensions(18, 18);
             }
           }
@@ -6496,25 +6582,29 @@
       .user-box-right {
         @include absolute(280, 240, na, na);
 
+        @include max-width(1720) {
+          @include absolute(280, 92, na, na);
+        }
+
         @include max-width(1440) {
-          @include absolute(120, 6, na, na);
+          @include absolute(na, 7, na, na);
         }
 
         @include max-width(992) {
-          @include absolute(173, 52, na, na);
+          @include absolute(85, 23, na, na);
         }
 
         @include max-width(576) {
-          @include absolute(120, 6, na, na);
+          @include absolute(na, 6, na, na);
         }
 
         .banner-icon {
-          @include max-width(992) {
+          @include max-width(768) {
             @include dimensions(28, 28);
           }
 
           img {
-            @include max-width(992) {
+            @include max-width(768) {
               @include dimensions(18, 18);
             }
           }
@@ -7131,6 +7221,11 @@
         @include absolute(160, na, na, 50%);
         transform: translateX(-50%);
         width: auto;
+
+        @include max-width(420) {
+          width: 254px;
+          top: 195px;
+        }
       }
 
       .img-inside-img {
@@ -7150,7 +7245,11 @@
         }
 
         @include max-width(576) {
-          left: 39%;
+          left: 37%;
+        }
+
+        @include max-width(420) {
+          left: 34%;
         }
       }
 
@@ -7179,7 +7278,7 @@
             @include absolute(155, na, na, 240);
           }
 
-          @include max-width(1094) {
+          @include max-width(992) {
             @include absolute(155, na, na, 101);
           }
 
@@ -7199,7 +7298,7 @@
             @include absolute(400, na, na, 240);
           }
 
-          @include max-width(1094) {
+          @include max-width(992) {
             @include absolute(400, na, na, 101);
           }
 
@@ -7219,7 +7318,7 @@
             @include absolute(155, 290, na, na);
           }
 
-          @include max-width(1094) {
+          @include max-width(992) {
             @include absolute(155, 153, na, na);
           }
 
@@ -7227,9 +7326,9 @@
             @include absolute(155, 10, na, na);
           }
 
-          @include max-width(420) {
-            @include absolute(80, 10, na, na);
-          }
+          // @include max-width(420) {
+          //   @include absolute(80, 10, na, na);
+          // }
         }
 
         &.user-exp2 {
@@ -7243,7 +7342,7 @@
             @include absolute(400, 290, na, na);
           }
 
-          @include max-width(1094) {
+          @include max-width(992) {
             @include absolute(400, 153, na, na);
           }
 
@@ -7251,9 +7350,9 @@
             @include absolute(400, 10, na, na);
           }
 
-          @include max-width(420) {
-            @include absolute(331, 10, na, na);
-          }
+          // @include max-width(420) {
+          //   @include absolute(331, 10, na, na);
+          // }
         }
 
 
@@ -7303,6 +7402,10 @@
             @include max-width(1440) {
               top: 85px;
               right: -80px;
+            }
+
+            @include max-width(992) {
+              display: none;
             }
           }
         }
@@ -7790,6 +7893,7 @@
       }
     }
   }
+
 
   /*********************[][][][][][]********************* DIGITAL EXP PAGE *******************[][][][][][]********************/
 
@@ -10684,16 +10788,13 @@
         }
       }
 
-      .user-box-right {
-        @include absolute(140, 530, na, na);
-      }
-
-      .user-box-left {
-        @include absolute(330, na, na, 450);
-      }
-
       .left-line-box {
         @include absolute(270, na, na, 92);
+
+        @include max-width(768) {
+          top: 161px;
+          left: 70px;
+        }
 
         @include max-width(576) {
           top: -63px;
@@ -10708,8 +10809,13 @@
       .right-line-box {
         @include absolute(222, 130, na, na);
 
-        @include max-width(992) {
-          top: -59px;
+        // @include max-width(992) {
+        //   top: -59px;
+        // }
+
+        @include max-width(768) {
+          top: 188px;
+          right: 80px;
         }
 
         @include max-width(576) {
@@ -10728,6 +10834,8 @@
 
         @include max-width(768) {
           transform: translateX(-31%);
+          width: 300px;
+          top: 196px;
         }
 
         @include max-width(576) {
@@ -10736,14 +10844,28 @@
       }
 
       .user-box-left {
+        @include absolute(330, na, na, 450);
 
-        @include max-width(1200) {
-          @include absolute(330, na, na, 173);
+        @include max-width(1720) {
+          @include absolute(380, na, na, 305);
         }
 
-        @include max-width(992) {
-          @include absolute(236, na, na, 63);
+        @include max-width(1440) {
+          @include absolute(380, na, na, 56);
         }
+
+        @include max-width(768) {
+          @include absolute(100, na, na, 56);
+
+        }
+
+        // @include max-width(1200) {
+        //   @include absolute(330, na, na, 173);
+        // }
+
+        // @include max-width(992) {
+        //   @include absolute(236, na, na, 63);
+        // }
 
         @include max-width(576) {
           @include absolute(144, na, na, 6);
@@ -10781,16 +10903,30 @@
       }
 
       .user-box-right {
-        @include max-width(1200) {
-          @include absolute(127, 207, na, na);
+        @include absolute(140, 530, na, na);
+
+        @include max-width(1720) {
+          @include absolute(140, 354, na, na);
         }
 
-        @include max-width(992) {
-          @include absolute(194, 9, na, na);
+        @include max-width(1440) {
+          @include absolute(140, 44, na, na);
         }
+
+        @include max-width(768) {
+          @include absolute(128, 12, na, na);
+        }
+
+        // @include max-width(1200) {
+        //   @include absolute(127, 207, na, na);
+        // }
+
+        // @include max-width(992) {
+        //   @include absolute(194, 9, na, na);
+        // }
 
         @include max-width(576) {
-          @include absolute(120, 9, na, na);
+          @include absolute(88, 9, na, na);
         }
 
 
@@ -11617,6 +11753,41 @@
       }
     }
   }
+
+
+  /*********************[][][][][][]********************* EXPERIENCE PAGE *******************[][][][][][]********************/
+
+  // .outer-box-experience-page {
+
+
+  //   .ui-banner {
+  //     .ui-banner-details {
+  //       .inner-banner-heading {
+  //         width: 1188px;
+
+  //         @include max-width(1200) {
+  //           width: 75%;
+  //         }
+
+  //         @include max-width(768) {
+  //           width: 90%;
+  //         }
+  //       }
+
+  //       .inner-banner-content {
+  //         width: 960px;
+
+  //         @include max-width(1200) {
+  //           width: 75%;
+  //         }
+
+  //         @include max-width(768) {
+  //           width: 90%;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   .back-transparent {
     background-color: transparent;
