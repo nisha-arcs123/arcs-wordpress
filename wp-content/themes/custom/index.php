@@ -413,7 +413,7 @@ Template Name: Home Page
           <h1 class="section-heading wcu-heading">
             <?php echo the_field('home-section5-mainheading') ?>
           </h1>
-          <p class="section-content mt-8 p-rel z-2 wcu-content">
+          <p class="section-content p-rel z-2 wcu-content">
             <?php echo the_field('home-section5-content'); ?>
           </p>
  

@@ -3,411 +3,647 @@
 Template Name: UI UX Design Page 
 */
 ?>
-<div class="outer-box-custom-sol p-rel o-h">
+<div class="outer-box-ui-page p-rel o-h">
     <img class="the-lines" src="<?php echo get_template_directory_uri() ?>/images/the-lines.svg" alt="" />
     <?php get_header(); ?>
 
-            <div class="ui-banner full-vh p-rel">
-            <div class="user-box-right user-box-1 z-1 padding-8">
-                <div class="banner-icon">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/logos_ios.svg" alt="">
-                </div>
-                <span>IOS App Development</span>
-            </div>
-            <div class="user-box-left z-1 user-box-1 padding-8">
-                <div class="banner-icon">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/logos_ios.svg" alt="">
-                </div>
-                <span>IOS App Development</span>
-            </div>
-            <div class="line-design left-line-box">
-                <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/ui-left-banner-line.svg" alt="">
-                <div class="line-logo-box z-1">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/ui-group-37931.svg" alt="">
-                </div>
-                <span>Native App Development</span>
-            </div>
-            <div class="line-design right-line-box">
-                <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/ui-right-banner-line.svg" alt="">
-                <div class="line-logo-box z-1">
-                    <img src="<?php echo get_template_directory_uri() ?>/images/ui-group-37931.svg" alt="">
-                </div>
-                <span>Native App Development</span>
-            </div>
-            <img class="z-1 banner-image" src="<?php echo get_template_directory_uri() ?>/images/custom-sol-page-banner-img.svg" alt="">
-            <div class="banner-blur-circle-1"></div>
-            <div class="ui-banner-details banner-details z-2">
-                <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('custom_banner_heading'); ?></h1>
-                <p class="banner-content inner-banner-content mb-28 mt-0 m-auto tx-center"><?php echo the_field('custom_banner_description'); ?></p>
-                <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
-            </div>
-        </div>
+    <div class="ed-banner full-vh p-rel">
+        <img class="z-2 banner-img1" src="<?php echo get_template_directory_uri() ?>/images/Travel 3.svg" alt="">
+        <img class="z-2 banner-img2" src="<?php echo get_template_directory_uri() ?>/images/Travel 4.svg" alt="">
+        <img class="z-2 banner-img3" src="<?php echo get_template_directory_uri() ?>/images/Travel 6.svg" alt="">
+        <img class="z-2 banner-img4" src="<?php echo get_template_directory_uri() ?>/images/Travel 7.svg" alt="">
 
-        <div class="why-choose-us-wrapper w-full">
-            <div class="why-choose-us">
-                <p class="m-auto section-title-text  section-heading tx-center"><?php echo the_field('custom_section1_heading'); ?></p>
-                <p class="m-auto tx-center main-content section-content"><?php echo the_field('custom_section1_description'); ?></p>
-                <div class="boxes-wrapper wds m-auto bx-border-box">
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-1">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-1.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in 
-                            industries like finance, healthcare, and logistics.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-2">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-2.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Improved Healthcare</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">Enables early disease detection, personalized treatment plans, and efficient 
-                            patient care through AI-powered tools.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-3">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-3.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Transformative Education</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">Supports adaptive learning platforms tailored to individual student needs for
-                            better educational outcomes.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-4">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-4.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Daily Life Enhancements</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">Enriches everyday living with virtual assistants, smart home devices, and AI-driven 
-                            content curation.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-5">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-5.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Smarter Decision-Making</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">Uses advanced data analysis and predictive insights for better outcomes in industries
-                             like finance, healthcare, and logistics.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-6">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-6.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Innovation</p>
-                        </div> 
-                        <p class="card-content mt-0 mb-0">AI drives innovation by enabling new solutions, products, and services across industries,
-                             from healthcare to transportation.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-7">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-7.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Cost Reduction</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">By automating processes and improving operational efficiency, AI helps businesses save time 
-                            and resources, cutting costs.</p>
-                    </div>
-                    <div class="box padding-20 bx-border-box">
-                        <div class="upper-part">
-                            <div class="logo logo-8">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/ai-ml-section-4-logo-8.svg" alt="">
-                            </div>
-                            <p class="box-heading mt-0 mb-0">Data-Driven Insights</p>
-                        </div>
-                        <p class="card-content mt-0 mb-0">AI analyzes vast amounts of data quickly to identify trends, predict outcomes, and support
-                             better decision-making.</p>
-                    </div>
-                </div>
-            </div>
+        <img class="z-2 banner-image" src="<?php echo get_template_directory_uri() ?>/images/holding-mob.svg" alt="">
+        <div class="z-1 banner-blur-circle-1"></div>
+        <div class="z-0 banner-circle-border br-50"></div>
+        <div class="ed-banner-details banner-details z-2">
+            <h1 class="ed-banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center">Creating User-centric Designs to Overwhelm Users.</h1>
+            <p class="ed-banner-content inner-banner-content mb-28 mt-0 m-auto tx-center">We follow an agile approach to deliver compelling UI/UX designs that are research-backed and result in maximum user interaction.</p>
+            <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
+    </div>
 
-        <div class="vision-to-life wds m-auto o-h bx-border-box">
-            <div class="content">
-                <p class="section-heading mt-0 mb-0"><?php echo the_field('custom_section2_heading1'); ?> <span class="vision"><?php echo the_field('custom_section2_span1'); ?></span> <?php echo the_field('custom_section2_heading2'); ?>
-                    <span class="start"><?php echo the_field('custom_section2_span2'); ?></span></p>
-                <button class="primary-button mt-40">CALL TO ACTION</button>
+    <div class="cs-digital-development-wrapper ui-ux-outer w-full">
+        <p class="section-title m-auto w-fc tx-center">How We Can Help You</p>
+        <p class="section-heading tx-center">Our Services: From Concept to Launch</p>
+        <p class="section-content tx-center mb-40">As a leading UI/UX design company, we are driven by research to understand user needs and challenges.</p>
+        <div class="digital-development ui-ux-inner-wrapper o-h p-rel bx-border-box wds m-auto">
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-star.svg" alt="">
+                </div>
+                <p class="box-heading mb-20 p-rel z-3">Skilled Workforce</p>
+                <p class="card-content p-rel z-3">Our vetted team of software professionals offers flexibility and availability,
+                    ensuring your project is delivered by experienced experts.</p>
+            </div>
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay p-rel z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-handed.svg" alt="">
+                </div>
+                <p class="box-heading mb-20 p-rel z-3">Quality Standards</p>
+                <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
+                    ensuring that your applications are built with precision and quality.</p>
+            </div>
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay p-rel z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-users.svg" alt="">
+                </div>
+                <p class="box-heading mb-20 p-rel z-3">Effective Communication</p>
+                <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
+                    ensuring that your applications are built with precision and quality.</p>
+            </div>
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay p-rel z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-handshake.svg" alt="">
+                </div>
+                <p class="box-heading mb-20 p-rel z-3">Trusted Compliance</p>
+                <p class="card-content p-rel z-3">We adhere to internationally recognized standards like PEP 8 and IFSQ,
+                    ensuring that your applications are built with precision and quality.</p>
+            </div>
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay p-rel z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-globe.svg" alt="">
+                </div>
+                <p class="box-heading mb-20 p-rel z-3">Global Expertise</p>
+                <p class="card-content p-rel z-3">With clients from the US, Canada, Europe, and Australia,
+                    our global reach ensures that your business benefits from world-class talent and insights.</p>
+            </div>
+            <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
+                <div class="overlay p-rel z-1"></div>
+                <div class="circle z-2 br-50"></div>
+                <img class="z-img p-rel z-3" src="<?php echo get_template_directory_uri(); ?>/images/Vector 12.svg" alt="">
+                <div class="logo t-3 mb-28 p-rel z-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ui-puzzle.svg" alt="">
+                </div>
+                <p class="box-heading p-rel z-3 mb-20">Comprehensive Solutions</p>
+                <p class="card-content p-rel z-3">From design and UX to full-scale development and ongoing support,
+                    we provide end-to-end solutions for every phase of your digital journey.</p>
             </div>
         </div>
+    </div>
 
-        <div class="services-we-offer wds m-auto">
-            <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section3_heading1'); ?></p>
-            <p class="section-heading tx-center"><?php echo the_field('custom_section3_heading2'); ?></p>
-            <p class="section-content tx-center"><?php echo the_field('custom_section3_description'); ?></p>
-            <div class="boxes-wrapper wds m-auto mt-40">
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-1">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">01</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-2">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">02</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-3">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">03</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-4">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">04</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-5">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">05</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">06</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-                <div class="box mt-32 padding-16 bx-border-box p-rel">
-                    <div class="logo logo-7">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
-                    </div>
-                    <p class="number mt-0 mb-0">07</p>
-                    <p class="card-title  mt-40 mb-12">Custom Software Development</p>
-                    <p class="card-content">We design and build custom software tailored specifically to your processes, goals, and challenges. Our solutions enhance efficiency and scalability, ensuring your business stays ahead of the competition.
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="technos-wrapper w-full">
-            <div class="technos wds m-auto">
-                <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section4_heading1'); ?></p>
-                <p class="section-heading tx-center"><?php echo the_field('custom_section4_heading2'); ?></p>
-                <p class="section-content tx-center"><?php echo the_field('custom_section4_description'); ?></p>
-                <div class="boxes-wrapper mt-40">
-                    <div class="box padding-16 bx-border-box">
-                        <div class="upper-part mb-16">
-                            <div class="logo">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
-                            </div>
-                            <p class="box-heading">Frontend Development</p>
-                        </div>
-                        <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>React</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>Angular</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>Vue.Js</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>HTML5, CSS3, and JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="box padding-16 bx-border-box">
-                        <div class="upper-part mb-16">
-                            <div class="logo">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
-                            </div>
-                            <p class="box-heading">Frontend Development</p>
-                        </div>
-                        <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>React</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>Angular</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>Vue.Js</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>HTML5, CSS3, and JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="box padding-16 bx-border-box">
-                        <div class="upper-part mb-16">
-                            <div class="logo">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
-                            </div>
-                            <p class="box-heading">Frontend Development</p>
-                        </div>
-                        <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>React</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>Angular</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>Vue.Js</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>HTML5, CSS3, and JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="box padding-16 bx-border-box">
-                        <div class="upper-part mb-16">
-                            <div class="logo">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/tvtv.svg" alt="">
-                            </div>
-                            <p class="box-heading">Frontend Development</p>
-                        </div>
-                        <p class="card-content mb-20">Our backend solutions ensure seamless performance, high security, and scalability for all your applications.</p>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>React</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>Angular</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/angular-svgrepo-c.svg" alt="">
-                            <span>Vue.Js</span>
-                        </div>
-                        <div class="tech">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/react-svgrepo-c.svg" alt="">
-                            <span>HTML5, CSS3, and JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="vision-to-life wds m-auto o-h bx-border-box">
+        <div class="content">
+            <p class="section-heading mt-0 mb-0"><?php echo the_field('custom_section2_heading1'); ?>
 
-        <div class="invest-in-software wds m-auto">
-            <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section5_heading1'); ?></p>
-            <p class="section-heading tx-center"><?php echo the_field('custom_section5_heading2'); ?></p>
-            <p class="section-content tx-center"><?php echo the_field('custom_section5_description'); ?></p>
-            <div class="boxes-wrapper wds m-auto bx-border-box mt-40">
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Tailored to Your Needs</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">Unlike off-the-shelf software, custom solutions are designed specifically for your business processes,
-                         ensuring a perfect fit for your unique requirements.</p>
+                Ready to bring your
+                <span class="vision">vision to life?</span> Contact us today to
+                <span class="start">start your website development journey!</span>
+            </p>
+            <button class="primary-button mt-40">CALL TO ACTION</button>
+        </div>
+    </div>
+
+    <div class="web-dev-apps-wrapper ui-ux-webdev-wrapper">
+        <p class="section-heading z-1 tx-center">Our Process</p>
+        <p class="card-content z-1 tx-center">“A journey of a thousand miles begins with a single step”</button>
+
+        <div class="web-dev-apps-inner ui-ux-webdev mt-32">
+            <div class="section wds m-auto">
+                <p class="heading">
+
+                    <span class="section-heading listing">01</span>
+                    <span class="section-heading">Soak</span>
+                </p>
+                <div class="content">
+                    <p class="inner-content">At Arcs Infotech, a new project starts with a discovery phase. We find it the
+                        best way to explore a subject idea and define the key project requirements. Customers, in turn,
+                        get a great chance to validate their business idea and decide whether it is worth the investment.
+                        At this stage, we analyze the issue a customer wants to solve with a software product and discuss
+                        the functionality that should be implemented. </p>
+                    <ul class="list">
+                        <li class="item">Product Vision</li>
+                        <li class="item">Project Roadmap</li>
+                        <li class="item">Design Prototype</li>
+                        <li class="item">Team Composition</li>
+                        <li class="item">Project Architecture</li>
+                        <li class="item">User Flow</li>
+                        <li class="item">Backlog</li>
+                        <li class="item">Accurate Estimates</li>
+                    </ul>
                 </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-2">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Scalability and Flexibility</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">Custom software grows with your business, enabling you to add 
-                        features and scale effortlessly as your operations expand or change.</p>
+            </div>
+            <div class="section wds m-auto">
+                <p class="heading">
+                    <span class="section-heading listing">02</span>
+                    <span class="section-heading">Think<span>
+                </p>
+                <div class="content">
+                    <p class="inner-content">Our design team creates wireframes and clickable prototypes that provide
+                        the basis for the final web designs. We create the user flow of a future app to show customers
+                        what their product will look like. This flow is further tested on real users to make sure it
+                        is intuitive and easy to follow. In terms of UI, we make visual appeal our top priority
+                        because we know how important it is for online businesses to make a great impression on
+                        first-time users. So we help them build long-term relationships with their customers with
+                        sleek and elegant web design.</p>
+                    <ul class="list">
+                        <li class="item">Design Estimates</li>
+                        <li class="item">UX Flow</li>
+                        <li class="item">Сustom illustrations and icons</li>
+                        <li class="item">Wireframes</li>
+                        <li class="item">User Stories</li>
+                        <li class="item">UI design</li>
+                        <li class="item">Prototypes</li>
+                    </ul>
                 </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-3">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Enhanced Efficiency</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">By automating repetitive tasks and streamlining operations, custom software 
-                        increases productivity and reduces operational costs.</p>
+            </div>
+            <div class="section wds m-auto">
+                <p class="heading">
+                    <span class="section-heading listing">03</span>
+                    <span class="section-heading">Execute</span>
+                </p>
+                <div class="content">
+                    <p class="inner-content">We have chosen Agile as our prioritized project management methodology.
+                        We believe this approach allows us to maintain the superior quality of the products we deliver,
+                        mitigate risks, and provide customers with better control over their projects. We divide the
+                        whole development process into short sprints. Each sprint follows a specific structure. irst
+                        comes planning, then the development itself. After that, we test the implemented
+                        functionality and release it (provided there are no bugs), and write the reports. Once a
+                        sprint is completed, our development team proceeds to the next one.</p>
+                    <ul class="list">
+                        <li class="item">Plan</li>
+                        <li class="item">Design</li>
+                        <li class="item">Develop</li>
+                        <li class="item">Test</li>
+                        <li class="item">Demo</li>
+                        <li class="item">Launch</li>
+                    </ul>
                 </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-4">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Improved Security</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">Custom software includes tailored security measures designed to address your 
-                        specific vulnerabilities, reducing the risk of breaches and ensuring data protection.
-                    </p>
-                </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-5">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Competitive Advantage</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">By leveraging custom tools and features, your business gains a competitive edge, 
-                        offering unique services or capabilities that set you apart from competitors.</p>
-                </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-6">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Long-Term Cost Savings</p>
-                    </div> 
-                    <p class="card-content mt-0 mb-0">Although the upfront cost may be higher than off-the-shelf options, custom software eliminates 
-                        recurring licensing fees and costly upgrades, saving money in the long run.</p>
-                </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-7">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Seamless Integration</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">Custom software is designed to integrate seamlessly with your existing systems and tools, 
-                        ensuring smooth data flow and enhanced functionality.</p>
-                </div>
-                <div class="box t-3 padding-20 bx-border-box">
-                    <div class="upper-part">
-                        <div class="logo logo-8">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/bul-correct.svg" alt="">
-                        </div>
-                        <p class="box-heading mt-0 mb-0">Better User Experience</p>
-                    </div>
-                    <p class="card-content mt-0 mb-0">With intuitive design and features tailored to your team or customers,
-                        custom software enhances usability and satisfaction.</p>
+            </div>
+            <div class="section wds m-auto">
+                <p class="heading">
+                    <span class="section-heading listing">04</span>
+                    <span class="section-heading">Proof</span>
+                </p>
+                <div class="content">
+                    <p class="inner-content">This is the final stage of the software development process. After our
+                        quality assurance engineers perform manual and automated testing to make sure each feature
+                        works properly, all components, data, and the finalized code we have written are deployed to
+                        production. At this stage, our custom web application development team prepares release notes,
+                        which are technical documentation that contains the primary information about the product, as
+                        in functionality enhancements or bugs fixed. Release notes are designed for product users but
+                        also can be used internally.</p>
+                    <ul class="list">
+                        <li class="item">Deploy</li>
+                        <li class="item">Bug fix</li>
+                        <li class="item">Documentation</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="faq-wrapper">
+        <p class="section-title m-auto w-fc tx-center">OUR COMMUNITY</p>
+        <p class="section-heading tx-center">Frequently asked questions</p>
+        <p class="section-content tx-center">Our customer-focused solutions can help you simplify your life by making all aspects simpler and more effective.</p>
+
+        <div class="question-container wds m-auto mt-40">
+            <div class="question-w-answer m-auto mt-40">
+                <div class="question">
+                    <h3 class="card-title">Why should I invest in a UI UX design company?</h3>
+
+                    <!-- <svg class="plus" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 13V29M13 21H29M41 21C41 32.0456 32.0456 41 21 41C9.9543 41 1 32.0456 1 21C1 9.9543 9.9543 1 21 1C32.0456 1 41 9.9543 41 21Z" stroke="#202323" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+                    <svg class="minus" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="#0071E3" />
+                        <path d="M12.3809 20L28.5713 20" stroke="white" stroke-width="1.90476" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+                <p class="section-content answer">Strategic UI UX design company enhance user experience, streamline workflows, and reduce friction—leading to increased engagement, customer satisfaction, and long-term business success</p>
+            </div>
+            <div class="question-w-answer m-auto mt-40">
+                <div class="question">
+                    <h3 class="card-title">Why should I invest in a UI UX design company?</h3>
+
+                    <!-- <svg class="plus" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 13V29M13 21H29M41 21C41 32.0456 32.0456 41 21 41C9.9543 41 1 32.0456 1 21C1 9.9543 9.9543 1 21 1C32.0456 1 41 9.9543 41 21Z" stroke="#202323" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+                    <svg class="minus" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="#0071E3" />
+                        <path d="M12.3809 20L28.5713 20" stroke="white" stroke-width="1.90476" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+                <p class="section-content answer">Strategic UI UX design company enhance user experience, streamline workflows, and reduce friction—leading to increased engagement, customer satisfaction, and long-term business success</p>
+            </div>
+
+            <div class="question-w-answer m-auto mt-40">
+                <div class="question">
+                    <h3 class="card-title">Why should I invest in a UI UX design company?</h3>
+
+                    <!-- <svg class="plus" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 13V29M13 21H29M41 21C41 32.0456 32.0456 41 21 41C9.9543 41 1 32.0456 1 21C1 9.9543 9.9543 1 21 1C32.0456 1 41 9.9543 41 21Z" stroke="#202323" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> -->
+                    <svg class="minus" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="#0071E3" />
+                        <path d="M12.3809 20L28.5713 20" stroke="white" stroke-width="1.90476" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+                <p class="section-content answer">Strategic UI UX design company enhance user experience, streamline workflows, and reduce friction—leading to increased engagement, customer satisfaction, and long-term business success</p>
+            </div>
+        </div>
+    </div>
+    <div class="our-community ui-ux-community tx-center">
+        <span class="section-title p-rel z-2">
+            OUR COMMUNITY
+        </span>
+        <h1 class="section-heading p-rel z-2 wcu-heading m-auto">
+            Don't take our word for it. See what customers are saying about us
+        </h1>
+        <p class="section-content p-rel z-2 wcu-content">
+            Our customer-focused solutions can help you simplify your life by making all aspects simpler and more effective.
+        </p>
+
+        <div class="slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content-wrapper p-rel bx-border-box tx-left">
+                        <img
+                            class="bottom-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/bottom-border.svg"
+                            alt="" />
+                        <img
+                            class="right-border"
+                            src="<?php echo get_template_directory_uri(); ?>/images/right-border.svg"
+                            alt="" />
+                        <img
+                            class="upper-img"
+                            src="<?php echo get_template_directory_uri(); ?>/images/slider-img.svg"
+                            alt=""
+                            class="" />
+                        <p class="slider-content">
+                            Arcs team's expertise and commitment to deliver on time
+                            make them an invaluable partner in our business.
+                        </p>
+                        <div class="about-profile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/profile-pic.svg" alt="" />
+                            <div class="name-n-profile">
+                                <span class="name">Gaurav Sethi</span>
+                                <span class="sol">Prime Sol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php get_footer(); ?>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                items: 4,
+                margin: 30,
+                dots: true,
+                autoplayHoverPause: true,
+                smartSpeed: 6000,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    },
+                    1500: {
+                        items: 4
+                    }
+                }
+            })
+        })
+    </script>

@@ -509,9 +509,6 @@
     }
   }
 
-
-
-
   .inner-heading {
     @include typography(18, 25, 600, $primary-text-color);
   }
@@ -1549,8 +1546,6 @@
 
   /****************************featured-aspects*******************************/
 
-
-
   .aspects {
     border: 1px solid $border-line-color;
     border-radius: 30px;
@@ -1704,7 +1699,6 @@
       }
     }
   }
-
 
   /*********************************transforming-future-AI*********************************/
 
@@ -1982,6 +1976,130 @@
           height: 100%;
           object-fit: cover;
           border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  /**********************our-community*****************/
+  .our-community {
+    .wcu-heading {
+      @include max-width(576) {
+        width: 100%;
+      }
+    }
+
+    .owl-carousel .owl-item img {
+      display: block;
+      width: auto !important;
+
+      @include max-width(576) {
+        @include dimensions(38, 38);
+      }
+    }
+
+    .slider {
+      width: fit-content;
+      margin: 40px 0 110px 0;
+      @include flex-box(row, na, center, nowrap, 30);
+
+      .owl-carousel {
+        display: flex;
+        gap: 20px;
+      }
+
+      .owl-stage-outer {
+        .owl-stage {
+          .owl-item {
+            width: 347px !important;
+
+            @include max-width(576) {
+              @include dimensions(213 !important, 266 !important);
+              margin-right: 10px !important;
+            }
+          }
+        }
+      }
+
+      .content-wrapper {
+        @include dimensions(340, 347);
+        border-radius: 20px;
+        background: $secondry-bg-color;
+        padding: 30px 20px;
+        flex: 0 0 auto;
+
+        @include max-width(576) {
+          @include dimensions(213, 266);
+          padding: 10px
+        }
+
+        .bottom-border {
+          @include absolute(na, 88, 0, na);
+
+          @include max-width(576) {
+            @include absolute(na, 71, 0, na);
+          }
+        }
+
+        .right-border {
+          @include absolute(na, na, 75, 0);
+
+          @include max-width(576) {
+            @include absolute(na, na, 47, 0);
+          }
+        }
+
+        .upper-img {
+          @include dimensions(32, 32);
+
+          @include max-width(576) {
+            @include dimensions(28, 25);
+
+          }
+        }
+
+        .slider-content {
+          @include typography(18, 30, 500, $secondry-text-color);
+          margin: 40px 0 0 0;
+
+          @include max-width(576) {
+            margin-top: 15px;
+            @include typography(14, 20, 500, $secondry-text-color);
+          }
+        }
+
+        .about-profile {
+          @include dimensions(95, 230);
+          @include absolute(na, na, 0, 0);
+          @include flex-box(row, na, center, na, 15);
+          background-color: $secondry-color;
+          border-radius: 20px;
+
+          @include max-width(576) {
+            @include dimensions(52, 164);
+            padding: 5px;
+
+          }
+        }
+
+        .name-n-profile {
+          @include flex-box(column, center, baseline, na, na);
+
+          .name {
+            @include typography(18, na, 600, $primary-text-color);
+
+            @include max-width(576) {
+              @include typography(12, na, 600, $primary-text-color);
+            }
+          }
+
+          .sol {
+            @include typography(18, na, 500, $secondry-text-color);
+
+            @include max-width(576) {
+              @include typography(12, na, 500, $primary-text-color);
+            }
+          }
         }
       }
     }
@@ -2457,7 +2575,7 @@
       grid-template-columns: repeat(4, auto);
       margin-top: 40px;
       padding: 0 90px;
-      margin-bottom: 120px;
+      // margin-bottom: 120px;
 
       @include max-width(1720) {
         padding: 0;
@@ -2474,6 +2592,125 @@
 
       @include max-width(576) {
         grid-template-columns: repeat(1, auto);
+      }
+    }
+  }
+
+  /***************************** web-dev-apps-wrapper ********************************/
+  .web-dev-apps-wrapper {
+    margin-bottom: 120px;
+
+    @include max-width(992) {
+      margin-bottom: 80px;
+    }
+
+    @include max-width(576) {
+      margin-bottom: 60px;
+    }
+
+    .web-dev-apps-inner {
+      padding: 50px 0;
+
+      @include max-width(1200) {
+        padding: 20px;
+
+      }
+
+      .section {
+        width: 100%;
+        border-bottom: 1px solid #ebebeb;
+
+        &:last-child {
+          border-bottom: 0;
+        }
+
+        @include flex-box(row, space-between, na, na, 20);
+
+        @include max-width(992) {
+          flex-direction: column;
+          padding: 20px 0;
+          gap: 5px
+        }
+
+        .heading {
+          @include flex-box(row, na, center, na, 30);
+          @include typography(na, na, 600, #262626);
+
+          .overlay {
+            content: "";
+            margin: auto;
+            position: absolute;
+            left: 25%;
+            top: 0px;
+            z-index: -1;
+            height: 100%;
+            width: 200px;
+            background: linear-gradient(109.92deg, rgba(0, 149, 255, 0.3), rgba(187, 100, 255, 0.3), rgba(242, 65, 107, 0.3), rgba(235, 117, 0, 0.3));
+            filter: blur(80px);
+          }
+
+          .listing {
+            position: relative;
+            @include typography(na, na, 300, #262626);
+          }
+        }
+
+        .content {
+          padding: 50px 0;
+          width: calc(100% - 490px);
+          @include flex-box(column, na, na, na, 20);
+          box-sizing: border-box;
+
+          @include max-width(1440) {
+            padding: 30px;
+            width: calc(100% - 350px);
+
+          }
+
+          @include max-width(992) {
+            padding: 15px;
+            width: 100%;
+          }
+
+          .inner-content {
+            @include typography(16, 25, 500, $secondry-text-color);
+
+            @include max-width(992) {
+              @include typography(14, 22, 500, $secondry-text-color);
+
+            }
+
+            @include max-width(576) {
+              @include typography(12, 18, 500, $secondry-text-color);
+
+            }
+          }
+
+          .list {
+            @include flex-box(row, na, center, wrap, 10);
+
+            .item {
+              height: 45px;
+              padding: 0 16px;
+              border: 1px solid $secondry-text-color;
+              border-radius: 22.5px;
+              list-style-type: none;
+              @include flex-box(row, center, center, na, na);
+              @include typography(16, 25, 500, $secondry-text-color);
+
+              @include max-width(992) {
+                height: 38px;
+                @include typography(14, 22, 500, $secondry-text-color);
+              }
+
+              @include max-width(576) {
+                height: 32px;
+                @include typography(12, 18, 500, $secondry-text-color);
+
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -3187,7 +3424,7 @@
 
     }
 
-    ::before {
+    &::before {
       content: '';
       @include absolute(-0.4, -0.4, -0.4, -0.4);
       border: .5px solid transparent;
@@ -4645,15 +4882,6 @@
       }
     }
 
-    /**********************our-community*****************/
-    .our-community {
-      .wcu-heading {
-        @include max-width(576) {
-          width: 100%;
-        }
-      }
-    }
-
     .wcu-heading,
     .section-title {
       width: 900px;
@@ -4666,120 +4894,7 @@
       }
     }
 
-    .owl-carousel .owl-item img {
-      display: block;
-      width: auto !important;
 
-      @include max-width(576) {
-        @include dimensions(38, 38);
-      }
-    }
-
-    .slider {
-      width: fit-content;
-      margin: 40px 0 110px 0;
-      @include flex-box(row, na, center, nowrap, 30);
-
-      .owl-carousel {
-        display: flex;
-        gap: 20px;
-      }
-
-      .owl-stage-outer {
-        .owl-stage {
-          .owl-item {
-            width: 347px !important;
-
-            @include max-width(576) {
-              @include dimensions(213 !important, 266 !important);
-              margin-right: 10px !important;
-            }
-          }
-        }
-      }
-
-      .content-wrapper {
-        @include dimensions(340, 347);
-        border-radius: 20px;
-        background: $secondry-bg-color;
-        padding: 30px 20px;
-        flex: 0 0 auto;
-
-        @include max-width(576) {
-          @include dimensions(213, 266);
-          padding: 10px
-        }
-
-        .bottom-border {
-          @include absolute(na, 88, 0, na);
-
-          @include max-width(576) {
-            @include absolute(na, 71, 0, na);
-          }
-        }
-
-        .right-border {
-          @include absolute(na, na, 75, 0);
-
-          @include max-width(576) {
-            @include absolute(na, na, 47, 0);
-          }
-        }
-
-        .upper-img {
-          @include dimensions(32, 32);
-
-          @include max-width(576) {
-            @include dimensions(28, 25);
-
-          }
-        }
-
-        .slider-content {
-          @include typography(18, 30, 500, $secondry-text-color);
-          margin: 40px 0 0 0;
-
-          @include max-width(576) {
-            margin-top: 15px;
-            @include typography(14, 20, 500, $secondry-text-color);
-          }
-        }
-
-        .about-profile {
-          @include dimensions(95, 230);
-          @include absolute(na, na, 0, 0);
-          @include flex-box(row, na, center, na, 15);
-          background-color: $secondry-color;
-          border-radius: 20px;
-
-          @include max-width(576) {
-            @include dimensions(52, 164);
-            padding: 5px;
-
-          }
-        }
-
-        .name-n-profile {
-          @include flex-box(column, center, baseline, na, na);
-
-          .name {
-            @include typography(18, na, 600, $primary-text-color);
-
-            @include max-width(576) {
-              @include typography(12, na, 600, $primary-text-color);
-            }
-          }
-
-          .sol {
-            @include typography(18, na, 500, $secondry-text-color);
-
-            @include max-width(576) {
-              @include typography(12, na, 500, $primary-text-color);
-            }
-          }
-        }
-      }
-    }
   }
 
   @keyframes texth1 {
@@ -4828,12 +4943,94 @@
     }
   }
 
+  // *****************************************************FAQ wrapper **********************************************/
+
+  .faq-wrapper {
+    margin: 120px auto;
+
+    @include max-width(992) {
+      margin: 80px auto;
+    }
+
+    @include max-width(576) {
+      margin: 60px auto;
+    }
+
+    .question-container {
+      padding: 0 80px;
+      box-sizing: border-box;
+
+      @include max-width(992) {
+        padding: 0 40px;
+      }
+
+      .question-w-answer {
+        border-bottom: 1px solid #D0D0D0;
+
+        .question {
+          padding-bottom: 36px;
+          @include flex-box(na, space-between, start, na, 40);
+
+          @include max-width(1200) {
+            padding-bottom: 20px;
+          }
+
+          h3 {
+            // @include typography(24, 26, 600, #202323);
+          }
+
+          svg {
+            @include dimensions(40, 40);
+
+            @include max-width(1200) {
+              @include dimensions(24, 24);
+            }
+
+          }
+        }
+
+        .answer {
+          // @include typography(16, 24, 500, #565656);
+          padding-bottom: 36px;
+
+          @include max-width(1200) {
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+
   /*********************[][][][][][]********************* UI-UX Page *******************[][][][][][]********************/
-
   .outer-box-ui-page {
+    .ed-banner {
+      .banner-img1 {
+        @include absolute(180, na, na, 255);
+      }
 
-    .ui-banner {
-      .ui-banner-details {
+      .banner-img2 {
+        @include absolute(180, na, na, 1363);
+      }
+
+      .banner-img3 {
+        @include absolute(74, na, na, 517);
+      }
+
+      
+      .banner-img4 {
+        @include absolute(74, na, na, 1102);
+      }
+
+      .banner-image {
+        @include absolute(50, na, na, 54%);
+
+        @include max-width(992) {
+          width: 328px;
+          @include absolute(160, na, na, 50%);
+        }
+      }
+
+      .ed-banner-details {
         .inner-banner-heading {
           width: 1188px;
 
@@ -4864,251 +5061,338 @@
       }
     }
 
-    .ux-design-services-wrapper {
-      background-color: $primary-bg-color;
-      padding: 120px 0;
+    .ui-ux-outer {
+      padding: 0;
+
+      .ui-ux-inner-wrapper {
+        border: 0;
+        background-color: transparent;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        @include max-width(768) {
+          padding: 0;
+        }
+      }
+    }
+
+    .ui-ux-webdev-wrapper {
+      margin: 0;
+
+      .section-heading {
+        margin-top: 0;
+      }
+
+      .ui-ux-webdev {
+        padding-top: 0;
+        box-sizing: border-box;
+        width: 100%;
+        background: #DBDBDB33;
+
+        .section {
+          @include min-width(1721) {
+            width: 1650px;
+          }
+
+          @include screen-size(1440, 1720) {
+            width: 1350px;
+          }
+
+          @include screen-size(1200, 1440) {
+            width: 1050px;
+          }
+
+          @include screen-size(992, 1200) {
+            width: 940px;
+          }
+
+          @include screen-size(700, 992) {
+            width: 700px;
+          }
+
+          @include max-width(768) {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+
+        }
+      }
+
+    }
+
+
+    .ui-ux-community {
+
+      .wcu-heading,
+      .section-title {
+        width: 900px;
+      }
+
+      .wcu-heading {
+        @include max-width(1440) {
+          width: 650px;
+        }
+
+        @include max-width(992) {
+          width: 500px;
+        }
+
+        @include max-width(768) {
+          width: 72%;
+        }
+
+        @include max-width(576) {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  /*********************[][][][][][]********************* Ux design services *******************[][][][][][]********************/
+
+  .ux-design-services-wrapper {
+    background-color: $primary-bg-color;
+    padding: 120px 0;
+
+    @include max-width(992) {
+      padding: 80px 0;
+    }
+
+    @include max-width(576) {
+      padding: 60px 0;
+
+    }
+
+    .service-boxes {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+
+      @include max-width(1440) {
+        grid-template-columns: repeat(2, 1fr);
+
+      }
 
       @include max-width(992) {
-        padding: 80px 0;
+        gap: 12px;
+      }
+
+      @include max-width(768) {
+
+        grid-template-columns: repeat(1, 1fr);
+
+      }
+
+      .box {
+        background-color: $secondry-color;
+        border-radius: 15px;
+        // @include dimensions(360, 377);
+
+        // @include max-width(1720) {
+        //   height: 390px;
+        // }
+
+        @include max-width(1440) {
+          @include dimensions(100%, auto);
+        }
+
+        .overlay {
+          @include dimensions(100%, 100%);
+          background-color: $secondry-color;
+          border-radius: 15px;
+          @include absolute(50%, na, na, 50%);
+          transform: translate(-50%, -50%);
+        }
+
+        &::before {
+          content: "";
+          @include absolute(50%, na, na, 50%);
+          transform: translate(-50%, -50%);
+          background: $border-hover-color-ui-section-ui-design-services;
+          @include dimensions(calc(100% + 2px), calc(100% + 2px));
+          visibility: hidden;
+          border-radius: 15px;
+        }
+
+        .logo-n-heading {
+          @include flex-box(row, na, center, na, 10);
+
+          .logo {
+            @include dimensions(50, 50);
+            @include flex-box(na, center, center, na, na);
+            background: $ui-section-design-services-without-hover-logo-bg-color;
+            border-radius: 12px;
+          }
+
+          span {
+            @include typography(18, 30, 600, $primary-text-color);
+
+            @include max-width(1720) {
+              @include typography(18, 25, 600, $primary-text-color);
+            }
+          }
+        }
+
+        .content {
+          @include typography(14, 25, 400, $secondry-text-color);
+        }
+
+        .footer-n-arrow {
+          @include flex-box(row, space-between, center, na, na);
+
+          .without-hover {
+            display: block;
+          }
+
+          .with-hover {
+            display: none;
+            transform: rotate(45deg);
+          }
+
+          .lets-go {
+            @include typography(16, 22, 500, #d9d9d9);
+
+            &::before {
+              content: "";
+              background-color: #136DFB;
+              @include dimensions(1, 0);
+              @include absolute(na, na, 0, 0);
+              visibility: hidden;
+              transition: all 0.1s ease;
+            }
+
+            &:hover {
+              &::before {
+                width: 100%;
+                @include dimensions(1, 100%);
+              }
+            }
+          }
+
+          .arrow-circle {
+            @include dimensions(34, 34);
+            @include flex-box(na, center, center, na, na);
+            border: 1px solid #d9d9d9;
+          }
+        }
+
+        &:hover {
+          &::before {
+            visibility: visible;
+          }
+
+          .without-hover {
+            display: none;
+          }
+
+          .with-hover {
+            display: block;
+            transform: rotate(0deg);
+          }
+
+          .arrow-circle {
+            border: 1px solid #136DFB;
+          }
+
+          .lets-go {
+            color: #136DFB;
+
+            &::before {
+              visibility: visible;
+            }
+          }
+
+          .logo {
+            background: $ui-section-design-services-hover-logo-bg-color;
+          }
+
+          .logo-img {
+            @include dimensions(26, 26);
+          }
+
+          box-shadow: 0px 20px 40px 0px #00000033;
+        }
+      }
+    }
+  }
+
+  .gs-border {
+    height: 1px;
+    background: linear-gradient(109.92deg,
+        rgba(0, 150, 255, 0.3) 12.78%,
+        rgba(187, 100, 255, 0.3) 37.63%,
+        rgba(242, 65, 107, 0.3) 62.12%,
+        rgba(235, 117, 0, 0.3) 87.3%);
+  }
+
+  .your-expert-wrapper {
+    .circle-1 {
+      @include dimensions(473, 473);
+      filter: blur(150px);
+      background-color: $banner-left-circle-bg-color;
+      @include absolute(570, 75, na, na);
+    }
+
+    .circle-2 {
+      @include dimensions(312, 312);
+      filter: blur(150px);
+      background-color: $banner-left-circle-bg-color;
+      @include absolute(80, na, na, 0);
+    }
+
+    .your-expert {
+      padding: 120px 50px;
+
+      @include max-width(992) {
+        padding: 80px 15px;
       }
 
       @include max-width(576) {
-        padding: 60px 0;
-
+        padding: 60px 10px;
       }
 
-      .service-boxes {
+      .boxes {
+        margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 24px;
-        // @include flex-box(row, space-between, center, na, 47);
+        gap: 27px;
 
         @include max-width(1440) {
-          // @include flex-box(column, space-between, center, na, 47);
           grid-template-columns: repeat(2, 1fr);
 
         }
 
-        @include max-width(992) {
-          gap: 12px;
-        }
-
-        @include max-width(768) {
-
+        @include max-width(576) {
           grid-template-columns: repeat(1, 1fr);
 
         }
 
         .box {
+          border: 1px solid #ececec;
           background-color: $secondry-color;
-          border-radius: 15px;
-          // @include dimensions(360, 377);
-
-          // @include max-width(1720) {
-          //   height: 390px;
-          // }
+          border-radius: 12px;
 
           @include max-width(1440) {
-            @include dimensions(100%, auto);
+            border-radius: 24px;
           }
 
-          .overlay {
-            @include dimensions(100%, 100%);
-            background-color: $secondry-color;
-            border-radius: 15px;
-            @include absolute(50%, na, na, 50%);
-            transform: translate(-50%, -50%);
+          @include max-width(576) {
+            @include dimensions(auto, 100%);
           }
 
-          &::before {
-            content: "";
-            @include absolute(50%, na, na, 50%);
-            transform: translate(-50%, -50%);
-            background: $border-hover-color-ui-section-ui-design-services;
-            @include dimensions(calc(100% + 2px), calc(100% + 2px));
-            visibility: hidden;
-            border-radius: 15px;
-          }
-
-          .logo-n-heading {
-            @include flex-box(row, na, center, na, 10);
-
-            .logo {
-              @include dimensions(50, 50);
-              @include flex-box(na, center, center, na, na);
-              background: $ui-section-design-services-without-hover-logo-bg-color;
-              border-radius: 12px;
-            }
-
-            span {
-              @include typography(18, 30, 600, $primary-text-color);
-
-              @include max-width(1720) {
-                @include typography(18, 25, 600, $primary-text-color);
-              }
-            }
+          img {
+            width: 100%;
           }
 
           .content {
-            @include typography(14, 25, 400, $secondry-text-color);
-          }
-
-          .footer-n-arrow {
-            @include flex-box(row, space-between, center, na, na);
-
-            .without-hover {
-              display: block;
-            }
-
-            .with-hover {
-              display: none;
-              transform: rotate(45deg);
-            }
-
-            .lets-go {
-              @include typography(16, 22, 500, #d9d9d9);
-
-              &::before {
-                content: "";
-                background-color: #136DFB;
-                @include dimensions(1, 0);
-                @include absolute(na, na, 0, 0);
-                visibility: hidden;
-                transition: all 0.1s ease;
-              }
-
-              &:hover {
-                &::before {
-                  width: 100%;
-                  @include dimensions(1, 100%);
-                }
-              }
-            }
-
-            .arrow-circle {
-              @include dimensions(34, 34);
-              @include flex-box(na, center, center, na, na);
-              border: 1px solid #d9d9d9;
+            .card-content {
+              margin: 0;
             }
           }
 
           &:hover {
-            &::before {
-              visibility: visible;
-            }
-
-            .without-hover {
-              display: none;
-            }
-
-            .with-hover {
-              display: block;
-              transform: rotate(0deg);
-            }
-
-            .arrow-circle {
-              border: 1px solid #136DFB;
-            }
-
-            .lets-go {
-              color: #136DFB;
-
-              &::before {
-                visibility: visible;
-              }
-            }
-
-            .logo {
-              background: $ui-section-design-services-hover-logo-bg-color;
-            }
-
-            .logo-img {
-              @include dimensions(26, 26);
-            }
-
-            box-shadow: 0px 20px 40px 0px #00000033;
-          }
-        }
-      }
-    }
-
-    .gs-border {
-      height: 1px;
-      background: linear-gradient(109.92deg,
-          rgba(0, 150, 255, 0.3) 12.78%,
-          rgba(187, 100, 255, 0.3) 37.63%,
-          rgba(242, 65, 107, 0.3) 62.12%,
-          rgba(235, 117, 0, 0.3) 87.3%);
-    }
-
-    .your-expert-wrapper {
-      .circle-1 {
-        @include dimensions(473, 473);
-        filter: blur(150px);
-        background-color: $banner-left-circle-bg-color;
-        @include absolute(570, 75, na, na);
-      }
-
-      .circle-2 {
-        @include dimensions(312, 312);
-        filter: blur(150px);
-        background-color: $banner-left-circle-bg-color;
-        @include absolute(80, na, na, 0);
-      }
-
-      .your-expert {
-        padding: 120px 50px;
-
-        @include max-width(992) {
-          padding: 80px 15px;
-        }
-
-        @include max-width(576) {
-          padding: 60px 10px;
-        }
-
-        .boxes {
-          margin-top: 40px;
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          gap: 27px;
-
-          @include max-width(1440) {
-            grid-template-columns: repeat(2, 1fr);
-
-          }
-
-          @include max-width(576) {
-            grid-template-columns: repeat(1, 1fr);
-
-          }
-
-          .box {
-            border: 1px solid #ececec;
-            background-color: $secondry-color;
-            border-radius: 12px;
-
-            @include max-width(1440) {
-              border-radius: 24px;
-            }
-
-            @include max-width(576) {
-              @include dimensions(auto, 100%);
-            }
-
-            img {
-              width: 100%;
-            }
-
-            .content {
-              .card-content {
-                margin: 0;
-              }
-            }
-
-            &:hover {
-              box-shadow: 0px 15px 60px 0px #00000033;
-            }
+            box-shadow: 0px 15px 60px 0px #00000033;
           }
         }
       }
@@ -6826,22 +7110,686 @@
             }
           }
 
-          // .box-content {
-          //   @include typography(14, 26, 400, $secondry-text-color);
-
-          //   @include max-width(420) {
-          //     @include typography(12, 22, 400, $secondry-text-color);
-          //   }
-          // }
-
-
         }
       }
     }
   }
 
   /*********************[][][][][][]********************* DEDICATED TEAM PAGE *******************[][][][][][]********************/
+  .outer-box-dedicated-team {
 
+    .ui-banner {
+      .ui-banner-blur-circle {
+        background-color: $primary-color;
+        filter: blur(195px);
+        @include dimensions(325, 325);
+        @include absolute(225, na, na, 50%);
+        transform: translateX(-50%);
+      }
+
+      .banner-girl-image {
+        @include absolute(160, na, na, 50%);
+        transform: translateX(-50%);
+        width: auto;
+      }
+
+      .img-inside-img {
+        width: auto;
+        @include absolute(250, na, na, 46%);
+
+        @include max-width(1200) {
+          left: 45%;
+        }
+
+        @include max-width(992) {
+          left: 43%;
+        }
+
+        @include max-width(768) {
+          left: 41%;
+        }
+
+        @include max-width(576) {
+          left: 39%;
+        }
+      }
+
+      .user-box {
+        border-radius: 30px;
+        border: 1px solid #136dfb0d;
+        backdrop-filter: blur(150px);
+        box-shadow: 0px 30px 60px 0px #00000033;
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include flex-box(row, center, center, na, 10);
+
+        @include max-width(576) {
+          padding: 4px;
+        }
+
+        &.user-interface {
+          @include absolute(180, na, na, 580);
+
+          @include max-width(1720) {
+            @include absolute(155, na, na, 370);
+          }
+
+          @include max-width(1440) {
+            @include absolute(155, na, na, 240);
+          }
+
+          @include max-width(1094) {
+            @include absolute(155, na, na, 101);
+          }
+
+          @include max-width(768) {
+            @include absolute(155, na, na, 10);
+          }
+        }
+
+        &.user-interface2 {
+          @include absolute(400, na, na, 580);
+
+          @include max-width(1720) {
+            @include absolute(400, na, na, 370);
+          }
+
+          @include max-width(1440) {
+            @include absolute(400, na, na, 240);
+          }
+
+          @include max-width(1094) {
+            @include absolute(400, na, na, 101);
+          }
+
+          @include max-width(768) {
+            @include absolute(400, na, na, 10);
+          }
+        }
+
+        &.user-exp {
+          @include absolute(180, 630, na, na);
+
+          @include max-width(1720) {
+            @include absolute(155, 410, na, na);
+          }
+
+          @include max-width(1440) {
+            @include absolute(155, 290, na, na);
+          }
+
+          @include max-width(1094) {
+            @include absolute(155, 153, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(155, 10, na, na);
+          }
+
+          @include max-width(420) {
+            @include absolute(80, 10, na, na);
+          }
+        }
+
+        &.user-exp2 {
+          @include absolute(400, 630, na, na);
+
+          @include max-width(1720) {
+            @include absolute(400, 410, na, na);
+          }
+
+          @include max-width(1440) {
+            @include absolute(400, 290, na, na);
+          }
+
+          @include max-width(1094) {
+            @include absolute(400, 153, na, na);
+          }
+
+          @include max-width(768) {
+            @include absolute(400, 10, na, na);
+          }
+
+          @include max-width(420) {
+            @include absolute(331, 10, na, na);
+          }
+        }
+
+
+        .icon {
+          @include dimensions(47, 47);
+          @include flex-box(na, center, center, na, na);
+          background-color: $primary-color;
+          border-radius: 23px;
+
+          @include max-width(768) {
+            @include dimensions(40, 40);
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(420) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .line-design {
+        @include flex-box(column, center, center, na, 15);
+
+        &.guided {
+          @include absolute(140, -70, na, na);
+
+          @include max-width(1440) {
+            @include absolute(80, -150, na, na);
+          }
+
+          .guided-line {
+            top: 85px;
+            right: 43px;
+
+            @include max-width(1440) {
+              top: 85px;
+              right: -80px;
+            }
+          }
+        }
+
+        &.effective-nav {
+          @include absolute(165, na, na, -75);
+
+          @include max-width(1440) {
+            @include absolute(165, na, na, -150);
+          }
+
+          .nav-line {
+            top: 80px;
+            left: 80px;
+
+            @include max-width(1440) {
+              top: 100px;
+              left: -42px;
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, #d9d9d9);
+
+          @include max-width(768) {
+            @include typography(12, 24, 600, #d9d9d9);
+
+          }
+
+          @include max-width(576) {
+            @include typography(9, 24, 600, #d9d9d9);
+          }
+        }
+
+        .logo-box {
+          border: 1px solid #e5e6e8;
+          @include flex-box(na, center, center, na, na);
+          @include dimensions(61, 61);
+          border-radius: 12px;
+          backdrop-filter: blur(10px);
+          background: linear-gradient(178.83deg,
+              rgba(255, 255, 255, 0.6) 2.73%,
+              rgba(249, 249, 249, 0.6) 97.04%);
+        }
+      }
+
+      .ui-banner-details {
+        background: linear-gradient(178.83deg,
+            rgba(255, 255, 255, 0.6) 2.73%,
+            rgba(249, 249, 249, 0.6) 97.04%);
+        @include dimensions(calc(100vh - 510px), 100%);
+        @include flex-box(column, center, center, na, na);
+        @include absolute(na, 0, 0, 0);
+        backdrop-filter: blur(30px);
+
+        .inner-banner-heading {
+          width: 50%;
+
+          @include max-width(1200) {
+            width: 75%;
+          }
+
+          @include max-width(768) {
+            width: 90%;
+          }
+        }
+
+        .inner-banner-content {
+          width: 55%;
+
+          @include max-width(1200) {
+            width: 75%;
+          }
+
+          @include max-width(768) {
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    .technos-wrapper {
+      margin: 120px auto;
+
+      @include max-width(992) {
+        margin: 80px auto;
+      }
+
+      @include max-width(576) {
+        width: 94%;
+        margin: 60px auto;
+
+      }
+
+      .technos {
+        .boxes-wrapper {
+          margin-top: 67px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 24px;
+
+          @include max-width(1440) {
+            grid-template-columns: repeat(2, 1fr);
+          }
+
+          @include max-width(992) {
+            gap: 12px;
+          }
+
+          @include max-width(768) {
+            grid-template-columns: repeat(1, 1fr);
+
+          }
+
+          @include max-width(576) {
+            width: 100%;
+          }
+
+          .box {
+            border: 1px solid $border-line-color;
+            box-shadow: 0px 20px 80px 0px #0000000d;
+            background-color: $secondry-color;
+            border-radius: 16px;
+            margin-top: 30px;
+
+            @include max-width(992) {
+              margin-top: 20px;
+            }
+
+            .logo {
+              @include flex-box(row, center, center, na, na);
+              border-radius: 16px;
+              @include dimensions(60, 60);
+              @include absolute(-30, na, na, 25);
+              background-color: #eb7500;
+              box-shadow: 0px 10px 60px 0px rgba(235, 117, 0, 0.4);
+
+              @include max-width(992) {
+                @include dimensions(50, 50);
+                border-radius: 12px;
+              }
+
+              @include max-width(576) {
+                @include dimensions(40, 40);
+                border-radius: 8px;
+              }
+            }
+
+            .card-title {
+              margin-top: 20px;
+              width: calc(100% - 70px);
+            }
+
+            .card-content {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .transform-future-wrapper {
+      padding: 40px 0;
+
+      .transform-future {
+        @include flex-box(row, space-between, na, na, 86);
+
+        @include max-width(992) {
+          flex-direction: column;
+          gap: 48px;
+        }
+
+        @include max-width(576) {
+          gap: 40px;
+        }
+
+        .left-part {
+          width: 48%;
+          @include flex-box(column, center, na, na, na);
+
+          @include max-width(992) {
+            width: 100%;
+          }
+
+          .section-title-text {
+            text-transform: uppercase;
+            @include typography(24, 36, 600, $secondry-color);
+
+            @include max-width(1440) {
+              @include typography(20, 24, 600, na);
+            }
+
+            @include max-width(1200) {
+              @include typography(16, 20, 600, na);
+            }
+
+            @include max-width(420) {
+              @include typography(12, 18, 600, na);
+              margin-bottom: 5px;
+            }
+          }
+
+          .section-heading-white {
+            @include typography(48, 60, 600, $secondry-color);
+
+            @include max-width(1720) {
+              @include typography(42, 50, 600, $secondry-color);
+            }
+
+            @include max-width(1440) {
+              @include typography(34, 40, 600, $secondry-color);
+            }
+
+            @include max-width(1200) {
+              @include typography(30, 36, 600, $secondry-color);
+            }
+
+            @include max-width(992) {
+              margin-bottom: 10px;
+              @include typography(26, 30, na, na);
+
+            }
+
+            @include max-width(768) {
+              @include typography(22, 26, na, na);
+            }
+
+            @include max-width(420) {
+              @include typography(16, 24, na, na);
+            }
+          }
+
+          .section-content-white {
+            width: 92%;
+            @include typography(14, 25, 500, $secondry-color);
+
+            @include max-width(1200) {
+              // @include typography(14, 18, 500, $secondry-color);
+              width: 80%;
+            }
+
+            @include max-width(768) {
+              @include typography(12, 16, 500, $secondry-color);
+              width: 90%;
+            }
+          }
+
+          // .section-heading {
+          //   @include typography(48, 60, 600, $primary-text-color);
+
+          //   @include max-width(1720) {
+          //     @include typography(40, 48, 600, $primary-text-color);
+          //   }
+
+          //   @include max-width(1440) {
+          //     @include typography(32, 40, 600, $primary-text-color);
+          //   }
+
+          //   @include max-width(1200) {
+          //     @include typography(24, 28, 600, $primary-text-color);
+          //   }
+
+          //   @include max-width(992) {
+          //     margin-bottom: 20px;
+          //   }
+          // }
+
+          .section-content {
+            width: 92%;
+            // @include typography(16, 24, 400, $secondry-text-color);
+
+            @include max-width(1440) {
+              // @include typography(14, 22, 400, $secondry-text-color);
+              width: 80%;
+            }
+
+            @include max-width(992) {
+              // @include typography(12, 18, 400, $secondry-text-color);
+              width: 90%;
+            }
+
+            @include max-width(992) {
+              margin-bottom: 30px;
+            }
+          }
+
+          .white-button {
+            background-color: $secondry-color !important;
+            color: $primary-color !important;
+          }
+        }
+
+        .right-part {
+          width: 50%;
+          background-color: $secondry-color;
+          border-radius: 15px;
+          position: relative;
+
+          @include max-width(992) {
+            width: 100%;
+            padding: 12px;
+          }
+
+          @include max-width(576) {
+            padding: 8px;
+          }
+        }
+      }
+
+      .z-img1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .z-img2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+
+      .circle1 {
+        width: 500px;
+        height: 500px;
+        background-color: $secondry-color;
+        filter: blur(295px);
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .circle2 {
+        width: 500px;
+        height: 500px;
+        background-color: $secondry-color;
+        filter: blur(295px);
+        position: absolute;
+        bottom: 0;
+        right: 600px;
+      }
+
+      .circle3 {
+        width: 200px;
+        height: 200px;
+        background-color: $secondry-color;
+        filter: blur(115px);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .digital-transform-wrapper {
+      position: relative;
+      margin: 120px auto;
+
+      @include max-width(992) {
+        margin: 80px auto;
+      }
+
+      @include max-width(576) {
+        margin: 60px auto;
+      }
+
+      .overley {
+        content: "";
+        margin: auto;
+        position: absolute;
+        left: 25%;
+        top: 0px;
+        z-index: -1;
+        height: 100%;
+        width: 800px;
+        background: linear-gradient(109.92deg,
+            rgba(0, 149, 255, .2),
+            rgba(187, 100, 255, .2),
+            rgba(242, 65, 107, .2),
+            rgba(235, 117, 0, .2));
+        filter: blur(80px);
+      }
+
+      .digital-transformation {
+        height: 520px;
+        overflow: hidden;
+        border-radius: 30px;
+        @include flex-box(row, space-between, na, na, na);
+
+        @include max-width(992) {
+          flex-direction: column;
+          height: auto;
+        }
+
+        .left-part {
+          padding: 124px 204px 124px 84px;
+          background-color: $secondry-color;
+          box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.5);
+          @include flex-box(column, center, na, na, na);
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+          box-sizing: border-box;
+
+          @include max-width(1440) {
+            padding: 30px;
+          }
+
+          @include max-width(992) {
+            border-top-left-radius: 0;
+            order: 2;
+            padding: 40px 20px;
+          }
+
+          @include max-width(576) {
+            padding: 20px;
+            border-radius: 0;
+          }
+
+          .section-content {
+            width: 100%;
+            // @include typography(16, 24, 400, $secondry-text-color);
+
+            @include max-width(1440) {
+              // @include typography(14, 22, 400, $secondry-text-color);
+              width: 80%;
+            }
+
+            @include max-width(992) {
+              // @include typography(12, 18, 400, $secondry-text-color);
+              width: 90%;
+            }
+
+            @include max-width(992) {
+              margin-bottom: 0px;
+            }
+          }
+
+        }
+
+        .right-part {
+          background-color: $secondry-color;
+
+          @include max-width(1440) {
+            width: 50%;
+          }
+
+          @include max-width(992) {
+            width: 100%;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            order: 1;
+
+            img {
+              width: 100%;
+            }
+          }
+
+
+        }
+
+        .z-img1 {
+          position: absolute;
+          z-index: 10;
+          left: 0;
+
+          @include max-width(992) {
+            display: none;
+          }
+        }
+
+        .circle4 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 400px;
+          height: 400px;
+          background-color: $banner-left-circle-bg-color;
+          filter: blur(125px);
+
+          @include max-width(992) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 
   /*********************[][][][][][]********************* DIGITAL EXP PAGE *******************[][][][][][]********************/
 
@@ -8925,699 +9873,6 @@
   }
 
 
-  /*********************[][][][][][]********************* DEDICATED TEAM *******************[][][][][][]********************/
-
-  .back-transparent {
-    background-color: transparent;
-  }
-
-  .blue-background {
-    background-color: $primary-color;
-  }
-
-  .gray-backgorund {
-    background-color: #f9f9f9;
-  }
-
-  .white-text {
-    color: $secondry-color;
-  }
-
-  .outer-box-dedicated-team {
-
-    .ui-banner {
-      .ui-banner-blur-circle {
-        background-color: $primary-color;
-        filter: blur(195px);
-        @include dimensions(325, 325);
-        @include absolute(225, na, na, 50%);
-        transform: translateX(-50%);
-      }
-
-      .banner-girl-image {
-        @include absolute(160, na, na, 50%);
-        transform: translateX(-50%);
-        width: auto;
-      }
-
-      .img-inside-img {
-        width: auto;
-        @include absolute(250, na, na, 46%);
-
-        @include max-width(1200) {
-          left: 45%;
-        }
-
-        @include max-width(992) {
-          left: 43%;
-        }
-
-        @include max-width(768) {
-          left: 41%;
-        }
-
-        @include max-width(576) {
-          left: 39%;
-        }
-      }
-
-      .user-box {
-        border-radius: 30px;
-        border: 1px solid #136dfb0d;
-        backdrop-filter: blur(150px);
-        box-shadow: 0px 30px 60px 0px #00000033;
-        background: linear-gradient(178.83deg,
-            rgba(255, 255, 255, 0.6) 2.73%,
-            rgba(249, 249, 249, 0.6) 97.04%);
-        @include flex-box(row, center, center, na, 10);
-
-        @include max-width(576) {
-          padding: 4px;
-        }
-
-        &.user-interface {
-          @include absolute(180, na, na, 580);
-
-          @include max-width(1720) {
-            @include absolute(155, na, na, 370);
-          }
-
-          @include max-width(1440) {
-            @include absolute(155, na, na, 240);
-          }
-
-          @include max-width(1094) {
-            @include absolute(155, na, na, 101);
-          }
-
-          @include max-width(768) {
-            @include absolute(155, na, na, 10);
-          }
-        }
-
-        &.user-interface2 {
-          @include absolute(400, na, na, 580);
-
-          @include max-width(1720) {
-            @include absolute(400, na, na, 370);
-          }
-
-          @include max-width(1440) {
-            @include absolute(400, na, na, 240);
-          }
-
-          @include max-width(1094) {
-            @include absolute(400, na, na, 101);
-          }
-
-          @include max-width(768) {
-            @include absolute(400, na, na, 10);
-          }
-        }
-
-        &.user-exp {
-          @include absolute(180, 630, na, na);
-
-          @include max-width(1720) {
-            @include absolute(155, 410, na, na);
-          }
-
-          @include max-width(1440) {
-            @include absolute(155, 290, na, na);
-          }
-
-          @include max-width(1094) {
-            @include absolute(155, 153, na, na);
-          }
-
-          @include max-width(768) {
-            @include absolute(155, 10, na, na);
-          }
-
-          @include max-width(420) {
-            @include absolute(80, 10, na, na);
-          }
-        }
-
-        &.user-exp2 {
-          @include absolute(400, 630, na, na);
-
-          @include max-width(1720) {
-            @include absolute(400, 410, na, na);
-          }
-
-          @include max-width(1440) {
-            @include absolute(400, 290, na, na);
-          }
-
-          @include max-width(1094) {
-            @include absolute(400, 153, na, na);
-          }
-
-          @include max-width(768) {
-            @include absolute(400, 10, na, na);
-          }
-
-          @include max-width(420) {
-            @include absolute(331, 10, na, na);
-          }
-        }
-
-
-        .icon {
-          @include dimensions(47, 47);
-          @include flex-box(na, center, center, na, na);
-          background-color: $primary-color;
-          border-radius: 23px;
-
-          @include max-width(768) {
-            @include dimensions(40, 40);
-          }
-        }
-
-        span {
-          @include typography(16, 24, 600, $primary-text-color);
-
-          @include max-width(768) {
-            @include typography(14, 24, 600, $primary-text-color);
-
-          }
-
-          @include max-width(576) {
-            @include typography(12, 24, 600, $primary-text-color);
-          }
-
-          @include max-width(420) {
-            @include typography(9, 24, 600, $primary-text-color);
-          }
-        }
-      }
-
-      .line-design {
-        @include flex-box(column, center, center, na, 15);
-
-        &.guided {
-          @include absolute(140, -70, na, na);
-
-          @include max-width(1440) {
-            @include absolute(80, -150, na, na);
-          }
-
-          .guided-line {
-            top: 85px;
-            right: 43px;
-
-            @include max-width(1440) {
-              top: 85px;
-              right: -80px;
-            }
-          }
-        }
-
-        &.effective-nav {
-          @include absolute(165, na, na, -75);
-
-          @include max-width(1440) {
-            @include absolute(165, na, na, -150);
-          }
-
-          .nav-line {
-            top: 80px;
-            left: 80px;
-
-            @include max-width(1440) {
-              top: 100px;
-              left: -42px;
-            }
-          }
-        }
-
-        span {
-          @include typography(16, 24, 600, #d9d9d9);
-
-          @include max-width(768) {
-            @include typography(12, 24, 600, #d9d9d9);
-
-          }
-
-          @include max-width(576) {
-            @include typography(9, 24, 600, #d9d9d9);
-          }
-        }
-
-        .logo-box {
-          border: 1px solid #e5e6e8;
-          @include flex-box(na, center, center, na, na);
-          @include dimensions(61, 61);
-          border-radius: 12px;
-          backdrop-filter: blur(10px);
-          background: linear-gradient(178.83deg,
-              rgba(255, 255, 255, 0.6) 2.73%,
-              rgba(249, 249, 249, 0.6) 97.04%);
-        }
-      }
-
-      .ui-banner-details {
-        background: linear-gradient(178.83deg,
-            rgba(255, 255, 255, 0.6) 2.73%,
-            rgba(249, 249, 249, 0.6) 97.04%);
-        @include dimensions(calc(100vh - 510px), 100%);
-        @include flex-box(column, center, center, na, na);
-        @include absolute(na, 0, 0, 0);
-        backdrop-filter: blur(30px);
-
-        .inner-banner-heading {
-          width: 50%;
-
-          @include max-width(1200) {
-            width: 75%;
-          }
-
-          @include max-width(768) {
-            width: 90%;
-          }
-        }
-
-        .inner-banner-content {
-          width: 55%;
-
-          @include max-width(1200) {
-            width: 75%;
-          }
-
-          @include max-width(768) {
-            width: 90%;
-          }
-        }
-      }
-    }
-
-    .technos-wrapper {
-      margin: 120px auto;
-
-      @include max-width(992) {
-        margin: 80px auto;
-      }
-
-      @include max-width(576) {
-        width: 94%;
-        margin: 60px auto;
-
-      }
-
-      .technos {
-        .boxes-wrapper {
-          margin-top: 67px;
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          gap: 24px;
-
-          @include max-width(1440) {
-            grid-template-columns: repeat(2, 1fr);
-          }
-
-          @include max-width(992) {
-            gap: 12px;
-          }
-
-          @include max-width(768) {
-            grid-template-columns: repeat(1, 1fr);
-
-          }
-
-          @include max-width(576) {
-            width: 100%;
-          }
-
-          .box {
-            border: 1px solid $border-line-color;
-            box-shadow: 0px 20px 80px 0px #0000000d;
-            background-color: $secondry-color;
-            border-radius: 16px;
-            margin-top: 30px;
-
-            @include max-width(992) {
-              margin-top: 20px;
-            }
-
-            .logo {
-              @include flex-box(row, center, center, na, na);
-              border-radius: 16px;
-              @include dimensions(60, 60);
-              @include absolute(-30, na, na, 25);
-              background-color: #eb7500;
-              box-shadow: 0px 10px 60px 0px rgba(235, 117, 0, 0.4);
-
-              @include max-width(992) {
-                @include dimensions(50, 50);
-                border-radius: 12px;
-              }
-
-              @include max-width(576) {
-                @include dimensions(40, 40);
-                border-radius: 8px;
-              }
-            }
-
-            .card-title {
-              margin-top: 20px;
-              width: calc(100% - 70px);
-            }
-
-            .card-content {
-              margin: 0;
-            }
-          }
-        }
-      }
-    }
-
-    .transform-future-wrapper {
-      padding: 40px 0;
-
-      .transform-future {
-        @include flex-box(row, space-between, na, na, 86);
-
-        @include max-width(992) {
-          flex-direction: column;
-          gap: 48px;
-        }
-
-        @include max-width(576) {
-          gap: 40px;
-        }
-
-        .left-part {
-          width: 48%;
-          @include flex-box(column, center, na, na, na);
-
-          @include max-width(992) {
-            width: 100%;
-          }
-
-          .section-title-text {
-            text-transform: uppercase;
-            @include typography(24, 36, 600, $secondry-color);
-
-            @include max-width(1440) {
-              @include typography(20, 24, 600, na);
-            }
-
-            @include max-width(1200) {
-              @include typography(16, 20, 600, na);
-            }
-
-            @include max-width(420) {
-              @include typography(12, 18, 600, na);
-              margin-bottom: 5px;
-            }
-          }
-
-          .section-heading-white {
-            @include typography(48, 60, 600, $secondry-color);
-
-            @include max-width(1720) {
-              @include typography(42, 50, 600, $secondry-color);
-            }
-
-            @include max-width(1440) {
-              @include typography(34, 40, 600, $secondry-color);
-            }
-
-            @include max-width(1200) {
-              @include typography(30, 36, 600, $secondry-color);
-            }
-
-            @include max-width(992) {
-              margin-bottom: 10px;
-              @include typography(26, 30, na, na);
-
-            }
-
-            @include max-width(768) {
-              @include typography(22, 26, na, na);
-            }
-
-            @include max-width(420) {
-              @include typography(16, 24, na, na);
-            }
-          }
-
-          .section-content-white {
-            width: 92%;
-            @include typography(14, 25, 500, $secondry-color);
-
-            @include max-width(1200) {
-              // @include typography(14, 18, 500, $secondry-color);
-              width: 80%;
-            }
-
-            @include max-width(768) {
-              @include typography(12, 16, 500, $secondry-color);
-              width: 90%;
-            }
-          }
-
-          // .section-heading {
-          //   @include typography(48, 60, 600, $primary-text-color);
-
-          //   @include max-width(1720) {
-          //     @include typography(40, 48, 600, $primary-text-color);
-          //   }
-
-          //   @include max-width(1440) {
-          //     @include typography(32, 40, 600, $primary-text-color);
-          //   }
-
-          //   @include max-width(1200) {
-          //     @include typography(24, 28, 600, $primary-text-color);
-          //   }
-
-          //   @include max-width(992) {
-          //     margin-bottom: 20px;
-          //   }
-          // }
-
-          .section-content {
-            width: 92%;
-            // @include typography(16, 24, 400, $secondry-text-color);
-
-            @include max-width(1440) {
-              // @include typography(14, 22, 400, $secondry-text-color);
-              width: 80%;
-            }
-
-            @include max-width(992) {
-              // @include typography(12, 18, 400, $secondry-text-color);
-              width: 90%;
-            }
-
-            @include max-width(992) {
-              margin-bottom: 30px;
-            }
-          }
-
-          .white-button {
-            background-color: $secondry-color !important;
-            color: $primary-color !important;
-          }
-        }
-
-        .right-part {
-          width: 50%;
-          background-color: $secondry-color;
-          border-radius: 15px;
-          position: relative;
-
-          @include max-width(992) {
-            width: 100%;
-            padding: 12px;
-          }
-
-          @include max-width(576) {
-            padding: 8px;
-          }
-        }
-      }
-
-      .z-img1 {
-        position: absolute;
-        top: 0;
-        right: 0;
-      }
-
-      .z-img2 {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-      }
-
-      .circle1 {
-        width: 500px;
-        height: 500px;
-        background-color: $secondry-color;
-        filter: blur(295px);
-        position: absolute;
-        top: 0;
-        right: 0;
-      }
-
-      .circle2 {
-        width: 500px;
-        height: 500px;
-        background-color: $secondry-color;
-        filter: blur(295px);
-        position: absolute;
-        bottom: 0;
-        right: 600px;
-      }
-
-      .circle3 {
-        width: 200px;
-        height: 200px;
-        background-color: $secondry-color;
-        filter: blur(115px);
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-    }
-
-    .digital-transform-wrapper {
-      position: relative;
-      margin: 120px auto;
-
-      @include max-width(992) {
-        margin: 80px auto;
-      }
-
-      @include max-width(576) {
-        margin: 60px auto;
-      }
-
-      .overley {
-        content: "";
-        margin: auto;
-        position: absolute;
-        left: 25%;
-        top: 0px;
-        z-index: -1;
-        height: 100%;
-        width: 800px;
-        background: linear-gradient(109.92deg,
-            rgba(0, 149, 255, .2),
-            rgba(187, 100, 255, .2),
-            rgba(242, 65, 107, .2),
-            rgba(235, 117, 0, .2));
-        filter: blur(80px);
-      }
-
-      .digital-transformation {
-        height: 520px;
-        overflow: hidden;
-        border-radius: 30px;
-        @include flex-box(row, space-between, na, na, na);
-
-        @include max-width(992) {
-          flex-direction: column;
-          height: auto;
-        }
-
-        .left-part {
-          padding: 124px 204px 124px 84px;
-          background-color: $secondry-color;
-          box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.5);
-          @include flex-box(column, center, na, na, na);
-          border-top-left-radius: 30px;
-          border-bottom-left-radius: 30px;
-          box-sizing: border-box;
-
-          @include max-width(1440) {
-            padding: 30px;
-          }
-
-          @include max-width(992) {
-            border-top-left-radius: 0;
-            order: 2;
-            padding: 40px 20px;
-          }
-
-          @include max-width(576) {
-            padding: 20px;
-            border-radius: 0;
-          }
-
-          .section-content {
-            width: 100%;
-            // @include typography(16, 24, 400, $secondry-text-color);
-
-            @include max-width(1440) {
-              // @include typography(14, 22, 400, $secondry-text-color);
-              width: 80%;
-            }
-
-            @include max-width(992) {
-              // @include typography(12, 18, 400, $secondry-text-color);
-              width: 90%;
-            }
-
-            @include max-width(992) {
-              margin-bottom: 0px;
-            }
-          }
-
-        }
-
-        .right-part {
-          background-color: $secondry-color;
-
-          @include max-width(1440) {
-            width: 50%;
-          }
-
-          @include max-width(992) {
-            width: 100%;
-            border-top-right-radius: 30px;
-            border-top-left-radius: 30px;
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-            order: 1;
-
-            img {
-              width: 100%;
-            }
-          }
-
-
-        }
-
-        .z-img1 {
-          position: absolute;
-          z-index: 10;
-          left: 0;
-
-          @include max-width(992) {
-            display: none;
-          }
-        }
-
-        .circle4 {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 400px;
-          height: 400px;
-          background-color: $banner-left-circle-bg-color;
-          filter: blur(125px);
-
-          @include max-width(992) {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-
   /*********************[][][][][][]********************* SERVICES PAGE *******************[][][][][][]********************/
 
   .header-dropdown-wrapper {
@@ -9855,6 +10110,7 @@
               @include max-width(768) {
                 right: -34px;
               }
+
               @include max-width(420) {
                 right: -46px;
               }
@@ -9904,7 +10160,7 @@
                   visibility: visible;
                   left: -90%;
 
-                  @include max-width(420){
+                  @include max-width(420) {
                     left: -50%;
                   }
                 }
@@ -10599,110 +10855,6 @@
       }
     }
 
-    .web-dev-apps-wrapper {
-      margin-bottom: 120px;
-
-      @include max-width(992) {
-        margin-bottom: 80px;
-      }
-
-      @include max-width(576) {
-        margin-bottom: 60px;
-      }
-
-      .web-dev-apps-inner {
-        padding: 50px 0;
-
-        @include max-width(1200) {
-          padding: 20px;
-
-        }
-
-        .section {
-          width: 100%;
-          border-bottom: 1px solid #ebebeb;
-
-          &:last-child {
-            border-bottom: 0;
-          }
-
-          @include flex-box(row, space-between, na, na, 20);
-
-          @include max-width(992) {
-            flex-direction: column;
-            padding: 20px 0;
-            gap: 5px
-          }
-
-          .heading {
-            @include flex-box(row, na, center, na, 30);
-            @include typography(na, na, 600, #262626);
-
-            .listing {
-              @include typography(na, na, 300, #262626);
-            }
-          }
-
-          .content {
-            padding: 50px 0;
-            width: calc(100% - 490px);
-            @include flex-box(column, na, na, na, 20);
-            box-sizing: border-box;
-
-            @include max-width(1440) {
-              padding: 30px;
-              width: calc(100% - 350px);
-
-            }
-
-            @include max-width(992) {
-              padding: 15px;
-              width: 100%;
-            }
-
-            .inner-content {
-              @include typography(16, 25, 500, $secondry-text-color);
-
-              @include max-width(992) {
-                @include typography(14, 22, 500, $secondry-text-color);
-
-              }
-
-              @include max-width(576) {
-                @include typography(12, 18, 500, $secondry-text-color);
-
-              }
-            }
-
-            .list {
-              @include flex-box(row, na, center, wrap, 10);
-
-              .item {
-                height: 45px;
-                padding: 0 16px;
-                border: 1px solid $secondry-text-color;
-                border-radius: 22.5px;
-                list-style-type: none;
-                @include flex-box(row, center, center, na, na);
-                @include typography(16, 25, 500, $secondry-text-color);
-
-                @include max-width(992) {
-                  height: 38px;
-                  @include typography(14, 22, 500, $secondry-text-color);
-                }
-
-                @include max-width(576) {
-                  height: 32px;
-                  @include typography(12, 18, 500, $secondry-text-color);
-
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
     .cs-digital-transform-wrapper {
       .digital-transformation {
         height: fit-content;
@@ -11137,9 +11289,7 @@
     }
   }
 
-
   /*********************[][][][][][]********************* ABOUT US *******************[][][][][][]********************/
-
 
   .outer-box-about-us {
     .ui-banner {
@@ -11466,4 +11616,20 @@
         }
       }
     }
+  }
+
+  .back-transparent {
+    background-color: transparent;
+  }
+
+  .blue-background {
+    background-color: $primary-color;
+  }
+
+  .gray-backgorund {
+    background-color: #f9f9f9;
+  }
+
+  .white-text {
+    color: $secondry-color;
   }
