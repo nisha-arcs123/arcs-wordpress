@@ -20,15 +20,15 @@ Template Name: Mvp Development Page
             </div>
             <span>View All Data</span>
         </div>
+        <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/mvp-left-line.svg" alt="">
         <div class="line-design left-line-box">
-            <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/mvp-left-line.svg" alt="">
             <div class="line-logo-box z-1">
                 <img src="<?php echo get_template_directory_uri() ?>/images/ui-group-37931.svg" alt="">
             </div>
             <span>Effective Navigation</span>
         </div>
+        <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/mvp-right-line.svg" alt="">
         <div class="line-design right-line-box">
-            <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri() ?>/images/mvp-right-line.svg" alt="">
             <div class="line-logo-box z-1">
                 <img src="<?php echo get_template_directory_uri() ?>/images/ui-group-37931.svg" alt="">
             </div>
@@ -36,9 +36,7 @@ Template Name: Mvp Development Page
         </div>
         <img class="z-0 mvp-graph-left" src="<?php echo get_template_directory_uri() ?>/images/MVP_LGroup 38157.svg" alt="">
         <img class="z-0 mvp-graph-right" src="<?php echo get_template_directory_uri() ?>/images/MVP_hGr38158.svg" alt="">
-        <img class="z-1 banner-image mvp-banner-image" src="<?php echo get_template_directory_uri() ?>/images/MVPOpportunities.svg" alt="">
-        <img class="z-3 mvp-banner-image-1" src="<?php echo get_template_directory_uri() ?>/images/MVPCreditScore.svg" alt="">
-        <img class="z-2 mvp-banner-image-2" src="<?php echo get_template_directory_uri() ?>/images/MVPAssets.svg" alt="">
+        <img class="z-1 banner-image mvp-banner-image" src="<?php echo get_template_directory_uri() ?>/images/mvp-banner.svg" alt="">
         <div class="banner-blur-circle-1"></div>
         <div class="mvp-banner-details banner-details z-2">
             <h1 class="banner-heading inner-banner-heading mb-16 mt-0 m-auto tx-center"><?php echo the_field('mvp_banner_heading'); ?></h1>

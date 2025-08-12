@@ -3,7 +3,7 @@
 Template Name: Experience design page
 */
 ?>
-<div class="outer-box-ui-page p-rel o-h">
+<div class="outer-experience-page p-rel o-h">
     <img class="the-lines" src="./assets/images/the-lines.svg" alt="" />
     <?php get_header(); ?>
     <div class="ui-banner full-vh p-rel">
@@ -45,6 +45,7 @@ Template Name: Experience design page
             <button class="banner-button primary-button m-auto">START BUILDING TODAY</button>
         </div>
     </div>
+
 
     <div class="ux-design-services-wrapper w-full">
         <div class="ux-design-services wds m-auto">

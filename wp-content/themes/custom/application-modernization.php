@@ -21,15 +21,15 @@ Template Name: Application Modernization Page
             </div>
             <span>Full Stack Developer</span>
         </div>
+        <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri()?>/images/Vector 109.svg" alt="">
         <div class="line-design left-line-box">
-            <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri()?>/images/Vector 109.svg" alt="">
             <div class="line-logo-box z-1">
                 <img src="<?php echo get_template_directory_uri()?>/images/Group 38149.svg" alt="">
             </div>
             <span>analytics</span>
         </div>
+        <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri()?>/images/Vector 110.svg" alt="">
         <div class="line-design right-line-box">
-            <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri()?>/images/Vector 110.svg" alt="">
             <div class="line-logo-box z-1">
                 <img src="<?php echo get_template_directory_uri()?>/images/Mask group (16).svg" alt="">
             </div>
