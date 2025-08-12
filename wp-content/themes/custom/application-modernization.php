@@ -201,9 +201,9 @@ Template Name: Application Modernization Page
 
     <div class="kf-wrapper">
           <div class="key-features wds m-auto">
-              <p class="section-title"><?php echo the_field('section5_heading'); ?></p>
-              <p class="section-heading"><?php echo the_field('section5_mainheading'); ?></p>
-              <p class="section-content kf-main-content"><?php echo the_field('section5_content'); ?></p>
+              <p class="section-title tx-center"><?php echo the_field('section5_heading'); ?></p>
+              <p class="section-heading tx-center"><?php echo the_field('section5_mainheading'); ?></p>
+              <p class="section-content kf-main-content m-auto tx-center"><?php echo the_field('section5_content'); ?></p>
               <div class="kf-boxes-wrapper  mt-40">
                   <div class="kf-box padding-20 bx-border-box">
                       <p class="box-heading mt-0 mb-0"><span>01</span>User-Centric Improvements</p>

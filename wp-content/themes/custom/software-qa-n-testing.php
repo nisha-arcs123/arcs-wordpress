@@ -58,8 +58,8 @@ Template Name: Software QA and Testing Page
                 <div class="left-part p-rel">
                     <p class="section-title z-1"><?php the_field('st_section_1_subheading')?></p>
                     <p class="section-heading z-1"><?php the_field('st_section_1_mainheading')?></p>
-                    <p class="card-content mt-0 mb-32 z-1"><?php the_field('st_section_1_content')?></p>
-                    <button class="banner-button primary-button mt-28">LET'S WORK TOGETGHER</button>
+                    <p class="card-content mt-0 z-1"><?php the_field('st_section_1_content')?></p>
+                    <button class="banner-button primary-button mt-32">LET'S WORK TOGETGHER</button>
                 </div>
             </div>
         </div>

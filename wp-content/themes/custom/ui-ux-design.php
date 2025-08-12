@@ -26,7 +26,7 @@ Template Name: UI UX Design Page
     <div class="cs-digital-development-wrapper ui-ux-outer w-full">
         <p class="section-title m-auto w-fc tx-center">How We Can Help You</p>
         <p class="section-heading tx-center">Our Services: From Concept to Launch</p>
-        <p class="section-content tx-center mb-40">As a leading UI/UX design company, we are driven by research to understand user needs and challenges.</p>
+        <p class="section-content m-auto tx-center as-main-content mb-40">As a leading UI/UX design company, we are driven by research to understand user needs and challenges.</p>
         <div class="digital-development ui-ux-inner-wrapper o-h p-rel bx-border-box wds m-auto">
             <div class="colored-inner-box t-3 padding-20 p-rel z-1 o-h bx-border-box">
                 <div class="overlay z-1"></div>
@@ -211,7 +211,7 @@ Template Name: UI UX Design Page
     <div class="faq-wrapper">
         <p class="section-title m-auto w-fc tx-center">OUR COMMUNITY</p>
         <p class="section-heading tx-center">Frequently asked questions</p>
-        <p class="section-content tx-center">Our customer-focused solutions can help you simplify your life by making all aspects simpler and more effective.</p>
+        <p class="section-content m-auto tx-center as-main-content">Our customer-focused solutions can help you simplify your life by making all aspects simpler and more effective.</p>
 
         <div class="question-container wds m-auto mt-40">
             <div class="question-w-answer m-auto mt-40">

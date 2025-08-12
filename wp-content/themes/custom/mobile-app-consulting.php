@@ -78,8 +78,8 @@ Template Name: Mobile App Consulting Page
         <div class="transform-future wds m-auto">
             <div class="left-part">
                 <h2 class="section-heading mt-0 mb-20"><?php the_field('mobile_section_3_mainheading') ?></h2>
-                <p class="card-content mt-0 mb-32"><?php the_field('mobile_section_3_content') ?></p>
-                <button class="primary-button">Let's Work Together</button>
+                <p class="card-content mt-0"><?php the_field('mobile_section_3_content') ?></p>
+                <button class="primary-button mt-32">Let's Work Together</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image 134.svg" alt="">
@@ -125,8 +125,8 @@ Template Name: Mobile App Consulting Page
         <div class="transform-future-alternate wds m-auto">
             <div class="left-part">
                 <h2 class="section-heading mt-0 mb-20"><?php the_field('mobile_section_5_mainheading') ?></h2>
-                <p class="card-content mt-0 mb-32"><?php the_field('mobile_section_5_content') ?></p>
-                <button class="primary-button">Let's Work Together</button>
+                <p class="card-content mt-0"><?php the_field('mobile_section_5_content') ?></p>
+                <button class="primary-button mt-32">Let's Work Together</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image (9).svg" alt="">
@@ -136,7 +136,7 @@ Template Name: Mobile App Consulting Page
 
     <div class="full-spectrum-outer wds m-auto">
         <h2 class="fs-large-heading mb-20 mt-0"><?php the_field('mobile_section_6_mainheading') ?></h2>
-        <p class="fs-normal-text section-content mb-40 mt-0"><?php the_field('mobile_section_6_content') ?></p>
+        <p class="as-main-content section-content mb-40 mt-0 tx-center"><?php the_field('mobile_section_6_content') ?></p>
         <div class="full-spectrum-cards">
 
             <div class="full-spectrum-inner card1">

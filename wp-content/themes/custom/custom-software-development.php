@@ -46,7 +46,7 @@ Template Name: Custom Software Development Page
     <div class="why-choose-us-wrapper w-full">
         <div class="why-choose-us">
             <p class="m-auto section-title-text section-heading tx-center mT-0"><?php echo the_field('custom_section1_heading'); ?></p>
-            <p class="m-auto tx-center main-content section-content"><?php echo the_field('custom_section1_description'); ?></p>
+            <p class="m-auto tx-center as-main-content section-content"><?php echo the_field('custom_section1_description'); ?></p>
             <div class="boxes-wrapper wds m-auto bx-border-box">
                 <div class="box padding-20 bx-border-box">
                     <div class="upper-part">
@@ -144,7 +144,7 @@ Template Name: Custom Software Development Page
     <div class="services-we-offer wds m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section3_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('custom_section3_heading2'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('custom_section3_description'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('custom_section3_description'); ?></p>
         <div class="boxes-wrapper wds m-auto mt-40">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
@@ -216,7 +216,7 @@ Template Name: Custom Software Development Page
         <div class="technos wds m-auto">
             <p class="section-title m-auto w-fc tx-center">Technologies We Use</p>
             <p class="section-heading wds m-auto tx-center">Leveraging the Best Tools for Superior Results</p>
-            <p class="section-content wds m-auto tx-center">At ARCS Infotech we stay ahead of the curve by using cutting-edge technologies and frameworks. Our expertise across diverse tech stacks enables us to deliver innovative, scalable, and efficient solutions tailored to your needs.</p>
+            <p class="section-content m-auto tx-center as-main-content">At ARCS Infotech we stay ahead of the curve by using cutting-edge technologies and frameworks. Our expertise across diverse tech stacks enables us to deliver innovative, scalable, and efficient solutions tailored to your needs.</p>
             <div class="boxes-wrapper mt-40">
                 <div class="box padding-16 bx-border-box">
                     <div class="upper-part mb-16">
@@ -327,7 +327,7 @@ Template Name: Custom Software Development Page
     <div class="invest-in-software wds m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('custom_section5_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('custom_section5_heading2'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('custom_section5_description'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('custom_section5_description'); ?></p>
         <div class="boxes-wrapper wds m-auto bx-border-box mt-40">
             <div class="box t-3 padding-20 bx-border-box">
                 <div class="upper-part">

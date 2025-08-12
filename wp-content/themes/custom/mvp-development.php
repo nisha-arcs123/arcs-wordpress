@@ -50,8 +50,8 @@ Template Name: Mvp Development Page
             <div class="left-part">
                 <p class="section-title"><?php echo the_field('mvp_section1_heading1'); ?></p>
                 <p class="section-heading"><?php echo the_field('mvp_section1_heading_2'); ?></p>
-                <p class="card-content mt-0 mb-32"><?php echo the_field('mvp_section1_description'); ?></p>
-                <button class="primary-button">LET'S WORK TOGETGHER</button>
+                <p class="card-content mt-0"><?php echo the_field('mvp_section1_description'); ?></p>
+                <button class="primary-button mt-32">LET'S WORK TOGETGHER</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/discussion.svg" alt="">
@@ -79,7 +79,7 @@ Template Name: Mvp Development Page
     <div class="services-we-offer wds m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('mvp_section3_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('mvp_section3_heading2'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('mvp_section3_description'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('mvp_section3_description'); ?></p>
         <div class="boxes-wrapper wds m-auto mt-40">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">
@@ -160,8 +160,8 @@ Template Name: Mvp Development Page
             <div class="left-part">
                 <p class="section-title"><?php echo the_field('mvp_section6_heading1'); ?></p>
                 <p class="section-heading"><?php echo the_field('mvp_section6_heading2'); ?></p>
-                <p class="card-content mt-0 mb-32"><?php echo the_field('mvp_section6_description'); ?> </p>
-                <button class="primary-button">LET'S WORK TOGETGHER</button>
+                <p class="card-content mt-0"><?php echo the_field('mvp_section6_description'); ?> </p>
+                <button class="primary-button mt-32">LET'S WORK TOGETGHER</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/boy-with-pen.svg" alt="">

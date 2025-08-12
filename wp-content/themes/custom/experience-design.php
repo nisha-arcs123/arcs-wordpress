@@ -19,8 +19,8 @@ Template Name: Experience design page
             </div>
             <span>User Interface</span>
         </div>
+        <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri(); ?>/images/ui-left-banner-line.svg" alt="">
         <div class="line-design left-line-box">
-            <img class="left-inner-line p-rel z-0" src="<?php echo get_template_directory_uri(); ?>/images/ui-left-banner-line.svg" alt="">
             <div class="box-logo-n-text">
                 <div class="line-logo-box z-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-group-37931.svg" alt="">
@@ -28,8 +28,8 @@ Template Name: Experience design page
                 <span>Effective Navigation</span>
             </div>
         </div>
+        <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri(); ?>/images/ui-right-banner-line.svg" alt="">
         <div class="line-design right-line-box">
-            <img class="right-inner-line p-rel z-0" src="<?php echo get_template_directory_uri(); ?>/images/ui-right-banner-line.svg" alt="">
             <div class="box-logo-n-text">
                 <div class="line-logo-box z-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/ui-group-37931.svg" alt="">

@@ -252,11 +252,11 @@
     @include flex-box(column, center, center, na, 10);
 
     @include max-width(992) {
-      @include flex-box(row, center, center, na, 10);
+      @include flex-box(na, center, center, na, 10);
     }
 
     @include max-width(576) {
-      @include flex-box(row, center, center, na, 5);
+      @include flex-box(na, center, center, na, 5);
     }
   }
 
@@ -334,18 +334,18 @@
       @include absolute(-90, na, na, -115);
     }
 
-    .left-inner-line {
-      @include absolute(80, na, na, 80);
+    // .left-inner-line {
+    //   @include absolute(80, na, na, 80);
 
 
-      @include max-width(1440) {
-        @include absolute(100, na, na, -42);
-      }
+    //   @include max-width(1440) {
+    //     @include absolute(100, na, na, -42);
+    //   }
 
-      @include max-width(992) {
-        @include absolute(100, na, na, -100%);
-      }
-    }
+    //   @include max-width(992) {
+    //     @include absolute(100, na, na, -100%);
+    //   }
+    // }
   }
 
   /************************** buttons **************************/
@@ -404,6 +404,10 @@
 
     @include max-width(1200) {
       @include typography(40, 52, 700, $primary-text-color);
+    }
+
+    @include max-width(768) {
+      @include typography(34, 43, 700, $primary-text-color);
     }
 
     @include max-width(576) {
@@ -506,15 +510,15 @@
 
   .card-content {
     @include typography(14, 22, 400, $secondry-text-color);
-    margin-bottom: 32px;
+    // margin-bottom: 32px;
 
     @include max-width(768) {
       @include typography(12, 18, 400, $secondry-text-color);
     }
 
-    @include max-width(576) {
-      margin-bottom: 0;
-    }
+    // @include max-width(576) {
+    //   margin-bottom: 0;
+    // }
 
     a {
       text-decoration: none;
@@ -1186,6 +1190,7 @@
 
       @include max-width(992) {
         gap: 12px;
+        padding: 20px;
         grid-template-columns: repeat(2, auto);
       }
 
@@ -1431,6 +1436,7 @@
       @include max-width(992) {
         flex-direction: column;
         height: auto;
+        box-shadow: none;
       }
 
       .img-section {
@@ -1518,6 +1524,10 @@
             width: auto;
             padding: 40px 20px;
             @include flex-box(column, start, start, na, na);
+          }
+
+          @include max-width(768) {
+            width: 100%;
           }
 
           @include max-width(576) {
@@ -1670,9 +1680,17 @@
         background-color: $primary-bg-color;
         width: 100%;
 
+        @include max-width(1440) {
+          padding: 14px;
+        }
+
         img {
           margin: 0;
           margin-bottom: 24px;
+
+          @include max-width(1440) {
+            @include dimensions(38, 38);
+          }
         }
 
         .img1 {
@@ -2154,6 +2172,7 @@
 
     @include max-width(1440) {
       width: 43%;
+      padding: 14px;
     }
 
     @include max-width(992) {
@@ -2172,14 +2191,23 @@
         border-radius: 12px;
         background-color: #0096FF;
         padding: 12px;
+        @include flex-box(na, center, center, na, na);
+
+        @include max-width(1440) {
+          @include dimensions(44, 44);
+          padding: 0;
+
+          img {
+            @include dimensions(38, 38);
+          }
+        }
 
         img {
           width: 100%;
-        }
 
-        @include max-width(420) {
-          width: 20px;
-          height: 20px;
+          @include max-width(1440) {
+            @include dimensions(38, 38);
+          }
         }
       }
 
@@ -2317,6 +2345,18 @@
           border-radius: 16px;
           @include dimensions(60, 60);
           @include absolute(-30, na, na, 25);
+
+          @include max-width(1440) {
+            @include dimensions(44, 44);
+            border-radius: 12px;
+            top: -20px;
+
+            img,
+            svg {
+              @include dimensions(30, 30);
+
+            }
+          }
 
           &.logo-1 {
             background-color: $ai-ml-page-remarkable-benefits-logo-1-bg-color;
@@ -2480,12 +2520,20 @@
   .as-main-content {
     width: 936px;
 
-    @include max-width(992) {
+    @include max-width(1440) {
       width: 700px;
     }
 
+    @include max-width(992) {
+      width: 569px;
+    }
+
     @include max-width(768) {
-      width: auto;
+      width: 513;
+    }
+
+    @include max-width(576) {
+      width: 90%;
     }
   }
 
@@ -3074,6 +3122,7 @@
 
       @include max-width(992) {
         gap: 12px;
+        padding: 20px;
       }
 
       @include max-width(576) {
@@ -3081,7 +3130,7 @@
       }
 
       .box {
-        @include dimensions(auto, 358);
+        @include dimensions(auto, 372);
 
         @include max-width(1720) {
           @include dimensions(auto, 298);
@@ -3118,7 +3167,8 @@
               @include dimensions(44, 44);
             }
 
-            img {
+            img,
+            svg {
               @include max-width(1440) {
                 width: 30px;
               }
@@ -3303,15 +3353,15 @@
 
   .cs-great-solution {
     padding: 74px 0;
-    margin: 120px auto;
+    // margin: 120px auto;
 
-    @include max-width(992) {
-      margin: 80px auto;
-    }
+    // @include max-width(992) {
+    //   margin: 80px auto;
+    // }
 
-    @include max-width(576) {
-      margin: 60px auto;
-    }
+    // @include max-width(576) {
+    //   margin: 60px auto;
+    // }
 
     .section-heading {
       @include typography(38, 46, 600, $primary-text-color);
@@ -3426,6 +3476,7 @@
 
     .z-img2 {
       @include absolute(-15, na, na, 0);
+      z-index: 0;
 
       @include max-width(1200) {
         display: none;
@@ -3434,7 +3485,7 @@
 
     .z-img3 {
       @include absolute(11, 0, na, na);
-
+      z-index: 0;
     }
 
     &::before {
@@ -3738,7 +3789,7 @@
             }
 
             @include max-width(768) {
-              @include absolute(113, na, na, 505);
+              @include absolute(168, na, na, 110);
             }
 
             @include max-width(576) {
@@ -4895,17 +4946,17 @@
       }
     }
 
-    .wcu-heading,
-    .section-title {
-      width: 900px;
-      margin: 0 auto;
-    }
+    // .wcu-heading,
+    // .section-title {
+    //   width: 900px;
+    //   margin: 0 auto;
+    // }
 
-    .wcu-heading {
-      @include max-width(1440) {
-        width: 650px;
-      }
-    }
+    // .wcu-heading {
+    //   @include max-width(1440) {
+    //     width: 650px;
+    //   }
+    // }
 
 
   }
@@ -5018,27 +5069,85 @@
   .outer-box-ui-page {
     .ed-banner {
       .banner-img1 {
-        @include absolute(180, na, na, 255);
+        @include absolute(230, na, na, 10%);
+
+        @include max-width(1440) {
+          display: none;
+        }
       }
 
       .banner-img2 {
-        @include absolute(180, na, na, 1363);
+        @include absolute(230, 10%, na, na);
+
+        @include max-width(1440) {
+          display: none;
+        }
       }
 
       .banner-img3 {
-        @include absolute(74, na, na, 517);
+        @include absolute(134, 23%, na, na);
+
+        @include max-width(1440) {
+          right: 15%;
+        }
+
+        @include max-width(1200) {
+          right: 10%;
+        }
+
+        @include max-width(992) {
+          right: 5%;
+        }
+
+        @include max-width(768) {
+          right: 0;
+          width: 200px;
+          top: 161px;
+        }
+
+        @include max-width(576) {
+          display: none
+        }
       }
 
       .banner-img4 {
-        @include absolute(74, na, na, 1102);
+        @include absolute(134, na, na, 23%);
+
+        @include max-width(1440) {
+          left: 15%;
+        }
+
+        @include max-width(1200) {
+          left: 10%;
+        }
+
+        @include max-width(992) {
+          left: 5%;
+        }
+
+        @include max-width(768) {
+          left: 0;
+          width: 200px;
+          top: 161px;
+        }
+
+        @include max-width(576) {
+          display: none
+        }
       }
 
       .banner-image {
-        @include absolute(50, na, na, 54%);
+        @include absolute(99, na, na, 54%);
 
         @include max-width(992) {
           width: 328px;
-          @include absolute(160, na, na, 50%);
+          // @include absolute(160, na, na, 50%);
+        }
+
+        @include max-width(768) {
+          width: 352px;
+          left: 60%;
+          top: 126px;
         }
       }
 
@@ -5124,7 +5233,7 @@
 
           @include max-width(768) {
             width: 100%;
-            padding: 20px;
+            // padding: 20px;
             box-sizing: border-box;
           }
 
@@ -5742,13 +5851,6 @@
               }
             }
 
-            // .box-content {
-            //   @include max-width(1440) {
-            //     @include typography(13, 18, 400, $secondry-text-color);
-            //     margin: 8px 0;
-            //   }
-            // }
-
             .card-content {
               margin: 0;
             }
@@ -5758,43 +5860,6 @@
     }
   }
 
-  /*********************[][][][][][]********************* MOBILE Page *******************[][][][][][]********************/
-
-  // .outer-box-mobile-page {
-  //   .ui-banner {
-  //     // .user-box-right {
-  //     //   @include max-width(1720) {
-  //     //     @include absolute(na, 354, na, na);
-  //     //   }
-  //     // }
-
-  //     .ui-banner-details {
-  //       .inner-banner-heading {
-  //         width: 1188px;
-
-  //         @include max-width(1200) {
-  //           width: 75%;
-  //         }
-
-  //         @include max-width(768) {
-  //           width: 90%;
-  //         }
-  //       }
-
-  //       .inner-banner-content {
-  //         width: 649px;
-
-  //         @include max-width(1200) {
-  //           width: 75%;
-  //         }
-
-  //         @include max-width(768) {
-  //           width: 90%;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 
   /*********************[][][][][][]********************* PRODUCT PAGE *******************[][][][][][]********************/
 
@@ -5943,10 +6008,6 @@
           @include max-width(576) {
             @include absolute(216, na, na, 10);
           }
-
-          // @include max-width(420) {
-          //   @include absolute(186, na, na, 10);
-          // }
         }
 
         &.ai-bot {
@@ -6058,6 +6119,10 @@
       grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
       grid-template-rows: repeat(auto-fill, minmax(195px, 1fr));
 
+      .key-text {
+        height: 100px;
+      }
+
       @include max-width(1200) {
         padding: 70px;
         grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
@@ -6070,7 +6135,7 @@
       }
 
       @include max-width(576) {
-        padding: 10px;
+        padding: 40px 10px;
       }
 
       .key-text {
@@ -6085,11 +6150,11 @@
           }
 
           @include max-width(768) {
-            @include typography(34, 45, 600, $secondry-color);
+            @include typography(31, 39, 600, $secondry-color);
           }
 
           @include max-width(576) {
-            @include typography(22, 32, 600, $secondry-color);
+            @include typography(26, 32, 600, $secondry-color);
           }
         }
 
@@ -6098,12 +6163,12 @@
         }
 
         @include max-width(768) {
-          @include typography(34, 45, 300, $secondry-color);
+          @include typography(31, 39, 300, $secondry-color);
           padding-top: 40px;
         }
 
         @include max-width(576) {
-          @include typography(22, 32, 300, $secondry-color);
+          @include typography(26, 32, 300, $secondry-color);
         }
       }
 
@@ -6112,6 +6177,14 @@
         border: 1px solid $border-line-color;
         border-radius: 16px;
         padding: 28px;
+
+        @include max-width(1200) {
+          padding: 20px;
+        }
+
+        @include max-width(992) {
+          padding: 14px;
+        }
 
         .upper-div {
           position: relative;
@@ -6122,12 +6195,37 @@
             box-shadow: 0px 10px 60px 0px #F2416B66;
             border-radius: 16px;
             padding: 11px;
+
+            @include max-width(1440) {
+              @include dimensions(44, 44);
+              border-radius: 12px;
+              padding: 0;
+              @include flex-box(na, center, center, na, na);
+
+
+              img,
+              svg {
+                @include dimensions(30, 30);
+
+              }
+            }
+
           }
 
           h1 {
             @include typography(80, 120, 900, #f2f7ff);
             margin: 0;
             @include absolute(-30, 0, na, na);
+
+            @include max-width(1200) {
+              font-size: 60px;
+              line-height: 90px;
+            }
+
+            @include max-width(992) {
+              font-size: 40px;
+              line-height: 80px;
+            }
           }
         }
 
@@ -6207,17 +6305,17 @@
       }
 
       .main-content {
-        width: 70%;
+        // width: 70%;
         margin-top: 10px;
         color: $secondry-text-color;
 
-        @include max-width(1440) {
-          width: 80%;
-        }
+        // @include max-width(1440) {
+        //   width: 80%;
+        // }
 
-        @include max-width(992) {
-          width: 90%;
-        }
+        // @include max-width(992) {
+        //   width: 60%;
+        // }
       }
 
       .boxes-wrapper {
@@ -6262,6 +6360,18 @@
               @include absolute(-51, na, na, na);
               @include flex-box(na, center, center, na, na);
               border-radius: 16px;
+
+              @include max-width(1440) {
+                @include dimensions(44, 44);
+                border-radius: 12px;
+                top: -42px;
+
+                img,
+                svg {
+                  @include dimensions(30, 30);
+
+                }
+              }
 
               &.logo-1 {
                 background-color: $ai-ml-page-remarkable-benefits-logo-1-bg-color;
@@ -6421,18 +6531,6 @@
         }
       }
 
-      .left-line-box {
-        @include absolute(262, na, na, 40);
-
-        @include max-width(992) {
-          @include absolute(99, na, na, 20);
-        }
-
-        @include max-width(768) {
-          @include absolute(95, na, na, 20);
-        }
-      }
-
       .right-inner-line {
         @include absolute(167, -115, na, na);
 
@@ -6449,6 +6547,19 @@
           display: none;
         }
       }
+
+      .left-line-box {
+        @include absolute(262, na, na, 40);
+
+        @include max-width(992) {
+          @include absolute(99, na, na, 20);
+        }
+
+        @include max-width(768) {
+          @include absolute(95, na, na, 20);
+        }
+      }
+
 
       .right-line-box {
         @include absolute(231, 107, na, na);
@@ -6473,6 +6584,7 @@
         @include max-width(1440) {
           width: 430px;
         }
+
         @include max-width(992) {
           top: 242px;
           width: 334px;
@@ -6499,7 +6611,6 @@
       }
 
       @include max-width(576) {
-        width: 90%;
         margin: 60px auto;
       }
 
@@ -6507,11 +6618,13 @@
         width: 100%;
 
         .section-content {
-          width: 55%;
-          margin: 20px auto;
+          // width: 100%;
+          margin: auto;
+
+          // margin: 20px auto;
 
           @include max-width(1440) {
-            width: 100%;
+            // width: 100%;
           }
 
           @include max-width(992) {
@@ -6559,8 +6672,13 @@
               margin-top: 20px;
             }
 
+            @include max-width(768) {
+              @include dimensions(162, 238);
+            }
+
             @include max-width(576) {
               margin-top: 30px;
+              width: 100%;
             }
 
             .logo {
@@ -6571,14 +6689,16 @@
               background-color: #eb7500;
               box-shadow: 0px 10px 60px 0px rgba(235, 117, 0, 0.4);
 
-              @include max-width(992) {
-                @include dimensions(50, 50);
+              @include max-width(1440) {
+                top: -20px;
+                @include dimensions(44, 44);
                 border-radius: 12px;
-              }
 
-              @include max-width(576) {
-                @include dimensions(40, 40);
-                border-radius: 8px;
+                img,
+                svg {
+                  @include dimensions(30, 30);
+
+                }
               }
             }
 
@@ -6811,16 +6931,10 @@
         }
       }
 
-      .main-content {
+      .as-main-content {
         color: $secondry-color;
-        width: 970px;
-
-        @include max-width(992) {
-          width: 700px;
-        }
 
         @include max-width(768) {
-          width: 100%;
           padding: 0 15px;
           box-sizing: border-box;
         }
@@ -6893,7 +7007,8 @@
                 @include dimensions(44, 44);
               }
 
-              img {
+              img,
+              svg {
                 @include max-width(1440) {
                   width: 30px;
                 }
@@ -7017,6 +7132,17 @@
                 border-radius: 12px;
                 background-color: $primary-color;
                 @include flex-box(row, center, center, na, na);
+
+                @include max-width(1440) {
+                  @include dimensions(44, 44);
+                  border-radius: 12px;
+
+                  img,
+                  svg {
+                    @include dimensions(30, 30);
+
+                  }
+                }
               }
             }
 
@@ -7076,6 +7202,7 @@
           }
 
           @include max-width(1440) {
+            padding: 14px;
             @include dimensions(290, calc(32% - 13px));
           }
 
@@ -7131,7 +7258,8 @@
                 @include dimensions(44, 44);
               }
 
-              img {
+              img,
+              svg {
                 @include max-width(1440) {
                   width: 30px;
                 }
@@ -7385,6 +7513,17 @@
             @include dimensions(60, 60);
             @include absolute(-30, na, na, 25);
 
+            @include max-width(1440) {
+              @include dimensions(44, 44);
+              border-radius: 12px;
+
+              img,
+              svg {
+                @include dimensions(30, 30);
+
+              }
+            }
+
             &.logo-1 {
               background-color: $ai-ml-page-remarkable-benefits-logo-1-bg-color;
               box-shadow: $ai-ml-page-remarkable-benefits-logo-1-box-shadow;
@@ -7594,19 +7733,31 @@
           @include dimensions(47, 47);
           @include flex-box(na, center, center, na, na);
           background-color: $primary-color;
-          border-radius: 23px;
+          border-radius: 8px;
 
-          @include max-width(768) {
+          @include max-width(992) {
             @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+            }
+
+          }
+
+          @include max-width(420) {
+            @include dimensions(30, 30);
+
+            img {
+              @include dimensions(20, 20);
+            }
           }
         }
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
 
-          @include max-width(768) {
+          @include max-width(992) {
             @include typography(14, 24, 600, $primary-text-color);
-
           }
 
           @include max-width(576) {
@@ -7778,14 +7929,15 @@
               background-color: #eb7500;
               box-shadow: 0px 10px 60px 0px rgba(235, 117, 0, 0.4);
 
-              @include max-width(992) {
-                @include dimensions(50, 50);
+              @include max-width(1440) {
+                @include dimensions(44, 44);
                 border-radius: 12px;
-              }
 
-              @include max-width(576) {
-                @include dimensions(40, 40);
-                border-radius: 8px;
+                img,
+                svg {
+                  @include dimensions(30, 30);
+
+                }
               }
             }
 
@@ -8190,14 +8342,30 @@
           @include flex-box(na, center, center, na, na);
           background-color: $primary-color;
           border-radius: 8px;
+
+          @include max-width(992) {
+            @include dimensions(40, 40);
+
+            img {
+              @include dimensions(30, 30);
+            }
+
+          }
+
+          @include max-width(420) {
+            @include dimensions(30, 30);
+
+            img {
+              @include dimensions(20, 20);
+            }
+          }
         }
 
         span {
           @include typography(16, 24, 600, $primary-text-color);
 
-          @include max-width(768) {
+          @include max-width(992) {
             @include typography(14, 24, 600, $primary-text-color);
-
           }
 
           @include max-width(576) {
@@ -8368,6 +8536,17 @@
             border-radius: 16px;
             @include dimensions(60, 60);
             @include absolute(-30, na, na, 25);
+
+            @include max-width(1440) {
+              @include dimensions(44, 44);
+              border-radius: 12px;
+
+              img,
+              svg {
+                @include dimensions(30, 30);
+
+              }
+            }
 
             &.logo-1 {
               background-color: $ai-ml-page-remarkable-benefits-logo-1-bg-color;
@@ -8659,6 +8838,17 @@
             @include dimensions(60, 60);
             @include absolute(-30, na, na, 25);
 
+            @include max-width(1440) {
+              @include dimensions(44, 44);
+              border-radius: 12px;
+
+              img,
+              svg {
+                @include dimensions(30, 30);
+
+              }
+            }
+
             &.logo-1 {
               background-color: $ai-ml-page-remarkable-benefits-logo-1-bg-color;
               box-shadow: $ai-ml-page-remarkable-benefits-logo-1-box-shadow;
@@ -8771,6 +8961,16 @@
                 box-shadow: $ai-ml-page-remarkable-benefits-logo-2-box-shadow;
                 @include flex-box(row, center, center, na, na);
 
+                @include max-width(1440) {
+                  @include dimensions(44, 44);
+                  border-radius: 12px;
+
+                  img,
+                  svg {
+                    @include dimensions(30, 30);
+
+                  }
+                }
               }
 
               .box-heading {
@@ -9102,6 +9302,17 @@
               @include typography(24, 36, 600, $secondry-color);
               border-radius: 12px;
               background: $ec-number-speak-section-logo-bg-color;
+
+              @include max-width(1440) {
+                @include dimensions(44, 44);
+                border-radius: 12px;
+
+                img,
+                svg {
+                  @include dimensions(30, 30);
+
+                }
+              }
             }
 
             .text {
@@ -9182,13 +9393,13 @@
         }
 
         @include max-width(576) {
-          top: 262px;
-          width: 500px
+          top: 282px;
+          width: 428px
         }
 
         @include max-width(420) {
-          top: 296px;
-          width: 400px;
+          top: 340px;
+          width: 301px;
         }
       }
 
@@ -9396,8 +9607,9 @@
       padding: 0;
 
       @include max-width(768) {
-        padding: 0 20px;
+        // padding: 0 20px;
         box-sizing: border-box;
+        box-shadow: none;
       }
 
       .image-text {
@@ -9408,6 +9620,11 @@
 
         @include max-width(992) {
           margin-top: 80px;
+        }
+
+        @include max-width(768) {
+          padding: 0;
+          width: 94%;
         }
 
         @include max-width(576) {
@@ -9472,6 +9689,17 @@
             @include dimensions(60, 60);
             @include flex-box(na, center, center, na, na);
             border-radius: 16px;
+
+            @include max-width(1440) {
+              @include dimensions(44, 44);
+              border-radius: 12px;
+
+              img,
+              svg {
+                @include dimensions(30, 30);
+
+              }
+            }
 
             &.logo-box-1,
             &.logo-box-3 {
@@ -9541,6 +9769,10 @@
         border-radius: 30px;
         border: 1px solid $border-section-iv-top-ai-ml-page;
         padding: 30px;
+
+        @include max-width(1440) {
+          padding: 20px;
+        }
 
         @include max-width(992) {
           flex-direction: column;
@@ -9615,6 +9847,11 @@
 
         @include max-width(576) {
           width: 311px;
+        }
+
+        @include max-width(420) {
+          width: 262px;
+          top: 263px;
         }
       }
     }
@@ -9700,6 +9937,7 @@
 
           @include max-width(1440) {
             width: calc(50% - 12px);
+            padding: 14px;
           }
 
           @include max-width(768) {
@@ -9716,6 +9954,18 @@
               box-shadow: 0px 10px 60px 0px #136DFB66;
               @include flex-box(row, center, center, na, na);
               background-color: $primary-color;
+
+              @include max-width(1440) {
+                border-radius: 12px;
+                @include dimensions(44, 44);
+              }
+
+              img,
+              svg {
+                @include max-width(1440) {
+                  width: 30px;
+                }
+              }
             }
 
             .heading {
@@ -9788,11 +10038,13 @@
             gap: 26px;
 
             @include max-width(1440) {
+              padding: 40px;
               gap: 16px;
             }
 
             @include max-width(992) {
               gap: 10px;
+              padding: 20px;
             }
 
             @include max-width(576) {
@@ -9834,6 +10086,18 @@
             }
           }
         }
+      }
+    }
+
+    .cs-great-solution {
+      margin: 120px auto;
+
+      @include max-width(992) {
+        margin: 80px auto;
+      }
+
+      @include max-width(576) {
+        margin: 60px auto;
       }
     }
   }
@@ -9881,6 +10145,11 @@
         @include max-width(576) {
           width: 400px;
           top: 235px;
+        }
+
+        @include max-width(420) {
+          width: 318px;
+          top: 277px;
         }
       }
     }
@@ -9970,7 +10239,8 @@
               }
             }
 
-            img {
+            img,
+            svg {
               width: 70%;
 
               @include max-width(992) {
@@ -9982,6 +10252,17 @@
       }
     }
 
+    .cs-great-solution {
+      margin: 120px auto;
+
+      @include max-width(992) {
+        margin: 80px auto;
+      }
+
+      @include max-width(576) {
+        margin: 60px auto;
+      }
+    }
   }
 
   /*********************[][][][][][]********************* DEVOPS & CLOUD *******************[][][][][][]********************/
@@ -10173,7 +10454,8 @@
                   @include dimensions(44, 44);
                 }
 
-                img {
+                img,
+                svg {
                   @include max-width(1440) {
                     width: 30px;
                   }
@@ -10806,188 +11088,6 @@
     }
   }
 
-  /*********************[][][][][][]*********************DIGITAL TRANSFORMATION *******************[][][][][][]********************/
-
-
-  // .outer-box-digital-transformation {
-  //   .ui-banner {
-  //     .ui-banner-details {
-  //       .inner-banner-heading {
-  //         width: 1188px;
-
-  //         @include max-width(1200) {
-  //           width: 75%;
-  //         }
-
-  //         @include max-width(768) {
-  //           width: 90%;
-  //         }
-  //       }
-
-  //       .inner-banner-content {
-  //         width: 649px;
-
-  //         @include max-width(1200) {
-  //           width: 75%;
-  //         }
-
-  //         @include max-width(768) {
-  //           width: 90%;
-  //         }
-  //       }
-  //     }
-
-  //     .left-line-box {
-  //       @include max-width(992) {
-  //         top: -63px;
-  //         left: -84px;
-
-  //       }
-
-  //       @include max-width(375) {
-  //         top: -21px;
-  //       }
-  //     }
-
-  //     .right-line-box {
-  //       @include max-width(992) {
-  //         top: -59px;
-  //       }
-
-  //       @include max-width(576) {
-  //         top: -88px;
-  //         right: -204px;
-  //       }
-  //     }
-
-  //     .banner-image {
-  //       @include max-width(1200) {
-  //         // top: 178px;
-  //         // width: 50%;
-  //       }
-
-  //       @include max-width(992) {
-  //         top: 207px;
-  //         width: 350px;
-
-  //       }
-
-  //       // @include max-width(676) {
-  //       //   top: 252px;
-  //       // }
-
-  //       @include max-width(420) {
-  //         width: 309px;
-  //         top: 244px;
-  //         left: 50%;
-  //       }
-  //     }
-
-  //     .user-box-left {
-  //       @include absolute(371, na, na, 224);
-
-  //       // @include max-width(1620) {
-  //       //   @include absolute(200, na, na, 74);
-  //       // }
-
-  //       @include max-width(1440) {
-  //         @include absolute(144, na, na, 6);
-  //       }
-
-  //       @include max-width(992) {
-  //         @include absolute(164, na, na, 22);
-  //       }
-
-  //       @include max-width(576) {
-  //         @include absolute(144, na, na, 6);
-  //       }
-
-  //       @include max-width(375) {
-  //         @include absolute(190, na, na, 6);
-  //       }
-
-  //       .banner-icon {
-  //         @include max-width(992) {
-  //           @include dimensions(28, 28);
-
-  //         }
-
-  //         img {
-  //           @include max-width(992) {
-  //             @include dimensions(18, 18);
-  //           }
-  //         }
-  //       }
-
-  //       span {
-  //         @include typography(16, 24, 600, $primary-text-color);
-
-  //         @include max-width(768) {
-  //           @include typography(14, 24, 600, $primary-text-color);
-
-  //         }
-
-  //         @include max-width(576) {
-  //           @include typography(12, 24, 600, $primary-text-color);
-  //         }
-
-  //         @include max-width(420) {
-  //           @include typography(9, 24, 600, $primary-text-color);
-  //         }
-  //       }
-  //     }
-
-  //     .user-box-right {
-  //       @include absolute(290, 369, na, na);
-
-  //       // @include max-width(1620) {
-  //       //   @include absolute(120, 74, na, na);
-  //       // }
-
-  //       @include max-width(1440) {
-  //         @include absolute(120, 6, na, na);
-  //       }
-
-  //       @include max-width(992) {
-  //         @include absolute(173, 52, na, na);
-  //       }
-
-  //       @include max-width(576) {
-  //         @include absolute(120, 6, na, na);
-  //       }
-
-  //       .banner-icon {
-  //         @include max-width(992) {
-  //           @include dimensions(28, 28);
-  //         }
-
-  //         img {
-  //           @include max-width(992) {
-  //             @include dimensions(18, 18);
-  //           }
-  //         }
-  //       }
-
-  //       span {
-  //         @include typography(16, 24, 600, $primary-text-color);
-
-  //         @include max-width(768) {
-  //           @include typography(14, 24, 600, $primary-text-color);
-
-  //         }
-
-  //         @include max-width(576) {
-  //           @include typography(12, 24, 600, $primary-text-color);
-  //         }
-
-  //         @include max-width(420) {
-  //           @include typography(9, 24, 600, $primary-text-color);
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
 
   /*********************[][][][][][]*********************MOBILE APP CONSULTING *******************[][][][][][]********************/
 
@@ -11040,10 +11140,6 @@
       .right-line-box {
         @include absolute(222, 130, na, na);
 
-        // @include max-width(992) {
-        //   top: -59px;
-        // }
-
         @include max-width(768) {
           top: 188px;
           right: 80px;
@@ -11089,14 +11185,6 @@
           @include absolute(100, na, na, 56);
 
         }
-
-        // @include max-width(1200) {
-        //   @include absolute(330, na, na, 173);
-        // }
-
-        // @include max-width(992) {
-        //   @include absolute(236, na, na, 63);
-        // }
 
         @include max-width(576) {
           @include absolute(144, na, na, 6);
@@ -11148,14 +11236,6 @@
           @include absolute(128, 12, na, na);
         }
 
-        // @include max-width(1200) {
-        //   @include absolute(127, 207, na, na);
-        // }
-
-        // @include max-width(992) {
-        //   @include absolute(194, 9, na, na);
-        // }
-
         @include max-width(576) {
           @include absolute(88, 9, na, na);
         }
@@ -11190,6 +11270,7 @@
         }
       }
     }
+
   }
 
 
@@ -11197,27 +11278,216 @@
 
   .outer-box-web-app-development {
     .ui-banner {
-      .ed-banner-heading {
-        width: 1350px;
+      .ed-banner-details {
+        .ed-banner-heading {
+          width: 1350px;
 
-        @include max-width(1200) {
-          width: 75%;
+          @include max-width(1200) {
+            width: 75%;
+          }
+
+          @include max-width(768) {
+            width: 90%;
+          }
         }
 
-        @include max-width(768) {
-          width: 90%;
+        .ed-banner-content {
+          width: 1350px;
+
+          @include max-width(1200) {
+            width: 75%;
+          }
+
+          @include max-width(768) {
+            width: 90%;
+          }
         }
       }
 
-      .ed-banner-content {
-        width: 1350px;
+      .left-line-box {
+        @include absolute(270, na, na, 92);
+
+        @include max-width(768) {
+          top: 161px;
+          left: 70px;
+        }
+
+        @include max-width(576) {
+          top: 91px;
+          left: 33px;
+        }
+      }
+
+      .right-line-box {
+        @include absolute(222, 130, na, na);
+
+        @include max-width(768) {
+          top: 188px;
+          right: 80px;
+        }
+
+        @include max-width(576) {
+          top: 136px;
+        }
+      }
+
+      .left-inner-line {
+        @include absolute(211, na, na, -4);
+
+        // @include max-width(1720) {
+        //   @include absolute(239, na, na, -126);
+        // }
 
         @include max-width(1200) {
-          width: 75%;
+          @include absolute(149, na, na, -307);
+        }
+
+        @include max-width(992) {
+          display: none;
+        }
+      }
+
+      .right-inner-line {
+        @include absolute(145, 63, na, na);
+
+        // @include max-width(1720) {
+        //   @include absolute(184, -240, na, na);
+        // }
+
+        @include max-width(1200) {
+          @include absolute(133, -423, na, na);
+
+        }
+
+        @include max-width(992) {
+          display: none;
+        }
+      }
+
+      .user-box-left {
+        @include absolute(330, na, na, 450);
+
+        @include max-width(1720) {
+          @include absolute(380, na, na, 305);
+        }
+
+        @include max-width(1440) {
+          @include absolute(380, na, na, 56);
+        }
+
+        @include max-width(992) {
+          @include absolute(353, na, na, 10);
+
         }
 
         @include max-width(768) {
-          width: 90%;
+          @include absolute(100, na, na, 16);
+
+        }
+
+        @include max-width(576) {
+          @include absolute(144, na, na, 10);
+        }
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(420) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .user-box-right {
+        @include absolute(140, 530, na, na);
+
+        @include max-width(1720) {
+          @include absolute(140, 354, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(140, 44, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(140, 10, na, na);
+        }
+
+        @include max-width(768) {
+          @include absolute(128, 10, na, na);
+        }
+
+        @include max-width(576) {
+          @include absolute(88, 10, na, na);
+        }
+
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(420) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .banner-image {
+        @include max-width(992) {
+          // transform: translateX(-38%);
+          width: 348px;
+        }
+
+        @include max-width(768) {
+          // transform: translateX(-31%);
+          width: 300px;
+          top: 196px;
+        }
+
+        @include max-width(576) {
+          top: 213px;
+          width: 267px;
         }
       }
     }
@@ -11346,6 +11616,21 @@
 
           @include max-width(1200) {
             @include absolute(31, na, na, 4);
+          }
+
+          @include max-width(992) {
+            width: 248px;
+            left: -7px;
+          }
+
+          @include max-width(576) {
+            width: 225px;
+            @include absolute(62, na, na, 21);
+          }
+
+          @include max-width(420) {
+            width: 225px;
+            @include absolute(62, na, na, -12);
           }
         }
       }
@@ -11483,7 +11768,6 @@
 
             img {
               @include dimensions(30, 30);
-
             }
 
           }
@@ -11493,7 +11777,6 @@
 
             img {
               @include dimensions(20, 20);
-
             }
           }
         }
@@ -11503,7 +11786,6 @@
 
           @include max-width(992) {
             @include typography(14, 24, 600, $primary-text-color);
-
           }
 
           @include max-width(576) {
@@ -11700,11 +11982,12 @@
 
         .banner-gif {
           width: 500px;
-          @include absolute(na, na, na, 0);
+          @include absolute(na, na, na, -99);
 
           @include max-width(1366) {
             @include absolute(na, na, na, -72);
           }
+
 
           @include max-width(768) {
             width: 400px;
@@ -11718,8 +12001,8 @@
           }
 
           @include max-width(420) {
-            width: 74%;
-
+            width: 294px;
+            top: 50px;
           }
         }
       }
@@ -11854,6 +12137,7 @@
             img {
               @include dimensions(30, 30);
             }
+
           }
 
           @include max-width(420) {
@@ -11906,7 +12190,7 @@
         .banner-content {
           width: 960px;
           margin-bottom: 28px;
-          @include typography(16, 24, 500, $secondry-text-color);
+          // @include typography(16, 24, 500, $secondry-text-color);
 
           @include max-width(1200) {
             width: 75%;
@@ -12031,6 +12315,182 @@
 
           @include max-width(768) {
             width: 90%;
+          }
+        }
+      }
+
+      .left-line-box {
+        @include absolute(270, na, na, 92);
+
+        @include max-width(992) {
+          @include absolute(262, na, na, 31);
+
+        }
+
+        @include max-width(768) {
+          top: 161px;
+          left: 30px;
+        }
+
+        @include max-width(576) {
+          top: 91px;
+          left: 33px;
+        }
+      }
+
+      .right-line-box {
+        @include absolute(222, 130, na, na);
+
+
+        @include max-width(768) {
+          top: 188px;
+          right: 80px;
+        }
+
+        @include max-width(576) {
+          top: 136px;
+        }
+      }
+
+      .left-inner-line {
+        @include absolute(211, na, na, -4);
+
+        // @include max-width(1720) {
+        //   @include absolute(239, na, na, -126);
+        // }
+
+        @include max-width(1200) {
+          @include absolute(149, na, na, -307);
+        }
+
+        @include max-width(992) {
+          display: none;
+        }
+      }
+
+      .right-inner-line {
+        @include absolute(145, 63, na, na);
+
+        // @include max-width(1720) {
+        //   @include absolute(184, -240, na, na);
+        // }
+
+        @include max-width(1200) {
+          @include absolute(133, -423, na, na);
+
+        }
+
+        @include max-width(992) {
+          display: none;
+        }
+      }
+
+      .user-box-left {
+        @include absolute(330, na, na, 450);
+
+        @include max-width(1720) {
+          @include absolute(380, na, na, 305);
+        }
+
+        @include max-width(1440) {
+          @include absolute(380, na, na, 56);
+        }
+
+        @include max-width(992) {
+          @include absolute(353, na, na, 10);
+
+        }
+
+        @include max-width(768) {
+          @include absolute(100, na, na, 16);
+
+        }
+
+        @include max-width(576) {
+          @include absolute(144, na, na, 10);
+        }
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(420) {
+            @include typography(9, 24, 600, $primary-text-color);
+          }
+        }
+      }
+
+      .user-box-right {
+        @include absolute(140, 530, na, na);
+
+        @include max-width(1720) {
+          @include absolute(140, 354, na, na);
+        }
+
+        @include max-width(1440) {
+          @include absolute(140, 44, na, na);
+        }
+
+        @include max-width(992) {
+          @include absolute(140, 10, na, na);
+        }
+
+        @include max-width(768) {
+          @include absolute(128, 10, na, na);
+        }
+
+        @include max-width(576) {
+          @include absolute(88, 10, na, na);
+        }
+
+
+        .banner-icon {
+          @include max-width(768) {
+            @include dimensions(28, 28);
+          }
+
+          img {
+            @include max-width(768) {
+              @include dimensions(18, 18);
+            }
+          }
+        }
+
+        span {
+          @include typography(16, 24, 600, $primary-text-color);
+
+
+          @include max-width(768) {
+            @include typography(14, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(576) {
+            @include typography(12, 24, 600, $primary-text-color);
+          }
+
+          @include max-width(420) {
+            @include typography(9, 24, 600, $primary-text-color);
           }
         }
       }

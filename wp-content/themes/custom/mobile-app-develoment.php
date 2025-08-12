@@ -58,8 +58,8 @@ Template Name: Mobile App Development Page
                 <div class="left-part">
                     <p class="section-title"><?php the_field('md_section_1_subheading')?></p>
                     <p class="section-heading"><?php the_field('md_section_1_mainheading')?></p>
-                    <p class="card-content mt-0 mb-32"><?php the_field('md_section_1_content')?></p>
-                    <button class="primary-button">LET'S WORK TOGETGHER</button>
+                    <p class="card-content mt-0"><?php the_field('md_section_1_content')?></p>
+                    <button class="primary-button mt-32">LET'S WORK TOGETGHER</button>
                 </div>
                 <div class="right-part padding-20 bx-border-box">
                     <img class="w-full" src="<?php echo get_template_directory_uri()?>/images/mad-tf-img.svg" alt="">

@@ -48,7 +48,7 @@ Template Name: About Us
     <div class="services-we-offer wds m-auto mt-120">
         <p class="section-title m-auto w-fc tx-center">Why Choose us</p>
         <p class="section-heading tx-center">What Sets Us Apart?</p>
-        <p class="section-content tx-center">To amplify human potential and create the next opportunity for people, businesses and communities</p>
+        <p class="section-content m-auto tx-center as-main-content">To amplify human potential and create the next opportunity for people, businesses and communities</p>
         <div class="boxes-wrapper wds m-auto mt-40">
             <div class="box mt-32 padding-16 bx-border-box p-rel">
                 <div class="logo logo-1">

@@ -50,8 +50,8 @@ Template Name: Product Development Page
             <div class="left-part">
                 <p class="section-title"><?php echo the_field('product_section1_heading1'); ?></p>
                 <p class="section-heading"><?php echo the_field('product_section1_heading_2'); ?></p>
-                <p class="card-content mt-0 mb-32"><?php echo the_field('product_section1_description'); ?></p>
-                <button class="primary-button mt-28">Let's Work Together</button>
+                <p class="card-content mt-0"><?php echo the_field('product_section1_description'); ?></p>
+                <button class="primary-button mt-32">Let's Work Together</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image (12).svg" alt="">
@@ -63,7 +63,7 @@ Template Name: Product Development Page
 
         <p class="section-title tx-center"><?php echo the_field('product_section2_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('product_section2_heading2'); ?></p>
-        <p class="section-content tx-center as-main-content m-auto"><?php echo the_field('product_section2_description'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content as-main-content m-auto"><?php echo the_field('product_section2_description'); ?></p>
         <div class="as-boxes bx-border-box wds m-auto">
             <div class="as-box p-rel padding-16 bx-border-box">
                 <div class="upper-part">
@@ -226,7 +226,7 @@ Template Name: Product Development Page
     <div class="remarkable-benefits-wrapper">
         <p class="section-title tx-center"><?php echo the_field('product_section5_heading1'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('product_section5_heading2'); ?></p>
-        <p class="section-content main-content mt-0 m-auto tx-center mb-40"><?php echo the_field('product_section5_description'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('product_section5_description'); ?></p>
         <div class="boxes-wrapper wds m-auto bx-border-box">
             <div class="box mt-28 padding-20 bx-border-box">
                 <div class="upper-part">

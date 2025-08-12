@@ -314,7 +314,7 @@ Template Name: Home Page
              echo the_field('home-section4-subheading');
             ?>
           </span>
-          <h1 class="section-heading wcu-heading">
+          <h1 class="section-heading wcu-heading tx-center">
             <?php echo the_field('home-section4-mainheading'); ?>
           </h1>
           <p class="section-content mt-8 p-rel z-2 wcu-content">
@@ -410,7 +410,7 @@ Template Name: Home Page
              echo the_field('home-section5-subheading')
             ?>
           </span>
-          <h1 class="section-heading wcu-heading">
+          <h1 class="section-heading wcu-heading tx-center">
             <?php echo the_field('home-section5-mainheading') ?>
           </h1>
           <p class="section-content p-rel z-2 wcu-content">

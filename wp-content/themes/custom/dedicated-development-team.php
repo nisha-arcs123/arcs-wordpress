@@ -51,7 +51,7 @@ Template Name: Dedicated Development Team Page
         <div class="technos m-auto wds">
             <p class="section-title m-auto w-fc tx-center"><?php echo the_field('dedicated_section1_heading1'); ?></p>
             <p class="section-heading mt-0 tx-center"><?php echo the_field('dedicated_section1_heading_2'); ?></p>
-            <p class="section-content tx-center"><?php echo the_field('dedicated_section1_description'); ?> </p>
+            <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('dedicated_section1_description'); ?> </p>
             <div class="boxes-wrapper mt-40">
                 <div class="box padding-16 bx-border-box p-rel">
 
@@ -122,8 +122,8 @@ Template Name: Dedicated Development Team Page
             <div class="left-part">
                 <p class="section-title"><?php echo the_field('dedicated_section3_heading1'); ?></p>
                 <p class="section-heading"><?php echo the_field('dedicated_section3_heading2'); ?></p>
-                <p class="card-content mt-0 mb-32"> <?php echo the_field('dedicated_section3_description'); ?></p>
-                <button class="primary-button">Let's Work Together</button>
+                <p class="card-content mt-0"> <?php echo the_field('dedicated_section3_description'); ?></p>
+                <button class="primary-button mt-32">Let's Work Together</button>
             </div>
             <div class="right-part padding-20 bx-border-box">
                 <img class="w-full" src="<?php echo get_template_directory_uri() ?>/images/image (19).svg" alt="">
@@ -139,8 +139,8 @@ Template Name: Dedicated Development Team Page
             <div class="left-part">
                 <p class="section-title"><?php echo the_field('dedicated_section4_heading1'); ?></p>
                 <p class="section-heading"><?php echo the_field('dedicated_section4_heading2'); ?></p>
-                <p class="card-content mt-0 mb-32"> We have partnered with numerous clients to bring their visions to life. For instance, we helped [Client Name] develop a robust e-commerce platform that increased their online sales by 50%. benefited from our expertise in mobile app development, resulting in a user-friendly app that enhanced customer engagement significantly.</p>
-                <button class="primary-button">Let's Work Together</button>
+                <p class="card-content mt-0"> We have partnered with numerous clients to bring their visions to life. For instance, we helped [Client Name] develop a robust e-commerce platform that increased their online sales by 50%. benefited from our expertise in mobile app development, resulting in a user-friendly app that enhanced customer engagement significantly.</p>
+                <button class="primary-button mt-32">Let's Work Together</button>
             </div>
 
         </div>

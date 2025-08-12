@@ -79,11 +79,11 @@ Template Name: Digital Transformation Page
           </div>
         </div>
        
-        <div class="technos-wrapper wds m-auto">
+        <div class="technos-wrapper w-full">
             <div class="technos m-auto wds">
                 <p class="section-title m-auto w-fc tx-center"><?php the_field('dt_section_3_subheading')?></p>
                 <p class="section-heading  tx-center"><?php the_field('dt_section_3_mainheading')?></p>
-                <p class="section-content tx-center"><?php the_field('dt_section_3_content')?></p>
+                <p class="section-content m-auto tx-center as-main-content as-main-content"><?php the_field('dt_section_3_content')?></p>
                 <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box p-rel">
                         
@@ -134,8 +134,8 @@ Template Name: Digital Transformation Page
                 <div class="left-part">
                     <p class="section-title"><?php the_field('dt_section_4_subheading')?></p>
                     <p class="section-heading"><?php the_field('dt_section_4_mainheading')?></p>
-                    <p class="card-content mt-0 mb-32"><?php the_field('dt_section_4_content')?></p>
-                    <button class="primary-button">Let's Work Together</button>
+                    <p class="card-content mt-0"><?php the_field('dt_section_4_content')?></p>
+                    <button class="primary-button mt-32">Let's Work Together</button>
                 </div>
                 <div class="right-part padding-20 bx-border-box">
                     <img class="w-full" src="<?php echo get_template_directory_uri()?>/images/image (16).svg" alt="">
@@ -147,7 +147,7 @@ Template Name: Digital Transformation Page
             <div class="technos m-auto wds">
                 <p class="section-title m-auto w-fc tx-center"><?php the_field('dt_section_5_subheading')?></p>
                 <p class="section-heading tx-center"><?php the_field('dt_section_5_mainheading')?></p>
-                <p class="section-content  tx-center"><?php the_field('dt_section_5_content')?></p>
+                <p class="section-content m-auto tx-center as-main-content as-main-content m-auto"><?php the_field('dt_section_5_content')?></p>
                 <div class="boxes-wrapper mt-40">
                     <div class="box padding-16 bx-border-box p-rel">
                         
@@ -199,8 +199,8 @@ Template Name: Digital Transformation Page
                 <div class="left-part">
                     <p class="section-title"><?php the_field('dt_section_6_subheading')?></p>
                     <p class="section-heading"><?php the_field('dt_section_6_mainheading')?></p>
-                    <p class="card-content mt-0 mb-32"><?php the_field('dt_section_6_content')?></p>
-                    <button class="primary-button">Let's Work Together</button>
+                    <p class="card-content mt-0"><?php the_field('dt_section_6_content')?></p>
+                    <button class="primary-button mt-32">Let's Work Together</button>
                 </div>
                 <div class="colorful-background right-part bx-border-box">
                   <img class="w-full" src="<?php echo get_template_directory_uri()?>/images/image (15).svg" alt="">

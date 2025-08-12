@@ -218,7 +218,7 @@ Template Name: AI ML Development Page
     </div>
 
     <div class="kf-wrapper">
-        <div class="key-features wds m-auto">
+        <div class="technos-wrapper w-full">
             <p class="section-title tx-center"><?php the_field('section4-heading1ai') ?></p>
             <p class="section-heading tx-center"><?php the_field('section4-heading2ai') ?></p>
             <p class="section-content mt-0 m-auto tx-center as-main-content"><?php the_field('section4-descriptionai') ?></p>

@@ -58,8 +58,8 @@ Template Name: DevOps Cloud Page
             <div class="left-part p-rel">
                 <p class="section-title z-1"><?php the_field('dc_section_1_subheading') ?></p>
                 <p class="section-heading z-1"><?php the_field('dc_section_1_mainheadnig') ?></p>
-                <p class="card-content mt-0 mb-32 z-1"><?php the_field('dc_section_1_content') ?></p>
-                <button class="banner-button primary-button">LET'S WORK TOGETHER</button>
+                <p class="card-content mt-0 z-1"><?php the_field('dc_section_1_content') ?></p>
+                <button class="banner-button primary-button mt-32">LET'S WORK TOGETHER</button>
             </div>
         </div>
     </div>
@@ -94,8 +94,8 @@ Template Name: DevOps Cloud Page
             <div class="left-part p-rel">
                 <p class="section-title z-1"><?php the_field('dc_section_3_subheading') ?></p>
                 <p class="section-heading z-1"><?php the_field('dc_section_3_mainheading') ?></p>
-                <p class="card-content mt-0 mb-32 z-1"><?php the_field('dc_section_3_content') ?></p>
-                <button class="banner-button primary-button">REQUEST A FREE DEMO</button>
+                <p class="card-content mt-0 z-1"><?php the_field('dc_section_3_content') ?></p>
+                <button class="banner-button primary-button mt-32">REQUEST A FREE DEMO</button>
             </div>
             <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
             <div class="circle4 z-0"></div>
@@ -107,7 +107,7 @@ Template Name: DevOps Cloud Page
         <div class="technos wds m-auto">
             <p class="section-title m-auto w-fc tx-center">Our Services</p>
             <p class="section-heading wds m-auto tx-center">Comprehensive DevOps & Cloud Solutions</p>
-            <p class="section-content wds m-auto tx-center">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
+            <p class="section-content m-auto tx-center as-main-content">We offer end-to-end services to ensure your business leverages the full potential of DevOps and Cloud technologies. Our offerings include:</p>
             <div class="boxes-wrapper wds m-auto bx-border-box mt-40">
                     <div class="box padding-20 bx-border-box">
                         <div class="upper-part">

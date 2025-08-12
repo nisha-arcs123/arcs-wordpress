@@ -97,8 +97,8 @@ Template Name: Database Development Page
             <p class="section-title z-1"><?php echo the_field('section2_heading1_db'); ?></p>
             <p class="section-heading z-1"><?php echo the_field('section2_heading2_db'); ?>
             </p>
-            <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_db'); ?></p>
-            <button class="banner-button primary-button p-rel z-1">SCHEDULE A FREE CONSULTATION</button>
+            <p class="card-content mt-0 z-1"><?php echo the_field('section2_description_db'); ?></p>
+            <button class="banner-button primary-button p-rel z-1 mt-32">SCHEDULE A FREE CONSULTATION</button>
         </div>
         <img src="<?php echo get_template_directory_uri() ?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
         <div class="circle4 z-0"></div>
@@ -109,7 +109,7 @@ Template Name: Database Development Page
     <div class="dd-services m-auto">
         <p class="section-title m-auto w-fc tx-center"><?php echo the_field('section3_heading1db'); ?></p>
         <p class="section-heading tx-center"><?php echo the_field('section3_heading2db'); ?></p>
-        <p class="section-content tx-center"><?php echo the_field('section3_descriptiondb'); ?></p>
+        <p class="section-content m-auto tx-center as-main-content"><?php echo the_field('section3_descriptiondb'); ?></p>
         <div class="boxes-wrapper padding-40 bx-border-box mt-40">
             <div class="inner-box padding-20">
                 <div class="text">

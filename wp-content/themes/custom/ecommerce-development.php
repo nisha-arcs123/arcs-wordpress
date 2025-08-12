@@ -151,8 +151,8 @@ Template Name: Ecommerce Development Page
                 <div class="left-part p-rel">
                     <p class="section-title z-1"><?php echo the_field('section2_heading1_cd'); ?></p>
                     <p class="section-heading z-1"><?php echo the_field('section2_heading2_cd'); ?></p>
-                    <p class="card-content mt-0 mb-32 z-1"><?php echo the_field('section2_description_cd'); ?></p> 
-                    <button class="primary-button">LET'S WORK TOGETGHER</button>
+                    <p class="card-content mt-0 z-1"><?php echo the_field('section2_description_cd'); ?></p> 
+                    <button class="primary-button mt-32">LET'S WORK TOGETGHER</button>
                 </div>
                 <img src="<?php echo get_template_directory_uri()?>/images/Vector 11 (13).svg" alt="" class="z-img1 z-0">
                 <div class="circle4 z-0"></div>
@@ -164,8 +164,8 @@ Template Name: Ecommerce Development Page
                 <div class="content">
                     <p class="section-title"><?php echo the_field('section3_heading1_cd'); ?></p>
                     <p class="section-heading "><?php echo the_field('section3_heading2_cd'); ?></p>
-                    <p class="card-content mt-0 mb-32"><?php echo the_field('section3_description_cd'); ?></p>
-                    <button class="primary-button">START BUILDING TODAY</button>
+                    <p class="card-content mt-0"><?php echo the_field('section3_description_cd'); ?></p>
+                    <button class="primary-button mt-32">START BUILDING TODAY</button>
                 </div>
                 <div class="boxes">
                     <div class="inner-box">
