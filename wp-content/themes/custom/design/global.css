@@ -10062,6 +10062,7 @@ a {
   align-items: center;
   background-color: #136dfb;
   border-radius: 8px;
+  border-radius: 50%;
 }
 @media screen and (max-width: 992px) {
   .outer-box-dedicated-team .ui-banner .user-box .icon {

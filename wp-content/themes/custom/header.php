@@ -15,10 +15,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/Favicon.png?v=<?php echo time(); ?>" type="image/png">
 
     <script src="<?php echo get_template_directory_uri() ?>/js_files/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/js_files/owl.carousel.min.js"></script>
-    <title>Home Page1</title>
+    <title><?php wp_title(); ?></title>
+     <link rel="icon" href="<?php echo get_site_icon_url(); ?>?v=<?php echo time(); ?>" type="image/png">
+
     <?php wp_head(); ?>
 </head>
 <script>

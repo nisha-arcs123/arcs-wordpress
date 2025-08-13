@@ -126,7 +126,7 @@ Template Name: About Us
         <p class="section-heading mb-20 mt-0 tx-center"><?php echo the_field('core_value_heading'); ?></p>
         <p class="section-content mb-40 tx-center"><?php echo the_field('core_value_content'); ?></p>
         <div class="boxes-wrapper wds m-auto">
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box mt-32 padding-16 bx-border-box p-rel small-box">
                 <div class="logo logo-1">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -135,7 +135,7 @@ Template Name: About Us
 
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box mt-32 padding-16 bx-border-box p-rel small-box">
                 <div class="logo logo-2">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -143,7 +143,7 @@ Template Name: About Us
                 <p class="card-content">We keep on pushing our boundaries and bringing innovative IT Solutions.
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box mt-32 padding-16 bx-border-box p-rel small-box">
                 <div class="logo logo-3">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>
@@ -151,7 +151,7 @@ Template Name: About Us
                 <p class="card-content">With an end-to -end comprehensive process, we believe in practicing ethical and transparent business operations.
                 </p>
             </div>
-            <div class="box mt-32 padding-16 bx-border-box p-rel">
+            <div class="box mt-32 padding-16 bx-border-box p-rel small-box">
                 <div class="logo logo-4">
                     <img src="<?php echo get_template_directory_uri() ?>/images/bulb-logo.svg" alt="">
                 </div>

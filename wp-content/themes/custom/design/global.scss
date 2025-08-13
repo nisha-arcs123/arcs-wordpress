@@ -721,7 +721,6 @@
             }
           }
         }
-
       }
 
       .logo {
@@ -7734,6 +7733,7 @@
           @include flex-box(na, center, center, na, na);
           background-color: $primary-color;
           border-radius: 8px;
+          border-radius: 50%;
 
           @include max-width(992) {
             @include dimensions(40, 40);
