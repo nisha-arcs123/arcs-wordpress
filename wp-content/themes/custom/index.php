@@ -31,8 +31,10 @@ Template Name: Home Page
       <img class="bold-circle" src="<?php echo get_template_directory_uri()?>/images/bold-circle.svg" alt="" />
  
       <div class="what-we-do wds p-rel bx-border-box">
-        <img class="mouse-gif" src="<?php echo get_template_directory_uri(); ?>/images/mouse-gif.gif" alt="" />
- 
+        <a href="#mouse-hover">
+          <img class="mouse-gif" src="<?php echo get_template_directory_uri(); ?>/images/mouse-gif.gif" alt="" />
+        </a>
+        
         <span class="section-title mb-20">
             <?php echo the_field('home-section1-heading') ?>
         </span>
@@ -215,7 +217,7 @@ Template Name: Home Page
             echo the_field('home-section3-mainheading')
           ?>
         </h1>
-        <p class="section-content mt-8 p-rel z-2 wcu-content">
+        <p class="section-content p-rel z-2 wcu-content">
           <?php echo the_field('home-section3-content'); ?>
         </p>
  
@@ -317,7 +319,7 @@ Template Name: Home Page
           <h1 class="section-heading wcu-heading tx-center">
             <?php echo the_field('home-section4-mainheading'); ?>
           </h1>
-          <p class="section-content mt-8 p-rel z-2 wcu-content">
+          <p class="section-content p-rel z-2 wcu-content">
           <?php echo the_field('home-section4-content'); ?>
           </p>
         </div>

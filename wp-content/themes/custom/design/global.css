@@ -694,6 +694,11 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 360px) {
+  .wds {
+    padding: 0 10px;
+  }
+}
 
 /************************** triangles **************************/
 @media screen and (max-width: 1720px) {
@@ -1433,7 +1438,7 @@ body {
   .card-title {
     font-size: 16px;
     line-height: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #202323;
   }
 }
@@ -1483,6 +1488,13 @@ body {
   font-weight: 600;
   color: #202323;
 }
+@media screen and (max-width: 576px) {
+  .footer-heading-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202323;
+  }
+}
 
 a {
   text-decoration: none;
@@ -1501,6 +1513,14 @@ a {
     font-weight: 400;
     color: #707070;
     margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-para-text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #707070;
   }
 }
 .footer-para-text:hover {
@@ -1632,8 +1652,8 @@ a {
 }
 @media screen and (max-width: 992px) {
   .header-wrapper .header .burger-btn {
-    width: 30px;
-    height: 24px;
+    width: 20px;
+    height: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1642,7 +1662,7 @@ a {
   }
   .header-wrapper .header .burger-btn span {
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: black;
     border-radius: 2px;
     transition: 0.3s;
@@ -1659,7 +1679,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .header-wrapper .header .burger-btn {
-    height: 18px;
+    height: 15px;
   }
   .header-wrapper .header .burger-btn.active span:nth-child(1) {
     transform: rotate(45deg) translate(4px, 4px);
@@ -1838,12 +1858,18 @@ a {
 @media screen and (max-width: 576px) {
   .footers-wrapper .footer {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
   }
 }
 .footers-wrapper .footer .service-info .logo {
   margin-bottom: 26px;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer .service-info .logo {
+    margin-bottom: 12px;
+  }
 }
 .footers-wrapper .footer .service-info .logo img {
   width: 222px;
@@ -1853,6 +1879,17 @@ a {
   .footers-wrapper .footer .service-info .logo img {
     width: 197px;
     height: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer .service-info .logo img {
+    width: 173px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer .service-info .address-br {
+    display: none;
   }
 }
 .footers-wrapper .footer .service-info .info {
@@ -1880,14 +1917,14 @@ a {
 .footers-wrapper .second-footer {
   padding: 45px 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 1226px) {
   .footers-wrapper .second-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: baseline;
     gap: 16px;
@@ -1924,7 +1961,7 @@ a {
     justify-content: center;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
   .footers-wrapper .second-footer .footer-buttons {
     flex-direction: column;
   }
@@ -1940,6 +1977,12 @@ a {
   border-radius: 19px;
   text-decoration: none;
   background-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .second-footer .footer-buttons .firm-logos {
+    width: 100%;
+    justify-content: center;
+  }
 }
 .footers-wrapper .second-footer .footer-buttons .firm-logos .outer-border {
   position: absolute;
@@ -2036,6 +2079,7 @@ a {
   padding: 32px;
   background-color: #136dfb;
   box-sizing: border-box;
+  box-shadow: 0px 20px 60px 0px rgba(19, 109, 251, 0.4);
 }
 @media screen and (max-width: 1366px) {
   .footers-wrapper .footer-headings {
@@ -2049,6 +2093,13 @@ a {
     border-radius: 12px;
     margin: 0 20px;
     width: 96%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings {
+    width: 100%;
+    margin: 0;
+    padding: 12px;
   }
 }
 .footers-wrapper .footer-headings .footer-left-header {
@@ -2065,6 +2116,11 @@ a {
     width: 100%;
   }
 }
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .footer-left-header {
+    gap: 4px;
+  }
+}
 .footers-wrapper .footer-headings .footer-left-header .footer-heading {
   font-size: 24px;
   line-height: 36px;
@@ -2075,6 +2131,14 @@ a {
   .footers-wrapper .footer-headings .footer-left-header .footer-heading {
     font-size: 20px;
     line-height: 22px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .footer-left-header .footer-heading {
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 600;
     color: #ffffff;
   }
@@ -2093,6 +2157,14 @@ a {
     color: #ffffff;
   }
 }
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .footer-left-header .footer-text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+}
 .footers-wrapper .footer-headings .email-input {
   background-color: transparent;
   width: 361px;
@@ -2107,6 +2179,11 @@ a {
   align-items: center;
   min-width: 361px;
 }
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .email-input button {
+    height: 32px !important;
+  }
+}
 @media screen and (max-width: 992px) {
   .footers-wrapper .footer-headings .email-input {
     position: relative;
@@ -2118,6 +2195,13 @@ a {
   .footers-wrapper .footer-headings .email-input {
     width: 100%;
     min-width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .email-input {
+    padding: 0 107px 0 40px;
+    margin: 12px 0 0 0;
+    height: 38px;
   }
 }
 .footers-wrapper .footer-headings .email-input input {
@@ -2146,6 +2230,14 @@ a {
   position: absolute;
   top: 12px;
   left: 16px;
+}
+@media screen and (max-width: 576px) {
+  .footers-wrapper .footer-headings .email-input .user {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    height: 22px;
+  }
 }
 .footers-wrapper .footer-headings .email-input button {
   background-color: #ffffff;
@@ -3540,6 +3632,11 @@ a {
     padding: 0;
   }
 }
+@media screen and (max-width: 576px) {
+  .services-we-offer .boxes-wrapper {
+    margin-top: 12px;
+  }
+}
 .services-we-offer .boxes-wrapper .box {
   width: calc(24% - 16px);
   height: 318px;
@@ -3853,6 +3950,7 @@ a {
   position: absolute;
   top: 0px;
   left: 0px;
+  width: 100%;
 }
 @media screen and (max-width: 1440px) {
   .as-box .upper-part {
@@ -3917,7 +4015,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .as-box .box-heading {
-    width: 90%;
+    width: calc(100% - 72px);
   }
 }
 .as-box .inner-section-content {
@@ -3935,7 +4033,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .ai-solutions {
-    margin: 60px auto;
+    margin: 36px auto;
   }
 }
 .ai-solutions .as-boxes {
@@ -3964,6 +4062,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .ai-solutions .as-boxes {
+    margin-top: 20px;
     grid-template-columns: repeat(1, auto);
   }
 }
@@ -5021,6 +5120,13 @@ a {
     width: 45px;
   }
 }
+@media screen and (max-width: 576px) {
+  .what-we-do .mouse-gif {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+  }
+}
 .what-we-do .section-heading {
   width: 860px;
 }
@@ -5222,6 +5328,14 @@ a {
     transform: translateX(-50%);
   }
 }
+@media screen and (max-width: 576px) {
+  .outer-box-home-page .bold-circle {
+    position: absolute;
+    top: 564px;
+    left: 50%;
+    width: 300px;
+  }
+}
 .outer-box-home-page .banner .left-z {
   position: absolute;
   top: 225px;
@@ -5236,6 +5350,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .outer-box-home-page .banner .banner-items-wrapper {
+    height: 650px;
+  }
 }
 .outer-box-home-page .banner .banner-items-wrapper .banner-heading {
   font-family: "Jost", sans-serif;
@@ -5291,6 +5410,13 @@ a {
 }
 @media screen and (max-width: 420px) {
   .outer-box-home-page .banner .banner-items-wrapper .banner-heading {
+    width: 100%;
+    word-break: break-word;
+  }
+}
+@media screen and (max-width: 374px) {
+  .outer-box-home-page .banner .banner-items-wrapper .banner-heading {
+    width: 347px;
     font-size: 26px;
     line-height: 36px;
     font-weight: 700;
@@ -5334,13 +5460,13 @@ a {
     left: 129px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 374px) {
   .outer-box-home-page .banner .banner-items-wrapper .banner-heading .ai-gif {
     width: 48px;
     height: 48px;
     position: absolute;
-    top: 67px;
-    left: 92px;
+    top: 101px;
+    left: 12px;
   }
 }
 .outer-box-home-page .banner .banner-items-wrapper .banner-content {
@@ -5378,11 +5504,11 @@ a {
 @media screen and (max-width: 576px) {
   .outer-box-home-page .banner .banner-items-wrapper .banner-content {
     text-align: start;
-    margin: 0 0 20px 0;
+    margin: 0 0 28px 0;
     width: 100%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 374px) {
   .outer-box-home-page .banner .banner-items-wrapper .banner-content {
     font-size: 12px;
     line-height: 14px;
@@ -5395,7 +5521,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .outer-box-home-page .banner .banner-items-wrapper button {
-    margin: 0 auto 0 15px;
+    margin: 0 auto 60px 15px;
   }
 }
 .outer-box-home-page .banner .banner-bg-circles {
@@ -5778,6 +5904,12 @@ a {
     padding-bottom: 50px;
   }
 }
+@media screen and (max-width: 576px) {
+  .outer-box-home-page .our-strategy .left-right-part-wrapper button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .outer-box-home-page .our-strategy .right-boxes {
   margin-top: 50px;
 }
@@ -5797,6 +5929,11 @@ a {
 @media screen and (max-width: 1440px) {
   .outer-box-home-page .our-strategy .left-part {
     height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .outer-box-home-page .our-strategy .left-part {
+    text-align: center;
   }
 }
 .outer-box-home-page .our-strategy .left-part .section-heading {
@@ -5837,14 +5974,14 @@ a {
   .outer-box-home-page .our-strategy .right-part {
     padding: 8px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
   }
 }
 @media screen and (max-width: 576px) {
   .outer-box-home-page .our-strategy .right-part .left-boxes,
   .outer-box-home-page .our-strategy .right-part .right-boxes {
-    width: calc(50% - 5px);
+    width: 100%;
   }
 }
 .outer-box-home-page .our-strategy .right-part .gradient-border {
@@ -7723,6 +7860,16 @@ a {
 .outer-box-product-page {
   /******** banner ********/
 }
+@media screen and (max-width: 768px) {
+  .outer-box-product-page .ui-banner {
+    height: 860px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .outer-box-product-page .ui-banner {
+    height: 815px;
+  }
+}
 .outer-box-product-page .ui-banner .the-circle {
   filter: blur(195px);
   width: 325px;
@@ -7751,10 +7898,17 @@ a {
   top: 135px;
   left: 37%;
 }
+@media screen and (max-width: 374px) {
+  .outer-box-product-page .ui-banner .banner-girl-image {
+    position: absolute;
+    top: 135px;
+    left: 31%;
+  }
+}
 .outer-box-product-page .ui-banner .banner-girl-image .banner-gif {
   width: 499px;
   position: absolute;
-  left: 0px;
+  left: -55px;
 }
 @media screen and (max-width: 1366px) {
   .outer-box-product-page .ui-banner .banner-girl-image .banner-gif {
@@ -7782,16 +7936,15 @@ a {
   .outer-box-product-page .ui-banner .banner-girl-image .banner-gif {
     width: 300px;
     position: absolute;
-    top: 140px;
+    top: 117px;
     left: -72px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .banner-girl-image .banner-gif {
     position: absolute;
-    top: 161px;
-    left: -80px;
-    width: 263px;
+    top: 218px;
+    left: -90px;
   }
 }
 .outer-box-product-page .ui-banner .user-box {
@@ -7809,7 +7962,8 @@ a {
 }
 @media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .user-box {
-    padding: 4px;
+    padding: 6px;
+    gap: 5px;
   }
 }
 .outer-box-product-page .ui-banner .user-box.ios-app-left {
@@ -7828,35 +7982,29 @@ a {
   .outer-box-product-page .ui-banner .user-box.ios-app-left {
     position: absolute;
     top: 385px;
-    left: 60px;
+    left: 32px;
   }
 }
 @media screen and (max-width: 992px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-left {
     position: absolute;
     top: 95px;
-    left: 10px;
+    left: 20px;
   }
 }
 @media screen and (max-width: 768px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-left {
     position: absolute;
     top: 100px;
-    left: 10px;
+    left: 15px;
   }
 }
 @media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-left {
     position: absolute;
-    top: 159px;
-    left: 10px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-product-page .ui-banner .user-box.ios-app-left {
-    position: absolute;
-    top: 170px;
-    left: 10px;
+    top: 210px;
+    right: 20px;
+    left: unset;
   }
 }
 .outer-box-product-page .ui-banner .user-box.ios-app-right {
@@ -7875,7 +8023,7 @@ a {
   .outer-box-product-page .ui-banner .user-box.ios-app-right {
     position: absolute;
     top: 385px;
-    right: 0px;
+    right: 32px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -7889,21 +8037,15 @@ a {
   .outer-box-product-page .ui-banner .user-box.ios-app-right {
     position: absolute;
     top: 175px;
-    right: 10px;
+    right: 20px;
   }
 }
 @media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-right {
     position: absolute;
-    top: 106px;
-    right: 10px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-product-page .ui-banner .user-box.ios-app-right {
-    position: absolute;
-    top: 125px;
-    right: 10px;
+    top: 140px;
+    left: 20px;
+    right: unset;
   }
 }
 .outer-box-product-page .ui-banner .user-box.ios-app-bottom {
@@ -7922,21 +8064,22 @@ a {
   .outer-box-product-page .ui-banner .user-box.ios-app-bottom {
     position: absolute;
     top: 180px;
-    left: 20px;
+    left: 32px;
   }
 }
 @media screen and (max-width: 992px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-bottom {
     position: absolute;
     top: 175px;
-    left: 10px;
+    left: 20px;
   }
 }
 @media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .user-box.ios-app-bottom {
     position: absolute;
-    top: 216px;
-    left: 10px;
+    top: 280px;
+    left: 20px;
+    right: unset;
   }
 }
 .outer-box-product-page .ui-banner .user-box.ai-bot {
@@ -7955,28 +8098,21 @@ a {
   .outer-box-product-page .ui-banner .user-box.ai-bot {
     position: absolute;
     top: 205px;
-    right: 20px;
+    right: 32px;
   }
 }
 @media screen and (max-width: 992px) {
   .outer-box-product-page .ui-banner .user-box.ai-bot {
     position: absolute;
     top: 100px;
-    right: 10px;
+    right: 20px;
   }
 }
 @media screen and (max-width: 576px) {
   .outer-box-product-page .ui-banner .user-box.ai-bot {
     position: absolute;
-    top: 50px;
-    right: 10px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-product-page .ui-banner .user-box.ai-bot {
-    position: absolute;
-    top: 78px;
-    right: 10px;
+    top: 70px;
+    right: 20px;
   }
 }
 .outer-box-product-page .ui-banner .user-box .icon {
@@ -8030,14 +8166,6 @@ a {
     color: #202323;
   }
 }
-@media screen and (max-width: 420px) {
-  .outer-box-product-page .ui-banner .user-box span {
-    font-size: 9px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #202323;
-  }
-}
 .outer-box-product-page .ui-banner .ui-banner-details {
   background: linear-gradient(178.83deg, rgba(255, 255, 255, 0.6) 2.73%, rgba(249, 249, 249, 0.6) 97.04%);
   width: 100%;
@@ -8052,6 +8180,13 @@ a {
   left: 0px;
   -webkit-backdrop-filter: blur(30px);
           backdrop-filter: blur(30px);
+}
+@media screen and (max-width: 576px) {
+  .outer-box-product-page .ui-banner .ui-banner-details {
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 32px 0;
+  }
 }
 .outer-box-product-page .ui-banner .ui-banner-details .inner-banner-heading {
   width: 900px;
@@ -8168,6 +8303,9 @@ a {
     line-height: 32px;
     font-weight: 300;
     color: #ffffff;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    padding-top: 0 !important;
   }
 }
 .outer-box-product-page .key-features .divs {
@@ -8241,6 +8379,11 @@ a {
 }
 .outer-box-product-page .key-features .divs .card-content {
   margin-bottom: 0;
+}
+@media screen and (max-width: 576px) {
+  .outer-box-product-page .key-features .div1 {
+    margin-top: -125px;
+  }
 }
 .outer-box-product-page .key-features .div2 .upper-div .img-div,
 .outer-box-product-page .key-features .div3 .upper-div .img-div {
@@ -8330,8 +8473,9 @@ a {
     gap: 12px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   .outer-box-product-page .remarkable-benefits-wrapper .boxes-wrapper {
+    margin-top: 12px;
     width: 100%;
   }
 }
@@ -8784,6 +8928,18 @@ a {
 }
 
 /*********************[][][][][][]********************* CUSTOM SOFTWARE PAGE *******************[][][][][][]********************/
+@media screen and (max-width: 576px) {
+  .outer-box-custom-sol .ui-banner {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .outer-box-custom-sol .ui-banner .ui-banner-details {
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 36px 0;
+  }
+}
 .outer-box-custom-sol .ui-banner .ui-banner-details .inner-banner-heading {
   width: 1188px;
 }
@@ -8869,14 +9025,8 @@ a {
 }
 @media screen and (max-width: 576px) {
   .outer-box-custom-sol .ui-banner .banner-image {
-    top: 233px;
-    width: 440px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-custom-sol .ui-banner .banner-image {
-    top: 300px;
-    width: 322px;
+    top: 180px;
+    width: 100%;
   }
 }
 .outer-box-custom-sol .ui-banner .user-box-left {
@@ -8908,14 +9058,8 @@ a {
 @media screen and (max-width: 576px) {
   .outer-box-custom-sol .ui-banner .user-box-left {
     position: absolute;
-    left: 6px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-custom-sol .ui-banner .user-box-left {
-    position: absolute;
-    top: 187px;
-    left: 6px;
+    top: 120px;
+    left: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -8988,14 +9132,8 @@ a {
 @media screen and (max-width: 576px) {
   .outer-box-custom-sol .ui-banner .user-box-right {
     position: absolute;
-    right: 6px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .outer-box-custom-sol .ui-banner .user-box-right {
-    position: absolute;
-    top: 119px;
-    right: 6px;
+    top: 70px;
+    right: 22px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -9051,7 +9189,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .outer-box-custom-sol .why-choose-us-wrapper {
-    padding: 60px 0;
+    padding: 48px 0;
   }
 }
 .outer-box-custom-sol .why-choose-us-wrapper .section-title-text {
@@ -9070,6 +9208,11 @@ a {
   .outer-box-custom-sol .why-choose-us-wrapper .as-main-content {
     padding: 0 15px;
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 576px) {
+  .outer-box-custom-sol .why-choose-us-wrapper .as-main-content {
+    padding: 0;
   }
 }
 .outer-box-custom-sol .why-choose-us-wrapper .boxes-wrapper {
@@ -9093,6 +9236,7 @@ a {
 }
 @media screen and (max-width: 576px) {
   .outer-box-custom-sol .why-choose-us-wrapper .boxes-wrapper {
+    margin-top: 20px;
     grid-template-columns: repeat(1, auto);
   }
 }
@@ -9253,6 +9397,11 @@ a {
     gap: 12px;
   }
 }
+@media screen and (max-width: 576px) {
+  .outer-box-custom-sol .technos-wrapper .technos .boxes-wrapper {
+    margin-top: 20px;
+  }
+}
 .outer-box-custom-sol .technos-wrapper .technos .boxes-wrapper .box {
   width: calc(24% - 15px);
   height: 343px;
@@ -9367,6 +9516,11 @@ a {
 @media screen and (max-width: 768px) {
   .outer-box-custom-sol .invest-in-software .boxes-wrapper {
     padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .outer-box-custom-sol .invest-in-software .boxes-wrapper {
+    margin-top: 20px;
   }
 }
 .outer-box-custom-sol .invest-in-software .boxes-wrapper .box {
